@@ -10,4 +10,4 @@ When the clients send encrypted messages to each other through the server, the s
 Our experiment demonstrates that fake key attacks are possible in the current Signal server implementation.
 
 ## Trust Network and AKR defense
-Signal-modified-android implemenets protype of two defense Trust network and AKR.
+Signal-Android-modified implemenets protype of two defense Trust network and AKR.
