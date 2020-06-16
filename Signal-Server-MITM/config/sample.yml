@@ -70,13 +70,15 @@ gcm: # GCM Configuration
 server:
   applicationConnectors:
   - type: https
-    port: 8080
+    port: 8082
     keyStorePath: keygen/keystore.jks
     keyStorePassword: password
     validateCerts: false
-  adminConnectors:
   - type: http
     port: 8081
+  adminConnectors:
+  - type: http
+    port: 8083
 
 # BYU ISRL!
 mitmAttack:
