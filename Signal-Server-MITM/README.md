@@ -1,5 +1,13 @@
-Signal-Server
+Signal-Server-MITM
 =================
+The main module that implements MITM and impersonation attacks is at `src/main/java/org/whispersystems/textsecuregcm/mallory`. 
+We used Signal CLI from https://github.com/AsamK/signal-cli that acts as Mallory at the Signal Server.
+
+The attacks can be configured in `./config/sample.yml` 
+
+In MITM attacks, targetedConversations execute MITM on a pair, and targetedUsers execute MitM on all user connections. 
+In the impersonation attack, targetedConversations execute impersonation on a pair, and targetedUsers allow impersonating all user connections. The messages can be forwarded to an attacker owned account, and the attacker can reply impersonating as other parties.
+
 
 Documentation
 -------------
