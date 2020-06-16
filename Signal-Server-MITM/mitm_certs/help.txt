@@ -1,0 +1,1 @@
+./mitmweb --ssl-insecure --certs johnvonneumann*=~/IdeaProjects/signal-server-components/ows1.88/Signal-Server/mitm_certs/mitm.pem --set confdir=~/IdeaProjects/signal-server-components/ows1.88/Signal-Server/mitm_certs
