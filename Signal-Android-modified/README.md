@@ -1,3 +1,10 @@
+This project has taken initially from https://github.com/signalapp/Signal-Android
+
+The Trust network is implemented in /src/org/thoughtcrime/securesms/isrmods and AKR is implremented in /src/org/thoughtcrime/securesms/tor.
+
+As both these defensive approaches do stuff at the time of new connection they are initially called in ConversationActivity.
+
+
 # Signal Android 
 
 Signal is a messaging app for simple private communication with friends.
