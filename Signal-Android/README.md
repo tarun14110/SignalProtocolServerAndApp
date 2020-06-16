@@ -1,3 +1,19 @@
+This project has taken initially from https://github.com/signalapp/Signal-Android
+
+# Android app Setup
+
+In the build.gradle change the SIGNAL_URL and SIGNAL_SERVICE_STATUS_URLvalues with your Signal server domain address. Make sure you use the same domain name that you used while generating a certificate for your Signal server. To get your domain address, you can do `nslookup <your ip address>`. Like replace "\"https://textsecure-service.whispersystems.org\"" and "\"uptime.signal.org\"" with "\"https://johnvonneumann.cs.byu.edu:8080\"".
+    
+
+The Signal app uses certificate binding. So you need to copy the public certificate of the server in the app that you generated using `./create-certificates.sh` while setting up the server. Put the public certificate in `res/raw/whisper.store`. 
+- Download Keystore Explorer 
+- In the menu click: File -> Open and open your whisper.store file (Password is "whisper")
+- Click import trusted certificate. (Red ribbon with blue down arrow)
+- Find the certificate you created for your signal server and import. (It should be in Signal-Server/keygen/*.crt)
+- Open up whisper.store in android studio and verify you see your entry.
+
+
+
 # Signal Android 
 
 Signal is a messaging app for simple private communication with friends.

@@ -1,6 +1,20 @@
 Signal-Server
 =================
 
+# Server Setup
+```
+$ ./install-dependencies.sh
+$ ./run-background-services.sh              (start redis-server, coturn, etc)
+$ ./create-certificates.sh                  (use the domain name of the system that runs the Server)
+$ ./refreshBuildAndRun.sh
+```
+
+# Test server
+  - http://localhost:8081/ and https://localhost:8081/ should give `{"code":404,"message":"HTTP 404 Not Found"}`
+  - http://localhost:8081/v2/keys/+18888888888/*  gives keybundle for +18888888888
+
+
+
 Documentation
 -------------
 
