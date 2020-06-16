@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file was created by Aaron Chan, 12/6/2018.  Other modifications include
+- modifying manifest to include a reference to this file under <application />
+- adding my_ca.pem to raw/
+This was done so that this client trusts the MITMProxy certificate -->
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">example.com</domain>
+        <trust-anchors>
+            <certificates src="@raw/my_ca"/>
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
