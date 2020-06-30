@@ -1,4 +1,5 @@
-# Signal Android 
+This folder holds the Signal Android app that has been modified to use Google Key Transparency for checking users keys
+# Signal Android
 
 Signal is a messaging app for simple private communication with friends.
 
