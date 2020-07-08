@@ -15,7 +15,7 @@ public final class Readtoken {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface ReadTokenOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.ReadToken)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.ReadToken)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -41,11 +41,11 @@ public final class Readtoken {
    * ReadToken can be serialized and handed to users for pagination.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.ReadToken}
+   * Protobuf type {@code com.google.keytransparency.v1.ReadToken}
    */
   public  static final class ReadToken extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.ReadToken)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.ReadToken)
       ReadTokenOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use ReadToken.newBuilder() to construct.
@@ -112,15 +112,15 @@ public final class Readtoken {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_descriptor;
+      return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_fieldAccessorTable
+      return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Readtoken.ReadToken.class, google.keytransparency.v1.Readtoken.ReadToken.Builder.class);
+              com.google.keytransparency.v1.Readtoken.ReadToken.class, com.google.keytransparency.v1.Readtoken.ReadToken.Builder.class);
     }
 
     public static final int SLICE_INDEX_FIELD_NUMBER = 1;
@@ -196,10 +196,10 @@ public final class Readtoken {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Readtoken.ReadToken)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Readtoken.ReadToken)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Readtoken.ReadToken other = (google.keytransparency.v1.Readtoken.ReadToken) obj;
+      com.google.keytransparency.v1.Readtoken.ReadToken other = (com.google.keytransparency.v1.Readtoken.ReadToken) obj;
 
       boolean result = true;
       result = result && (getSliceIndex()
@@ -228,69 +228,69 @@ public final class Readtoken {
       return hash;
     }
 
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -303,7 +303,7 @@ public final class Readtoken {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Readtoken.ReadToken prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Readtoken.ReadToken prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -323,26 +323,26 @@ public final class Readtoken {
      * ReadToken can be serialized and handed to users for pagination.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.ReadToken}
+     * Protobuf type {@code com.google.keytransparency.v1.ReadToken}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.ReadToken)
-        google.keytransparency.v1.Readtoken.ReadTokenOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ReadToken)
+        com.google.keytransparency.v1.Readtoken.ReadTokenOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_descriptor;
+        return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_fieldAccessorTable
+        return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Readtoken.ReadToken.class, google.keytransparency.v1.Readtoken.ReadToken.Builder.class);
+                com.google.keytransparency.v1.Readtoken.ReadToken.class, com.google.keytransparency.v1.Readtoken.ReadToken.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Readtoken.ReadToken.newBuilder()
+      // Construct using com.google.keytransparency.v1.Readtoken.ReadToken.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -370,17 +370,17 @@ public final class Readtoken {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_descriptor;
+        return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ReadToken_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Readtoken.ReadToken getDefaultInstanceForType() {
-        return google.keytransparency.v1.Readtoken.ReadToken.getDefaultInstance();
+      public com.google.keytransparency.v1.Readtoken.ReadToken getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Readtoken.ReadToken.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Readtoken.ReadToken build() {
-        google.keytransparency.v1.Readtoken.ReadToken result = buildPartial();
+      public com.google.keytransparency.v1.Readtoken.ReadToken build() {
+        com.google.keytransparency.v1.Readtoken.ReadToken result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -388,8 +388,8 @@ public final class Readtoken {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Readtoken.ReadToken buildPartial() {
-        google.keytransparency.v1.Readtoken.ReadToken result = new google.keytransparency.v1.Readtoken.ReadToken(this);
+      public com.google.keytransparency.v1.Readtoken.ReadToken buildPartial() {
+        com.google.keytransparency.v1.Readtoken.ReadToken result = new com.google.keytransparency.v1.Readtoken.ReadToken(this);
         result.sliceIndex_ = sliceIndex_;
         result.startWatermark_ = startWatermark_;
         onBuilt();
@@ -430,16 +430,16 @@ public final class Readtoken {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Readtoken.ReadToken) {
-          return mergeFrom((google.keytransparency.v1.Readtoken.ReadToken)other);
+        if (other instanceof com.google.keytransparency.v1.Readtoken.ReadToken) {
+          return mergeFrom((com.google.keytransparency.v1.Readtoken.ReadToken)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Readtoken.ReadToken other) {
-        if (other == google.keytransparency.v1.Readtoken.ReadToken.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Readtoken.ReadToken other) {
+        if (other == com.google.keytransparency.v1.Readtoken.ReadToken.getDefaultInstance()) return this;
         if (other.getSliceIndex() != 0L) {
           setSliceIndex(other.getSliceIndex());
         }
@@ -461,11 +461,11 @@ public final class Readtoken {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Readtoken.ReadToken parsedMessage = null;
+        com.google.keytransparency.v1.Readtoken.ReadToken parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Readtoken.ReadToken) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Readtoken.ReadToken) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -563,16 +563,16 @@ public final class Readtoken {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.ReadToken)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.ReadToken)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.ReadToken)
-    private static final google.keytransparency.v1.Readtoken.ReadToken DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ReadToken)
+    private static final com.google.keytransparency.v1.Readtoken.ReadToken DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Readtoken.ReadToken();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Readtoken.ReadToken();
     }
 
-    public static google.keytransparency.v1.Readtoken.ReadToken getDefaultInstance() {
+    public static com.google.keytransparency.v1.Readtoken.ReadToken getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -597,14 +597,14 @@ public final class Readtoken {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Readtoken.ReadToken getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Readtoken.ReadToken getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface ListUserRevisionsTokenOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.ListUserRevisionsToken)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.ListUserRevisionsToken)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -615,7 +615,7 @@ public final class Readtoken {
      * should be omitted for brevity.
      * </pre>
      *
-     * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+     * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
      */
     boolean hasRequest();
     /**
@@ -626,9 +626,9 @@ public final class Readtoken {
      * should be omitted for brevity.
      * </pre>
      *
-     * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+     * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
      */
-    google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest getRequest();
+    com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest getRequest();
     /**
      * <pre>
      * request is the query being paginated over, used for validation of
@@ -637,9 +637,9 @@ public final class Readtoken {
      * should be omitted for brevity.
      * </pre>
      *
-     * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+     * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
      */
-    google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder getRequestOrBuilder();
+    com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder getRequestOrBuilder();
 
     /**
      * <pre>
@@ -657,11 +657,11 @@ public final class Readtoken {
    * when listing revisions.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.ListUserRevisionsToken}
+   * Protobuf type {@code com.google.keytransparency.v1.ListUserRevisionsToken}
    */
   public  static final class ListUserRevisionsToken extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.ListUserRevisionsToken)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.ListUserRevisionsToken)
       ListUserRevisionsTokenOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use ListUserRevisionsToken.newBuilder() to construct.
@@ -697,11 +697,11 @@ public final class Readtoken {
               done = true;
               break;
             case 10: {
-              google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder subBuilder = null;
+              com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder subBuilder = null;
               if (request_ != null) {
                 subBuilder = request_.toBuilder();
               }
-              request_ = input.readMessage(google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.parser(), extensionRegistry);
+              request_ = input.readMessage(com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(request_);
                 request_ = subBuilder.buildPartial();
@@ -735,19 +735,19 @@ public final class Readtoken {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_descriptor;
+      return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_fieldAccessorTable
+      return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Readtoken.ListUserRevisionsToken.class, google.keytransparency.v1.Readtoken.ListUserRevisionsToken.Builder.class);
+              com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken.class, com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken.Builder.class);
     }
 
     public static final int REQUEST_FIELD_NUMBER = 1;
-    private google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest request_;
+    private com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest request_;
     /**
      * <pre>
      * request is the query being paginated over, used for validation of
@@ -756,7 +756,7 @@ public final class Readtoken {
      * should be omitted for brevity.
      * </pre>
      *
-     * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+     * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
      */
     public boolean hasRequest() {
       return request_ != null;
@@ -769,10 +769,10 @@ public final class Readtoken {
      * should be omitted for brevity.
      * </pre>
      *
-     * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+     * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
      */
-    public google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest getRequest() {
-      return request_ == null ? google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.getDefaultInstance() : request_;
+    public com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest getRequest() {
+      return request_ == null ? com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.getDefaultInstance() : request_;
     }
     /**
      * <pre>
@@ -782,9 +782,9 @@ public final class Readtoken {
      * should be omitted for brevity.
      * </pre>
      *
-     * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+     * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
      */
-    public google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder getRequestOrBuilder() {
+    public com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder getRequestOrBuilder() {
       return getRequest();
     }
 
@@ -849,10 +849,10 @@ public final class Readtoken {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Readtoken.ListUserRevisionsToken)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Readtoken.ListUserRevisionsToken other = (google.keytransparency.v1.Readtoken.ListUserRevisionsToken) obj;
+      com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken other = (com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken) obj;
 
       boolean result = true;
       result = result && (hasRequest() == other.hasRequest());
@@ -885,69 +885,69 @@ public final class Readtoken {
       return hash;
     }
 
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -960,7 +960,7 @@ public final class Readtoken {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Readtoken.ListUserRevisionsToken prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -981,26 +981,26 @@ public final class Readtoken {
      * when listing revisions.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.ListUserRevisionsToken}
+     * Protobuf type {@code com.google.keytransparency.v1.ListUserRevisionsToken}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.ListUserRevisionsToken)
-        google.keytransparency.v1.Readtoken.ListUserRevisionsTokenOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListUserRevisionsToken)
+        com.google.keytransparency.v1.Readtoken.ListUserRevisionsTokenOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_descriptor;
+        return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_fieldAccessorTable
+        return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Readtoken.ListUserRevisionsToken.class, google.keytransparency.v1.Readtoken.ListUserRevisionsToken.Builder.class);
+                com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken.class, com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Readtoken.ListUserRevisionsToken.newBuilder()
+      // Construct using com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1032,17 +1032,17 @@ public final class Readtoken {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_descriptor;
+        return com.google.keytransparency.v1.Readtoken.internal_static_google_keytransparency_v1_ListUserRevisionsToken_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Readtoken.ListUserRevisionsToken getDefaultInstanceForType() {
-        return google.keytransparency.v1.Readtoken.ListUserRevisionsToken.getDefaultInstance();
+      public com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Readtoken.ListUserRevisionsToken build() {
-        google.keytransparency.v1.Readtoken.ListUserRevisionsToken result = buildPartial();
+      public com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken build() {
+        com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -1050,8 +1050,8 @@ public final class Readtoken {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Readtoken.ListUserRevisionsToken buildPartial() {
-        google.keytransparency.v1.Readtoken.ListUserRevisionsToken result = new google.keytransparency.v1.Readtoken.ListUserRevisionsToken(this);
+      public com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken buildPartial() {
+        com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken result = new com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken(this);
         if (requestBuilder_ == null) {
           result.request_ = request_;
         } else {
@@ -1096,16 +1096,16 @@ public final class Readtoken {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Readtoken.ListUserRevisionsToken) {
-          return mergeFrom((google.keytransparency.v1.Readtoken.ListUserRevisionsToken)other);
+        if (other instanceof com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken) {
+          return mergeFrom((com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Readtoken.ListUserRevisionsToken other) {
-        if (other == google.keytransparency.v1.Readtoken.ListUserRevisionsToken.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken other) {
+        if (other == com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken.getDefaultInstance()) return this;
         if (other.hasRequest()) {
           mergeRequest(other.getRequest());
         }
@@ -1127,11 +1127,11 @@ public final class Readtoken {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Readtoken.ListUserRevisionsToken parsedMessage = null;
+        com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Readtoken.ListUserRevisionsToken) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -1141,9 +1141,9 @@ public final class Readtoken {
         return this;
       }
 
-      private google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest request_ = null;
+      private com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest request_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest, google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder, google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder> requestBuilder_;
+          com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest, com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder, com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder> requestBuilder_;
       /**
        * <pre>
        * request is the query being paginated over, used for validation of
@@ -1152,7 +1152,7 @@ public final class Readtoken {
        * should be omitted for brevity.
        * </pre>
        *
-       * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+       * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
        */
       public boolean hasRequest() {
         return requestBuilder_ != null || request_ != null;
@@ -1165,11 +1165,11 @@ public final class Readtoken {
        * should be omitted for brevity.
        * </pre>
        *
-       * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+       * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
        */
-      public google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest getRequest() {
+      public com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest getRequest() {
         if (requestBuilder_ == null) {
-          return request_ == null ? google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.getDefaultInstance() : request_;
+          return request_ == null ? com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.getDefaultInstance() : request_;
         } else {
           return requestBuilder_.getMessage();
         }
@@ -1182,9 +1182,9 @@ public final class Readtoken {
        * should be omitted for brevity.
        * </pre>
        *
-       * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+       * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
        */
-      public Builder setRequest(google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest value) {
+      public Builder setRequest(com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest value) {
         if (requestBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1205,10 +1205,10 @@ public final class Readtoken {
        * should be omitted for brevity.
        * </pre>
        *
-       * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+       * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
        */
       public Builder setRequest(
-          google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder builderForValue) {
+          com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder builderForValue) {
         if (requestBuilder_ == null) {
           request_ = builderForValue.build();
           onChanged();
@@ -1226,13 +1226,13 @@ public final class Readtoken {
        * should be omitted for brevity.
        * </pre>
        *
-       * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+       * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
        */
-      public Builder mergeRequest(google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest value) {
+      public Builder mergeRequest(com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest value) {
         if (requestBuilder_ == null) {
           if (request_ != null) {
             request_ =
-              google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.newBuilder(request_).mergeFrom(value).buildPartial();
+              com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.newBuilder(request_).mergeFrom(value).buildPartial();
           } else {
             request_ = value;
           }
@@ -1251,7 +1251,7 @@ public final class Readtoken {
        * should be omitted for brevity.
        * </pre>
        *
-       * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+       * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
        */
       public Builder clearRequest() {
         if (requestBuilder_ == null) {
@@ -1272,9 +1272,9 @@ public final class Readtoken {
        * should be omitted for brevity.
        * </pre>
        *
-       * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+       * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
        */
-      public google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder getRequestBuilder() {
+      public com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder getRequestBuilder() {
         
         onChanged();
         return getRequestFieldBuilder().getBuilder();
@@ -1287,14 +1287,14 @@ public final class Readtoken {
        * should be omitted for brevity.
        * </pre>
        *
-       * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+       * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
        */
-      public google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder getRequestOrBuilder() {
+      public com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder getRequestOrBuilder() {
         if (requestBuilder_ != null) {
           return requestBuilder_.getMessageOrBuilder();
         } else {
           return request_ == null ?
-              google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.getDefaultInstance() : request_;
+              com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.getDefaultInstance() : request_;
         }
       }
       /**
@@ -1305,14 +1305,14 @@ public final class Readtoken {
        * should be omitted for brevity.
        * </pre>
        *
-       * <code>.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
+       * <code>.com.google.keytransparency.v1.ListUserRevisionsRequest request = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest, google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder, google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder> 
+          com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest, com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder, com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder>
           getRequestFieldBuilder() {
         if (requestBuilder_ == null) {
           requestBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest, google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder, google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder>(
+              com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest, com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.Builder, com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder>(
                   getRequest(),
                   getParentForChildren(),
                   isClean());
@@ -1374,16 +1374,16 @@ public final class Readtoken {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.ListUserRevisionsToken)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.ListUserRevisionsToken)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.ListUserRevisionsToken)
-    private static final google.keytransparency.v1.Readtoken.ListUserRevisionsToken DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListUserRevisionsToken)
+    private static final com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Readtoken.ListUserRevisionsToken();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken();
     }
 
-    public static google.keytransparency.v1.Readtoken.ListUserRevisionsToken getDefaultInstance() {
+    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1408,7 +1408,7 @@ public final class Readtoken {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Readtoken.ListUserRevisionsToken getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1438,7 +1438,7 @@ public final class Readtoken {
       "proto\"E\n\tReadToken\022\023\n\013slice_index\030\001 \001(\003\022" +
       "\027\n\017start_watermark\030\004 \001(\004J\004\010\002\020\003J\004\010\003\020\004\"z\n\026" +
       "ListUserRevisionsToken\022D\n\007request\030\001 \001(\0132" +
-      "3.google.keytransparency.v1.ListUserRevi" +
+      "3.com.google.keytransparency.v1.ListUserRevi" +
       "sionsRequest\022\032\n\022revisions_returned\030\002 \001(\003" +
       "BEZCgithub.com/google/keytransparency/co" +
       "re/keyserver/readtoken_go_protob\006proto3"
@@ -1454,7 +1454,7 @@ public final class Readtoken {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          google.keytransparency.v1.Keytransparency.getDescriptor(),
+          com.google.keytransparency.v1.Keytransparency.getDescriptor(),
         }, assigner);
     internal_static_google_keytransparency_v1_ReadToken_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1468,7 +1468,7 @@ public final class Readtoken {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_google_keytransparency_v1_ListUserRevisionsToken_descriptor,
         new java.lang.String[] { "Request", "RevisionsReturned", });
-    google.keytransparency.v1.Keytransparency.getDescriptor();
+    com.google.keytransparency.v1.Keytransparency.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

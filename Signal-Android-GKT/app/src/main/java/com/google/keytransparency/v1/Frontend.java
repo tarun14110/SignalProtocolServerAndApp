@@ -15,7 +15,7 @@ public final class Frontend {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface QueueKeyUpdateRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.QueueKeyUpdateRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.QueueKeyUpdateRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -68,11 +68,11 @@ public final class Frontend {
    * QueueKeyUpdateRequest enqueues an update to a user's identity keys.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.QueueKeyUpdateRequest}
+   * Protobuf type {@code com.google.keytransparency.v1.QueueKeyUpdateRequest}
    */
   public  static final class QueueKeyUpdateRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.QueueKeyUpdateRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.QueueKeyUpdateRequest)
       QueueKeyUpdateRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use QueueKeyUpdateRequest.newBuilder() to construct.
@@ -147,15 +147,15 @@ public final class Frontend {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_descriptor;
+      return com.google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_fieldAccessorTable
+      return com.google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.class, google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.Builder.class);
+              com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.class, com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -307,10 +307,10 @@ public final class Frontend {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Frontend.QueueKeyUpdateRequest)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Frontend.QueueKeyUpdateRequest other = (google.keytransparency.v1.Frontend.QueueKeyUpdateRequest) obj;
+      com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest other = (com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -341,69 +341,69 @@ public final class Frontend {
       return hash;
     }
 
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -416,7 +416,7 @@ public final class Frontend {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Frontend.QueueKeyUpdateRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -436,26 +436,26 @@ public final class Frontend {
      * QueueKeyUpdateRequest enqueues an update to a user's identity keys.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.QueueKeyUpdateRequest}
+     * Protobuf type {@code com.google.keytransparency.v1.QueueKeyUpdateRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.QueueKeyUpdateRequest)
-        google.keytransparency.v1.Frontend.QueueKeyUpdateRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.QueueKeyUpdateRequest)
+        com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_descriptor;
+        return com.google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_fieldAccessorTable
+        return com.google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.class, google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.Builder.class);
+                com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.class, com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.newBuilder()
+      // Construct using com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -485,17 +485,17 @@ public final class Frontend {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_descriptor;
+        return com.google.keytransparency.v1.Frontend.internal_static_google_keytransparency_v1_QueueKeyUpdateRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Frontend.QueueKeyUpdateRequest getDefaultInstanceForType() {
-        return google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.getDefaultInstance();
+      public com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Frontend.QueueKeyUpdateRequest build() {
-        google.keytransparency.v1.Frontend.QueueKeyUpdateRequest result = buildPartial();
+      public com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest build() {
+        com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -503,8 +503,8 @@ public final class Frontend {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Frontend.QueueKeyUpdateRequest buildPartial() {
-        google.keytransparency.v1.Frontend.QueueKeyUpdateRequest result = new google.keytransparency.v1.Frontend.QueueKeyUpdateRequest(this);
+      public com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest buildPartial() {
+        com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest result = new com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest(this);
         result.directoryId_ = directoryId_;
         result.userId_ = userId_;
         result.keyData_ = keyData_;
@@ -546,16 +546,16 @@ public final class Frontend {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Frontend.QueueKeyUpdateRequest) {
-          return mergeFrom((google.keytransparency.v1.Frontend.QueueKeyUpdateRequest)other);
+        if (other instanceof com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest) {
+          return mergeFrom((com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Frontend.QueueKeyUpdateRequest other) {
-        if (other == google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest other) {
+        if (other == com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -582,11 +582,11 @@ public final class Frontend {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parsedMessage = null;
+        com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Frontend.QueueKeyUpdateRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -827,16 +827,16 @@ public final class Frontend {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.QueueKeyUpdateRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.QueueKeyUpdateRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.QueueKeyUpdateRequest)
-    private static final google.keytransparency.v1.Frontend.QueueKeyUpdateRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.QueueKeyUpdateRequest)
+    private static final com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Frontend.QueueKeyUpdateRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest();
     }
 
-    public static google.keytransparency.v1.Frontend.QueueKeyUpdateRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -861,7 +861,7 @@ public final class Frontend {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Frontend.QueueKeyUpdateRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Frontend.QueueKeyUpdateRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 

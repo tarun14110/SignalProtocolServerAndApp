@@ -15,7 +15,7 @@ public final class MonitorOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface GetStateRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.monitor.v1.GetStateRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.monitor.v1.GetStateRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -72,11 +72,11 @@ public final class MonitorOuterClass {
    * directory for a particular point in time.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.monitor.v1.GetStateRequest}
+   * Protobuf type {@code com.google.keytransparency.monitor.v1.GetStateRequest}
    */
   public  static final class GetStateRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.monitor.v1.GetStateRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.monitor.v1.GetStateRequest)
       GetStateRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use GetStateRequest.newBuilder() to construct.
@@ -151,15 +151,15 @@ public final class MonitorOuterClass {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_descriptor;
+      return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_fieldAccessorTable
+      return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.class, google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.Builder.class);
+              com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.class, com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.Builder.class);
     }
 
     public static final int KT_URL_FIELD_NUMBER = 2;
@@ -314,10 +314,10 @@ public final class MonitorOuterClass {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest)) {
+      if (!(obj instanceof com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest other = (google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest) obj;
+      com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest other = (com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest) obj;
 
       boolean result = true;
       result = result && getKtUrl()
@@ -349,69 +349,69 @@ public final class MonitorOuterClass {
       return hash;
     }
 
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseDelimitedFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -424,7 +424,7 @@ public final class MonitorOuterClass {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -445,26 +445,26 @@ public final class MonitorOuterClass {
      * directory for a particular point in time.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.monitor.v1.GetStateRequest}
+     * Protobuf type {@code com.google.keytransparency.monitor.v1.GetStateRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.monitor.v1.GetStateRequest)
-        google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.monitor.v1.GetStateRequest)
+        com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_descriptor;
+        return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_fieldAccessorTable
+        return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.class, google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.Builder.class);
+                com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.class, com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.newBuilder()
+      // Construct using com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -494,17 +494,17 @@ public final class MonitorOuterClass {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_descriptor;
+        return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_GetStateRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest getDefaultInstanceForType() {
-        return google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.getDefaultInstance();
+      public com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest build() {
-        google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest result = buildPartial();
+      public com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest build() {
+        com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -512,8 +512,8 @@ public final class MonitorOuterClass {
       }
 
       @java.lang.Override
-      public google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest buildPartial() {
-        google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest result = new google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest(this);
+      public com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest buildPartial() {
+        com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest result = new com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest(this);
         result.ktUrl_ = ktUrl_;
         result.directoryId_ = directoryId_;
         result.revision_ = revision_;
@@ -555,16 +555,16 @@ public final class MonitorOuterClass {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest) {
-          return mergeFrom((google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest)other);
+        if (other instanceof com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest) {
+          return mergeFrom((com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest other) {
-        if (other == google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest other) {
+        if (other == com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest.getDefaultInstance()) return this;
         if (!other.getKtUrl().isEmpty()) {
           ktUrl_ = other.ktUrl_;
           onChanged();
@@ -591,11 +591,11 @@ public final class MonitorOuterClass {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parsedMessage = null;
+        com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -841,16 +841,16 @@ public final class MonitorOuterClass {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.monitor.v1.GetStateRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.monitor.v1.GetStateRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.monitor.v1.GetStateRequest)
-    private static final google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.monitor.v1.GetStateRequest)
+    private static final com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest();
     }
 
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest getDefaultInstance() {
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -875,14 +875,14 @@ public final class MonitorOuterClass {
     }
 
     @java.lang.Override
-    public google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.monitor.v1.MonitorOuterClass.GetStateRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface StateOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.monitor.v1.State)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.monitor.v1.State)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -999,11 +999,11 @@ public final class MonitorOuterClass {
    * at a particular revision.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.monitor.v1.State}
+   * Protobuf type {@code com.google.keytransparency.monitor.v1.State}
    */
   public  static final class State extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.monitor.v1.State)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.monitor.v1.State)
       StateOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use State.newBuilder() to construct.
@@ -1097,15 +1097,15 @@ public final class MonitorOuterClass {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_descriptor;
+      return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_fieldAccessorTable
+      return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.monitor.v1.MonitorOuterClass.State.class, google.keytransparency.monitor.v1.MonitorOuterClass.State.Builder.class);
+              com.google.keytransparency.monitor.v1.MonitorOuterClass.State.class, com.google.keytransparency.monitor.v1.MonitorOuterClass.State.Builder.class);
     }
 
     private int bitField0_;
@@ -1298,10 +1298,10 @@ public final class MonitorOuterClass {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.monitor.v1.MonitorOuterClass.State)) {
+      if (!(obj instanceof com.google.keytransparency.monitor.v1.MonitorOuterClass.State)) {
         return super.equals(obj);
       }
-      google.keytransparency.monitor.v1.MonitorOuterClass.State other = (google.keytransparency.monitor.v1.MonitorOuterClass.State) obj;
+      com.google.keytransparency.monitor.v1.MonitorOuterClass.State other = (com.google.keytransparency.monitor.v1.MonitorOuterClass.State) obj;
 
       boolean result = true;
       result = result && (hasSmr() == other.hasSmr());
@@ -1344,69 +1344,69 @@ public final class MonitorOuterClass {
       return hash;
     }
 
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(byte[] data)
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseDelimitedFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1419,7 +1419,7 @@ public final class MonitorOuterClass {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.monitor.v1.MonitorOuterClass.State prototype) {
+    public static Builder newBuilder(com.google.keytransparency.monitor.v1.MonitorOuterClass.State prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -1440,26 +1440,26 @@ public final class MonitorOuterClass {
      * at a particular revision.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.monitor.v1.State}
+     * Protobuf type {@code com.google.keytransparency.monitor.v1.State}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.monitor.v1.State)
-        google.keytransparency.monitor.v1.MonitorOuterClass.StateOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.monitor.v1.State)
+        com.google.keytransparency.monitor.v1.MonitorOuterClass.StateOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_descriptor;
+        return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_fieldAccessorTable
+        return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.monitor.v1.MonitorOuterClass.State.class, google.keytransparency.monitor.v1.MonitorOuterClass.State.Builder.class);
+                com.google.keytransparency.monitor.v1.MonitorOuterClass.State.class, com.google.keytransparency.monitor.v1.MonitorOuterClass.State.Builder.class);
       }
 
-      // Construct using google.keytransparency.monitor.v1.MonitorOuterClass.State.newBuilder()
+      // Construct using com.google.keytransparency.monitor.v1.MonitorOuterClass.State.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1502,17 +1502,17 @@ public final class MonitorOuterClass {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_descriptor;
+        return com.google.keytransparency.monitor.v1.MonitorOuterClass.internal_static_google_keytransparency_monitor_v1_State_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.monitor.v1.MonitorOuterClass.State getDefaultInstanceForType() {
-        return google.keytransparency.monitor.v1.MonitorOuterClass.State.getDefaultInstance();
+      public com.google.keytransparency.monitor.v1.MonitorOuterClass.State getDefaultInstanceForType() {
+        return com.google.keytransparency.monitor.v1.MonitorOuterClass.State.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.monitor.v1.MonitorOuterClass.State build() {
-        google.keytransparency.monitor.v1.MonitorOuterClass.State result = buildPartial();
+      public com.google.keytransparency.monitor.v1.MonitorOuterClass.State build() {
+        com.google.keytransparency.monitor.v1.MonitorOuterClass.State result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -1520,8 +1520,8 @@ public final class MonitorOuterClass {
       }
 
       @java.lang.Override
-      public google.keytransparency.monitor.v1.MonitorOuterClass.State buildPartial() {
-        google.keytransparency.monitor.v1.MonitorOuterClass.State result = new google.keytransparency.monitor.v1.MonitorOuterClass.State(this);
+      public com.google.keytransparency.monitor.v1.MonitorOuterClass.State buildPartial() {
+        com.google.keytransparency.monitor.v1.MonitorOuterClass.State result = new com.google.keytransparency.monitor.v1.MonitorOuterClass.State(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (smrBuilder_ == null) {
@@ -1582,16 +1582,16 @@ public final class MonitorOuterClass {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.monitor.v1.MonitorOuterClass.State) {
-          return mergeFrom((google.keytransparency.monitor.v1.MonitorOuterClass.State)other);
+        if (other instanceof com.google.keytransparency.monitor.v1.MonitorOuterClass.State) {
+          return mergeFrom((com.google.keytransparency.monitor.v1.MonitorOuterClass.State)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.monitor.v1.MonitorOuterClass.State other) {
-        if (other == google.keytransparency.monitor.v1.MonitorOuterClass.State.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.monitor.v1.MonitorOuterClass.State other) {
+        if (other == com.google.keytransparency.monitor.v1.MonitorOuterClass.State.getDefaultInstance()) return this;
         if (other.hasSmr()) {
           mergeSmr(other.getSmr());
         }
@@ -1639,11 +1639,11 @@ public final class MonitorOuterClass {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.monitor.v1.MonitorOuterClass.State parsedMessage = null;
+        com.google.keytransparency.monitor.v1.MonitorOuterClass.State parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.monitor.v1.MonitorOuterClass.State) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.monitor.v1.MonitorOuterClass.State) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -2329,16 +2329,16 @@ public final class MonitorOuterClass {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.monitor.v1.State)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.monitor.v1.State)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.monitor.v1.State)
-    private static final google.keytransparency.monitor.v1.MonitorOuterClass.State DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.monitor.v1.State)
+    private static final com.google.keytransparency.monitor.v1.MonitorOuterClass.State DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.monitor.v1.MonitorOuterClass.State();
+      DEFAULT_INSTANCE = new com.google.keytransparency.monitor.v1.MonitorOuterClass.State();
     }
 
-    public static google.keytransparency.monitor.v1.MonitorOuterClass.State getDefaultInstance() {
+    public static com.google.keytransparency.monitor.v1.MonitorOuterClass.State getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2363,7 +2363,7 @@ public final class MonitorOuterClass {
     }
 
     @java.lang.Override
-    public google.keytransparency.monitor.v1.MonitorOuterClass.State getDefaultInstanceForType() {
+    public com.google.keytransparency.monitor.v1.MonitorOuterClass.State getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2399,12 +2399,12 @@ public final class MonitorOuterClass {
       "tobuf.Timestamp\022\"\n\006errors\030\003 \003(\0132\022.google" +
       ".rpc.Status2\213\003\n\007Monitor\022\267\001\n\010GetState\0222.g" +
       "oogle.keytransparency.monitor.v1.GetStat" +
-      "eRequest\032(.google.keytransparency.monito" +
+      "eRequest\032(.com.google.keytransparency.monito" +
       "r.v1.State\"M\202\323\344\223\002G\022E/monitor/v1/servers/" +
       "{kt_url}/directories/{directory_id}/stat" +
       "es:latest\022\305\001\n\022GetStateByRevision\0222.googl" +
       "e.keytransparency.monitor.v1.GetStateReq" +
-      "uest\032(.google.keytransparency.monitor.v1" +
+      "uest\032(.com.google.keytransparency.monitor.v1" +
       ".State\"Q\202\323\344\223\002K\022I/monitor/v1/servers/{kt_" +
       "url}/directories/{directory_id}/states/{" +
       "revision}BHZFgithub.com/google/keytransp" +

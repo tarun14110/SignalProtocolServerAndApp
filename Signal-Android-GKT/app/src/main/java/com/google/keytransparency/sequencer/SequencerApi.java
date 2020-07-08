@@ -15,7 +15,7 @@ public final class SequencerApi {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface MapMetadataOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.MapMetadata)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.MapMetadata)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -23,24 +23,24 @@ public final class SequencerApi {
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
-    java.util.List<google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> 
+    java.util.List<com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice>
         getSourcesList();
     /**
      * <pre>
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
-    google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getSources(int index);
+    com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getSources(int index);
     /**
      * <pre>
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
     int getSourcesCount();
     /**
@@ -48,26 +48,26 @@ public final class SequencerApi {
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
-    java.util.List<? extends google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder> 
+    java.util.List<? extends com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder>
         getSourcesOrBuilderList();
     /**
      * <pre>
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
-    google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder getSourcesOrBuilder(
+    com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder getSourcesOrBuilder(
         int index);
   }
   /**
-   * Protobuf type {@code google.keytransparency.sequencer.MapMetadata}
+   * Protobuf type {@code com.google.keytransparency.sequencer.MapMetadata}
    */
   public  static final class MapMetadata extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.MapMetadata)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.MapMetadata)
       MapMetadataOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use MapMetadata.newBuilder() to construct.
@@ -104,11 +104,11 @@ public final class SequencerApi {
               break;
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                sources_ = new java.util.ArrayList<google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice>();
+                sources_ = new java.util.ArrayList<com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice>();
                 mutable_bitField0_ |= 0x00000001;
               }
               sources_.add(
-                  input.readMessage(google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.parser(), extensionRegistry));
+                  input.readMessage(com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -135,19 +135,19 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.MapMetadata.class, google.keytransparency.sequencer.SequencerApi.MapMetadata.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.MapMetadata.class, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.Builder.class);
     }
 
     public interface SourceSliceOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.MapMetadata.SourceSlice)
+        // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.MapMetadata.SourceSlice)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -189,11 +189,11 @@ public final class SequencerApi {
      * revision.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.MapMetadata.SourceSlice}
+     * Protobuf type {@code com.google.keytransparency.sequencer.MapMetadata.SourceSlice}
      */
     public  static final class SourceSlice extends
         com.google.protobuf.GeneratedMessageV3 implements
-        // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.MapMetadata.SourceSlice)
+        // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.MapMetadata.SourceSlice)
         SourceSliceOrBuilder {
     private static final long serialVersionUID = 0L;
       // Use SourceSlice.newBuilder() to construct.
@@ -266,15 +266,15 @@ public final class SequencerApi {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.class, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.class, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder.class);
       }
 
       public static final int LOWEST_INCLUSIVE_FIELD_NUMBER = 1;
@@ -376,10 +376,10 @@ public final class SequencerApi {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice)) {
+        if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice)) {
           return super.equals(obj);
         }
-        google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice other = (google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice) obj;
+        com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice other = (com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice) obj;
 
         boolean result = true;
         result = result && (getLowestInclusive()
@@ -413,69 +413,69 @@ public final class SequencerApi {
         return hash;
       }
 
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(byte[] data)
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(java.io.InputStream input)
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseDelimitedFrom(java.io.InputStream input)
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseDelimitedFrom(
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -488,7 +488,7 @@ public final class SequencerApi {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice prototype) {
+      public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -509,26 +509,26 @@ public final class SequencerApi {
        * revision.
        * </pre>
        *
-       * Protobuf type {@code google.keytransparency.sequencer.MapMetadata.SourceSlice}
+       * Protobuf type {@code com.google.keytransparency.sequencer.MapMetadata.SourceSlice}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.MapMetadata.SourceSlice)
-          google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder {
+          // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.MapMetadata.SourceSlice)
+          com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_descriptor;
+          return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_fieldAccessorTable
+          return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.class, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder.class);
+                  com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.class, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder.class);
         }
 
-        // Construct using google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.newBuilder()
+        // Construct using com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -558,17 +558,17 @@ public final class SequencerApi {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_descriptor;
+          return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_SourceSlice_descriptor;
         }
 
         @java.lang.Override
-        public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getDefaultInstanceForType() {
-          return google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.getDefaultInstance();
+        public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getDefaultInstanceForType() {
+          return com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.getDefaultInstance();
         }
 
         @java.lang.Override
-        public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice build() {
-          google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice result = buildPartial();
+        public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice build() {
+          com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -576,8 +576,8 @@ public final class SequencerApi {
         }
 
         @java.lang.Override
-        public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice buildPartial() {
-          google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice result = new google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice(this);
+        public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice buildPartial() {
+          com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice result = new com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice(this);
           result.lowestInclusive_ = lowestInclusive_;
           result.highestExclusive_ = highestExclusive_;
           result.logId_ = logId_;
@@ -619,16 +619,16 @@ public final class SequencerApi {
         }
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice) {
-            return mergeFrom((google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice)other);
+          if (other instanceof com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice) {
+            return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice other) {
-          if (other == google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.getDefaultInstance()) return this;
+        public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice other) {
+          if (other == com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.getDefaultInstance()) return this;
           if (other.getLowestInclusive() != 0L) {
             setLowestInclusive(other.getLowestInclusive());
           }
@@ -653,11 +653,11 @@ public final class SequencerApi {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parsedMessage = null;
+          com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice parsedMessage = null;
           try {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            parsedMessage = (google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice) e.getUnfinishedMessage();
+            parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice) e.getUnfinishedMessage();
             throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
@@ -811,16 +811,16 @@ public final class SequencerApi {
         }
 
 
-        // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.MapMetadata.SourceSlice)
+        // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.MapMetadata.SourceSlice)
       }
 
-      // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.MapMetadata.SourceSlice)
-      private static final google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.MapMetadata.SourceSlice)
+      private static final com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice();
+        DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice();
       }
 
-      public static google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getDefaultInstance() {
+      public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
@@ -845,22 +845,22 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getDefaultInstanceForType() {
+      public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
     }
 
     public static final int SOURCES_FIELD_NUMBER = 2;
-    private java.util.List<google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> sources_;
+    private java.util.List<com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> sources_;
     /**
      * <pre>
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
-    public java.util.List<google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> getSourcesList() {
+    public java.util.List<com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> getSourcesList() {
       return sources_;
     }
     /**
@@ -868,9 +868,9 @@ public final class SequencerApi {
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
-    public java.util.List<? extends google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder> 
+    public java.util.List<? extends com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder>
         getSourcesOrBuilderList() {
       return sources_;
     }
@@ -879,7 +879,7 @@ public final class SequencerApi {
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
     public int getSourcesCount() {
       return sources_.size();
@@ -889,9 +889,9 @@ public final class SequencerApi {
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
-    public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getSources(int index) {
+    public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getSources(int index) {
       return sources_.get(index);
     }
     /**
@@ -899,9 +899,9 @@ public final class SequencerApi {
      * sources is a list of log sources that were used to construct this map revision.
      * </pre>
      *
-     * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+     * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
      */
-    public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder getSourcesOrBuilder(
+    public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder getSourcesOrBuilder(
         int index) {
       return sources_.get(index);
     }
@@ -946,10 +946,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.MapMetadata)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.MapMetadata)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.MapMetadata other = (google.keytransparency.sequencer.SequencerApi.MapMetadata) obj;
+      com.google.keytransparency.sequencer.SequencerApi.MapMetadata other = (com.google.keytransparency.sequencer.SequencerApi.MapMetadata) obj;
 
       boolean result = true;
       result = result && getSourcesList()
@@ -974,69 +974,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1049,7 +1049,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.MapMetadata prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.MapMetadata prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -1065,26 +1065,26 @@ public final class SequencerApi {
       return builder;
     }
     /**
-     * Protobuf type {@code google.keytransparency.sequencer.MapMetadata}
+     * Protobuf type {@code com.google.keytransparency.sequencer.MapMetadata}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.MapMetadata)
-        google.keytransparency.sequencer.SequencerApi.MapMetadataOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.MapMetadata)
+        com.google.keytransparency.sequencer.SequencerApi.MapMetadataOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.MapMetadata.class, google.keytransparency.sequencer.SequencerApi.MapMetadata.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.MapMetadata.class, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.MapMetadata.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.MapMetadata.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1115,17 +1115,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_MapMetadata_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.MapMetadata getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.MapMetadata.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.MapMetadata getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.MapMetadata.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.MapMetadata build() {
-        google.keytransparency.sequencer.SequencerApi.MapMetadata result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.MapMetadata build() {
+        com.google.keytransparency.sequencer.SequencerApi.MapMetadata result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -1133,8 +1133,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.MapMetadata buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.MapMetadata result = new google.keytransparency.sequencer.SequencerApi.MapMetadata(this);
+      public com.google.keytransparency.sequencer.SequencerApi.MapMetadata buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.MapMetadata result = new com.google.keytransparency.sequencer.SequencerApi.MapMetadata(this);
         int from_bitField0_ = bitField0_;
         if (sourcesBuilder_ == null) {
           if (((bitField0_ & 0x00000001) == 0x00000001)) {
@@ -1183,16 +1183,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.MapMetadata) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.MapMetadata)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.MapMetadata) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.MapMetadata)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.MapMetadata other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.MapMetadata.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.MapMetadata other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.MapMetadata.getDefaultInstance()) return this;
         if (sourcesBuilder_ == null) {
           if (!other.sources_.isEmpty()) {
             if (sources_.isEmpty()) {
@@ -1234,11 +1234,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.MapMetadata parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.MapMetadata parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.MapMetadata) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.MapMetadata) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -1249,26 +1249,26 @@ public final class SequencerApi {
       }
       private int bitField0_;
 
-      private java.util.List<google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> sources_ =
+      private java.util.List<com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> sources_ =
         java.util.Collections.emptyList();
       private void ensureSourcesIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          sources_ = new java.util.ArrayList<google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice>(sources_);
+          sources_ = new java.util.ArrayList<com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice>(sources_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder> sourcesBuilder_;
+          com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder> sourcesBuilder_;
 
       /**
        * <pre>
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
-      public java.util.List<google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> getSourcesList() {
+      public java.util.List<com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> getSourcesList() {
         if (sourcesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(sources_);
         } else {
@@ -1280,7 +1280,7 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
       public int getSourcesCount() {
         if (sourcesBuilder_ == null) {
@@ -1294,9 +1294,9 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
-      public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getSources(int index) {
+      public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice getSources(int index) {
         if (sourcesBuilder_ == null) {
           return sources_.get(index);
         } else {
@@ -1308,10 +1308,10 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
       public Builder setSources(
-          int index, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice value) {
+          int index, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice value) {
         if (sourcesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1329,10 +1329,10 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
       public Builder setSources(
-          int index, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder builderForValue) {
+          int index, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder builderForValue) {
         if (sourcesBuilder_ == null) {
           ensureSourcesIsMutable();
           sources_.set(index, builderForValue.build());
@@ -1347,9 +1347,9 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
-      public Builder addSources(google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice value) {
+      public Builder addSources(com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice value) {
         if (sourcesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1367,10 +1367,10 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
       public Builder addSources(
-          int index, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice value) {
+          int index, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice value) {
         if (sourcesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1388,10 +1388,10 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
       public Builder addSources(
-          google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder builderForValue) {
+          com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder builderForValue) {
         if (sourcesBuilder_ == null) {
           ensureSourcesIsMutable();
           sources_.add(builderForValue.build());
@@ -1406,10 +1406,10 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
       public Builder addSources(
-          int index, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder builderForValue) {
+          int index, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder builderForValue) {
         if (sourcesBuilder_ == null) {
           ensureSourcesIsMutable();
           sources_.add(index, builderForValue.build());
@@ -1424,10 +1424,10 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
       public Builder addAllSources(
-          java.lang.Iterable<? extends google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> values) {
+          java.lang.Iterable<? extends com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice> values) {
         if (sourcesBuilder_ == null) {
           ensureSourcesIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -1443,7 +1443,7 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
       public Builder clearSources() {
         if (sourcesBuilder_ == null) {
@@ -1460,7 +1460,7 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
       public Builder removeSources(int index) {
         if (sourcesBuilder_ == null) {
@@ -1477,9 +1477,9 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
-      public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder getSourcesBuilder(
+      public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder getSourcesBuilder(
           int index) {
         return getSourcesFieldBuilder().getBuilder(index);
       }
@@ -1488,9 +1488,9 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
-      public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder getSourcesOrBuilder(
+      public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder getSourcesOrBuilder(
           int index) {
         if (sourcesBuilder_ == null) {
           return sources_.get(index);  } else {
@@ -1502,9 +1502,9 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
-      public java.util.List<? extends google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder> 
+      public java.util.List<? extends com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder>
            getSourcesOrBuilderList() {
         if (sourcesBuilder_ != null) {
           return sourcesBuilder_.getMessageOrBuilderList();
@@ -1517,41 +1517,41 @@ public final class SequencerApi {
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
-      public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder addSourcesBuilder() {
+      public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder addSourcesBuilder() {
         return getSourcesFieldBuilder().addBuilder(
-            google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.getDefaultInstance());
+            com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.getDefaultInstance());
       }
       /**
        * <pre>
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
-      public google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder addSourcesBuilder(
+      public com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder addSourcesBuilder(
           int index) {
         return getSourcesFieldBuilder().addBuilder(
-            index, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.getDefaultInstance());
+            index, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.getDefaultInstance());
       }
       /**
        * <pre>
        * sources is a list of log sources that were used to construct this map revision.
        * </pre>
        *
-       * <code>repeated .google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
+       * <code>repeated .com.google.keytransparency.sequencer.MapMetadata.SourceSlice sources = 2;</code>
        */
-      public java.util.List<google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder> 
+      public java.util.List<com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder>
            getSourcesBuilderList() {
         return getSourcesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder> 
+          com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder>
           getSourcesFieldBuilder() {
         if (sourcesBuilder_ == null) {
           sourcesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder, google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder>(
+              com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSlice.Builder, com.google.keytransparency.sequencer.SequencerApi.MapMetadata.SourceSliceOrBuilder>(
                   sources_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -1573,16 +1573,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.MapMetadata)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.MapMetadata)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.MapMetadata)
-    private static final google.keytransparency.sequencer.SequencerApi.MapMetadata DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.MapMetadata)
+    private static final com.google.keytransparency.sequencer.SequencerApi.MapMetadata DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.MapMetadata();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.MapMetadata();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.MapMetadata getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.MapMetadata getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1607,14 +1607,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.MapMetadata getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.MapMetadata getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface DefineRevisionsRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.DefineRevisionsRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.DefineRevisionsRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -1671,11 +1671,11 @@ public final class SequencerApi {
    * DefineRevisionsRequest contains information needed to define new revisions.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.sequencer.DefineRevisionsRequest}
+   * Protobuf type {@code com.google.keytransparency.sequencer.DefineRevisionsRequest}
    */
   public  static final class DefineRevisionsRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.DefineRevisionsRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.DefineRevisionsRequest)
       DefineRevisionsRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use DefineRevisionsRequest.newBuilder() to construct.
@@ -1755,15 +1755,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.class, google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.class, com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -1911,10 +1911,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest other = (google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest) obj;
+      com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest other = (com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -1949,69 +1949,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2024,7 +2024,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -2044,26 +2044,26 @@ public final class SequencerApi {
      * DefineRevisionsRequest contains information needed to define new revisions.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.DefineRevisionsRequest}
+     * Protobuf type {@code com.google.keytransparency.sequencer.DefineRevisionsRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.DefineRevisionsRequest)
-        google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.DefineRevisionsRequest)
+        com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.class, google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.class, com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2095,17 +2095,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest build() {
-        google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest build() {
+        com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -2113,8 +2113,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest result = new google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest(this);
+      public com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest result = new com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest(this);
         result.directoryId_ = directoryId_;
         result.minBatch_ = minBatch_;
         result.maxBatch_ = maxBatch_;
@@ -2157,16 +2157,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -2195,11 +2195,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -2436,16 +2436,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.DefineRevisionsRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.DefineRevisionsRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.DefineRevisionsRequest)
-    private static final google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.DefineRevisionsRequest)
+    private static final com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2470,14 +2470,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface DefineRevisionsResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.DefineRevisionsResponse)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.DefineRevisionsResponse)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -2504,11 +2504,11 @@ public final class SequencerApi {
    * DefineRevisionsResponse contains information about defined/applied revisions.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.sequencer.DefineRevisionsResponse}
+   * Protobuf type {@code com.google.keytransparency.sequencer.DefineRevisionsResponse}
    */
   public  static final class DefineRevisionsResponse extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.DefineRevisionsResponse)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.DefineRevisionsResponse)
       DefineRevisionsResponseOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use DefineRevisionsResponse.newBuilder() to construct.
@@ -2575,15 +2575,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.class, google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.class, com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.Builder.class);
     }
 
     public static final int HIGHEST_APPLIED_FIELD_NUMBER = 2;
@@ -2660,10 +2660,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse other = (google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse) obj;
+      com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse other = (com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse) obj;
 
       boolean result = true;
       result = result && (getHighestApplied()
@@ -2692,69 +2692,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2767,7 +2767,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -2787,26 +2787,26 @@ public final class SequencerApi {
      * DefineRevisionsResponse contains information about defined/applied revisions.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.DefineRevisionsResponse}
+     * Protobuf type {@code com.google.keytransparency.sequencer.DefineRevisionsResponse}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.DefineRevisionsResponse)
-        google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponseOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.DefineRevisionsResponse)
+        com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.class, google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.class, com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2834,17 +2834,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_DefineRevisionsResponse_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse build() {
-        google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse build() {
+        com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -2852,8 +2852,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse result = new google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse(this);
+      public com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse result = new com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse(this);
         result.highestApplied_ = highestApplied_;
         result.highestDefined_ = highestDefined_;
         onBuilt();
@@ -2894,16 +2894,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse.getDefaultInstance()) return this;
         if (other.getHighestApplied() != 0L) {
           setHighestApplied(other.getHighestApplied());
         }
@@ -2925,11 +2925,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -3030,16 +3030,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.DefineRevisionsResponse)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.DefineRevisionsResponse)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.DefineRevisionsResponse)
-    private static final google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.DefineRevisionsResponse)
+    private static final com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3064,14 +3064,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.DefineRevisionsResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface GetDefinedRevisionsRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.GetDefinedRevisionsRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.GetDefinedRevisionsRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -3098,11 +3098,11 @@ public final class SequencerApi {
    * defined/applied revisions.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.sequencer.GetDefinedRevisionsRequest}
+   * Protobuf type {@code com.google.keytransparency.sequencer.GetDefinedRevisionsRequest}
    */
   public  static final class GetDefinedRevisionsRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.GetDefinedRevisionsRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.GetDefinedRevisionsRequest)
       GetDefinedRevisionsRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use GetDefinedRevisionsRequest.newBuilder() to construct.
@@ -3164,15 +3164,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.class, google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.class, com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -3256,10 +3256,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest other = (google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest) obj;
+      com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest other = (com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -3282,69 +3282,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3357,7 +3357,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -3378,26 +3378,26 @@ public final class SequencerApi {
      * defined/applied revisions.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.GetDefinedRevisionsRequest}
+     * Protobuf type {@code com.google.keytransparency.sequencer.GetDefinedRevisionsRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.GetDefinedRevisionsRequest)
-        google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.GetDefinedRevisionsRequest)
+        com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.class, google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.class, com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -3423,17 +3423,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest build() {
-        google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest build() {
+        com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -3441,8 +3441,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest result = new google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest(this);
+      public com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest result = new com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest(this);
         result.directoryId_ = directoryId_;
         onBuilt();
         return result;
@@ -3482,16 +3482,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -3511,11 +3511,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -3626,16 +3626,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.GetDefinedRevisionsRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.GetDefinedRevisionsRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.GetDefinedRevisionsRequest)
-    private static final google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.GetDefinedRevisionsRequest)
+    private static final com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3660,14 +3660,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface GetDefinedRevisionsResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.GetDefinedRevisionsResponse)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.GetDefinedRevisionsResponse)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -3694,11 +3694,11 @@ public final class SequencerApi {
    * GetDefinedRevisionResponse contains info about defined/applied revisions.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.sequencer.GetDefinedRevisionsResponse}
+   * Protobuf type {@code com.google.keytransparency.sequencer.GetDefinedRevisionsResponse}
    */
   public  static final class GetDefinedRevisionsResponse extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.GetDefinedRevisionsResponse)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.GetDefinedRevisionsResponse)
       GetDefinedRevisionsResponseOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use GetDefinedRevisionsResponse.newBuilder() to construct.
@@ -3765,15 +3765,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.class, google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.class, com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.Builder.class);
     }
 
     public static final int HIGHEST_APPLIED_FIELD_NUMBER = 1;
@@ -3850,10 +3850,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse other = (google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse) obj;
+      com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse other = (com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse) obj;
 
       boolean result = true;
       result = result && (getHighestApplied()
@@ -3882,69 +3882,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3957,7 +3957,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -3977,26 +3977,26 @@ public final class SequencerApi {
      * GetDefinedRevisionResponse contains info about defined/applied revisions.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.GetDefinedRevisionsResponse}
+     * Protobuf type {@code com.google.keytransparency.sequencer.GetDefinedRevisionsResponse}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.GetDefinedRevisionsResponse)
-        google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponseOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.GetDefinedRevisionsResponse)
+        com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.class, google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.class, com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -4024,17 +4024,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_GetDefinedRevisionsResponse_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse build() {
-        google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse build() {
+        com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -4042,8 +4042,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse result = new google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse(this);
+      public com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse result = new com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse(this);
         result.highestApplied_ = highestApplied_;
         result.highestDefined_ = highestDefined_;
         onBuilt();
@@ -4084,16 +4084,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse.getDefaultInstance()) return this;
         if (other.getHighestApplied() != 0L) {
           setHighestApplied(other.getHighestApplied());
         }
@@ -4115,11 +4115,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -4220,16 +4220,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.GetDefinedRevisionsResponse)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.GetDefinedRevisionsResponse)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.GetDefinedRevisionsResponse)
-    private static final google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.GetDefinedRevisionsResponse)
+    private static final com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4254,14 +4254,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.GetDefinedRevisionsResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface ApplyRevisionsRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.ApplyRevisionsRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.ApplyRevisionsRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -4287,11 +4287,11 @@ public final class SequencerApi {
    * ApplyRevisionsRequest triggers applying revisions to the directory's map.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.sequencer.ApplyRevisionsRequest}
+   * Protobuf type {@code com.google.keytransparency.sequencer.ApplyRevisionsRequest}
    */
   public  static final class ApplyRevisionsRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.ApplyRevisionsRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.ApplyRevisionsRequest)
       ApplyRevisionsRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use ApplyRevisionsRequest.newBuilder() to construct.
@@ -4353,15 +4353,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.class, google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.class, com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -4445,10 +4445,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest other = (google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest) obj;
+      com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest other = (com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -4471,69 +4471,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4546,7 +4546,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -4566,26 +4566,26 @@ public final class SequencerApi {
      * ApplyRevisionsRequest triggers applying revisions to the directory's map.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.ApplyRevisionsRequest}
+     * Protobuf type {@code com.google.keytransparency.sequencer.ApplyRevisionsRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.ApplyRevisionsRequest)
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.ApplyRevisionsRequest)
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.class, google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.class, com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -4611,17 +4611,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionsRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest build() {
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest build() {
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -4629,8 +4629,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest result = new google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest(this);
+      public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest result = new com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest(this);
         result.directoryId_ = directoryId_;
         onBuilt();
         return result;
@@ -4670,16 +4670,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -4699,11 +4699,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -4814,16 +4814,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.ApplyRevisionsRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.ApplyRevisionsRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.ApplyRevisionsRequest)
-    private static final google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.ApplyRevisionsRequest)
+    private static final com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4848,14 +4848,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionsRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface ApplyRevisionRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.ApplyRevisionRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.ApplyRevisionRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -4890,11 +4890,11 @@ public final class SequencerApi {
    * ApplyRevisionRequest contains information needed to create a new revision.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.sequencer.ApplyRevisionRequest}
+   * Protobuf type {@code com.google.keytransparency.sequencer.ApplyRevisionRequest}
    */
   public  static final class ApplyRevisionRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.ApplyRevisionRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.ApplyRevisionRequest)
       ApplyRevisionRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use ApplyRevisionRequest.newBuilder() to construct.
@@ -4962,15 +4962,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.class, google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.class, com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -5074,10 +5074,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest other = (google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest) obj;
+      com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest other = (com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -5105,69 +5105,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5180,7 +5180,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -5200,26 +5200,26 @@ public final class SequencerApi {
      * ApplyRevisionRequest contains information needed to create a new revision.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.ApplyRevisionRequest}
+     * Protobuf type {@code com.google.keytransparency.sequencer.ApplyRevisionRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.ApplyRevisionRequest)
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.ApplyRevisionRequest)
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.class, google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.class, com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -5247,17 +5247,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest build() {
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest build() {
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -5265,8 +5265,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest result = new google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest(this);
+      public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest result = new com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest(this);
         result.directoryId_ = directoryId_;
         result.revision_ = revision_;
         onBuilt();
@@ -5307,16 +5307,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -5339,11 +5339,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -5492,16 +5492,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.ApplyRevisionRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.ApplyRevisionRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.ApplyRevisionRequest)
-    private static final google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.ApplyRevisionRequest)
+    private static final com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5526,14 +5526,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface ApplyRevisionResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.ApplyRevisionResponse)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.ApplyRevisionResponse)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -5578,11 +5578,11 @@ public final class SequencerApi {
    * ApplyRevisionResponse contains stats about the created revision.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.sequencer.ApplyRevisionResponse}
+   * Protobuf type {@code com.google.keytransparency.sequencer.ApplyRevisionResponse}
    */
   public  static final class ApplyRevisionResponse extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.ApplyRevisionResponse)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.ApplyRevisionResponse)
       ApplyRevisionResponseOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use ApplyRevisionResponse.newBuilder() to construct.
@@ -5662,15 +5662,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.class, google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.class, com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -5806,10 +5806,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse other = (google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse) obj;
+      com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse other = (com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -5847,69 +5847,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5922,7 +5922,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -5942,26 +5942,26 @@ public final class SequencerApi {
      * ApplyRevisionResponse contains stats about the created revision.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.ApplyRevisionResponse}
+     * Protobuf type {@code com.google.keytransparency.sequencer.ApplyRevisionResponse}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.ApplyRevisionResponse)
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponseOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.ApplyRevisionResponse)
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.class, google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.class, com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -5993,17 +5993,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_ApplyRevisionResponse_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse build() {
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse build() {
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -6011,8 +6011,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse result = new google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse(this);
+      public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse result = new com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse(this);
         result.directoryId_ = directoryId_;
         result.revision_ = revision_;
         result.mutations_ = mutations_;
@@ -6055,16 +6055,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -6093,11 +6093,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -6302,16 +6302,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.ApplyRevisionResponse)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.ApplyRevisionResponse)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.ApplyRevisionResponse)
-    private static final google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.ApplyRevisionResponse)
+    private static final com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6336,14 +6336,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.ApplyRevisionResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface PublishRevisionsRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.PublishRevisionsRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.PublishRevisionsRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -6370,11 +6370,11 @@ public final class SequencerApi {
    * PublishRevisionsRequest copies all available SignedMapRoots into the Log of SignedMapRoots.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.sequencer.PublishRevisionsRequest}
+   * Protobuf type {@code com.google.keytransparency.sequencer.PublishRevisionsRequest}
    */
   public  static final class PublishRevisionsRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.PublishRevisionsRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.PublishRevisionsRequest)
       PublishRevisionsRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use PublishRevisionsRequest.newBuilder() to construct.
@@ -6442,15 +6442,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.class, google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.class, com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -6546,10 +6546,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest other = (google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest) obj;
+      com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest other = (com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -6577,69 +6577,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6652,7 +6652,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -6672,26 +6672,26 @@ public final class SequencerApi {
      * PublishRevisionsRequest copies all available SignedMapRoots into the Log of SignedMapRoots.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.PublishRevisionsRequest}
+     * Protobuf type {@code com.google.keytransparency.sequencer.PublishRevisionsRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.PublishRevisionsRequest)
-        google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.PublishRevisionsRequest)
+        com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.class, google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.class, com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -6719,17 +6719,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest build() {
-        google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest build() {
+        com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -6737,8 +6737,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest result = new google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest(this);
+      public com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest result = new com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest(this);
         result.directoryId_ = directoryId_;
         result.block_ = block_;
         onBuilt();
@@ -6779,16 +6779,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -6811,11 +6811,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -6944,16 +6944,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.PublishRevisionsRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.PublishRevisionsRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.PublishRevisionsRequest)
-    private static final google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.PublishRevisionsRequest)
+    private static final com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6978,14 +6978,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface PublishRevisionsResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.PublishRevisionsResponse)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.PublishRevisionsResponse)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -7018,11 +7018,11 @@ public final class SequencerApi {
    * PublishRevisionsResponse contains metrics about the publishing operation.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.sequencer.PublishRevisionsResponse}
+   * Protobuf type {@code com.google.keytransparency.sequencer.PublishRevisionsResponse}
    */
   public  static final class PublishRevisionsResponse extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.PublishRevisionsResponse)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.PublishRevisionsResponse)
       PublishRevisionsResponseOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use PublishRevisionsResponse.newBuilder() to construct.
@@ -7102,15 +7102,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.class, google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.class, com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.Builder.class);
     }
 
     public static final int REVISIONS_FIELD_NUMBER = 1;
@@ -7203,10 +7203,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse other = (google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse) obj;
+      com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse other = (com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse) obj;
 
       boolean result = true;
       result = result && getRevisionsList()
@@ -7231,69 +7231,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7306,7 +7306,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -7326,26 +7326,26 @@ public final class SequencerApi {
      * PublishRevisionsResponse contains metrics about the publishing operation.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.sequencer.PublishRevisionsResponse}
+     * Protobuf type {@code com.google.keytransparency.sequencer.PublishRevisionsResponse}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.PublishRevisionsResponse)
-        google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponseOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.PublishRevisionsResponse)
+        com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.class, google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.class, com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -7371,17 +7371,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_PublishRevisionsResponse_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse build() {
-        google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse build() {
+        com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -7389,8 +7389,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse result = new google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse(this);
+      public com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse result = new com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) == 0x00000001)) {
           revisions_ = java.util.Collections.unmodifiableList(revisions_);
@@ -7435,16 +7435,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse.getDefaultInstance()) return this;
         if (!other.revisions_.isEmpty()) {
           if (revisions_.isEmpty()) {
             revisions_ = other.revisions_;
@@ -7470,11 +7470,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -7591,16 +7591,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.PublishRevisionsResponse)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.PublishRevisionsResponse)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.PublishRevisionsResponse)
-    private static final google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.PublishRevisionsResponse)
+    private static final com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7625,14 +7625,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.PublishRevisionsResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface EstimateBacklogRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.EstimateBacklogRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.EstimateBacklogRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -7651,11 +7651,11 @@ public final class SequencerApi {
     int getMaxUnappliedCount();
   }
   /**
-   * Protobuf type {@code google.keytransparency.sequencer.EstimateBacklogRequest}
+   * Protobuf type {@code com.google.keytransparency.sequencer.EstimateBacklogRequest}
    */
   public  static final class EstimateBacklogRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.EstimateBacklogRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.EstimateBacklogRequest)
       EstimateBacklogRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use EstimateBacklogRequest.newBuilder() to construct.
@@ -7723,15 +7723,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.class, google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.class, com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -7823,10 +7823,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest other = (google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest) obj;
+      com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest other = (com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -7853,69 +7853,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7928,7 +7928,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -7944,26 +7944,26 @@ public final class SequencerApi {
       return builder;
     }
     /**
-     * Protobuf type {@code google.keytransparency.sequencer.EstimateBacklogRequest}
+     * Protobuf type {@code com.google.keytransparency.sequencer.EstimateBacklogRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.EstimateBacklogRequest)
-        google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.EstimateBacklogRequest)
+        com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.class, google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.class, com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -7991,17 +7991,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest build() {
-        google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest build() {
+        com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -8009,8 +8009,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest result = new google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest(this);
+      public com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest result = new com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest(this);
         result.directoryId_ = directoryId_;
         result.maxUnappliedCount_ = maxUnappliedCount_;
         onBuilt();
@@ -8051,16 +8051,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -8083,11 +8083,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -8204,16 +8204,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.EstimateBacklogRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.EstimateBacklogRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.EstimateBacklogRequest)
-    private static final google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.EstimateBacklogRequest)
+    private static final com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8238,14 +8238,14 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface EstimateBacklogResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.sequencer.EstimateBacklogResponse)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.sequencer.EstimateBacklogResponse)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -8264,11 +8264,11 @@ public final class SequencerApi {
     int getUnappliedCount();
   }
   /**
-   * Protobuf type {@code google.keytransparency.sequencer.EstimateBacklogResponse}
+   * Protobuf type {@code com.google.keytransparency.sequencer.EstimateBacklogResponse}
    */
   public  static final class EstimateBacklogResponse extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.sequencer.EstimateBacklogResponse)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.sequencer.EstimateBacklogResponse)
       EstimateBacklogResponseOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use EstimateBacklogResponse.newBuilder() to construct.
@@ -8336,15 +8336,15 @@ public final class SequencerApi {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_descriptor;
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_fieldAccessorTable
+      return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.class, google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.Builder.class);
+              com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.class, com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -8436,10 +8436,10 @@ public final class SequencerApi {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse)) {
+      if (!(obj instanceof com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse)) {
         return super.equals(obj);
       }
-      google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse other = (google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse) obj;
+      com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse other = (com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -8466,69 +8466,69 @@ public final class SequencerApi {
       return hash;
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseDelimitedFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -8541,7 +8541,7 @@ public final class SequencerApi {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -8557,26 +8557,26 @@ public final class SequencerApi {
       return builder;
     }
     /**
-     * Protobuf type {@code google.keytransparency.sequencer.EstimateBacklogResponse}
+     * Protobuf type {@code com.google.keytransparency.sequencer.EstimateBacklogResponse}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.sequencer.EstimateBacklogResponse)
-        google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponseOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.sequencer.EstimateBacklogResponse)
+        com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_fieldAccessorTable
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.class, google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.Builder.class);
+                com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.class, com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.Builder.class);
       }
 
-      // Construct using google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.newBuilder()
+      // Construct using com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -8604,17 +8604,17 @@ public final class SequencerApi {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_descriptor;
+        return com.google.keytransparency.sequencer.SequencerApi.internal_static_google_keytransparency_sequencer_EstimateBacklogResponse_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse getDefaultInstanceForType() {
-        return google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.getDefaultInstance();
+      public com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse getDefaultInstanceForType() {
+        return com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse build() {
-        google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse result = buildPartial();
+      public com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse build() {
+        com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -8622,8 +8622,8 @@ public final class SequencerApi {
       }
 
       @java.lang.Override
-      public google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse buildPartial() {
-        google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse result = new google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse(this);
+      public com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse buildPartial() {
+        com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse result = new com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse(this);
         result.directoryId_ = directoryId_;
         result.unappliedCount_ = unappliedCount_;
         onBuilt();
@@ -8664,16 +8664,16 @@ public final class SequencerApi {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse) {
-          return mergeFrom((google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse)other);
+        if (other instanceof com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse) {
+          return mergeFrom((com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse other) {
-        if (other == google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse other) {
+        if (other == com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -8696,11 +8696,11 @@ public final class SequencerApi {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parsedMessage = null;
+        com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -8817,16 +8817,16 @@ public final class SequencerApi {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.sequencer.EstimateBacklogResponse)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.sequencer.EstimateBacklogResponse)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.sequencer.EstimateBacklogResponse)
-    private static final google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.sequencer.EstimateBacklogResponse)
+    private static final com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse();
+      DEFAULT_INSTANCE = new com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse();
     }
 
-    public static google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse getDefaultInstance() {
+    public static com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8851,7 +8851,7 @@ public final class SequencerApi {
     }
 
     @java.lang.Override
-    public google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse getDefaultInstanceForType() {
+    public com.google.keytransparency.sequencer.SequencerApi.EstimateBacklogResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8934,7 +8934,7 @@ public final class SequencerApi {
       "\n\"core/sequencer/sequencer_api.proto\022 go" +
       "ogle.keytransparency.sequencer\032\033google/p" +
       "rotobuf/empty.proto\"\263\001\n\013MapMetadata\022J\n\007s" +
-      "ources\030\002 \003(\01329.google.keytransparency.se" +
+      "ources\030\002 \003(\01329.com.google.keytransparency.se" +
       "quencer.MapMetadata.SourceSlice\032R\n\013Sourc" +
       "eSlice\022\030\n\020lowest_inclusive\030\001 \001(\003\022\031\n\021high" +
       "est_exclusive\030\002 \001(\003\022\016\n\006log_id\030\003 \001(\003J\004\010\001\020" +
@@ -8959,25 +8959,25 @@ public final class SequencerApi {
       "unt\030\002 \001(\005\"H\n\027EstimateBacklogResponse\022\024\n\014" +
       "directory_id\030\001 \001(\t\022\027\n\017unapplied_count\030\002 " +
       "\001(\0052\263\006\n\030KeyTransparencySequencer\022\206\001\n\017Def" +
-      "ineRevisions\0228.google.keytransparency.se" +
+      "ineRevisions\0228.com.google.keytransparency.se" +
       "quencer.DefineRevisionsRequest\0329.google." +
       "keytransparency.sequencer.DefineRevision" +
       "sResponse\022\222\001\n\023GetDefinedRevisions\022<.goog" +
       "le.keytransparency.sequencer.GetDefinedR" +
-      "evisionsRequest\032=.google.keytransparency" +
+      "evisionsRequest\032=.com.google.keytransparency" +
       ".sequencer.GetDefinedRevisionsResponse\022a" +
       "\n\016ApplyRevisions\0227.google.keytransparenc" +
       "y.sequencer.ApplyRevisionsRequest\032\026.goog" +
       "le.protobuf.Empty\022\200\001\n\rApplyRevision\0226.go" +
       "ogle.keytransparency.sequencer.ApplyRevi" +
-      "sionRequest\0327.google.keytransparency.seq" +
+      "sionRequest\0327.com.google.keytransparency.seq" +
       "uencer.ApplyRevisionResponse\022\211\001\n\020Publish" +
-      "Revisions\0229.google.keytransparency.seque" +
+      "Revisions\0229.com.google.keytransparency.seque" +
       "ncer.PublishRevisionsRequest\032:.google.ke" +
       "ytransparency.sequencer.PublishRevisions" +
       "Response\022\206\001\n\017EstimateBacklog\0228.google.ke" +
       "ytransparency.sequencer.EstimateBacklogR" +
-      "equest\0329.google.keytransparency.sequence" +
+      "equest\0329.com.google.keytransparency.sequence" +
       "r.EstimateBacklogResponseBEZCgithub.com/" +
       "google/keytransparency/core/sequencer/se" +
       "quencer_go_protob\006proto3"

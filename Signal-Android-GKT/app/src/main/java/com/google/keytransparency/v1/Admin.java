@@ -15,7 +15,7 @@ public final class Admin {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface DirectoryOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.Directory)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.Directory)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -177,11 +177,11 @@ public final class Admin {
    * Directory contains information on a single directory
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.Directory}
+   * Protobuf type {@code com.google.keytransparency.v1.Directory}
    */
   public  static final class Directory extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.Directory)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.Directory)
       DirectoryOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use Directory.newBuilder() to construct.
@@ -627,10 +627,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.Directory)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.Directory)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.Directory other = (google.keytransparency.v1.Admin.Directory) obj;
+      com.google.keytransparency.v1.Admin.Directory other = (com.google.keytransparency.v1.Admin.Directory) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -703,69 +703,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.Directory parseFrom(
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.Directory parseFrom(
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.Directory parseFrom(
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.Directory parseFrom(
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.Directory parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.Directory parseFrom(
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.Directory parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.Directory parseFrom(
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.Directory parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.Directory parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.Directory parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.Directory parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.Directory parseFrom(
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.Directory parseFrom(
+    public static com.google.keytransparency.v1.Admin.Directory parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -778,7 +778,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.Directory prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.Directory prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -798,26 +798,26 @@ public final class Admin {
      * Directory contains information on a single directory
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.Directory}
+     * Protobuf type {@code com.google.keytransparency.v1.Directory}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.Directory)
-        google.keytransparency.v1.Admin.DirectoryOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.Directory)
+        com.google.keytransparency.v1.Admin.DirectoryOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.Directory.class, google.keytransparency.v1.Admin.Directory.Builder.class);
+                com.google.keytransparency.v1.Admin.Directory.class, com.google.keytransparency.v1.Admin.Directory.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.Directory.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.Directory.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -875,17 +875,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.Directory getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.Directory.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.Directory getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.Directory.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.Directory build() {
-        google.keytransparency.v1.Admin.Directory result = buildPartial();
+      public com.google.keytransparency.v1.Admin.Directory build() {
+        com.google.keytransparency.v1.Admin.Directory result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -893,8 +893,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.Directory buildPartial() {
-        google.keytransparency.v1.Admin.Directory result = new google.keytransparency.v1.Admin.Directory(this);
+      public com.google.keytransparency.v1.Admin.Directory buildPartial() {
+        com.google.keytransparency.v1.Admin.Directory result = new com.google.keytransparency.v1.Admin.Directory(this);
         result.directoryId_ = directoryId_;
         if (logBuilder_ == null) {
           result.log_ = log_;
@@ -960,16 +960,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.Directory) {
-          return mergeFrom((google.keytransparency.v1.Admin.Directory)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.Directory) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.Directory)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.Directory other) {
-        if (other == google.keytransparency.v1.Admin.Directory.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.Directory other) {
+        if (other == com.google.keytransparency.v1.Admin.Directory.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -1007,11 +1007,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.Directory parsedMessage = null;
+        com.google.keytransparency.v1.Admin.Directory parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.Directory) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.Directory) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -1931,16 +1931,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.Directory)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.Directory)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.Directory)
-    private static final google.keytransparency.v1.Admin.Directory DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.Directory)
+    private static final com.google.keytransparency.v1.Admin.Directory DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.Directory();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.Directory();
     }
 
-    public static google.keytransparency.v1.Admin.Directory getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.Directory getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1965,14 +1965,14 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.Directory getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.Directory getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface ListDirectoriesRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.ListDirectoriesRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.ListDirectoriesRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -1991,11 +1991,11 @@ public final class Admin {
    * No pagination options are provided.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.ListDirectoriesRequest}
+   * Protobuf type {@code com.google.keytransparency.v1.ListDirectoriesRequest}
    */
   public  static final class ListDirectoriesRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.ListDirectoriesRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.ListDirectoriesRequest)
       ListDirectoriesRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use ListDirectoriesRequest.newBuilder() to construct.
@@ -2056,15 +2056,15 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.ListDirectoriesRequest.class, google.keytransparency.v1.Admin.ListDirectoriesRequest.Builder.class);
+              com.google.keytransparency.v1.Admin.ListDirectoriesRequest.class, com.google.keytransparency.v1.Admin.ListDirectoriesRequest.Builder.class);
     }
 
     public static final int SHOW_DELETED_FIELD_NUMBER = 1;
@@ -2121,10 +2121,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.ListDirectoriesRequest)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.ListDirectoriesRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.ListDirectoriesRequest other = (google.keytransparency.v1.Admin.ListDirectoriesRequest) obj;
+      com.google.keytransparency.v1.Admin.ListDirectoriesRequest other = (com.google.keytransparency.v1.Admin.ListDirectoriesRequest) obj;
 
       boolean result = true;
       result = result && (getShowDeleted()
@@ -2148,69 +2148,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2223,7 +2223,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.ListDirectoriesRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.ListDirectoriesRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -2244,26 +2244,26 @@ public final class Admin {
      * No pagination options are provided.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.ListDirectoriesRequest}
+     * Protobuf type {@code com.google.keytransparency.v1.ListDirectoriesRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.ListDirectoriesRequest)
-        google.keytransparency.v1.Admin.ListDirectoriesRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListDirectoriesRequest)
+        com.google.keytransparency.v1.Admin.ListDirectoriesRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.ListDirectoriesRequest.class, google.keytransparency.v1.Admin.ListDirectoriesRequest.Builder.class);
+                com.google.keytransparency.v1.Admin.ListDirectoriesRequest.class, com.google.keytransparency.v1.Admin.ListDirectoriesRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.ListDirectoriesRequest.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.ListDirectoriesRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2289,17 +2289,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListDirectoriesRequest getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.ListDirectoriesRequest.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.ListDirectoriesRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.ListDirectoriesRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListDirectoriesRequest build() {
-        google.keytransparency.v1.Admin.ListDirectoriesRequest result = buildPartial();
+      public com.google.keytransparency.v1.Admin.ListDirectoriesRequest build() {
+        com.google.keytransparency.v1.Admin.ListDirectoriesRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -2307,8 +2307,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListDirectoriesRequest buildPartial() {
-        google.keytransparency.v1.Admin.ListDirectoriesRequest result = new google.keytransparency.v1.Admin.ListDirectoriesRequest(this);
+      public com.google.keytransparency.v1.Admin.ListDirectoriesRequest buildPartial() {
+        com.google.keytransparency.v1.Admin.ListDirectoriesRequest result = new com.google.keytransparency.v1.Admin.ListDirectoriesRequest(this);
         result.showDeleted_ = showDeleted_;
         onBuilt();
         return result;
@@ -2348,16 +2348,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.ListDirectoriesRequest) {
-          return mergeFrom((google.keytransparency.v1.Admin.ListDirectoriesRequest)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.ListDirectoriesRequest) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.ListDirectoriesRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.ListDirectoriesRequest other) {
-        if (other == google.keytransparency.v1.Admin.ListDirectoriesRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.ListDirectoriesRequest other) {
+        if (other == com.google.keytransparency.v1.Admin.ListDirectoriesRequest.getDefaultInstance()) return this;
         if (other.getShowDeleted() != false) {
           setShowDeleted(other.getShowDeleted());
         }
@@ -2376,11 +2376,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.ListDirectoriesRequest parsedMessage = null;
+        com.google.keytransparency.v1.Admin.ListDirectoriesRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.ListDirectoriesRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.ListDirectoriesRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -2443,16 +2443,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.ListDirectoriesRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.ListDirectoriesRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.ListDirectoriesRequest)
-    private static final google.keytransparency.v1.Admin.ListDirectoriesRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListDirectoriesRequest)
+    private static final com.google.keytransparency.v1.Admin.ListDirectoriesRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.ListDirectoriesRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.ListDirectoriesRequest();
     }
 
-    public static google.keytransparency.v1.Admin.ListDirectoriesRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2477,38 +2477,38 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.ListDirectoriesRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.ListDirectoriesRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface ListDirectoriesResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.ListDirectoriesResponse)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.ListDirectoriesResponse)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    java.util.List<google.keytransparency.v1.Admin.Directory> 
+    java.util.List<com.google.keytransparency.v1.Admin.Directory>
         getDirectoriesList();
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    google.keytransparency.v1.Admin.Directory getDirectories(int index);
+    com.google.keytransparency.v1.Admin.Directory getDirectories(int index);
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
     int getDirectoriesCount();
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    java.util.List<? extends google.keytransparency.v1.Admin.DirectoryOrBuilder> 
+    java.util.List<? extends com.google.keytransparency.v1.Admin.DirectoryOrBuilder>
         getDirectoriesOrBuilderList();
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
+    com.google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
         int index);
   }
   /**
@@ -2516,11 +2516,11 @@ public final class Admin {
    * ListDirectories response contains directories.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.ListDirectoriesResponse}
+   * Protobuf type {@code com.google.keytransparency.v1.ListDirectoriesResponse}
    */
   public  static final class ListDirectoriesResponse extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.ListDirectoriesResponse)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.ListDirectoriesResponse)
       ListDirectoriesResponseOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use ListDirectoriesResponse.newBuilder() to construct.
@@ -2557,11 +2557,11 @@ public final class Admin {
               break;
             case 10: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                directories_ = new java.util.ArrayList<google.keytransparency.v1.Admin.Directory>();
+                directories_ = new java.util.ArrayList<com.google.keytransparency.v1.Admin.Directory>();
                 mutable_bitField0_ |= 0x00000001;
               }
               directories_.add(
-                  input.readMessage(google.keytransparency.v1.Admin.Directory.parser(), extensionRegistry));
+                  input.readMessage(com.google.keytransparency.v1.Admin.Directory.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -2588,48 +2588,48 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.ListDirectoriesResponse.class, google.keytransparency.v1.Admin.ListDirectoriesResponse.Builder.class);
+              com.google.keytransparency.v1.Admin.ListDirectoriesResponse.class, com.google.keytransparency.v1.Admin.ListDirectoriesResponse.Builder.class);
     }
 
     public static final int DIRECTORIES_FIELD_NUMBER = 1;
-    private java.util.List<google.keytransparency.v1.Admin.Directory> directories_;
+    private java.util.List<com.google.keytransparency.v1.Admin.Directory> directories_;
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    public java.util.List<google.keytransparency.v1.Admin.Directory> getDirectoriesList() {
+    public java.util.List<com.google.keytransparency.v1.Admin.Directory> getDirectoriesList() {
       return directories_;
     }
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    public java.util.List<? extends google.keytransparency.v1.Admin.DirectoryOrBuilder> 
+    public java.util.List<? extends com.google.keytransparency.v1.Admin.DirectoryOrBuilder>
         getDirectoriesOrBuilderList() {
       return directories_;
     }
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
     public int getDirectoriesCount() {
       return directories_.size();
     }
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    public google.keytransparency.v1.Admin.Directory getDirectories(int index) {
+    public com.google.keytransparency.v1.Admin.Directory getDirectories(int index) {
       return directories_.get(index);
     }
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    public google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
+    public com.google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
         int index) {
       return directories_.get(index);
     }
@@ -2674,10 +2674,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.ListDirectoriesResponse)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.ListDirectoriesResponse)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.ListDirectoriesResponse other = (google.keytransparency.v1.Admin.ListDirectoriesResponse) obj;
+      com.google.keytransparency.v1.Admin.ListDirectoriesResponse other = (com.google.keytransparency.v1.Admin.ListDirectoriesResponse) obj;
 
       boolean result = true;
       result = result && getDirectoriesList()
@@ -2702,69 +2702,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2777,7 +2777,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.ListDirectoriesResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.ListDirectoriesResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -2797,26 +2797,26 @@ public final class Admin {
      * ListDirectories response contains directories.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.ListDirectoriesResponse}
+     * Protobuf type {@code com.google.keytransparency.v1.ListDirectoriesResponse}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.ListDirectoriesResponse)
-        google.keytransparency.v1.Admin.ListDirectoriesResponseOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListDirectoriesResponse)
+        com.google.keytransparency.v1.Admin.ListDirectoriesResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.ListDirectoriesResponse.class, google.keytransparency.v1.Admin.ListDirectoriesResponse.Builder.class);
+                com.google.keytransparency.v1.Admin.ListDirectoriesResponse.class, com.google.keytransparency.v1.Admin.ListDirectoriesResponse.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.ListDirectoriesResponse.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.ListDirectoriesResponse.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2847,17 +2847,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListDirectoriesResponse_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListDirectoriesResponse getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.ListDirectoriesResponse.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.ListDirectoriesResponse getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.ListDirectoriesResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListDirectoriesResponse build() {
-        google.keytransparency.v1.Admin.ListDirectoriesResponse result = buildPartial();
+      public com.google.keytransparency.v1.Admin.ListDirectoriesResponse build() {
+        com.google.keytransparency.v1.Admin.ListDirectoriesResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -2865,8 +2865,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListDirectoriesResponse buildPartial() {
-        google.keytransparency.v1.Admin.ListDirectoriesResponse result = new google.keytransparency.v1.Admin.ListDirectoriesResponse(this);
+      public com.google.keytransparency.v1.Admin.ListDirectoriesResponse buildPartial() {
+        com.google.keytransparency.v1.Admin.ListDirectoriesResponse result = new com.google.keytransparency.v1.Admin.ListDirectoriesResponse(this);
         int from_bitField0_ = bitField0_;
         if (directoriesBuilder_ == null) {
           if (((bitField0_ & 0x00000001) == 0x00000001)) {
@@ -2915,16 +2915,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.ListDirectoriesResponse) {
-          return mergeFrom((google.keytransparency.v1.Admin.ListDirectoriesResponse)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.ListDirectoriesResponse) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.ListDirectoriesResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.ListDirectoriesResponse other) {
-        if (other == google.keytransparency.v1.Admin.ListDirectoriesResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.ListDirectoriesResponse other) {
+        if (other == com.google.keytransparency.v1.Admin.ListDirectoriesResponse.getDefaultInstance()) return this;
         if (directoriesBuilder_ == null) {
           if (!other.directories_.isEmpty()) {
             if (directories_.isEmpty()) {
@@ -2966,11 +2966,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.ListDirectoriesResponse parsedMessage = null;
+        com.google.keytransparency.v1.Admin.ListDirectoriesResponse parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.ListDirectoriesResponse) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.ListDirectoriesResponse) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -2981,22 +2981,22 @@ public final class Admin {
       }
       private int bitField0_;
 
-      private java.util.List<google.keytransparency.v1.Admin.Directory> directories_ =
+      private java.util.List<com.google.keytransparency.v1.Admin.Directory> directories_ =
         java.util.Collections.emptyList();
       private void ensureDirectoriesIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          directories_ = new java.util.ArrayList<google.keytransparency.v1.Admin.Directory>(directories_);
+          directories_ = new java.util.ArrayList<com.google.keytransparency.v1.Admin.Directory>(directories_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          google.keytransparency.v1.Admin.Directory, google.keytransparency.v1.Admin.Directory.Builder, google.keytransparency.v1.Admin.DirectoryOrBuilder> directoriesBuilder_;
+          com.google.keytransparency.v1.Admin.Directory, com.google.keytransparency.v1.Admin.Directory.Builder, com.google.keytransparency.v1.Admin.DirectoryOrBuilder> directoriesBuilder_;
 
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public java.util.List<google.keytransparency.v1.Admin.Directory> getDirectoriesList() {
+      public java.util.List<com.google.keytransparency.v1.Admin.Directory> getDirectoriesList() {
         if (directoriesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(directories_);
         } else {
@@ -3004,7 +3004,7 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public int getDirectoriesCount() {
         if (directoriesBuilder_ == null) {
@@ -3014,9 +3014,9 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.Directory getDirectories(int index) {
+      public com.google.keytransparency.v1.Admin.Directory getDirectories(int index) {
         if (directoriesBuilder_ == null) {
           return directories_.get(index);
         } else {
@@ -3024,10 +3024,10 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder setDirectories(
-          int index, google.keytransparency.v1.Admin.Directory value) {
+          int index, com.google.keytransparency.v1.Admin.Directory value) {
         if (directoriesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3041,10 +3041,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder setDirectories(
-          int index, google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
         if (directoriesBuilder_ == null) {
           ensureDirectoriesIsMutable();
           directories_.set(index, builderForValue.build());
@@ -3055,9 +3055,9 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public Builder addDirectories(google.keytransparency.v1.Admin.Directory value) {
+      public Builder addDirectories(com.google.keytransparency.v1.Admin.Directory value) {
         if (directoriesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3071,10 +3071,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder addDirectories(
-          int index, google.keytransparency.v1.Admin.Directory value) {
+          int index, com.google.keytransparency.v1.Admin.Directory value) {
         if (directoriesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3088,10 +3088,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder addDirectories(
-          google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
+          com.google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
         if (directoriesBuilder_ == null) {
           ensureDirectoriesIsMutable();
           directories_.add(builderForValue.build());
@@ -3102,10 +3102,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder addDirectories(
-          int index, google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
         if (directoriesBuilder_ == null) {
           ensureDirectoriesIsMutable();
           directories_.add(index, builderForValue.build());
@@ -3116,10 +3116,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder addAllDirectories(
-          java.lang.Iterable<? extends google.keytransparency.v1.Admin.Directory> values) {
+          java.lang.Iterable<? extends com.google.keytransparency.v1.Admin.Directory> values) {
         if (directoriesBuilder_ == null) {
           ensureDirectoriesIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -3131,7 +3131,7 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder clearDirectories() {
         if (directoriesBuilder_ == null) {
@@ -3144,7 +3144,7 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder removeDirectories(int index) {
         if (directoriesBuilder_ == null) {
@@ -3157,16 +3157,16 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.Directory.Builder getDirectoriesBuilder(
+      public com.google.keytransparency.v1.Admin.Directory.Builder getDirectoriesBuilder(
           int index) {
         return getDirectoriesFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
+      public com.google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
           int index) {
         if (directoriesBuilder_ == null) {
           return directories_.get(index);  } else {
@@ -3174,9 +3174,9 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public java.util.List<? extends google.keytransparency.v1.Admin.DirectoryOrBuilder> 
+      public java.util.List<? extends com.google.keytransparency.v1.Admin.DirectoryOrBuilder>
            getDirectoriesOrBuilderList() {
         if (directoriesBuilder_ != null) {
           return directoriesBuilder_.getMessageOrBuilderList();
@@ -3185,33 +3185,33 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.Directory.Builder addDirectoriesBuilder() {
+      public com.google.keytransparency.v1.Admin.Directory.Builder addDirectoriesBuilder() {
         return getDirectoriesFieldBuilder().addBuilder(
-            google.keytransparency.v1.Admin.Directory.getDefaultInstance());
+            com.google.keytransparency.v1.Admin.Directory.getDefaultInstance());
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.Directory.Builder addDirectoriesBuilder(
+      public com.google.keytransparency.v1.Admin.Directory.Builder addDirectoriesBuilder(
           int index) {
         return getDirectoriesFieldBuilder().addBuilder(
-            index, google.keytransparency.v1.Admin.Directory.getDefaultInstance());
+            index, com.google.keytransparency.v1.Admin.Directory.getDefaultInstance());
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public java.util.List<google.keytransparency.v1.Admin.Directory.Builder> 
+      public java.util.List<com.google.keytransparency.v1.Admin.Directory.Builder>
            getDirectoriesBuilderList() {
         return getDirectoriesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          google.keytransparency.v1.Admin.Directory, google.keytransparency.v1.Admin.Directory.Builder, google.keytransparency.v1.Admin.DirectoryOrBuilder> 
+          com.google.keytransparency.v1.Admin.Directory, com.google.keytransparency.v1.Admin.Directory.Builder, com.google.keytransparency.v1.Admin.DirectoryOrBuilder>
           getDirectoriesFieldBuilder() {
         if (directoriesBuilder_ == null) {
           directoriesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              google.keytransparency.v1.Admin.Directory, google.keytransparency.v1.Admin.Directory.Builder, google.keytransparency.v1.Admin.DirectoryOrBuilder>(
+              com.google.keytransparency.v1.Admin.Directory, com.google.keytransparency.v1.Admin.Directory.Builder, com.google.keytransparency.v1.Admin.DirectoryOrBuilder>(
                   directories_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -3233,16 +3233,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.ListDirectoriesResponse)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.ListDirectoriesResponse)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.ListDirectoriesResponse)
-    private static final google.keytransparency.v1.Admin.ListDirectoriesResponse DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListDirectoriesResponse)
+    private static final com.google.keytransparency.v1.Admin.ListDirectoriesResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.ListDirectoriesResponse();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.ListDirectoriesResponse();
     }
 
-    public static google.keytransparency.v1.Admin.ListDirectoriesResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.ListDirectoriesResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3267,14 +3267,14 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.ListDirectoriesResponse getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.ListDirectoriesResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface GetDirectoryRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.GetDirectoryRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.GetDirectoryRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -3302,11 +3302,11 @@ public final class Admin {
    * GetDirectoryRequest specifies the directory to retrieve information for.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.GetDirectoryRequest}
+   * Protobuf type {@code com.google.keytransparency.v1.GetDirectoryRequest}
    */
   public  static final class GetDirectoryRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.GetDirectoryRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.GetDirectoryRequest)
       GetDirectoryRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use GetDirectoryRequest.newBuilder() to construct.
@@ -3374,15 +3374,15 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.GetDirectoryRequest.class, google.keytransparency.v1.Admin.GetDirectoryRequest.Builder.class);
+              com.google.keytransparency.v1.Admin.GetDirectoryRequest.class, com.google.keytransparency.v1.Admin.GetDirectoryRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -3479,10 +3479,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.GetDirectoryRequest)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.GetDirectoryRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.GetDirectoryRequest other = (google.keytransparency.v1.Admin.GetDirectoryRequest) obj;
+      com.google.keytransparency.v1.Admin.GetDirectoryRequest other = (com.google.keytransparency.v1.Admin.GetDirectoryRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -3510,69 +3510,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3585,7 +3585,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.GetDirectoryRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.GetDirectoryRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -3605,26 +3605,26 @@ public final class Admin {
      * GetDirectoryRequest specifies the directory to retrieve information for.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.GetDirectoryRequest}
+     * Protobuf type {@code com.google.keytransparency.v1.GetDirectoryRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.GetDirectoryRequest)
-        google.keytransparency.v1.Admin.GetDirectoryRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.GetDirectoryRequest)
+        com.google.keytransparency.v1.Admin.GetDirectoryRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.GetDirectoryRequest.class, google.keytransparency.v1.Admin.GetDirectoryRequest.Builder.class);
+                com.google.keytransparency.v1.Admin.GetDirectoryRequest.class, com.google.keytransparency.v1.Admin.GetDirectoryRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.GetDirectoryRequest.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.GetDirectoryRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -3652,17 +3652,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GetDirectoryRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.GetDirectoryRequest getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.GetDirectoryRequest.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.GetDirectoryRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.GetDirectoryRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.GetDirectoryRequest build() {
-        google.keytransparency.v1.Admin.GetDirectoryRequest result = buildPartial();
+      public com.google.keytransparency.v1.Admin.GetDirectoryRequest build() {
+        com.google.keytransparency.v1.Admin.GetDirectoryRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -3670,8 +3670,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.GetDirectoryRequest buildPartial() {
-        google.keytransparency.v1.Admin.GetDirectoryRequest result = new google.keytransparency.v1.Admin.GetDirectoryRequest(this);
+      public com.google.keytransparency.v1.Admin.GetDirectoryRequest buildPartial() {
+        com.google.keytransparency.v1.Admin.GetDirectoryRequest result = new com.google.keytransparency.v1.Admin.GetDirectoryRequest(this);
         result.directoryId_ = directoryId_;
         result.showDeleted_ = showDeleted_;
         onBuilt();
@@ -3712,16 +3712,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.GetDirectoryRequest) {
-          return mergeFrom((google.keytransparency.v1.Admin.GetDirectoryRequest)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.GetDirectoryRequest) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.GetDirectoryRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.GetDirectoryRequest other) {
-        if (other == google.keytransparency.v1.Admin.GetDirectoryRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.GetDirectoryRequest other) {
+        if (other == com.google.keytransparency.v1.Admin.GetDirectoryRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -3744,11 +3744,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.GetDirectoryRequest parsedMessage = null;
+        com.google.keytransparency.v1.Admin.GetDirectoryRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.GetDirectoryRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.GetDirectoryRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -3880,16 +3880,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.GetDirectoryRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.GetDirectoryRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.GetDirectoryRequest)
-    private static final google.keytransparency.v1.Admin.GetDirectoryRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.GetDirectoryRequest)
+    private static final com.google.keytransparency.v1.Admin.GetDirectoryRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.GetDirectoryRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.GetDirectoryRequest();
     }
 
-    public static google.keytransparency.v1.Admin.GetDirectoryRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.GetDirectoryRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3914,14 +3914,14 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.GetDirectoryRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.GetDirectoryRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface CreateDirectoryRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.CreateDirectoryRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.CreateDirectoryRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -4016,11 +4016,11 @@ public final class Admin {
    * CreateDirectoryRequest creates a new directory
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.CreateDirectoryRequest}
+   * Protobuf type {@code com.google.keytransparency.v1.CreateDirectoryRequest}
    */
   public  static final class CreateDirectoryRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.CreateDirectoryRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.CreateDirectoryRequest)
       CreateDirectoryRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use CreateDirectoryRequest.newBuilder() to construct.
@@ -4147,15 +4147,15 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.CreateDirectoryRequest.class, google.keytransparency.v1.Admin.CreateDirectoryRequest.Builder.class);
+              com.google.keytransparency.v1.Admin.CreateDirectoryRequest.class, com.google.keytransparency.v1.Admin.CreateDirectoryRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -4383,10 +4383,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.CreateDirectoryRequest)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.CreateDirectoryRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.CreateDirectoryRequest other = (google.keytransparency.v1.Admin.CreateDirectoryRequest) obj;
+      com.google.keytransparency.v1.Admin.CreateDirectoryRequest other = (com.google.keytransparency.v1.Admin.CreateDirectoryRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -4454,69 +4454,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4529,7 +4529,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.CreateDirectoryRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.CreateDirectoryRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -4549,26 +4549,26 @@ public final class Admin {
      * CreateDirectoryRequest creates a new directory
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.CreateDirectoryRequest}
+     * Protobuf type {@code com.google.keytransparency.v1.CreateDirectoryRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.CreateDirectoryRequest)
-        google.keytransparency.v1.Admin.CreateDirectoryRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.CreateDirectoryRequest)
+        com.google.keytransparency.v1.Admin.CreateDirectoryRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.CreateDirectoryRequest.class, google.keytransparency.v1.Admin.CreateDirectoryRequest.Builder.class);
+                com.google.keytransparency.v1.Admin.CreateDirectoryRequest.class, com.google.keytransparency.v1.Admin.CreateDirectoryRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.CreateDirectoryRequest.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.CreateDirectoryRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -4624,17 +4624,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_CreateDirectoryRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.CreateDirectoryRequest getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.CreateDirectoryRequest.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.CreateDirectoryRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.CreateDirectoryRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.CreateDirectoryRequest build() {
-        google.keytransparency.v1.Admin.CreateDirectoryRequest result = buildPartial();
+      public com.google.keytransparency.v1.Admin.CreateDirectoryRequest build() {
+        com.google.keytransparency.v1.Admin.CreateDirectoryRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -4642,8 +4642,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.CreateDirectoryRequest buildPartial() {
-        google.keytransparency.v1.Admin.CreateDirectoryRequest result = new google.keytransparency.v1.Admin.CreateDirectoryRequest(this);
+      public com.google.keytransparency.v1.Admin.CreateDirectoryRequest buildPartial() {
+        com.google.keytransparency.v1.Admin.CreateDirectoryRequest result = new com.google.keytransparency.v1.Admin.CreateDirectoryRequest(this);
         result.directoryId_ = directoryId_;
         if (minIntervalBuilder_ == null) {
           result.minInterval_ = minInterval_;
@@ -4708,16 +4708,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.CreateDirectoryRequest) {
-          return mergeFrom((google.keytransparency.v1.Admin.CreateDirectoryRequest)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.CreateDirectoryRequest) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.CreateDirectoryRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.CreateDirectoryRequest other) {
-        if (other == google.keytransparency.v1.Admin.CreateDirectoryRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.CreateDirectoryRequest other) {
+        if (other == com.google.keytransparency.v1.Admin.CreateDirectoryRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -4752,11 +4752,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.CreateDirectoryRequest parsedMessage = null;
+        com.google.keytransparency.v1.Admin.CreateDirectoryRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.CreateDirectoryRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.CreateDirectoryRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -5468,16 +5468,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.CreateDirectoryRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.CreateDirectoryRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.CreateDirectoryRequest)
-    private static final google.keytransparency.v1.Admin.CreateDirectoryRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.CreateDirectoryRequest)
+    private static final com.google.keytransparency.v1.Admin.CreateDirectoryRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.CreateDirectoryRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.CreateDirectoryRequest();
     }
 
-    public static google.keytransparency.v1.Admin.CreateDirectoryRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.CreateDirectoryRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5502,14 +5502,14 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.CreateDirectoryRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.CreateDirectoryRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface DeleteDirectoryRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.DeleteDirectoryRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.DeleteDirectoryRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -5527,11 +5527,11 @@ public final class Admin {
    * DeleteDirectoryRequest deletes a directory
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.DeleteDirectoryRequest}
+   * Protobuf type {@code com.google.keytransparency.v1.DeleteDirectoryRequest}
    */
   public  static final class DeleteDirectoryRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.DeleteDirectoryRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.DeleteDirectoryRequest)
       DeleteDirectoryRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use DeleteDirectoryRequest.newBuilder() to construct.
@@ -5593,15 +5593,15 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.DeleteDirectoryRequest.class, google.keytransparency.v1.Admin.DeleteDirectoryRequest.Builder.class);
+              com.google.keytransparency.v1.Admin.DeleteDirectoryRequest.class, com.google.keytransparency.v1.Admin.DeleteDirectoryRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -5677,10 +5677,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.DeleteDirectoryRequest)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.DeleteDirectoryRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.DeleteDirectoryRequest other = (google.keytransparency.v1.Admin.DeleteDirectoryRequest) obj;
+      com.google.keytransparency.v1.Admin.DeleteDirectoryRequest other = (com.google.keytransparency.v1.Admin.DeleteDirectoryRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -5703,69 +5703,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5778,7 +5778,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.DeleteDirectoryRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.DeleteDirectoryRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -5798,26 +5798,26 @@ public final class Admin {
      * DeleteDirectoryRequest deletes a directory
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.DeleteDirectoryRequest}
+     * Protobuf type {@code com.google.keytransparency.v1.DeleteDirectoryRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.DeleteDirectoryRequest)
-        google.keytransparency.v1.Admin.DeleteDirectoryRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.DeleteDirectoryRequest)
+        com.google.keytransparency.v1.Admin.DeleteDirectoryRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.DeleteDirectoryRequest.class, google.keytransparency.v1.Admin.DeleteDirectoryRequest.Builder.class);
+                com.google.keytransparency.v1.Admin.DeleteDirectoryRequest.class, com.google.keytransparency.v1.Admin.DeleteDirectoryRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.DeleteDirectoryRequest.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.DeleteDirectoryRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -5843,17 +5843,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_DeleteDirectoryRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.DeleteDirectoryRequest getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.DeleteDirectoryRequest.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.DeleteDirectoryRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.DeleteDirectoryRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.DeleteDirectoryRequest build() {
-        google.keytransparency.v1.Admin.DeleteDirectoryRequest result = buildPartial();
+      public com.google.keytransparency.v1.Admin.DeleteDirectoryRequest build() {
+        com.google.keytransparency.v1.Admin.DeleteDirectoryRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -5861,8 +5861,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.DeleteDirectoryRequest buildPartial() {
-        google.keytransparency.v1.Admin.DeleteDirectoryRequest result = new google.keytransparency.v1.Admin.DeleteDirectoryRequest(this);
+      public com.google.keytransparency.v1.Admin.DeleteDirectoryRequest buildPartial() {
+        com.google.keytransparency.v1.Admin.DeleteDirectoryRequest result = new com.google.keytransparency.v1.Admin.DeleteDirectoryRequest(this);
         result.directoryId_ = directoryId_;
         onBuilt();
         return result;
@@ -5902,16 +5902,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.DeleteDirectoryRequest) {
-          return mergeFrom((google.keytransparency.v1.Admin.DeleteDirectoryRequest)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.DeleteDirectoryRequest) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.DeleteDirectoryRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.DeleteDirectoryRequest other) {
-        if (other == google.keytransparency.v1.Admin.DeleteDirectoryRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.DeleteDirectoryRequest other) {
+        if (other == com.google.keytransparency.v1.Admin.DeleteDirectoryRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -5931,11 +5931,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.DeleteDirectoryRequest parsedMessage = null;
+        com.google.keytransparency.v1.Admin.DeleteDirectoryRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.DeleteDirectoryRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.DeleteDirectoryRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -6026,16 +6026,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.DeleteDirectoryRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.DeleteDirectoryRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.DeleteDirectoryRequest)
-    private static final google.keytransparency.v1.Admin.DeleteDirectoryRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.DeleteDirectoryRequest)
+    private static final com.google.keytransparency.v1.Admin.DeleteDirectoryRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.DeleteDirectoryRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.DeleteDirectoryRequest();
     }
 
-    public static google.keytransparency.v1.Admin.DeleteDirectoryRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.DeleteDirectoryRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6060,14 +6060,14 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.DeleteDirectoryRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.DeleteDirectoryRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface UndeleteDirectoryRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.UndeleteDirectoryRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.UndeleteDirectoryRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -6085,11 +6085,11 @@ public final class Admin {
    * UndeleteDirectoryRequest deletes a directory
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.UndeleteDirectoryRequest}
+   * Protobuf type {@code com.google.keytransparency.v1.UndeleteDirectoryRequest}
    */
   public  static final class UndeleteDirectoryRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.UndeleteDirectoryRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.UndeleteDirectoryRequest)
       UndeleteDirectoryRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use UndeleteDirectoryRequest.newBuilder() to construct.
@@ -6151,15 +6151,15 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.UndeleteDirectoryRequest.class, google.keytransparency.v1.Admin.UndeleteDirectoryRequest.Builder.class);
+              com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest.class, com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -6235,10 +6235,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.UndeleteDirectoryRequest)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.UndeleteDirectoryRequest other = (google.keytransparency.v1.Admin.UndeleteDirectoryRequest) obj;
+      com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest other = (com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -6261,69 +6261,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6336,7 +6336,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.UndeleteDirectoryRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -6356,26 +6356,26 @@ public final class Admin {
      * UndeleteDirectoryRequest deletes a directory
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.UndeleteDirectoryRequest}
+     * Protobuf type {@code com.google.keytransparency.v1.UndeleteDirectoryRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.UndeleteDirectoryRequest)
-        google.keytransparency.v1.Admin.UndeleteDirectoryRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.UndeleteDirectoryRequest)
+        com.google.keytransparency.v1.Admin.UndeleteDirectoryRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.UndeleteDirectoryRequest.class, google.keytransparency.v1.Admin.UndeleteDirectoryRequest.Builder.class);
+                com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest.class, com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.UndeleteDirectoryRequest.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -6401,17 +6401,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_UndeleteDirectoryRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.UndeleteDirectoryRequest getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.UndeleteDirectoryRequest.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.UndeleteDirectoryRequest build() {
-        google.keytransparency.v1.Admin.UndeleteDirectoryRequest result = buildPartial();
+      public com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest build() {
+        com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -6419,8 +6419,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.UndeleteDirectoryRequest buildPartial() {
-        google.keytransparency.v1.Admin.UndeleteDirectoryRequest result = new google.keytransparency.v1.Admin.UndeleteDirectoryRequest(this);
+      public com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest buildPartial() {
+        com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest result = new com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest(this);
         result.directoryId_ = directoryId_;
         onBuilt();
         return result;
@@ -6460,16 +6460,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.UndeleteDirectoryRequest) {
-          return mergeFrom((google.keytransparency.v1.Admin.UndeleteDirectoryRequest)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.UndeleteDirectoryRequest other) {
-        if (other == google.keytransparency.v1.Admin.UndeleteDirectoryRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest other) {
+        if (other == com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -6489,11 +6489,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.UndeleteDirectoryRequest parsedMessage = null;
+        com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.UndeleteDirectoryRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -6584,16 +6584,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.UndeleteDirectoryRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.UndeleteDirectoryRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.UndeleteDirectoryRequest)
-    private static final google.keytransparency.v1.Admin.UndeleteDirectoryRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.UndeleteDirectoryRequest)
+    private static final com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.UndeleteDirectoryRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest();
     }
 
-    public static google.keytransparency.v1.Admin.UndeleteDirectoryRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6618,14 +6618,14 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.UndeleteDirectoryRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.UndeleteDirectoryRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface ListInputLogsRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.ListInputLogsRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.ListInputLogsRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -6648,11 +6648,11 @@ public final class Admin {
     boolean getFilterWritable();
   }
   /**
-   * Protobuf type {@code google.keytransparency.v1.ListInputLogsRequest}
+   * Protobuf type {@code com.google.keytransparency.v1.ListInputLogsRequest}
    */
   public  static final class ListInputLogsRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.ListInputLogsRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.ListInputLogsRequest)
       ListInputLogsRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use ListInputLogsRequest.newBuilder() to construct.
@@ -6720,15 +6720,15 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.ListInputLogsRequest.class, google.keytransparency.v1.Admin.ListInputLogsRequest.Builder.class);
+              com.google.keytransparency.v1.Admin.ListInputLogsRequest.class, com.google.keytransparency.v1.Admin.ListInputLogsRequest.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -6824,10 +6824,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.ListInputLogsRequest)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.ListInputLogsRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.ListInputLogsRequest other = (google.keytransparency.v1.Admin.ListInputLogsRequest) obj;
+      com.google.keytransparency.v1.Admin.ListInputLogsRequest other = (com.google.keytransparency.v1.Admin.ListInputLogsRequest) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -6855,69 +6855,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6930,7 +6930,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.ListInputLogsRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.ListInputLogsRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -6946,26 +6946,26 @@ public final class Admin {
       return builder;
     }
     /**
-     * Protobuf type {@code google.keytransparency.v1.ListInputLogsRequest}
+     * Protobuf type {@code com.google.keytransparency.v1.ListInputLogsRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.ListInputLogsRequest)
-        google.keytransparency.v1.Admin.ListInputLogsRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListInputLogsRequest)
+        com.google.keytransparency.v1.Admin.ListInputLogsRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.ListInputLogsRequest.class, google.keytransparency.v1.Admin.ListInputLogsRequest.Builder.class);
+                com.google.keytransparency.v1.Admin.ListInputLogsRequest.class, com.google.keytransparency.v1.Admin.ListInputLogsRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.ListInputLogsRequest.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.ListInputLogsRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -6993,17 +6993,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListInputLogsRequest getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.ListInputLogsRequest.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.ListInputLogsRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.ListInputLogsRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListInputLogsRequest build() {
-        google.keytransparency.v1.Admin.ListInputLogsRequest result = buildPartial();
+      public com.google.keytransparency.v1.Admin.ListInputLogsRequest build() {
+        com.google.keytransparency.v1.Admin.ListInputLogsRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -7011,8 +7011,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListInputLogsRequest buildPartial() {
-        google.keytransparency.v1.Admin.ListInputLogsRequest result = new google.keytransparency.v1.Admin.ListInputLogsRequest(this);
+      public com.google.keytransparency.v1.Admin.ListInputLogsRequest buildPartial() {
+        com.google.keytransparency.v1.Admin.ListInputLogsRequest result = new com.google.keytransparency.v1.Admin.ListInputLogsRequest(this);
         result.directoryId_ = directoryId_;
         result.filterWritable_ = filterWritable_;
         onBuilt();
@@ -7053,16 +7053,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.ListInputLogsRequest) {
-          return mergeFrom((google.keytransparency.v1.Admin.ListInputLogsRequest)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.ListInputLogsRequest) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.ListInputLogsRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.ListInputLogsRequest other) {
-        if (other == google.keytransparency.v1.Admin.ListInputLogsRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.ListInputLogsRequest other) {
+        if (other == com.google.keytransparency.v1.Admin.ListInputLogsRequest.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -7085,11 +7085,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.ListInputLogsRequest parsedMessage = null;
+        com.google.keytransparency.v1.Admin.ListInputLogsRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.ListInputLogsRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.ListInputLogsRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -7218,16 +7218,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.ListInputLogsRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.ListInputLogsRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.ListInputLogsRequest)
-    private static final google.keytransparency.v1.Admin.ListInputLogsRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListInputLogsRequest)
+    private static final com.google.keytransparency.v1.Admin.ListInputLogsRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.ListInputLogsRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.ListInputLogsRequest();
     }
 
-    public static google.keytransparency.v1.Admin.ListInputLogsRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.ListInputLogsRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7252,46 +7252,46 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.ListInputLogsRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.ListInputLogsRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface ListInputLogsResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.ListInputLogsResponse)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.ListInputLogsResponse)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
-    java.util.List<google.keytransparency.v1.Admin.InputLog> 
+    java.util.List<com.google.keytransparency.v1.Admin.InputLog>
         getLogsList();
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
-    google.keytransparency.v1.Admin.InputLog getLogs(int index);
+    com.google.keytransparency.v1.Admin.InputLog getLogs(int index);
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
     int getLogsCount();
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
-    java.util.List<? extends google.keytransparency.v1.Admin.InputLogOrBuilder> 
+    java.util.List<? extends com.google.keytransparency.v1.Admin.InputLogOrBuilder>
         getLogsOrBuilderList();
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
-    google.keytransparency.v1.Admin.InputLogOrBuilder getLogsOrBuilder(
+    com.google.keytransparency.v1.Admin.InputLogOrBuilder getLogsOrBuilder(
         int index);
   }
   /**
-   * Protobuf type {@code google.keytransparency.v1.ListInputLogsResponse}
+   * Protobuf type {@code com.google.keytransparency.v1.ListInputLogsResponse}
    */
   public  static final class ListInputLogsResponse extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.ListInputLogsResponse)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.ListInputLogsResponse)
       ListInputLogsResponseOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use ListInputLogsResponse.newBuilder() to construct.
@@ -7328,11 +7328,11 @@ public final class Admin {
               break;
             case 10: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                logs_ = new java.util.ArrayList<google.keytransparency.v1.Admin.InputLog>();
+                logs_ = new java.util.ArrayList<com.google.keytransparency.v1.Admin.InputLog>();
                 mutable_bitField0_ |= 0x00000001;
               }
               logs_.add(
-                  input.readMessage(google.keytransparency.v1.Admin.InputLog.parser(), extensionRegistry));
+                  input.readMessage(com.google.keytransparency.v1.Admin.InputLog.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -7359,48 +7359,48 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.ListInputLogsResponse.class, google.keytransparency.v1.Admin.ListInputLogsResponse.Builder.class);
+              com.google.keytransparency.v1.Admin.ListInputLogsResponse.class, com.google.keytransparency.v1.Admin.ListInputLogsResponse.Builder.class);
     }
 
     public static final int LOGS_FIELD_NUMBER = 1;
-    private java.util.List<google.keytransparency.v1.Admin.InputLog> logs_;
+    private java.util.List<com.google.keytransparency.v1.Admin.InputLog> logs_;
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
-    public java.util.List<google.keytransparency.v1.Admin.InputLog> getLogsList() {
+    public java.util.List<com.google.keytransparency.v1.Admin.InputLog> getLogsList() {
       return logs_;
     }
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
-    public java.util.List<? extends google.keytransparency.v1.Admin.InputLogOrBuilder> 
+    public java.util.List<? extends com.google.keytransparency.v1.Admin.InputLogOrBuilder>
         getLogsOrBuilderList() {
       return logs_;
     }
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
     public int getLogsCount() {
       return logs_.size();
     }
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
-    public google.keytransparency.v1.Admin.InputLog getLogs(int index) {
+    public com.google.keytransparency.v1.Admin.InputLog getLogs(int index) {
       return logs_.get(index);
     }
     /**
-     * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
      */
-    public google.keytransparency.v1.Admin.InputLogOrBuilder getLogsOrBuilder(
+    public com.google.keytransparency.v1.Admin.InputLogOrBuilder getLogsOrBuilder(
         int index) {
       return logs_.get(index);
     }
@@ -7445,10 +7445,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.ListInputLogsResponse)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.ListInputLogsResponse)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.ListInputLogsResponse other = (google.keytransparency.v1.Admin.ListInputLogsResponse) obj;
+      com.google.keytransparency.v1.Admin.ListInputLogsResponse other = (com.google.keytransparency.v1.Admin.ListInputLogsResponse) obj;
 
       boolean result = true;
       result = result && getLogsList()
@@ -7473,69 +7473,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7548,7 +7548,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.ListInputLogsResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.ListInputLogsResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -7564,26 +7564,26 @@ public final class Admin {
       return builder;
     }
     /**
-     * Protobuf type {@code google.keytransparency.v1.ListInputLogsResponse}
+     * Protobuf type {@code com.google.keytransparency.v1.ListInputLogsResponse}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.ListInputLogsResponse)
-        google.keytransparency.v1.Admin.ListInputLogsResponseOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListInputLogsResponse)
+        com.google.keytransparency.v1.Admin.ListInputLogsResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.ListInputLogsResponse.class, google.keytransparency.v1.Admin.ListInputLogsResponse.Builder.class);
+                com.google.keytransparency.v1.Admin.ListInputLogsResponse.class, com.google.keytransparency.v1.Admin.ListInputLogsResponse.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.ListInputLogsResponse.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.ListInputLogsResponse.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -7614,17 +7614,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_ListInputLogsResponse_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListInputLogsResponse getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.ListInputLogsResponse.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.ListInputLogsResponse getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.ListInputLogsResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListInputLogsResponse build() {
-        google.keytransparency.v1.Admin.ListInputLogsResponse result = buildPartial();
+      public com.google.keytransparency.v1.Admin.ListInputLogsResponse build() {
+        com.google.keytransparency.v1.Admin.ListInputLogsResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -7632,8 +7632,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.ListInputLogsResponse buildPartial() {
-        google.keytransparency.v1.Admin.ListInputLogsResponse result = new google.keytransparency.v1.Admin.ListInputLogsResponse(this);
+      public com.google.keytransparency.v1.Admin.ListInputLogsResponse buildPartial() {
+        com.google.keytransparency.v1.Admin.ListInputLogsResponse result = new com.google.keytransparency.v1.Admin.ListInputLogsResponse(this);
         int from_bitField0_ = bitField0_;
         if (logsBuilder_ == null) {
           if (((bitField0_ & 0x00000001) == 0x00000001)) {
@@ -7682,16 +7682,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.ListInputLogsResponse) {
-          return mergeFrom((google.keytransparency.v1.Admin.ListInputLogsResponse)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.ListInputLogsResponse) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.ListInputLogsResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.ListInputLogsResponse other) {
-        if (other == google.keytransparency.v1.Admin.ListInputLogsResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.ListInputLogsResponse other) {
+        if (other == com.google.keytransparency.v1.Admin.ListInputLogsResponse.getDefaultInstance()) return this;
         if (logsBuilder_ == null) {
           if (!other.logs_.isEmpty()) {
             if (logs_.isEmpty()) {
@@ -7733,11 +7733,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.ListInputLogsResponse parsedMessage = null;
+        com.google.keytransparency.v1.Admin.ListInputLogsResponse parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.ListInputLogsResponse) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.ListInputLogsResponse) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -7748,22 +7748,22 @@ public final class Admin {
       }
       private int bitField0_;
 
-      private java.util.List<google.keytransparency.v1.Admin.InputLog> logs_ =
+      private java.util.List<com.google.keytransparency.v1.Admin.InputLog> logs_ =
         java.util.Collections.emptyList();
       private void ensureLogsIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          logs_ = new java.util.ArrayList<google.keytransparency.v1.Admin.InputLog>(logs_);
+          logs_ = new java.util.ArrayList<com.google.keytransparency.v1.Admin.InputLog>(logs_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          google.keytransparency.v1.Admin.InputLog, google.keytransparency.v1.Admin.InputLog.Builder, google.keytransparency.v1.Admin.InputLogOrBuilder> logsBuilder_;
+          com.google.keytransparency.v1.Admin.InputLog, com.google.keytransparency.v1.Admin.InputLog.Builder, com.google.keytransparency.v1.Admin.InputLogOrBuilder> logsBuilder_;
 
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
-      public java.util.List<google.keytransparency.v1.Admin.InputLog> getLogsList() {
+      public java.util.List<com.google.keytransparency.v1.Admin.InputLog> getLogsList() {
         if (logsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(logs_);
         } else {
@@ -7771,7 +7771,7 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
       public int getLogsCount() {
         if (logsBuilder_ == null) {
@@ -7781,9 +7781,9 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
-      public google.keytransparency.v1.Admin.InputLog getLogs(int index) {
+      public com.google.keytransparency.v1.Admin.InputLog getLogs(int index) {
         if (logsBuilder_ == null) {
           return logs_.get(index);
         } else {
@@ -7791,10 +7791,10 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
       public Builder setLogs(
-          int index, google.keytransparency.v1.Admin.InputLog value) {
+          int index, com.google.keytransparency.v1.Admin.InputLog value) {
         if (logsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7808,10 +7808,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
       public Builder setLogs(
-          int index, google.keytransparency.v1.Admin.InputLog.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.Admin.InputLog.Builder builderForValue) {
         if (logsBuilder_ == null) {
           ensureLogsIsMutable();
           logs_.set(index, builderForValue.build());
@@ -7822,9 +7822,9 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
-      public Builder addLogs(google.keytransparency.v1.Admin.InputLog value) {
+      public Builder addLogs(com.google.keytransparency.v1.Admin.InputLog value) {
         if (logsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7838,10 +7838,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
       public Builder addLogs(
-          int index, google.keytransparency.v1.Admin.InputLog value) {
+          int index, com.google.keytransparency.v1.Admin.InputLog value) {
         if (logsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7855,10 +7855,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
       public Builder addLogs(
-          google.keytransparency.v1.Admin.InputLog.Builder builderForValue) {
+          com.google.keytransparency.v1.Admin.InputLog.Builder builderForValue) {
         if (logsBuilder_ == null) {
           ensureLogsIsMutable();
           logs_.add(builderForValue.build());
@@ -7869,10 +7869,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
       public Builder addLogs(
-          int index, google.keytransparency.v1.Admin.InputLog.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.Admin.InputLog.Builder builderForValue) {
         if (logsBuilder_ == null) {
           ensureLogsIsMutable();
           logs_.add(index, builderForValue.build());
@@ -7883,10 +7883,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
       public Builder addAllLogs(
-          java.lang.Iterable<? extends google.keytransparency.v1.Admin.InputLog> values) {
+          java.lang.Iterable<? extends com.google.keytransparency.v1.Admin.InputLog> values) {
         if (logsBuilder_ == null) {
           ensureLogsIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -7898,7 +7898,7 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
       public Builder clearLogs() {
         if (logsBuilder_ == null) {
@@ -7911,7 +7911,7 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
       public Builder removeLogs(int index) {
         if (logsBuilder_ == null) {
@@ -7924,16 +7924,16 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
-      public google.keytransparency.v1.Admin.InputLog.Builder getLogsBuilder(
+      public com.google.keytransparency.v1.Admin.InputLog.Builder getLogsBuilder(
           int index) {
         return getLogsFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
-      public google.keytransparency.v1.Admin.InputLogOrBuilder getLogsOrBuilder(
+      public com.google.keytransparency.v1.Admin.InputLogOrBuilder getLogsOrBuilder(
           int index) {
         if (logsBuilder_ == null) {
           return logs_.get(index);  } else {
@@ -7941,9 +7941,9 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
-      public java.util.List<? extends google.keytransparency.v1.Admin.InputLogOrBuilder> 
+      public java.util.List<? extends com.google.keytransparency.v1.Admin.InputLogOrBuilder>
            getLogsOrBuilderList() {
         if (logsBuilder_ != null) {
           return logsBuilder_.getMessageOrBuilderList();
@@ -7952,33 +7952,33 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
-      public google.keytransparency.v1.Admin.InputLog.Builder addLogsBuilder() {
+      public com.google.keytransparency.v1.Admin.InputLog.Builder addLogsBuilder() {
         return getLogsFieldBuilder().addBuilder(
-            google.keytransparency.v1.Admin.InputLog.getDefaultInstance());
+            com.google.keytransparency.v1.Admin.InputLog.getDefaultInstance());
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
-      public google.keytransparency.v1.Admin.InputLog.Builder addLogsBuilder(
+      public com.google.keytransparency.v1.Admin.InputLog.Builder addLogsBuilder(
           int index) {
         return getLogsFieldBuilder().addBuilder(
-            index, google.keytransparency.v1.Admin.InputLog.getDefaultInstance());
+            index, com.google.keytransparency.v1.Admin.InputLog.getDefaultInstance());
       }
       /**
-       * <code>repeated .google.keytransparency.v1.InputLog logs = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.InputLog logs = 1;</code>
        */
-      public java.util.List<google.keytransparency.v1.Admin.InputLog.Builder> 
+      public java.util.List<com.google.keytransparency.v1.Admin.InputLog.Builder>
            getLogsBuilderList() {
         return getLogsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          google.keytransparency.v1.Admin.InputLog, google.keytransparency.v1.Admin.InputLog.Builder, google.keytransparency.v1.Admin.InputLogOrBuilder> 
+          com.google.keytransparency.v1.Admin.InputLog, com.google.keytransparency.v1.Admin.InputLog.Builder, com.google.keytransparency.v1.Admin.InputLogOrBuilder>
           getLogsFieldBuilder() {
         if (logsBuilder_ == null) {
           logsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              google.keytransparency.v1.Admin.InputLog, google.keytransparency.v1.Admin.InputLog.Builder, google.keytransparency.v1.Admin.InputLogOrBuilder>(
+              com.google.keytransparency.v1.Admin.InputLog, com.google.keytransparency.v1.Admin.InputLog.Builder, com.google.keytransparency.v1.Admin.InputLogOrBuilder>(
                   logs_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -8000,16 +8000,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.ListInputLogsResponse)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.ListInputLogsResponse)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.ListInputLogsResponse)
-    private static final google.keytransparency.v1.Admin.ListInputLogsResponse DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListInputLogsResponse)
+    private static final com.google.keytransparency.v1.Admin.ListInputLogsResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.ListInputLogsResponse();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.ListInputLogsResponse();
     }
 
-    public static google.keytransparency.v1.Admin.ListInputLogsResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.ListInputLogsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8034,14 +8034,14 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.ListInputLogsResponse getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.ListInputLogsResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface InputLogOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.InputLog)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.InputLog)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -8074,11 +8074,11 @@ public final class Admin {
    * InputLog is an input log for a directory.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.InputLog}
+   * Protobuf type {@code com.google.keytransparency.v1.InputLog}
    */
   public  static final class InputLog extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.InputLog)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.InputLog)
       InputLogOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use InputLog.newBuilder() to construct.
@@ -8152,15 +8152,15 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.InputLog.class, google.keytransparency.v1.Admin.InputLog.Builder.class);
+              com.google.keytransparency.v1.Admin.InputLog.class, com.google.keytransparency.v1.Admin.InputLog.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -8273,10 +8273,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.InputLog)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.InputLog)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.InputLog other = (google.keytransparency.v1.Admin.InputLog) obj;
+      com.google.keytransparency.v1.Admin.InputLog other = (com.google.keytransparency.v1.Admin.InputLog) obj;
 
       boolean result = true;
       result = result && getDirectoryId()
@@ -8309,69 +8309,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.InputLog parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.InputLog parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.InputLog parseFrom(
+    public static com.google.keytransparency.v1.Admin.InputLog parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -8384,7 +8384,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.InputLog prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.InputLog prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -8404,26 +8404,26 @@ public final class Admin {
      * InputLog is an input log for a directory.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.InputLog}
+     * Protobuf type {@code com.google.keytransparency.v1.InputLog}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.InputLog)
-        google.keytransparency.v1.Admin.InputLogOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.InputLog)
+        com.google.keytransparency.v1.Admin.InputLogOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.InputLog.class, google.keytransparency.v1.Admin.InputLog.Builder.class);
+                com.google.keytransparency.v1.Admin.InputLog.class, com.google.keytransparency.v1.Admin.InputLog.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.InputLog.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.InputLog.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -8453,17 +8453,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_InputLog_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.InputLog getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.InputLog.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.InputLog getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.InputLog.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.InputLog build() {
-        google.keytransparency.v1.Admin.InputLog result = buildPartial();
+      public com.google.keytransparency.v1.Admin.InputLog build() {
+        com.google.keytransparency.v1.Admin.InputLog result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -8471,8 +8471,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.InputLog buildPartial() {
-        google.keytransparency.v1.Admin.InputLog result = new google.keytransparency.v1.Admin.InputLog(this);
+      public com.google.keytransparency.v1.Admin.InputLog buildPartial() {
+        com.google.keytransparency.v1.Admin.InputLog result = new com.google.keytransparency.v1.Admin.InputLog(this);
         result.directoryId_ = directoryId_;
         result.logId_ = logId_;
         result.writable_ = writable_;
@@ -8514,16 +8514,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.InputLog) {
-          return mergeFrom((google.keytransparency.v1.Admin.InputLog)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.InputLog) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.InputLog)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.InputLog other) {
-        if (other == google.keytransparency.v1.Admin.InputLog.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.InputLog other) {
+        if (other == com.google.keytransparency.v1.Admin.InputLog.getDefaultInstance()) return this;
         if (!other.getDirectoryId().isEmpty()) {
           directoryId_ = other.directoryId_;
           onChanged();
@@ -8549,11 +8549,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.InputLog parsedMessage = null;
+        com.google.keytransparency.v1.Admin.InputLog parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.InputLog) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.InputLog) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -8711,16 +8711,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.InputLog)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.InputLog)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.InputLog)
-    private static final google.keytransparency.v1.Admin.InputLog DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.InputLog)
+    private static final com.google.keytransparency.v1.Admin.InputLog DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.InputLog();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.InputLog();
     }
 
-    public static google.keytransparency.v1.Admin.InputLog getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.InputLog getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8745,14 +8745,14 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.InputLog getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.InputLog getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface GarbageCollectRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.GarbageCollectRequest)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.GarbageCollectRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -8788,11 +8788,11 @@ public final class Admin {
    * GarbageCollect request.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.v1.GarbageCollectRequest}
+   * Protobuf type {@code com.google.keytransparency.v1.GarbageCollectRequest}
    */
   public  static final class GarbageCollectRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.GarbageCollectRequest)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.GarbageCollectRequest)
       GarbageCollectRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use GarbageCollectRequest.newBuilder() to construct.
@@ -8860,15 +8860,15 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.GarbageCollectRequest.class, google.keytransparency.v1.Admin.GarbageCollectRequest.Builder.class);
+              com.google.keytransparency.v1.Admin.GarbageCollectRequest.class, com.google.keytransparency.v1.Admin.GarbageCollectRequest.Builder.class);
     }
 
     public static final int BEFORE_FIELD_NUMBER = 1;
@@ -8947,10 +8947,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.GarbageCollectRequest)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.GarbageCollectRequest)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.GarbageCollectRequest other = (google.keytransparency.v1.Admin.GarbageCollectRequest) obj;
+      com.google.keytransparency.v1.Admin.GarbageCollectRequest other = (com.google.keytransparency.v1.Admin.GarbageCollectRequest) obj;
 
       boolean result = true;
       result = result && (hasBefore() == other.hasBefore());
@@ -8978,69 +8978,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -9053,7 +9053,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.GarbageCollectRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.GarbageCollectRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -9073,26 +9073,26 @@ public final class Admin {
      * GarbageCollect request.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.v1.GarbageCollectRequest}
+     * Protobuf type {@code com.google.keytransparency.v1.GarbageCollectRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.GarbageCollectRequest)
-        google.keytransparency.v1.Admin.GarbageCollectRequestOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.GarbageCollectRequest)
+        com.google.keytransparency.v1.Admin.GarbageCollectRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.GarbageCollectRequest.class, google.keytransparency.v1.Admin.GarbageCollectRequest.Builder.class);
+                com.google.keytransparency.v1.Admin.GarbageCollectRequest.class, com.google.keytransparency.v1.Admin.GarbageCollectRequest.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.GarbageCollectRequest.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.GarbageCollectRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -9122,17 +9122,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectRequest_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.GarbageCollectRequest getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.GarbageCollectRequest.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.GarbageCollectRequest getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.GarbageCollectRequest.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.GarbageCollectRequest build() {
-        google.keytransparency.v1.Admin.GarbageCollectRequest result = buildPartial();
+      public com.google.keytransparency.v1.Admin.GarbageCollectRequest build() {
+        com.google.keytransparency.v1.Admin.GarbageCollectRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -9140,8 +9140,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.GarbageCollectRequest buildPartial() {
-        google.keytransparency.v1.Admin.GarbageCollectRequest result = new google.keytransparency.v1.Admin.GarbageCollectRequest(this);
+      public com.google.keytransparency.v1.Admin.GarbageCollectRequest buildPartial() {
+        com.google.keytransparency.v1.Admin.GarbageCollectRequest result = new com.google.keytransparency.v1.Admin.GarbageCollectRequest(this);
         if (beforeBuilder_ == null) {
           result.before_ = before_;
         } else {
@@ -9185,16 +9185,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.GarbageCollectRequest) {
-          return mergeFrom((google.keytransparency.v1.Admin.GarbageCollectRequest)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.GarbageCollectRequest) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.GarbageCollectRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.GarbageCollectRequest other) {
-        if (other == google.keytransparency.v1.Admin.GarbageCollectRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.GarbageCollectRequest other) {
+        if (other == com.google.keytransparency.v1.Admin.GarbageCollectRequest.getDefaultInstance()) return this;
         if (other.hasBefore()) {
           mergeBefore(other.getBefore());
         }
@@ -9213,11 +9213,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.GarbageCollectRequest parsedMessage = null;
+        com.google.keytransparency.v1.Admin.GarbageCollectRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.GarbageCollectRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.GarbageCollectRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -9401,16 +9401,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.GarbageCollectRequest)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.GarbageCollectRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.GarbageCollectRequest)
-    private static final google.keytransparency.v1.Admin.GarbageCollectRequest DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.GarbageCollectRequest)
+    private static final com.google.keytransparency.v1.Admin.GarbageCollectRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.GarbageCollectRequest();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.GarbageCollectRequest();
     }
 
-    public static google.keytransparency.v1.Admin.GarbageCollectRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.GarbageCollectRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -9435,46 +9435,46 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.GarbageCollectRequest getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.GarbageCollectRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   public interface GarbageCollectResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.v1.GarbageCollectResponse)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.v1.GarbageCollectResponse)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    java.util.List<google.keytransparency.v1.Admin.Directory> 
+    java.util.List<com.google.keytransparency.v1.Admin.Directory>
         getDirectoriesList();
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    google.keytransparency.v1.Admin.Directory getDirectories(int index);
+    com.google.keytransparency.v1.Admin.Directory getDirectories(int index);
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
     int getDirectoriesCount();
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    java.util.List<? extends google.keytransparency.v1.Admin.DirectoryOrBuilder> 
+    java.util.List<? extends com.google.keytransparency.v1.Admin.DirectoryOrBuilder>
         getDirectoriesOrBuilderList();
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
+    com.google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
         int index);
   }
   /**
-   * Protobuf type {@code google.keytransparency.v1.GarbageCollectResponse}
+   * Protobuf type {@code com.google.keytransparency.v1.GarbageCollectResponse}
    */
   public  static final class GarbageCollectResponse extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.v1.GarbageCollectResponse)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.v1.GarbageCollectResponse)
       GarbageCollectResponseOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use GarbageCollectResponse.newBuilder() to construct.
@@ -9511,11 +9511,11 @@ public final class Admin {
               break;
             case 10: {
               if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
-                directories_ = new java.util.ArrayList<google.keytransparency.v1.Admin.Directory>();
+                directories_ = new java.util.ArrayList<com.google.keytransparency.v1.Admin.Directory>();
                 mutable_bitField0_ |= 0x00000001;
               }
               directories_.add(
-                  input.readMessage(google.keytransparency.v1.Admin.Directory.parser(), extensionRegistry));
+                  input.readMessage(com.google.keytransparency.v1.Admin.Directory.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -9542,48 +9542,48 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_fieldAccessorTable
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.GarbageCollectResponse.class, google.keytransparency.v1.Admin.GarbageCollectResponse.Builder.class);
+              com.google.keytransparency.v1.Admin.GarbageCollectResponse.class, com.google.keytransparency.v1.Admin.GarbageCollectResponse.Builder.class);
     }
 
     public static final int DIRECTORIES_FIELD_NUMBER = 1;
-    private java.util.List<google.keytransparency.v1.Admin.Directory> directories_;
+    private java.util.List<com.google.keytransparency.v1.Admin.Directory> directories_;
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    public java.util.List<google.keytransparency.v1.Admin.Directory> getDirectoriesList() {
+    public java.util.List<com.google.keytransparency.v1.Admin.Directory> getDirectoriesList() {
       return directories_;
     }
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    public java.util.List<? extends google.keytransparency.v1.Admin.DirectoryOrBuilder> 
+    public java.util.List<? extends com.google.keytransparency.v1.Admin.DirectoryOrBuilder>
         getDirectoriesOrBuilderList() {
       return directories_;
     }
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
     public int getDirectoriesCount() {
       return directories_.size();
     }
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    public google.keytransparency.v1.Admin.Directory getDirectories(int index) {
+    public com.google.keytransparency.v1.Admin.Directory getDirectories(int index) {
       return directories_.get(index);
     }
     /**
-     * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+     * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
      */
-    public google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
+    public com.google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
         int index) {
       return directories_.get(index);
     }
@@ -9628,10 +9628,10 @@ public final class Admin {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.v1.Admin.GarbageCollectResponse)) {
+      if (!(obj instanceof com.google.keytransparency.v1.Admin.GarbageCollectResponse)) {
         return super.equals(obj);
       }
-      google.keytransparency.v1.Admin.GarbageCollectResponse other = (google.keytransparency.v1.Admin.GarbageCollectResponse) obj;
+      com.google.keytransparency.v1.Admin.GarbageCollectResponse other = (com.google.keytransparency.v1.Admin.GarbageCollectResponse) obj;
 
       boolean result = true;
       result = result && getDirectoriesList()
@@ -9656,69 +9656,69 @@ public final class Admin {
       return hash;
     }
 
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -9731,7 +9731,7 @@ public final class Admin {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.v1.Admin.GarbageCollectResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.Admin.GarbageCollectResponse prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -9747,26 +9747,26 @@ public final class Admin {
       return builder;
     }
     /**
-     * Protobuf type {@code google.keytransparency.v1.GarbageCollectResponse}
+     * Protobuf type {@code com.google.keytransparency.v1.GarbageCollectResponse}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.v1.GarbageCollectResponse)
-        google.keytransparency.v1.Admin.GarbageCollectResponseOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.GarbageCollectResponse)
+        com.google.keytransparency.v1.Admin.GarbageCollectResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_fieldAccessorTable
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.v1.Admin.GarbageCollectResponse.class, google.keytransparency.v1.Admin.GarbageCollectResponse.Builder.class);
+                com.google.keytransparency.v1.Admin.GarbageCollectResponse.class, com.google.keytransparency.v1.Admin.GarbageCollectResponse.Builder.class);
       }
 
-      // Construct using google.keytransparency.v1.Admin.GarbageCollectResponse.newBuilder()
+      // Construct using com.google.keytransparency.v1.Admin.GarbageCollectResponse.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -9797,17 +9797,17 @@ public final class Admin {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_descriptor;
+        return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_GarbageCollectResponse_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.GarbageCollectResponse getDefaultInstanceForType() {
-        return google.keytransparency.v1.Admin.GarbageCollectResponse.getDefaultInstance();
+      public com.google.keytransparency.v1.Admin.GarbageCollectResponse getDefaultInstanceForType() {
+        return com.google.keytransparency.v1.Admin.GarbageCollectResponse.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.GarbageCollectResponse build() {
-        google.keytransparency.v1.Admin.GarbageCollectResponse result = buildPartial();
+      public com.google.keytransparency.v1.Admin.GarbageCollectResponse build() {
+        com.google.keytransparency.v1.Admin.GarbageCollectResponse result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -9815,8 +9815,8 @@ public final class Admin {
       }
 
       @java.lang.Override
-      public google.keytransparency.v1.Admin.GarbageCollectResponse buildPartial() {
-        google.keytransparency.v1.Admin.GarbageCollectResponse result = new google.keytransparency.v1.Admin.GarbageCollectResponse(this);
+      public com.google.keytransparency.v1.Admin.GarbageCollectResponse buildPartial() {
+        com.google.keytransparency.v1.Admin.GarbageCollectResponse result = new com.google.keytransparency.v1.Admin.GarbageCollectResponse(this);
         int from_bitField0_ = bitField0_;
         if (directoriesBuilder_ == null) {
           if (((bitField0_ & 0x00000001) == 0x00000001)) {
@@ -9865,16 +9865,16 @@ public final class Admin {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.v1.Admin.GarbageCollectResponse) {
-          return mergeFrom((google.keytransparency.v1.Admin.GarbageCollectResponse)other);
+        if (other instanceof com.google.keytransparency.v1.Admin.GarbageCollectResponse) {
+          return mergeFrom((com.google.keytransparency.v1.Admin.GarbageCollectResponse)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.v1.Admin.GarbageCollectResponse other) {
-        if (other == google.keytransparency.v1.Admin.GarbageCollectResponse.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.v1.Admin.GarbageCollectResponse other) {
+        if (other == com.google.keytransparency.v1.Admin.GarbageCollectResponse.getDefaultInstance()) return this;
         if (directoriesBuilder_ == null) {
           if (!other.directories_.isEmpty()) {
             if (directories_.isEmpty()) {
@@ -9916,11 +9916,11 @@ public final class Admin {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.v1.Admin.GarbageCollectResponse parsedMessage = null;
+        com.google.keytransparency.v1.Admin.GarbageCollectResponse parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.v1.Admin.GarbageCollectResponse) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.v1.Admin.GarbageCollectResponse) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -9931,22 +9931,22 @@ public final class Admin {
       }
       private int bitField0_;
 
-      private java.util.List<google.keytransparency.v1.Admin.Directory> directories_ =
+      private java.util.List<com.google.keytransparency.v1.Admin.Directory> directories_ =
         java.util.Collections.emptyList();
       private void ensureDirectoriesIsMutable() {
         if (!((bitField0_ & 0x00000001) == 0x00000001)) {
-          directories_ = new java.util.ArrayList<google.keytransparency.v1.Admin.Directory>(directories_);
+          directories_ = new java.util.ArrayList<com.google.keytransparency.v1.Admin.Directory>(directories_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          google.keytransparency.v1.Admin.Directory, google.keytransparency.v1.Admin.Directory.Builder, google.keytransparency.v1.Admin.DirectoryOrBuilder> directoriesBuilder_;
+          com.google.keytransparency.v1.Admin.Directory, com.google.keytransparency.v1.Admin.Directory.Builder, com.google.keytransparency.v1.Admin.DirectoryOrBuilder> directoriesBuilder_;
 
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public java.util.List<google.keytransparency.v1.Admin.Directory> getDirectoriesList() {
+      public java.util.List<com.google.keytransparency.v1.Admin.Directory> getDirectoriesList() {
         if (directoriesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(directories_);
         } else {
@@ -9954,7 +9954,7 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public int getDirectoriesCount() {
         if (directoriesBuilder_ == null) {
@@ -9964,9 +9964,9 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.Directory getDirectories(int index) {
+      public com.google.keytransparency.v1.Admin.Directory getDirectories(int index) {
         if (directoriesBuilder_ == null) {
           return directories_.get(index);
         } else {
@@ -9974,10 +9974,10 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder setDirectories(
-          int index, google.keytransparency.v1.Admin.Directory value) {
+          int index, com.google.keytransparency.v1.Admin.Directory value) {
         if (directoriesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9991,10 +9991,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder setDirectories(
-          int index, google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
         if (directoriesBuilder_ == null) {
           ensureDirectoriesIsMutable();
           directories_.set(index, builderForValue.build());
@@ -10005,9 +10005,9 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public Builder addDirectories(google.keytransparency.v1.Admin.Directory value) {
+      public Builder addDirectories(com.google.keytransparency.v1.Admin.Directory value) {
         if (directoriesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -10021,10 +10021,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder addDirectories(
-          int index, google.keytransparency.v1.Admin.Directory value) {
+          int index, com.google.keytransparency.v1.Admin.Directory value) {
         if (directoriesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -10038,10 +10038,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder addDirectories(
-          google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
+          com.google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
         if (directoriesBuilder_ == null) {
           ensureDirectoriesIsMutable();
           directories_.add(builderForValue.build());
@@ -10052,10 +10052,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder addDirectories(
-          int index, google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.Admin.Directory.Builder builderForValue) {
         if (directoriesBuilder_ == null) {
           ensureDirectoriesIsMutable();
           directories_.add(index, builderForValue.build());
@@ -10066,10 +10066,10 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder addAllDirectories(
-          java.lang.Iterable<? extends google.keytransparency.v1.Admin.Directory> values) {
+          java.lang.Iterable<? extends com.google.keytransparency.v1.Admin.Directory> values) {
         if (directoriesBuilder_ == null) {
           ensureDirectoriesIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -10081,7 +10081,7 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder clearDirectories() {
         if (directoriesBuilder_ == null) {
@@ -10094,7 +10094,7 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
       public Builder removeDirectories(int index) {
         if (directoriesBuilder_ == null) {
@@ -10107,16 +10107,16 @@ public final class Admin {
         return this;
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.Directory.Builder getDirectoriesBuilder(
+      public com.google.keytransparency.v1.Admin.Directory.Builder getDirectoriesBuilder(
           int index) {
         return getDirectoriesFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
+      public com.google.keytransparency.v1.Admin.DirectoryOrBuilder getDirectoriesOrBuilder(
           int index) {
         if (directoriesBuilder_ == null) {
           return directories_.get(index);  } else {
@@ -10124,9 +10124,9 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public java.util.List<? extends google.keytransparency.v1.Admin.DirectoryOrBuilder> 
+      public java.util.List<? extends com.google.keytransparency.v1.Admin.DirectoryOrBuilder>
            getDirectoriesOrBuilderList() {
         if (directoriesBuilder_ != null) {
           return directoriesBuilder_.getMessageOrBuilderList();
@@ -10135,33 +10135,33 @@ public final class Admin {
         }
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.Directory.Builder addDirectoriesBuilder() {
+      public com.google.keytransparency.v1.Admin.Directory.Builder addDirectoriesBuilder() {
         return getDirectoriesFieldBuilder().addBuilder(
-            google.keytransparency.v1.Admin.Directory.getDefaultInstance());
+            com.google.keytransparency.v1.Admin.Directory.getDefaultInstance());
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public google.keytransparency.v1.Admin.Directory.Builder addDirectoriesBuilder(
+      public com.google.keytransparency.v1.Admin.Directory.Builder addDirectoriesBuilder(
           int index) {
         return getDirectoriesFieldBuilder().addBuilder(
-            index, google.keytransparency.v1.Admin.Directory.getDefaultInstance());
+            index, com.google.keytransparency.v1.Admin.Directory.getDefaultInstance());
       }
       /**
-       * <code>repeated .google.keytransparency.v1.Directory directories = 1;</code>
+       * <code>repeated .com.google.keytransparency.v1.Directory directories = 1;</code>
        */
-      public java.util.List<google.keytransparency.v1.Admin.Directory.Builder> 
+      public java.util.List<com.google.keytransparency.v1.Admin.Directory.Builder>
            getDirectoriesBuilderList() {
         return getDirectoriesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          google.keytransparency.v1.Admin.Directory, google.keytransparency.v1.Admin.Directory.Builder, google.keytransparency.v1.Admin.DirectoryOrBuilder> 
+          com.google.keytransparency.v1.Admin.Directory, com.google.keytransparency.v1.Admin.Directory.Builder, com.google.keytransparency.v1.Admin.DirectoryOrBuilder>
           getDirectoriesFieldBuilder() {
         if (directoriesBuilder_ == null) {
           directoriesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              google.keytransparency.v1.Admin.Directory, google.keytransparency.v1.Admin.Directory.Builder, google.keytransparency.v1.Admin.DirectoryOrBuilder>(
+              com.google.keytransparency.v1.Admin.Directory, com.google.keytransparency.v1.Admin.Directory.Builder, com.google.keytransparency.v1.Admin.DirectoryOrBuilder>(
                   directories_,
                   ((bitField0_ & 0x00000001) == 0x00000001),
                   getParentForChildren(),
@@ -10183,16 +10183,16 @@ public final class Admin {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.v1.GarbageCollectResponse)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.v1.GarbageCollectResponse)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.v1.GarbageCollectResponse)
-    private static final google.keytransparency.v1.Admin.GarbageCollectResponse DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.GarbageCollectResponse)
+    private static final com.google.keytransparency.v1.Admin.GarbageCollectResponse DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.v1.Admin.GarbageCollectResponse();
+      DEFAULT_INSTANCE = new com.google.keytransparency.v1.Admin.GarbageCollectResponse();
     }
 
-    public static google.keytransparency.v1.Admin.GarbageCollectResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.Admin.GarbageCollectResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10217,7 +10217,7 @@ public final class Admin {
     }
 
     @java.lang.Override
-    public google.keytransparency.v1.Admin.GarbageCollectResponse getDefaultInstanceForType() {
+    public com.google.keytransparency.v1.Admin.GarbageCollectResponse getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10292,7 +10292,7 @@ public final class Admin {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016v1/admin.proto\022\031google.keytransparency" +
+      "\n\016v1/admin.proto\022\031com.google.keytransparency" +
       ".v1\032\032crypto/keyspb/keyspb.proto\032\034google/" +
       "api/annotations.proto\032\031google/protobuf/a" +
       "ny.proto\032\036google/protobuf/duration.proto" +
@@ -10306,7 +10306,7 @@ public final class Admin {
       "ogle.protobuf.Duration\022\017\n\007deleted\030\007 \001(\010\"" +
       ".\n\026ListDirectoriesRequest\022\024\n\014show_delete" +
       "d\030\001 \001(\010\"T\n\027ListDirectoriesResponse\0229\n\013di" +
-      "rectories\030\001 \003(\0132$.google.keytransparency" +
+      "rectories\030\001 \003(\0132$.com.google.keytransparency" +
       ".v1.Directory\"A\n\023GetDirectoryRequest\022\024\n\014" +
       "directory_id\030\001 \001(\t\022\024\n\014show_deleted\030\002 \001(\010" +
       "\"\235\002\n\026CreateDirectoryRequest\022\024\n\014directory" +
@@ -10327,31 +10327,31 @@ public final class Admin {
       "\010\"C\n\025GarbageCollectRequest\022*\n\006before\030\001 \001" +
       "(\0132\032.google.protobuf.Timestamp\"S\n\026Garbag" +
       "eCollectResponse\0229\n\013directories\030\001 \003(\0132$." +
-      "google.keytransparency.v1.Directory2\253\n\n\024" +
+      "com.google.keytransparency.v1.Directory2\253\n\n\024" +
       "KeyTransparencyAdmin\022\221\001\n\017ListDirectories" +
-      "\0221.google.keytransparency.v1.ListDirecto" +
-      "riesRequest\0322.google.keytransparency.v1." +
+      "\0221.com.google.keytransparency.v1.ListDirecto" +
+      "riesRequest\0322.com.google.keytransparency.v1." +
       "ListDirectoriesResponse\"\027\202\323\344\223\002\021\022\017/v1/dir" +
       "ectories\022\214\001\n\014GetDirectory\022..google.keytr" +
       "ansparency.v1.GetDirectoryRequest\032$.goog" +
       "le.keytransparency.v1.Directory\"&\202\323\344\223\002 \022" +
       "\036/v1/directories/{directory_id}\022\206\001\n\017Crea" +
-      "teDirectory\0221.google.keytransparency.v1." +
+      "teDirectory\0221.com.google.keytransparency.v1." +
       "CreateDirectoryRequest\032$.google.keytrans" +
       "parency.v1.Directory\"\032\202\323\344\223\002\024\"\017/v1/direct" +
       "ories:\001*\022\204\001\n\017DeleteDirectory\0221.google.ke" +
       "ytransparency.v1.DeleteDirectoryRequest\032" +
       "\026.google.protobuf.Empty\"&\202\323\344\223\002 *\036/v1/dir" +
       "ectories/{directory_id}\022\221\001\n\021UndeleteDire" +
-      "ctory\0223.google.keytransparency.v1.Undele" +
+      "ctory\0223.com.google.keytransparency.v1.Undele" +
       "teDirectoryRequest\032\026.google.protobuf.Emp" +
       "ty\"/\202\323\344\223\002)*\'/v1/directories/{directory_i" +
       "d}:undelete\022\244\001\n\rListInputLogs\022/.google.k" +
       "eytransparency.v1.ListInputLogsRequest\0320" +
-      ".google.keytransparency.v1.ListInputLogs" +
+      ".com.google.keytransparency.v1.ListInputLogs" +
       "Response\"0\202\323\344\223\002*\022(/v1/directories/{direc" +
       "tory_id}/inputlogs\022\225\001\n\016CreateInputLog\022#." +
-      "google.keytransparency.v1.InputLog\032#.goo" +
+      "com.google.keytransparency.v1.InputLog\032#.goo" +
       "gle.keytransparency.v1.InputLog\"9\202\323\344\223\0023\"" +
       "1/v1/directories/{directory_id}/inputlog" +
       "s/{log_id}\022\225\001\n\016UpdateInputLog\022#.google.k" +

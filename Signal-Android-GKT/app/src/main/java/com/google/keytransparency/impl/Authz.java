@@ -3,6 +3,8 @@
 
 package com.google.keytransparency.impl;
 
+
+
 public final class Authz {
   private Authz() {}
   public static void registerAllExtensions(
@@ -15,7 +17,7 @@ public final class Authz {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface AuthorizationPolicyOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:google.keytransparency.impl.AuthorizationPolicy)
+      // @@protoc_insertion_point(interface_extends:com.google.keytransparency.impl.AuthorizationPolicy)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -23,7 +25,7 @@ public final class Authz {
      * roles is a map of roles keyed by labels used in RoleLabels.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
      */
     int getRolesCount();
     /**
@@ -31,7 +33,7 @@ public final class Authz {
      * roles is a map of roles keyed by labels used in RoleLabels.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
      */
     boolean containsRoles(
         java.lang.String key);
@@ -39,37 +41,37 @@ public final class Authz {
      * Use {@link #getRolesMap()} instead.
      */
     @java.lang.Deprecated
-    java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
+    java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
     getRoles();
     /**
      * <pre>
      * roles is a map of roles keyed by labels used in RoleLabels.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
      */
-    java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
+    java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
     getRolesMap();
     /**
      * <pre>
      * roles is a map of roles keyed by labels used in RoleLabels.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
      */
 
-    google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrDefault(
+    com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrDefault(
         java.lang.String key,
-        google.keytransparency.impl.Authz.AuthorizationPolicy.Role defaultValue);
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role defaultValue);
     /**
      * <pre>
      * roles is a map of roles keyed by labels used in RoleLabels.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
      */
 
-    google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrThrow(
+    com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrThrow(
         java.lang.String key);
 
     /**
@@ -77,7 +79,7 @@ public final class Authz {
      * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
      */
     int getResourceToRoleLabelsCount();
     /**
@@ -85,7 +87,7 @@ public final class Authz {
      * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
      */
     boolean containsResourceToRoleLabels(
         java.lang.String key);
@@ -93,37 +95,37 @@ public final class Authz {
      * Use {@link #getResourceToRoleLabelsMap()} instead.
      */
     @java.lang.Deprecated
-    java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
+    java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
     getResourceToRoleLabels();
     /**
      * <pre>
      * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
      */
-    java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
+    java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
     getResourceToRoleLabelsMap();
     /**
      * <pre>
      * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
      */
 
-    google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrDefault(
+    com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrDefault(
         java.lang.String key,
-        google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels defaultValue);
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels defaultValue);
     /**
      * <pre>
      * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
      */
 
-    google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrThrow(
+    com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrThrow(
         java.lang.String key);
   }
   /**
@@ -131,11 +133,11 @@ public final class Authz {
    * AuthorizationPolicy contains an authorization policy.
    * </pre>
    *
-   * Protobuf type {@code google.keytransparency.impl.AuthorizationPolicy}
+   * Protobuf type {@code com.google.keytransparency.impl.AuthorizationPolicy}
    */
   public  static final class AuthorizationPolicy extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:google.keytransparency.impl.AuthorizationPolicy)
+      // @@protoc_insertion_point(message_implements:com.google.keytransparency.impl.AuthorizationPolicy)
       AuthorizationPolicyOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use AuthorizationPolicy.newBuilder() to construct.
@@ -175,7 +177,7 @@ public final class Authz {
                     RolesDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000001;
               }
-              com.google.protobuf.MapEntry<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
+              com.google.protobuf.MapEntry<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
               roles__ = input.readMessage(
                   RolesDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               roles_.getMutableMap().put(
@@ -188,7 +190,7 @@ public final class Authz {
                     ResourceToRoleLabelsDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000002;
               }
-              com.google.protobuf.MapEntry<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
+              com.google.protobuf.MapEntry<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
               resourceToRoleLabels__ = input.readMessage(
                   ResourceToRoleLabelsDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               resourceToRoleLabels_.getMutableMap().put(
@@ -216,7 +218,7 @@ public final class Authz {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_descriptor;
+      return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_descriptor;
     }
 
     @SuppressWarnings({"rawtypes"})
@@ -236,13 +238,13 @@ public final class Authz {
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_fieldAccessorTable
+      return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              google.keytransparency.impl.Authz.AuthorizationPolicy.class, google.keytransparency.impl.Authz.AuthorizationPolicy.Builder.class);
+                  com.google.keytransparency.impl.Authz.AuthorizationPolicy.class, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Builder.class);
     }
 
     public interface ResourceOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:google.keytransparency.impl.AuthorizationPolicy.Resource)
+        // @@protoc_insertion_point(interface_extends:com.google.keytransparency.impl.AuthorizationPolicy.Resource)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -268,11 +270,11 @@ public final class Authz {
      * Resource contains the resource being accessed.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.impl.AuthorizationPolicy.Resource}
+     * Protobuf type {@code com.google.keytransparency.impl.AuthorizationPolicy.Resource}
      */
     public  static final class Resource extends
         com.google.protobuf.GeneratedMessageV3 implements
-        // @@protoc_insertion_point(message_implements:google.keytransparency.impl.AuthorizationPolicy.Resource)
+        // @@protoc_insertion_point(message_implements:com.google.keytransparency.impl.AuthorizationPolicy.Resource)
         ResourceOrBuilder {
     private static final long serialVersionUID = 0L;
       // Use Resource.newBuilder() to construct.
@@ -334,15 +336,15 @@ public final class Authz {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_descriptor;
+        return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_fieldAccessorTable
+        return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.class, google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.Builder.class);
+                    com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.class, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.Builder.class);
       }
 
       public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
@@ -426,10 +428,10 @@ public final class Authz {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof google.keytransparency.impl.Authz.AuthorizationPolicy.Resource)) {
+        if (!(obj instanceof com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource)) {
           return super.equals(obj);
         }
-        google.keytransparency.impl.Authz.AuthorizationPolicy.Resource other = (google.keytransparency.impl.Authz.AuthorizationPolicy.Resource) obj;
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource other = (com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource) obj;
 
         boolean result = true;
         result = result && getDirectoryId()
@@ -452,69 +454,69 @@ public final class Authz {
         return hash;
       }
 
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(byte[] data)
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(java.io.InputStream input)
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseDelimitedFrom(java.io.InputStream input)
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseDelimitedFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -527,7 +529,7 @@ public final class Authz {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(google.keytransparency.impl.Authz.AuthorizationPolicy.Resource prototype) {
+      public static Builder newBuilder(com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -547,26 +549,26 @@ public final class Authz {
        * Resource contains the resource being accessed.
        * </pre>
        *
-       * Protobuf type {@code google.keytransparency.impl.AuthorizationPolicy.Resource}
+       * Protobuf type {@code com.google.keytransparency.impl.AuthorizationPolicy.Resource}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:google.keytransparency.impl.AuthorizationPolicy.Resource)
-          google.keytransparency.impl.Authz.AuthorizationPolicy.ResourceOrBuilder {
+          // @@protoc_insertion_point(builder_implements:com.google.keytransparency.impl.AuthorizationPolicy.Resource)
+              com.google.keytransparency.impl.Authz.AuthorizationPolicy.ResourceOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_descriptor;
+          return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_fieldAccessorTable
+          return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.class, google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.Builder.class);
+                      com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.class, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.Builder.class);
         }
 
-        // Construct using google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.newBuilder()
+        // Construct using com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -592,17 +594,17 @@ public final class Authz {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_descriptor;
+          return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Resource_descriptor;
         }
 
         @java.lang.Override
-        public google.keytransparency.impl.Authz.AuthorizationPolicy.Resource getDefaultInstanceForType() {
-          return google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.getDefaultInstance();
+        public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource getDefaultInstanceForType() {
+          return com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.getDefaultInstance();
         }
 
         @java.lang.Override
-        public google.keytransparency.impl.Authz.AuthorizationPolicy.Resource build() {
-          google.keytransparency.impl.Authz.AuthorizationPolicy.Resource result = buildPartial();
+        public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource build() {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -610,8 +612,8 @@ public final class Authz {
         }
 
         @java.lang.Override
-        public google.keytransparency.impl.Authz.AuthorizationPolicy.Resource buildPartial() {
-          google.keytransparency.impl.Authz.AuthorizationPolicy.Resource result = new google.keytransparency.impl.Authz.AuthorizationPolicy.Resource(this);
+        public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource buildPartial() {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource result = new com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource(this);
           result.directoryId_ = directoryId_;
           onBuilt();
           return result;
@@ -651,16 +653,16 @@ public final class Authz {
         }
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof google.keytransparency.impl.Authz.AuthorizationPolicy.Resource) {
-            return mergeFrom((google.keytransparency.impl.Authz.AuthorizationPolicy.Resource)other);
+          if (other instanceof com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource) {
+            return mergeFrom((com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(google.keytransparency.impl.Authz.AuthorizationPolicy.Resource other) {
-          if (other == google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.getDefaultInstance()) return this;
+        public Builder mergeFrom(com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource other) {
+          if (other == com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource.getDefaultInstance()) return this;
           if (!other.getDirectoryId().isEmpty()) {
             directoryId_ = other.directoryId_;
             onChanged();
@@ -680,11 +682,11 @@ public final class Authz {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parsedMessage = null;
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource parsedMessage = null;
           try {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            parsedMessage = (google.keytransparency.impl.Authz.AuthorizationPolicy.Resource) e.getUnfinishedMessage();
+            parsedMessage = (com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource) e.getUnfinishedMessage();
             throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
@@ -795,16 +797,16 @@ public final class Authz {
         }
 
 
-        // @@protoc_insertion_point(builder_scope:google.keytransparency.impl.AuthorizationPolicy.Resource)
+        // @@protoc_insertion_point(builder_scope:com.google.keytransparency.impl.AuthorizationPolicy.Resource)
       }
 
-      // @@protoc_insertion_point(class_scope:google.keytransparency.impl.AuthorizationPolicy.Resource)
-      private static final google.keytransparency.impl.Authz.AuthorizationPolicy.Resource DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:com.google.keytransparency.impl.AuthorizationPolicy.Resource)
+      private static final com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new google.keytransparency.impl.Authz.AuthorizationPolicy.Resource();
+        DEFAULT_INSTANCE = new com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource();
       }
 
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Resource getDefaultInstance() {
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
@@ -829,14 +831,14 @@ public final class Authz {
       }
 
       @java.lang.Override
-      public google.keytransparency.impl.Authz.AuthorizationPolicy.Resource getDefaultInstanceForType() {
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Resource getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
     }
 
     public interface RoleOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:google.keytransparency.impl.AuthorizationPolicy.Role)
+        // @@protoc_insertion_point(interface_extends:com.google.keytransparency.impl.AuthorizationPolicy.Role)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -879,11 +881,11 @@ public final class Authz {
      * Role contains a specific identity of an authorization entry.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.impl.AuthorizationPolicy.Role}
+     * Protobuf type {@code com.google.keytransparency.impl.AuthorizationPolicy.Role}
      */
     public  static final class Role extends
         com.google.protobuf.GeneratedMessageV3 implements
-        // @@protoc_insertion_point(message_implements:google.keytransparency.impl.AuthorizationPolicy.Role)
+        // @@protoc_insertion_point(message_implements:com.google.keytransparency.impl.AuthorizationPolicy.Role)
         RoleOrBuilder {
     private static final long serialVersionUID = 0L;
       // Use Role.newBuilder() to construct.
@@ -951,15 +953,15 @@ public final class Authz {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_descriptor;
+        return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_fieldAccessorTable
+        return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.impl.Authz.AuthorizationPolicy.Role.class, google.keytransparency.impl.Authz.AuthorizationPolicy.Role.Builder.class);
+                    com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role.class, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role.Builder.class);
       }
 
       public static final int PRINCIPALS_FIELD_NUMBER = 1;
@@ -1051,10 +1053,10 @@ public final class Authz {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof google.keytransparency.impl.Authz.AuthorizationPolicy.Role)) {
+        if (!(obj instanceof com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role)) {
           return super.equals(obj);
         }
-        google.keytransparency.impl.Authz.AuthorizationPolicy.Role other = (google.keytransparency.impl.Authz.AuthorizationPolicy.Role) obj;
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role other = (com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role) obj;
 
         boolean result = true;
         result = result && getPrincipalsList()
@@ -1079,69 +1081,69 @@ public final class Authz {
         return hash;
       }
 
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(byte[] data)
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(java.io.InputStream input)
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseDelimitedFrom(java.io.InputStream input)
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseDelimitedFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1154,7 +1156,7 @@ public final class Authz {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(google.keytransparency.impl.Authz.AuthorizationPolicy.Role prototype) {
+      public static Builder newBuilder(com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -1174,26 +1176,26 @@ public final class Authz {
        * Role contains a specific identity of an authorization entry.
        * </pre>
        *
-       * Protobuf type {@code google.keytransparency.impl.AuthorizationPolicy.Role}
+       * Protobuf type {@code com.google.keytransparency.impl.AuthorizationPolicy.Role}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:google.keytransparency.impl.AuthorizationPolicy.Role)
-          google.keytransparency.impl.Authz.AuthorizationPolicy.RoleOrBuilder {
+          // @@protoc_insertion_point(builder_implements:com.google.keytransparency.impl.AuthorizationPolicy.Role)
+              com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_descriptor;
+          return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_fieldAccessorTable
+          return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  google.keytransparency.impl.Authz.AuthorizationPolicy.Role.class, google.keytransparency.impl.Authz.AuthorizationPolicy.Role.Builder.class);
+                  com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role.class, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role.Builder.class);
         }
 
-        // Construct using google.keytransparency.impl.Authz.AuthorizationPolicy.Role.newBuilder()
+        // Construct using com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -1219,17 +1221,17 @@ public final class Authz {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_descriptor;
+          return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_Role_descriptor;
         }
 
         @java.lang.Override
-        public google.keytransparency.impl.Authz.AuthorizationPolicy.Role getDefaultInstanceForType() {
-          return google.keytransparency.impl.Authz.AuthorizationPolicy.Role.getDefaultInstance();
+        public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role getDefaultInstanceForType() {
+          return com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role.getDefaultInstance();
         }
 
         @java.lang.Override
-        public google.keytransparency.impl.Authz.AuthorizationPolicy.Role build() {
-          google.keytransparency.impl.Authz.AuthorizationPolicy.Role result = buildPartial();
+        public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role build() {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -1237,8 +1239,8 @@ public final class Authz {
         }
 
         @java.lang.Override
-        public google.keytransparency.impl.Authz.AuthorizationPolicy.Role buildPartial() {
-          google.keytransparency.impl.Authz.AuthorizationPolicy.Role result = new google.keytransparency.impl.Authz.AuthorizationPolicy.Role(this);
+        public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role buildPartial() {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role result = new com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role(this);
           int from_bitField0_ = bitField0_;
           if (((bitField0_ & 0x00000001) == 0x00000001)) {
             principals_ = principals_.getUnmodifiableView();
@@ -1283,16 +1285,16 @@ public final class Authz {
         }
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof google.keytransparency.impl.Authz.AuthorizationPolicy.Role) {
-            return mergeFrom((google.keytransparency.impl.Authz.AuthorizationPolicy.Role)other);
+          if (other instanceof com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role) {
+            return mergeFrom((com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(google.keytransparency.impl.Authz.AuthorizationPolicy.Role other) {
-          if (other == google.keytransparency.impl.Authz.AuthorizationPolicy.Role.getDefaultInstance()) return this;
+        public Builder mergeFrom(com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role other) {
+          if (other == com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role.getDefaultInstance()) return this;
           if (!other.principals_.isEmpty()) {
             if (principals_.isEmpty()) {
               principals_ = other.principals_;
@@ -1318,11 +1320,11 @@ public final class Authz {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          google.keytransparency.impl.Authz.AuthorizationPolicy.Role parsedMessage = null;
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role parsedMessage = null;
           try {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            parsedMessage = (google.keytransparency.impl.Authz.AuthorizationPolicy.Role) e.getUnfinishedMessage();
+            parsedMessage = (com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role) e.getUnfinishedMessage();
             throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
@@ -1475,16 +1477,16 @@ public final class Authz {
         }
 
 
-        // @@protoc_insertion_point(builder_scope:google.keytransparency.impl.AuthorizationPolicy.Role)
+        // @@protoc_insertion_point(builder_scope:com.google.keytransparency.impl.AuthorizationPolicy.Role)
       }
 
-      // @@protoc_insertion_point(class_scope:google.keytransparency.impl.AuthorizationPolicy.Role)
-      private static final google.keytransparency.impl.Authz.AuthorizationPolicy.Role DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:com.google.keytransparency.impl.AuthorizationPolicy.Role)
+      private static final com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new google.keytransparency.impl.Authz.AuthorizationPolicy.Role();
+        DEFAULT_INSTANCE = new com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role();
       }
 
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.Role getDefaultInstance() {
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
@@ -1509,14 +1511,14 @@ public final class Authz {
       }
 
       @java.lang.Override
-      public google.keytransparency.impl.Authz.AuthorizationPolicy.Role getDefaultInstanceForType() {
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
     }
 
     public interface RoleLabelsOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
+        // @@protoc_insertion_point(interface_extends:com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -1543,11 +1545,11 @@ public final class Authz {
      * RoleLabels contains a lot of role labels identifying each role.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.impl.AuthorizationPolicy.RoleLabels}
+     * Protobuf type {@code com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels}
      */
     public  static final class RoleLabels extends
         com.google.protobuf.GeneratedMessageV3 implements
-        // @@protoc_insertion_point(message_implements:google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
+        // @@protoc_insertion_point(message_implements:com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
         RoleLabelsOrBuilder {
     private static final long serialVersionUID = 0L;
       // Use RoleLabels.newBuilder() to construct.
@@ -1615,15 +1617,15 @@ public final class Authz {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_descriptor;
+        return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_fieldAccessorTable
+        return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.class, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.Builder.class);
+                com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.class, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.Builder.class);
       }
 
       public static final int LABELS_FIELD_NUMBER = 1;
@@ -1699,10 +1701,10 @@ public final class Authz {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels)) {
+        if (!(obj instanceof com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels)) {
           return super.equals(obj);
         }
-        google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels other = (google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels) obj;
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels other = (com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels) obj;
 
         boolean result = true;
         result = result && getLabelsList()
@@ -1727,69 +1729,69 @@ public final class Authz {
         return hash;
       }
 
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(byte[] data)
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(java.io.InputStream input)
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseDelimitedFrom(java.io.InputStream input)
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseDelimitedFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1802,7 +1804,7 @@ public final class Authz {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels prototype) {
+      public static Builder newBuilder(com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -1822,26 +1824,26 @@ public final class Authz {
        * RoleLabels contains a lot of role labels identifying each role.
        * </pre>
        *
-       * Protobuf type {@code google.keytransparency.impl.AuthorizationPolicy.RoleLabels}
+       * Protobuf type {@code com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
-          google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabelsOrBuilder {
+          // @@protoc_insertion_point(builder_implements:com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabelsOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_descriptor;
+          return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_fieldAccessorTable
+          return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.class, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.Builder.class);
+                  com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.class, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.Builder.class);
         }
 
-        // Construct using google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.newBuilder()
+        // Construct using com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -1867,17 +1869,17 @@ public final class Authz {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_descriptor;
+          return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RoleLabels_descriptor;
         }
 
         @java.lang.Override
-        public google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getDefaultInstanceForType() {
-          return google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.getDefaultInstance();
+        public com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getDefaultInstanceForType() {
+          return com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.getDefaultInstance();
         }
 
         @java.lang.Override
-        public google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels build() {
-          google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels result = buildPartial();
+        public com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels build() {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -1885,8 +1887,8 @@ public final class Authz {
         }
 
         @java.lang.Override
-        public google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels buildPartial() {
-          google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels result = new google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels(this);
+        public com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels buildPartial() {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels result = new com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels(this);
           int from_bitField0_ = bitField0_;
           if (((bitField0_ & 0x00000001) == 0x00000001)) {
             labels_ = labels_.getUnmodifiableView();
@@ -1931,16 +1933,16 @@ public final class Authz {
         }
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels) {
-            return mergeFrom((google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels)other);
+          if (other instanceof com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels) {
+            return mergeFrom((com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels other) {
-          if (other == google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.getDefaultInstance()) return this;
+        public Builder mergeFrom(com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels other) {
+          if (other == com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.getDefaultInstance()) return this;
           if (!other.labels_.isEmpty()) {
             if (labels_.isEmpty()) {
               labels_ = other.labels_;
@@ -1966,11 +1968,11 @@ public final class Authz {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parsedMessage = null;
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels parsedMessage = null;
           try {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            parsedMessage = (google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels) e.getUnfinishedMessage();
+            parsedMessage = (com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels) e.getUnfinishedMessage();
             throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
@@ -2087,16 +2089,16 @@ public final class Authz {
         }
 
 
-        // @@protoc_insertion_point(builder_scope:google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
+        // @@protoc_insertion_point(builder_scope:com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
       }
 
-      // @@protoc_insertion_point(class_scope:google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
-      private static final google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels)
+      private static final com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels();
+        DEFAULT_INSTANCE = new com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels();
       }
 
-      public static google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getDefaultInstance() {
+      public static com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
@@ -2121,7 +2123,7 @@ public final class Authz {
       }
 
       @java.lang.Override
-      public google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getDefaultInstanceForType() {
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -2130,18 +2132,18 @@ public final class Authz {
     public static final int ROLES_FIELD_NUMBER = 2;
     private static final class RolesDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
-          java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> defaultEntry =
+          java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> defaultEntry =
               com.google.protobuf.MapEntry
-              .<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role>newDefaultInstance(
-                  google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RolesEntry_descriptor, 
+              .<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role>newDefaultInstance(
+                  com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_RolesEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  google.keytransparency.impl.Authz.AuthorizationPolicy.Role.getDefaultInstance());
+                  com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role.getDefaultInstance());
     }
     private com.google.protobuf.MapField<
-        java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> roles_;
-    private com.google.protobuf.MapField<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
+        java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> roles_;
+    private com.google.protobuf.MapField<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
     internalGetRoles() {
       if (roles_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
@@ -2158,7 +2160,7 @@ public final class Authz {
      * roles is a map of roles keyed by labels used in RoleLabels.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
      */
 
     public boolean containsRoles(
@@ -2170,7 +2172,7 @@ public final class Authz {
      * Use {@link #getRolesMap()} instead.
      */
     @java.lang.Deprecated
-    public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> getRoles() {
+    public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> getRoles() {
       return getRolesMap();
     }
     /**
@@ -2178,10 +2180,10 @@ public final class Authz {
      * roles is a map of roles keyed by labels used in RoleLabels.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
      */
 
-    public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> getRolesMap() {
+    public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> getRolesMap() {
       return internalGetRoles().getMap();
     }
     /**
@@ -2189,14 +2191,14 @@ public final class Authz {
      * roles is a map of roles keyed by labels used in RoleLabels.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
      */
 
-    public google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrDefault(
+    public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrDefault(
         java.lang.String key,
-        google.keytransparency.impl.Authz.AuthorizationPolicy.Role defaultValue) {
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role defaultValue) {
       if (key == null) { throw new java.lang.NullPointerException(); }
-      java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> map =
+      java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> map =
           internalGetRoles().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
@@ -2205,13 +2207,13 @@ public final class Authz {
      * roles is a map of roles keyed by labels used in RoleLabels.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
      */
 
-    public google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrThrow(
+    public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrThrow(
         java.lang.String key) {
       if (key == null) { throw new java.lang.NullPointerException(); }
-      java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> map =
+      java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> map =
           internalGetRoles().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
@@ -2222,18 +2224,18 @@ public final class Authz {
     public static final int RESOURCE_TO_ROLE_LABELS_FIELD_NUMBER = 3;
     private static final class ResourceToRoleLabelsDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
-          java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> defaultEntry =
+          java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> defaultEntry =
               com.google.protobuf.MapEntry
-              .<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>newDefaultInstance(
-                  google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_ResourceToRoleLabelsEntry_descriptor, 
+              .<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>newDefaultInstance(
+                  com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_ResourceToRoleLabelsEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.getDefaultInstance());
+                  com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels.getDefaultInstance());
     }
     private com.google.protobuf.MapField<
-        java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> resourceToRoleLabels_;
-    private com.google.protobuf.MapField<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
+        java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> resourceToRoleLabels_;
+    private com.google.protobuf.MapField<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
     internalGetResourceToRoleLabels() {
       if (resourceToRoleLabels_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
@@ -2250,7 +2252,7 @@ public final class Authz {
      * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
      */
 
     public boolean containsResourceToRoleLabels(
@@ -2262,7 +2264,7 @@ public final class Authz {
      * Use {@link #getResourceToRoleLabelsMap()} instead.
      */
     @java.lang.Deprecated
-    public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> getResourceToRoleLabels() {
+    public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> getResourceToRoleLabels() {
       return getResourceToRoleLabelsMap();
     }
     /**
@@ -2270,10 +2272,10 @@ public final class Authz {
      * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
      */
 
-    public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> getResourceToRoleLabelsMap() {
+    public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> getResourceToRoleLabelsMap() {
       return internalGetResourceToRoleLabels().getMap();
     }
     /**
@@ -2281,14 +2283,14 @@ public final class Authz {
      * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
      */
 
-    public google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrDefault(
+    public com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrDefault(
         java.lang.String key,
-        google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels defaultValue) {
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels defaultValue) {
       if (key == null) { throw new java.lang.NullPointerException(); }
-      java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> map =
+      java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> map =
           internalGetResourceToRoleLabels().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
@@ -2297,13 +2299,13 @@ public final class Authz {
      * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
      * </pre>
      *
-     * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+     * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
      */
 
-    public google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrThrow(
+    public com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrThrow(
         java.lang.String key) {
       if (key == null) { throw new java.lang.NullPointerException(); }
-      java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> map =
+      java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> map =
           internalGetResourceToRoleLabels().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
@@ -2346,9 +2348,9 @@ public final class Authz {
       if (size != -1) return size;
 
       size = 0;
-      for (java.util.Map.Entry<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> entry
+      for (java.util.Map.Entry<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> entry
            : internalGetRoles().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
+        com.google.protobuf.MapEntry<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
         roles__ = RolesDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
@@ -2356,9 +2358,9 @@ public final class Authz {
         size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(2, roles__);
       }
-      for (java.util.Map.Entry<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> entry
+      for (java.util.Map.Entry<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> entry
            : internalGetResourceToRoleLabels().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
+        com.google.protobuf.MapEntry<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
         resourceToRoleLabels__ = ResourceToRoleLabelsDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
@@ -2376,10 +2378,10 @@ public final class Authz {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof google.keytransparency.impl.Authz.AuthorizationPolicy)) {
+      if (!(obj instanceof com.google.keytransparency.impl.Authz.AuthorizationPolicy)) {
         return super.equals(obj);
       }
-      google.keytransparency.impl.Authz.AuthorizationPolicy other = (google.keytransparency.impl.Authz.AuthorizationPolicy) obj;
+      com.google.keytransparency.impl.Authz.AuthorizationPolicy other = (com.google.keytransparency.impl.Authz.AuthorizationPolicy) obj;
 
       boolean result = true;
       result = result && internalGetRoles().equals(
@@ -2410,69 +2412,69 @@ public final class Authz {
       return hash;
     }
 
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(byte[] data)
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseDelimitedFrom(
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2485,7 +2487,7 @@ public final class Authz {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(google.keytransparency.impl.Authz.AuthorizationPolicy prototype) {
+    public static Builder newBuilder(com.google.keytransparency.impl.Authz.AuthorizationPolicy prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -2505,15 +2507,15 @@ public final class Authz {
      * AuthorizationPolicy contains an authorization policy.
      * </pre>
      *
-     * Protobuf type {@code google.keytransparency.impl.AuthorizationPolicy}
+     * Protobuf type {@code com.google.keytransparency.impl.AuthorizationPolicy}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:google.keytransparency.impl.AuthorizationPolicy)
-        google.keytransparency.impl.Authz.AuthorizationPolicyOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.google.keytransparency.impl.AuthorizationPolicy)
+        com.google.keytransparency.impl.Authz.AuthorizationPolicyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_descriptor;
+        return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_descriptor;
       }
 
       @SuppressWarnings({"rawtypes"})
@@ -2545,12 +2547,12 @@ public final class Authz {
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_fieldAccessorTable
+        return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                google.keytransparency.impl.Authz.AuthorizationPolicy.class, google.keytransparency.impl.Authz.AuthorizationPolicy.Builder.class);
+                com.google.keytransparency.impl.Authz.AuthorizationPolicy.class, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Builder.class);
       }
 
-      // Construct using google.keytransparency.impl.Authz.AuthorizationPolicy.newBuilder()
+      // Construct using com.google.keytransparency.impl.Authz.AuthorizationPolicy.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2576,17 +2578,17 @@ public final class Authz {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_descriptor;
+        return com.google.keytransparency.impl.Authz.internal_static_google_keytransparency_impl_AuthorizationPolicy_descriptor;
       }
 
       @java.lang.Override
-      public google.keytransparency.impl.Authz.AuthorizationPolicy getDefaultInstanceForType() {
-        return google.keytransparency.impl.Authz.AuthorizationPolicy.getDefaultInstance();
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy getDefaultInstanceForType() {
+        return com.google.keytransparency.impl.Authz.AuthorizationPolicy.getDefaultInstance();
       }
 
       @java.lang.Override
-      public google.keytransparency.impl.Authz.AuthorizationPolicy build() {
-        google.keytransparency.impl.Authz.AuthorizationPolicy result = buildPartial();
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy build() {
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -2594,8 +2596,8 @@ public final class Authz {
       }
 
       @java.lang.Override
-      public google.keytransparency.impl.Authz.AuthorizationPolicy buildPartial() {
-        google.keytransparency.impl.Authz.AuthorizationPolicy result = new google.keytransparency.impl.Authz.AuthorizationPolicy(this);
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy buildPartial() {
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy result = new com.google.keytransparency.impl.Authz.AuthorizationPolicy(this);
         int from_bitField0_ = bitField0_;
         result.roles_ = internalGetRoles();
         result.roles_.makeImmutable();
@@ -2639,16 +2641,16 @@ public final class Authz {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof google.keytransparency.impl.Authz.AuthorizationPolicy) {
-          return mergeFrom((google.keytransparency.impl.Authz.AuthorizationPolicy)other);
+        if (other instanceof com.google.keytransparency.impl.Authz.AuthorizationPolicy) {
+          return mergeFrom((com.google.keytransparency.impl.Authz.AuthorizationPolicy)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(google.keytransparency.impl.Authz.AuthorizationPolicy other) {
-        if (other == google.keytransparency.impl.Authz.AuthorizationPolicy.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.google.keytransparency.impl.Authz.AuthorizationPolicy other) {
+        if (other == com.google.keytransparency.impl.Authz.AuthorizationPolicy.getDefaultInstance()) return this;
         internalGetMutableRoles().mergeFrom(
             other.internalGetRoles());
         internalGetMutableResourceToRoleLabels().mergeFrom(
@@ -2668,11 +2670,11 @@ public final class Authz {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        google.keytransparency.impl.Authz.AuthorizationPolicy parsedMessage = null;
+        com.google.keytransparency.impl.Authz.AuthorizationPolicy parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (google.keytransparency.impl.Authz.AuthorizationPolicy) e.getUnfinishedMessage();
+          parsedMessage = (com.google.keytransparency.impl.Authz.AuthorizationPolicy) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -2684,8 +2686,8 @@ public final class Authz {
       private int bitField0_;
 
       private com.google.protobuf.MapField<
-          java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> roles_;
-      private com.google.protobuf.MapField<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
+          java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> roles_;
+      private com.google.protobuf.MapField<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
       internalGetRoles() {
         if (roles_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
@@ -2693,7 +2695,7 @@ public final class Authz {
         }
         return roles_;
       }
-      private com.google.protobuf.MapField<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
+      private com.google.protobuf.MapField<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
       internalGetMutableRoles() {
         onChanged();;
         if (roles_ == null) {
@@ -2714,7 +2716,7 @@ public final class Authz {
        * roles is a map of roles keyed by labels used in RoleLabels.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
        */
 
       public boolean containsRoles(
@@ -2726,7 +2728,7 @@ public final class Authz {
        * Use {@link #getRolesMap()} instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> getRoles() {
+      public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> getRoles() {
         return getRolesMap();
       }
       /**
@@ -2734,10 +2736,10 @@ public final class Authz {
        * roles is a map of roles keyed by labels used in RoleLabels.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
        */
 
-      public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> getRolesMap() {
+      public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> getRolesMap() {
         return internalGetRoles().getMap();
       }
       /**
@@ -2745,14 +2747,14 @@ public final class Authz {
        * roles is a map of roles keyed by labels used in RoleLabels.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
        */
 
-      public google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrDefault(
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrDefault(
           java.lang.String key,
-          google.keytransparency.impl.Authz.AuthorizationPolicy.Role defaultValue) {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role defaultValue) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> map =
+        java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> map =
             internalGetRoles().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
@@ -2761,13 +2763,13 @@ public final class Authz {
        * roles is a map of roles keyed by labels used in RoleLabels.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
        */
 
-      public google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrThrow(
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role getRolesOrThrow(
           java.lang.String key) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> map =
+        java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> map =
             internalGetRoles().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
@@ -2785,7 +2787,7 @@ public final class Authz {
        * roles is a map of roles keyed by labels used in RoleLabels.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
        */
 
       public Builder removeRoles(
@@ -2799,7 +2801,7 @@ public final class Authz {
        * Use alternate mutation accessors instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
+      public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role>
       getMutableRoles() {
         return internalGetMutableRoles().getMutableMap();
       }
@@ -2808,11 +2810,11 @@ public final class Authz {
        * roles is a map of roles keyed by labels used in RoleLabels.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
        */
       public Builder putRoles(
           java.lang.String key,
-          google.keytransparency.impl.Authz.AuthorizationPolicy.Role value) {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableRoles().getMutableMap()
@@ -2824,19 +2826,19 @@ public final class Authz {
        * roles is a map of roles keyed by labels used in RoleLabels.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.Role&gt; roles = 2;</code>
        */
 
       public Builder putAllRoles(
-          java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.Role> values) {
+          java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.Role> values) {
         internalGetMutableRoles().getMutableMap()
             .putAll(values);
         return this;
       }
 
       private com.google.protobuf.MapField<
-          java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> resourceToRoleLabels_;
-      private com.google.protobuf.MapField<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
+          java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> resourceToRoleLabels_;
+      private com.google.protobuf.MapField<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
       internalGetResourceToRoleLabels() {
         if (resourceToRoleLabels_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
@@ -2844,7 +2846,7 @@ public final class Authz {
         }
         return resourceToRoleLabels_;
       }
-      private com.google.protobuf.MapField<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
+      private com.google.protobuf.MapField<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
       internalGetMutableResourceToRoleLabels() {
         onChanged();;
         if (resourceToRoleLabels_ == null) {
@@ -2865,7 +2867,7 @@ public final class Authz {
        * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
        */
 
       public boolean containsResourceToRoleLabels(
@@ -2877,7 +2879,7 @@ public final class Authz {
        * Use {@link #getResourceToRoleLabelsMap()} instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> getResourceToRoleLabels() {
+      public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> getResourceToRoleLabels() {
         return getResourceToRoleLabelsMap();
       }
       /**
@@ -2885,10 +2887,10 @@ public final class Authz {
        * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
        */
 
-      public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> getResourceToRoleLabelsMap() {
+      public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> getResourceToRoleLabelsMap() {
         return internalGetResourceToRoleLabels().getMap();
       }
       /**
@@ -2896,14 +2898,14 @@ public final class Authz {
        * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
        */
 
-      public google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrDefault(
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrDefault(
           java.lang.String key,
-          google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels defaultValue) {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels defaultValue) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> map =
+        java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> map =
             internalGetResourceToRoleLabels().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
@@ -2912,13 +2914,13 @@ public final class Authz {
        * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
        */
 
-      public google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrThrow(
+      public com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels getResourceToRoleLabelsOrThrow(
           java.lang.String key) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> map =
+        java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> map =
             internalGetResourceToRoleLabels().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
@@ -2936,7 +2938,7 @@ public final class Authz {
        * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
        */
 
       public Builder removeResourceToRoleLabels(
@@ -2950,7 +2952,7 @@ public final class Authz {
        * Use alternate mutation accessors instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
+      public java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels>
       getMutableResourceToRoleLabels() {
         return internalGetMutableResourceToRoleLabels().getMutableMap();
       }
@@ -2959,11 +2961,11 @@ public final class Authz {
        * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
        */
       public Builder putResourceToRoleLabels(
           java.lang.String key,
-          google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels value) {
+          com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableResourceToRoleLabels().getMutableMap()
@@ -2975,11 +2977,11 @@ public final class Authz {
        * resource_to_role_labels specifies the authorization policy keyed by resource directory_id.
        * </pre>
        *
-       * <code>map&lt;string, .google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
+       * <code>map&lt;string, .com.google.keytransparency.impl.AuthorizationPolicy.RoleLabels&gt; resource_to_role_labels = 3;</code>
        */
 
       public Builder putAllResourceToRoleLabels(
-          java.util.Map<java.lang.String, google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> values) {
+          java.util.Map<java.lang.String, com.google.keytransparency.impl.Authz.AuthorizationPolicy.RoleLabels> values) {
         internalGetMutableResourceToRoleLabels().getMutableMap()
             .putAll(values);
         return this;
@@ -2997,16 +2999,16 @@ public final class Authz {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:google.keytransparency.impl.AuthorizationPolicy)
+      // @@protoc_insertion_point(builder_scope:com.google.keytransparency.impl.AuthorizationPolicy)
     }
 
-    // @@protoc_insertion_point(class_scope:google.keytransparency.impl.AuthorizationPolicy)
-    private static final google.keytransparency.impl.Authz.AuthorizationPolicy DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.google.keytransparency.impl.AuthorizationPolicy)
+    private static final com.google.keytransparency.impl.Authz.AuthorizationPolicy DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new google.keytransparency.impl.Authz.AuthorizationPolicy();
+      DEFAULT_INSTANCE = new com.google.keytransparency.impl.Authz.AuthorizationPolicy();
     }
 
-    public static google.keytransparency.impl.Authz.AuthorizationPolicy getDefaultInstance() {
+    public static com.google.keytransparency.impl.Authz.AuthorizationPolicy getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3031,7 +3033,7 @@ public final class Authz {
     }
 
     @java.lang.Override
-    public google.keytransparency.impl.Authz.AuthorizationPolicy getDefaultInstanceForType() {
+    public com.google.keytransparency.impl.Authz.AuthorizationPolicy getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3086,10 +3088,10 @@ public final class Authz {
       "ce\022\024\n\014directory_id\030\001 \001(\tJ\004\010\002\020\003\032\032\n\004Role\022\022" +
       "\n\nprincipals\030\001 \003(\t\032\034\n\nRoleLabels\022\016\n\006labe" +
       "ls\030\001 \003(\t\032c\n\nRolesEntry\022\013\n\003key\030\001 \001(\t\022D\n\005v" +
-      "alue\030\002 \001(\01325.google.keytransparency.impl" +
+      "alue\030\002 \001(\01325.com.google.keytransparency.impl" +
       ".AuthorizationPolicy.Role:\0028\001\032x\n\031Resourc" +
       "eToRoleLabelsEntry\022\013\n\003key\030\001 \001(\t\022J\n\005value" +
-      "\030\002 \001(\0132;.google.keytransparency.impl.Aut" +
+      "\030\002 \001(\0132;.com.google.keytransparency.impl.Aut" +
       "horizationPolicy.RoleLabels:\0028\001BEZCgithu" +
       "b.com/google/keytransparency/impl/author" +
       "ization/authz_go_protob\006proto3"
