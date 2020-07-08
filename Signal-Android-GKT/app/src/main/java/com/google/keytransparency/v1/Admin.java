@@ -51,7 +51,7 @@ public final class Admin {
      *
      * <code>.trillian.Tree log = 2;</code>
      */
-    com.google.trillian.proto.Tree getLog();
+    com.google.trilliann.proto.Tree getLog();
     /**
      * <pre>
      * Log contains the Log-Tree's info.
@@ -59,7 +59,7 @@ public final class Admin {
      *
      * <code>.trillian.Tree log = 2;</code>
      */
-    com.google.trillian.proto.TreeOrBuilder getLogOrBuilder();
+    com.google.trilliann.proto.TreeOrBuilder getLogOrBuilder();
 
     /**
      * <pre>
@@ -76,7 +76,7 @@ public final class Admin {
      *
      * <code>.trillian.Tree map = 3;</code>
      */
-    com.google.trillian.proto.Tree getMap();
+    com.google.trilliann.proto.Tree getMap();
     /**
      * <pre>
      * Map contains the Map-Tree's info.
@@ -84,7 +84,7 @@ public final class Admin {
      *
      * <code>.trillian.Tree map = 3;</code>
      */
-    com.google.trillian.proto.TreeOrBuilder getMapOrBuilder();
+    com.google.trilliann.proto.TreeOrBuilder getMapOrBuilder();
 
     /**
      * <pre>
@@ -224,11 +224,11 @@ public final class Admin {
               break;
             }
             case 18: {
-              com.google.trillian.proto.Tree.Builder subBuilder = null;
+              com.google.trilliann.proto.Tree.Builder subBuilder = null;
               if (log_ != null) {
                 subBuilder = log_.toBuilder();
               }
-              log_ = input.readMessage(com.google.trillian.proto.Tree.parser(), extensionRegistry);
+              log_ = input.readMessage(com.google.trilliann.proto.Tree.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(log_);
                 log_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class Admin {
               break;
             }
             case 26: {
-              com.google.trillian.proto.Tree.Builder subBuilder = null;
+              com.google.trilliann.proto.Tree.Builder subBuilder = null;
               if (map_ != null) {
                 subBuilder = map_.toBuilder();
               }
-              map_ = input.readMessage(com.google.trillian.proto.Tree.parser(), extensionRegistry);
+              map_ = input.readMessage(com.google.trilliann.proto.Tree.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(map_);
                 map_ = subBuilder.buildPartial();
@@ -367,7 +367,7 @@ public final class Admin {
     }
 
     public static final int LOG_FIELD_NUMBER = 2;
-    private com.google.trillian.proto.Tree log_;
+    private com.google.trilliann.proto.Tree log_;
     /**
      * <pre>
      * Log contains the Log-Tree's info.
@@ -385,8 +385,8 @@ public final class Admin {
      *
      * <code>.trillian.Tree log = 2;</code>
      */
-    public com.google.trillian.proto.Tree getLog() {
-      return log_ == null ? com.google.trillian.proto.Tree.getDefaultInstance() : log_;
+    public com.google.trilliann.proto.Tree getLog() {
+      return log_ == null ? com.google.trilliann.proto.Tree.getDefaultInstance() : log_;
     }
     /**
      * <pre>
@@ -395,12 +395,12 @@ public final class Admin {
      *
      * <code>.trillian.Tree log = 2;</code>
      */
-    public com.google.trillian.proto.TreeOrBuilder getLogOrBuilder() {
+    public com.google.trilliann.proto.TreeOrBuilder getLogOrBuilder() {
       return getLog();
     }
 
     public static final int MAP_FIELD_NUMBER = 3;
-    private com.google.trillian.proto.Tree map_;
+    private com.google.trilliann.proto.Tree map_;
     /**
      * <pre>
      * Map contains the Map-Tree's info.
@@ -418,8 +418,8 @@ public final class Admin {
      *
      * <code>.trillian.Tree map = 3;</code>
      */
-    public com.google.trillian.proto.Tree getMap() {
-      return map_ == null ? com.google.trillian.proto.Tree.getDefaultInstance() : map_;
+    public com.google.trilliann.proto.Tree getMap() {
+      return map_ == null ? com.google.trilliann.proto.Tree.getDefaultInstance() : map_;
     }
     /**
      * <pre>
@@ -428,7 +428,7 @@ public final class Admin {
      *
      * <code>.trillian.Tree map = 3;</code>
      */
-    public com.google.trillian.proto.TreeOrBuilder getMapOrBuilder() {
+    public com.google.trilliann.proto.TreeOrBuilder getMapOrBuilder() {
       return getMap();
     }
 
@@ -1110,9 +1110,9 @@ public final class Admin {
         return this;
       }
 
-      private com.google.trillian.proto.Tree log_ = null;
+      private com.google.trilliann.proto.Tree log_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trillian.proto.Tree, com.google.trillian.proto.Tree.Builder, com.google.trillian.proto.TreeOrBuilder> logBuilder_;
+          com.google.trilliann.proto.Tree, com.google.trilliann.proto.Tree.Builder, com.google.trilliann.proto.TreeOrBuilder> logBuilder_;
       /**
        * <pre>
        * Log contains the Log-Tree's info.
@@ -1130,9 +1130,9 @@ public final class Admin {
        *
        * <code>.trillian.Tree log = 2;</code>
        */
-      public com.google.trillian.proto.Tree getLog() {
+      public com.google.trilliann.proto.Tree getLog() {
         if (logBuilder_ == null) {
-          return log_ == null ? com.google.trillian.proto.Tree.getDefaultInstance() : log_;
+          return log_ == null ? com.google.trilliann.proto.Tree.getDefaultInstance() : log_;
         } else {
           return logBuilder_.getMessage();
         }
@@ -1144,7 +1144,7 @@ public final class Admin {
        *
        * <code>.trillian.Tree log = 2;</code>
        */
-      public Builder setLog(com.google.trillian.proto.Tree value) {
+      public Builder setLog(com.google.trilliann.proto.Tree value) {
         if (logBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1165,7 +1165,7 @@ public final class Admin {
        * <code>.trillian.Tree log = 2;</code>
        */
       public Builder setLog(
-          com.google.trillian.proto.Tree.Builder builderForValue) {
+          com.google.trilliann.proto.Tree.Builder builderForValue) {
         if (logBuilder_ == null) {
           log_ = builderForValue.build();
           onChanged();
@@ -1182,11 +1182,11 @@ public final class Admin {
        *
        * <code>.trillian.Tree log = 2;</code>
        */
-      public Builder mergeLog(com.google.trillian.proto.Tree value) {
+      public Builder mergeLog(com.google.trilliann.proto.Tree value) {
         if (logBuilder_ == null) {
           if (log_ != null) {
             log_ =
-              com.google.trillian.proto.Tree.newBuilder(log_).mergeFrom(value).buildPartial();
+              com.google.trilliann.proto.Tree.newBuilder(log_).mergeFrom(value).buildPartial();
           } else {
             log_ = value;
           }
@@ -1222,7 +1222,7 @@ public final class Admin {
        *
        * <code>.trillian.Tree log = 2;</code>
        */
-      public com.google.trillian.proto.Tree.Builder getLogBuilder() {
+      public com.google.trilliann.proto.Tree.Builder getLogBuilder() {
         
         onChanged();
         return getLogFieldBuilder().getBuilder();
@@ -1234,12 +1234,12 @@ public final class Admin {
        *
        * <code>.trillian.Tree log = 2;</code>
        */
-      public com.google.trillian.proto.TreeOrBuilder getLogOrBuilder() {
+      public com.google.trilliann.proto.TreeOrBuilder getLogOrBuilder() {
         if (logBuilder_ != null) {
           return logBuilder_.getMessageOrBuilder();
         } else {
           return log_ == null ?
-              com.google.trillian.proto.Tree.getDefaultInstance() : log_;
+              com.google.trilliann.proto.Tree.getDefaultInstance() : log_;
         }
       }
       /**
@@ -1250,11 +1250,11 @@ public final class Admin {
        * <code>.trillian.Tree log = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trillian.proto.Tree, com.google.trillian.proto.Tree.Builder, com.google.trillian.proto.TreeOrBuilder> 
+          com.google.trilliann.proto.Tree, com.google.trilliann.proto.Tree.Builder, com.google.trilliann.proto.TreeOrBuilder>
           getLogFieldBuilder() {
         if (logBuilder_ == null) {
           logBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              com.google.trillian.proto.Tree, com.google.trillian.proto.Tree.Builder, com.google.trillian.proto.TreeOrBuilder>(
+              com.google.trilliann.proto.Tree, com.google.trilliann.proto.Tree.Builder, com.google.trilliann.proto.TreeOrBuilder>(
                   getLog(),
                   getParentForChildren(),
                   isClean());
@@ -1263,9 +1263,9 @@ public final class Admin {
         return logBuilder_;
       }
 
-      private com.google.trillian.proto.Tree map_ = null;
+      private com.google.trilliann.proto.Tree map_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trillian.proto.Tree, com.google.trillian.proto.Tree.Builder, com.google.trillian.proto.TreeOrBuilder> mapBuilder_;
+          com.google.trilliann.proto.Tree, com.google.trilliann.proto.Tree.Builder, com.google.trilliann.proto.TreeOrBuilder> mapBuilder_;
       /**
        * <pre>
        * Map contains the Map-Tree's info.
@@ -1283,9 +1283,9 @@ public final class Admin {
        *
        * <code>.trillian.Tree map = 3;</code>
        */
-      public com.google.trillian.proto.Tree getMap() {
+      public com.google.trilliann.proto.Tree getMap() {
         if (mapBuilder_ == null) {
-          return map_ == null ? com.google.trillian.proto.Tree.getDefaultInstance() : map_;
+          return map_ == null ? com.google.trilliann.proto.Tree.getDefaultInstance() : map_;
         } else {
           return mapBuilder_.getMessage();
         }
@@ -1297,7 +1297,7 @@ public final class Admin {
        *
        * <code>.trillian.Tree map = 3;</code>
        */
-      public Builder setMap(com.google.trillian.proto.Tree value) {
+      public Builder setMap(com.google.trilliann.proto.Tree value) {
         if (mapBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1318,7 +1318,7 @@ public final class Admin {
        * <code>.trillian.Tree map = 3;</code>
        */
       public Builder setMap(
-          com.google.trillian.proto.Tree.Builder builderForValue) {
+          com.google.trilliann.proto.Tree.Builder builderForValue) {
         if (mapBuilder_ == null) {
           map_ = builderForValue.build();
           onChanged();
@@ -1335,11 +1335,11 @@ public final class Admin {
        *
        * <code>.trillian.Tree map = 3;</code>
        */
-      public Builder mergeMap(com.google.trillian.proto.Tree value) {
+      public Builder mergeMap(com.google.trilliann.proto.Tree value) {
         if (mapBuilder_ == null) {
           if (map_ != null) {
             map_ =
-              com.google.trillian.proto.Tree.newBuilder(map_).mergeFrom(value).buildPartial();
+              com.google.trilliann.proto.Tree.newBuilder(map_).mergeFrom(value).buildPartial();
           } else {
             map_ = value;
           }
@@ -1375,7 +1375,7 @@ public final class Admin {
        *
        * <code>.trillian.Tree map = 3;</code>
        */
-      public com.google.trillian.proto.Tree.Builder getMapBuilder() {
+      public com.google.trilliann.proto.Tree.Builder getMapBuilder() {
         
         onChanged();
         return getMapFieldBuilder().getBuilder();
@@ -1387,12 +1387,12 @@ public final class Admin {
        *
        * <code>.trillian.Tree map = 3;</code>
        */
-      public com.google.trillian.proto.TreeOrBuilder getMapOrBuilder() {
+      public com.google.trilliann.proto.TreeOrBuilder getMapOrBuilder() {
         if (mapBuilder_ != null) {
           return mapBuilder_.getMessageOrBuilder();
         } else {
           return map_ == null ?
-              com.google.trillian.proto.Tree.getDefaultInstance() : map_;
+              com.google.trilliann.proto.Tree.getDefaultInstance() : map_;
         }
       }
       /**
@@ -1403,11 +1403,11 @@ public final class Admin {
        * <code>.trillian.Tree map = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trillian.proto.Tree, com.google.trillian.proto.Tree.Builder, com.google.trillian.proto.TreeOrBuilder> 
+          com.google.trilliann.proto.Tree, com.google.trilliann.proto.Tree.Builder, com.google.trilliann.proto.TreeOrBuilder>
           getMapFieldBuilder() {
         if (mapBuilder_ == null) {
           mapBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              com.google.trillian.proto.Tree, com.google.trillian.proto.Tree.Builder, com.google.trillian.proto.TreeOrBuilder>(
+              com.google.trilliann.proto.Tree, com.google.trilliann.proto.Tree.Builder, com.google.trilliann.proto.TreeOrBuilder>(
                   getMap(),
                   getParentForChildren(),
                   isClean());
@@ -10382,7 +10382,7 @@ public final class Admin {
           com.google.protobuf.DurationProto.getDescriptor(),
           com.google.protobuf.EmptyProto.getDescriptor(),
           com.google.protobuf.TimestampProto.getDescriptor(),
-          com.google.trillian.proto.TrillianProto.getDescriptor(),
+          com.google.trilliann.proto.TrillianProto.getDescriptor(),
         }, assigner);
     internal_static_google_keytransparency_v1_Directory_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -10467,7 +10467,7 @@ public final class Admin {
     com.google.protobuf.DurationProto.getDescriptor();
     com.google.protobuf.EmptyProto.getDescriptor();
     com.google.protobuf.TimestampProto.getDescriptor();
-    com.google.trillian.proto.TrillianProto.getDescriptor();
+    com.google.trilliann.proto.TrillianProto.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -904,7 +904,7 @@ public final class MonitorOuterClass {
      *
      * <code>.trillian.SignedMapRoot smr = 1;</code>
      */
-    com.google.trillian.proto.SignedMapRoot getSmr();
+    com.google.trilliann.proto.SignedMapRoot getSmr();
     /**
      * <pre>
      * smr contains the map root for the sparse Merkle Tree signed with the
@@ -914,7 +914,7 @@ public final class MonitorOuterClass {
      *
      * <code>.trillian.SignedMapRoot smr = 1;</code>
      */
-    com.google.trillian.proto.SignedMapRootOrBuilder getSmrOrBuilder();
+    com.google.trilliann.proto.SignedMapRootOrBuilder getSmrOrBuilder();
 
     /**
      * <pre>
@@ -1039,11 +1039,11 @@ public final class MonitorOuterClass {
               done = true;
               break;
             case 10: {
-              com.google.trillian.proto.SignedMapRoot.Builder subBuilder = null;
+              com.google.trilliann.proto.SignedMapRoot.Builder subBuilder = null;
               if (smr_ != null) {
                 subBuilder = smr_.toBuilder();
               }
-              smr_ = input.readMessage(com.google.trillian.proto.SignedMapRoot.parser(), extensionRegistry);
+              smr_ = input.readMessage(com.google.trilliann.proto.SignedMapRoot.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(smr_);
                 smr_ = subBuilder.buildPartial();
@@ -1110,7 +1110,7 @@ public final class MonitorOuterClass {
 
     private int bitField0_;
     public static final int SMR_FIELD_NUMBER = 1;
-    private com.google.trillian.proto.SignedMapRoot smr_;
+    private com.google.trilliann.proto.SignedMapRoot smr_;
     /**
      * <pre>
      * smr contains the map root for the sparse Merkle Tree signed with the
@@ -1132,8 +1132,8 @@ public final class MonitorOuterClass {
      *
      * <code>.trillian.SignedMapRoot smr = 1;</code>
      */
-    public com.google.trillian.proto.SignedMapRoot getSmr() {
-      return smr_ == null ? com.google.trillian.proto.SignedMapRoot.getDefaultInstance() : smr_;
+    public com.google.trilliann.proto.SignedMapRoot getSmr() {
+      return smr_ == null ? com.google.trilliann.proto.SignedMapRoot.getDefaultInstance() : smr_;
     }
     /**
      * <pre>
@@ -1144,7 +1144,7 @@ public final class MonitorOuterClass {
      *
      * <code>.trillian.SignedMapRoot smr = 1;</code>
      */
-    public com.google.trillian.proto.SignedMapRootOrBuilder getSmrOrBuilder() {
+    public com.google.trilliann.proto.SignedMapRootOrBuilder getSmrOrBuilder() {
       return getSmr();
     }
 
@@ -1654,9 +1654,9 @@ public final class MonitorOuterClass {
       }
       private int bitField0_;
 
-      private com.google.trillian.proto.SignedMapRoot smr_ = null;
+      private com.google.trilliann.proto.SignedMapRoot smr_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trillian.proto.SignedMapRoot, com.google.trillian.proto.SignedMapRoot.Builder, com.google.trillian.proto.SignedMapRootOrBuilder> smrBuilder_;
+          com.google.trilliann.proto.SignedMapRoot, com.google.trilliann.proto.SignedMapRoot.Builder, com.google.trilliann.proto.SignedMapRootOrBuilder> smrBuilder_;
       /**
        * <pre>
        * smr contains the map root for the sparse Merkle Tree signed with the
@@ -1678,9 +1678,9 @@ public final class MonitorOuterClass {
        *
        * <code>.trillian.SignedMapRoot smr = 1;</code>
        */
-      public com.google.trillian.proto.SignedMapRoot getSmr() {
+      public com.google.trilliann.proto.SignedMapRoot getSmr() {
         if (smrBuilder_ == null) {
-          return smr_ == null ? com.google.trillian.proto.SignedMapRoot.getDefaultInstance() : smr_;
+          return smr_ == null ? com.google.trilliann.proto.SignedMapRoot.getDefaultInstance() : smr_;
         } else {
           return smrBuilder_.getMessage();
         }
@@ -1694,7 +1694,7 @@ public final class MonitorOuterClass {
        *
        * <code>.trillian.SignedMapRoot smr = 1;</code>
        */
-      public Builder setSmr(com.google.trillian.proto.SignedMapRoot value) {
+      public Builder setSmr(com.google.trilliann.proto.SignedMapRoot value) {
         if (smrBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1717,7 +1717,7 @@ public final class MonitorOuterClass {
        * <code>.trillian.SignedMapRoot smr = 1;</code>
        */
       public Builder setSmr(
-          com.google.trillian.proto.SignedMapRoot.Builder builderForValue) {
+          com.google.trilliann.proto.SignedMapRoot.Builder builderForValue) {
         if (smrBuilder_ == null) {
           smr_ = builderForValue.build();
           onChanged();
@@ -1736,11 +1736,11 @@ public final class MonitorOuterClass {
        *
        * <code>.trillian.SignedMapRoot smr = 1;</code>
        */
-      public Builder mergeSmr(com.google.trillian.proto.SignedMapRoot value) {
+      public Builder mergeSmr(com.google.trilliann.proto.SignedMapRoot value) {
         if (smrBuilder_ == null) {
           if (smr_ != null) {
             smr_ =
-              com.google.trillian.proto.SignedMapRoot.newBuilder(smr_).mergeFrom(value).buildPartial();
+              com.google.trilliann.proto.SignedMapRoot.newBuilder(smr_).mergeFrom(value).buildPartial();
           } else {
             smr_ = value;
           }
@@ -1780,7 +1780,7 @@ public final class MonitorOuterClass {
        *
        * <code>.trillian.SignedMapRoot smr = 1;</code>
        */
-      public com.google.trillian.proto.SignedMapRoot.Builder getSmrBuilder() {
+      public com.google.trilliann.proto.SignedMapRoot.Builder getSmrBuilder() {
         
         onChanged();
         return getSmrFieldBuilder().getBuilder();
@@ -1794,12 +1794,12 @@ public final class MonitorOuterClass {
        *
        * <code>.trillian.SignedMapRoot smr = 1;</code>
        */
-      public com.google.trillian.proto.SignedMapRootOrBuilder getSmrOrBuilder() {
+      public com.google.trilliann.proto.SignedMapRootOrBuilder getSmrOrBuilder() {
         if (smrBuilder_ != null) {
           return smrBuilder_.getMessageOrBuilder();
         } else {
           return smr_ == null ?
-              com.google.trillian.proto.SignedMapRoot.getDefaultInstance() : smr_;
+              com.google.trilliann.proto.SignedMapRoot.getDefaultInstance() : smr_;
         }
       }
       /**
@@ -1812,11 +1812,11 @@ public final class MonitorOuterClass {
        * <code>.trillian.SignedMapRoot smr = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trillian.proto.SignedMapRoot, com.google.trillian.proto.SignedMapRoot.Builder, com.google.trillian.proto.SignedMapRootOrBuilder> 
+          com.google.trilliann.proto.SignedMapRoot, com.google.trilliann.proto.SignedMapRoot.Builder, com.google.trilliann.proto.SignedMapRootOrBuilder>
           getSmrFieldBuilder() {
         if (smrBuilder_ == null) {
           smrBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              com.google.trillian.proto.SignedMapRoot, com.google.trillian.proto.SignedMapRoot.Builder, com.google.trillian.proto.SignedMapRootOrBuilder>(
+              com.google.trilliann.proto.SignedMapRoot, com.google.trilliann.proto.SignedMapRoot.Builder, com.google.trilliann.proto.SignedMapRootOrBuilder>(
                   getSmr(),
                   getParentForChildren(),
                   isClean());
@@ -2425,7 +2425,7 @@ public final class MonitorOuterClass {
           com.google.api.AnnotationsProto.getDescriptor(),
           com.google.protobuf.TimestampProto.getDescriptor(),
           com.google.rpc.StatusProto.getDescriptor(),
-          com.google.trillian.proto.TrillianProto.getDescriptor(),
+          com.google.trilliann.proto.TrillianProto.getDescriptor(),
         }, assigner);
     internal_static_google_keytransparency_monitor_v1_GetStateRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2447,7 +2447,7 @@ public final class MonitorOuterClass {
     com.google.api.AnnotationsProto.getDescriptor();
     com.google.protobuf.TimestampProto.getDescriptor();
     com.google.rpc.StatusProto.getDescriptor();
-    com.google.trillian.proto.TrillianProto.getDescriptor();
+    com.google.trilliann.proto.TrillianProto.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
