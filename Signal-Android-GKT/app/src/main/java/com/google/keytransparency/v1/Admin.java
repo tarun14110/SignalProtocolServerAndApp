@@ -314,15 +314,14 @@ public final class Admin {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_descriptor;
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              google.keytransparency.v1.Admin.Directory.class, google.keytransparency.v1.Admin.Directory.Builder.class);
+      return com.google.keytransparency.v1.Admin.internal_static_google_keytransparency_v1_Directory_fieldAccessorTable.ensureFieldAccessorsInitialized(
+             com.google.keytransparency.v1.Admin.Directory.class, com.google.keytransparency.v1.Admin.Directory.Builder.class);
     }
 
     public static final int DIRECTORY_ID_FIELD_NUMBER = 1;
