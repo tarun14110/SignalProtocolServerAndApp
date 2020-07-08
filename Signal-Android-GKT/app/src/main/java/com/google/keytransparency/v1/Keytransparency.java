@@ -3293,7 +3293,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
      */
-    com.google.trilliann.proto.MapLeafInclusion getLeafProof();
+    com.google.trillian.proto.MapLeafInclusion getLeafProof();
     /**
      * <pre>
      * leaf_proof contains the leaf and its inclusion proof for a particular map
@@ -3302,7 +3302,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
      */
-    com.google.trilliann.proto.MapLeafInclusionOrBuilder getLeafProofOrBuilder();
+    com.google.trillian.proto.MapLeafInclusionOrBuilder getLeafProofOrBuilder();
   }
   /**
    * <pre>
@@ -3364,11 +3364,11 @@ public final class Keytransparency {
               break;
             }
             case 18: {
-              com.google.trilliann.proto.MapLeafInclusion.Builder subBuilder = null;
+              com.google.trillian.proto.MapLeafInclusion.Builder subBuilder = null;
               if (leafProof_ != null) {
                 subBuilder = leafProof_.toBuilder();
               }
-              leafProof_ = input.readMessage(com.google.trilliann.proto.MapLeafInclusion.parser(), extensionRegistry);
+              leafProof_ = input.readMessage(com.google.trillian.proto.MapLeafInclusion.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(leafProof_);
                 leafProof_ = subBuilder.buildPartial();
@@ -3448,7 +3448,7 @@ public final class Keytransparency {
     }
 
     public static final int LEAF_PROOF_FIELD_NUMBER = 2;
-    private com.google.trilliann.proto.MapLeafInclusion leafProof_;
+    private com.google.trillian.proto.MapLeafInclusion leafProof_;
     /**
      * <pre>
      * leaf_proof contains the leaf and its inclusion proof for a particular map
@@ -3468,8 +3468,8 @@ public final class Keytransparency {
      *
      * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
      */
-    public com.google.trilliann.proto.MapLeafInclusion getLeafProof() {
-      return leafProof_ == null ? com.google.trilliann.proto.MapLeafInclusion.getDefaultInstance() : leafProof_;
+    public com.google.trillian.proto.MapLeafInclusion getLeafProof() {
+      return leafProof_ == null ? com.google.trillian.proto.MapLeafInclusion.getDefaultInstance() : leafProof_;
     }
     /**
      * <pre>
@@ -3479,7 +3479,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
      */
-    public com.google.trilliann.proto.MapLeafInclusionOrBuilder getLeafProofOrBuilder() {
+    public com.google.trillian.proto.MapLeafInclusionOrBuilder getLeafProofOrBuilder() {
       return getLeafProof();
     }
 
@@ -4007,9 +4007,9 @@ public final class Keytransparency {
         return mutationBuilder_;
       }
 
-      private com.google.trilliann.proto.MapLeafInclusion leafProof_ = null;
+      private com.google.trillian.proto.MapLeafInclusion leafProof_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trilliann.proto.MapLeafInclusion, com.google.trilliann.proto.MapLeafInclusion.Builder, com.google.trilliann.proto.MapLeafInclusionOrBuilder> leafProofBuilder_;
+          com.google.trillian.proto.MapLeafInclusion, com.google.trillian.proto.MapLeafInclusion.Builder, com.google.trillian.proto.MapLeafInclusionOrBuilder> leafProofBuilder_;
       /**
        * <pre>
        * leaf_proof contains the leaf and its inclusion proof for a particular map
@@ -4029,9 +4029,9 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
        */
-      public com.google.trilliann.proto.MapLeafInclusion getLeafProof() {
+      public com.google.trillian.proto.MapLeafInclusion getLeafProof() {
         if (leafProofBuilder_ == null) {
-          return leafProof_ == null ? com.google.trilliann.proto.MapLeafInclusion.getDefaultInstance() : leafProof_;
+          return leafProof_ == null ? com.google.trillian.proto.MapLeafInclusion.getDefaultInstance() : leafProof_;
         } else {
           return leafProofBuilder_.getMessage();
         }
@@ -4044,7 +4044,7 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
        */
-      public Builder setLeafProof(com.google.trilliann.proto.MapLeafInclusion value) {
+      public Builder setLeafProof(com.google.trillian.proto.MapLeafInclusion value) {
         if (leafProofBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4066,7 +4066,7 @@ public final class Keytransparency {
        * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
        */
       public Builder setLeafProof(
-          com.google.trilliann.proto.MapLeafInclusion.Builder builderForValue) {
+          com.google.trillian.proto.MapLeafInclusion.Builder builderForValue) {
         if (leafProofBuilder_ == null) {
           leafProof_ = builderForValue.build();
           onChanged();
@@ -4084,11 +4084,11 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
        */
-      public Builder mergeLeafProof(com.google.trilliann.proto.MapLeafInclusion value) {
+      public Builder mergeLeafProof(com.google.trillian.proto.MapLeafInclusion value) {
         if (leafProofBuilder_ == null) {
           if (leafProof_ != null) {
             leafProof_ =
-              com.google.trilliann.proto.MapLeafInclusion.newBuilder(leafProof_).mergeFrom(value).buildPartial();
+              com.google.trillian.proto.MapLeafInclusion.newBuilder(leafProof_).mergeFrom(value).buildPartial();
           } else {
             leafProof_ = value;
           }
@@ -4126,7 +4126,7 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
        */
-      public com.google.trilliann.proto.MapLeafInclusion.Builder getLeafProofBuilder() {
+      public com.google.trillian.proto.MapLeafInclusion.Builder getLeafProofBuilder() {
         
         onChanged();
         return getLeafProofFieldBuilder().getBuilder();
@@ -4139,12 +4139,12 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
        */
-      public com.google.trilliann.proto.MapLeafInclusionOrBuilder getLeafProofOrBuilder() {
+      public com.google.trillian.proto.MapLeafInclusionOrBuilder getLeafProofOrBuilder() {
         if (leafProofBuilder_ != null) {
           return leafProofBuilder_.getMessageOrBuilder();
         } else {
           return leafProof_ == null ?
-              com.google.trilliann.proto.MapLeafInclusion.getDefaultInstance() : leafProof_;
+              com.google.trillian.proto.MapLeafInclusion.getDefaultInstance() : leafProof_;
         }
       }
       /**
@@ -4156,11 +4156,11 @@ public final class Keytransparency {
        * <code>.trillian.MapLeafInclusion leaf_proof = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trilliann.proto.MapLeafInclusion, com.google.trilliann.proto.MapLeafInclusion.Builder, com.google.trilliann.proto.MapLeafInclusionOrBuilder>
+          com.google.trillian.proto.MapLeafInclusion, com.google.trillian.proto.MapLeafInclusion.Builder, com.google.trillian.proto.MapLeafInclusionOrBuilder>
           getLeafProofFieldBuilder() {
         if (leafProofBuilder_ == null) {
           leafProofBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              com.google.trilliann.proto.MapLeafInclusion, com.google.trilliann.proto.MapLeafInclusion.Builder, com.google.trilliann.proto.MapLeafInclusionOrBuilder>(
+              com.google.trillian.proto.MapLeafInclusion, com.google.trillian.proto.MapLeafInclusion.Builder, com.google.trillian.proto.MapLeafInclusionOrBuilder>(
                   getLeafProof(),
                   getParentForChildren(),
                   isClean());
@@ -5785,7 +5785,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
      */
-    com.google.trilliann.proto.MapLeafInclusion getMapInclusion();
+    com.google.trillian.proto.MapLeafInclusion getMapInclusion();
     /**
      * <pre>
      * map_inclusion is an inclusion proof for the map leaf in an accompanying
@@ -5795,7 +5795,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
      */
-    com.google.trilliann.proto.MapLeafInclusionOrBuilder getMapInclusionOrBuilder();
+    com.google.trillian.proto.MapLeafInclusionOrBuilder getMapInclusionOrBuilder();
 
     /**
      * <pre>
@@ -5884,11 +5884,11 @@ public final class Keytransparency {
               break;
             }
             case 18: {
-              com.google.trilliann.proto.MapLeafInclusion.Builder subBuilder = null;
+              com.google.trillian.proto.MapLeafInclusion.Builder subBuilder = null;
               if (mapInclusion_ != null) {
                 subBuilder = mapInclusion_.toBuilder();
               }
-              mapInclusion_ = input.readMessage(com.google.trilliann.proto.MapLeafInclusion.parser(), extensionRegistry);
+              mapInclusion_ = input.readMessage(com.google.trillian.proto.MapLeafInclusion.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(mapInclusion_);
                 mapInclusion_ = subBuilder.buildPartial();
@@ -5955,7 +5955,7 @@ public final class Keytransparency {
     }
 
     public static final int MAP_INCLUSION_FIELD_NUMBER = 2;
-    private com.google.trilliann.proto.MapLeafInclusion mapInclusion_;
+    private com.google.trillian.proto.MapLeafInclusion mapInclusion_;
     /**
      * <pre>
      * map_inclusion is an inclusion proof for the map leaf in an accompanying
@@ -5977,8 +5977,8 @@ public final class Keytransparency {
      *
      * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
      */
-    public com.google.trilliann.proto.MapLeafInclusion getMapInclusion() {
-      return mapInclusion_ == null ? com.google.trilliann.proto.MapLeafInclusion.getDefaultInstance() : mapInclusion_;
+    public com.google.trillian.proto.MapLeafInclusion getMapInclusion() {
+      return mapInclusion_ == null ? com.google.trillian.proto.MapLeafInclusion.getDefaultInstance() : mapInclusion_;
     }
     /**
      * <pre>
@@ -5989,7 +5989,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
      */
-    public com.google.trilliann.proto.MapLeafInclusionOrBuilder getMapInclusionOrBuilder() {
+    public com.google.trillian.proto.MapLeafInclusionOrBuilder getMapInclusionOrBuilder() {
       return getMapInclusion();
     }
 
@@ -6446,9 +6446,9 @@ public final class Keytransparency {
         return this;
       }
 
-      private com.google.trilliann.proto.MapLeafInclusion mapInclusion_ = null;
+      private com.google.trillian.proto.MapLeafInclusion mapInclusion_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trilliann.proto.MapLeafInclusion, com.google.trilliann.proto.MapLeafInclusion.Builder, com.google.trilliann.proto.MapLeafInclusionOrBuilder> mapInclusionBuilder_;
+          com.google.trillian.proto.MapLeafInclusion, com.google.trillian.proto.MapLeafInclusion.Builder, com.google.trillian.proto.MapLeafInclusionOrBuilder> mapInclusionBuilder_;
       /**
        * <pre>
        * map_inclusion is an inclusion proof for the map leaf in an accompanying
@@ -6470,9 +6470,9 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
        */
-      public com.google.trilliann.proto.MapLeafInclusion getMapInclusion() {
+      public com.google.trillian.proto.MapLeafInclusion getMapInclusion() {
         if (mapInclusionBuilder_ == null) {
-          return mapInclusion_ == null ? com.google.trilliann.proto.MapLeafInclusion.getDefaultInstance() : mapInclusion_;
+          return mapInclusion_ == null ? com.google.trillian.proto.MapLeafInclusion.getDefaultInstance() : mapInclusion_;
         } else {
           return mapInclusionBuilder_.getMessage();
         }
@@ -6486,7 +6486,7 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
        */
-      public Builder setMapInclusion(com.google.trilliann.proto.MapLeafInclusion value) {
+      public Builder setMapInclusion(com.google.trillian.proto.MapLeafInclusion value) {
         if (mapInclusionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6509,7 +6509,7 @@ public final class Keytransparency {
        * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
        */
       public Builder setMapInclusion(
-          com.google.trilliann.proto.MapLeafInclusion.Builder builderForValue) {
+          com.google.trillian.proto.MapLeafInclusion.Builder builderForValue) {
         if (mapInclusionBuilder_ == null) {
           mapInclusion_ = builderForValue.build();
           onChanged();
@@ -6528,11 +6528,11 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
        */
-      public Builder mergeMapInclusion(com.google.trilliann.proto.MapLeafInclusion value) {
+      public Builder mergeMapInclusion(com.google.trillian.proto.MapLeafInclusion value) {
         if (mapInclusionBuilder_ == null) {
           if (mapInclusion_ != null) {
             mapInclusion_ =
-              com.google.trilliann.proto.MapLeafInclusion.newBuilder(mapInclusion_).mergeFrom(value).buildPartial();
+              com.google.trillian.proto.MapLeafInclusion.newBuilder(mapInclusion_).mergeFrom(value).buildPartial();
           } else {
             mapInclusion_ = value;
           }
@@ -6572,7 +6572,7 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
        */
-      public com.google.trilliann.proto.MapLeafInclusion.Builder getMapInclusionBuilder() {
+      public com.google.trillian.proto.MapLeafInclusion.Builder getMapInclusionBuilder() {
         
         onChanged();
         return getMapInclusionFieldBuilder().getBuilder();
@@ -6586,12 +6586,12 @@ public final class Keytransparency {
        *
        * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
        */
-      public com.google.trilliann.proto.MapLeafInclusionOrBuilder getMapInclusionOrBuilder() {
+      public com.google.trillian.proto.MapLeafInclusionOrBuilder getMapInclusionOrBuilder() {
         if (mapInclusionBuilder_ != null) {
           return mapInclusionBuilder_.getMessageOrBuilder();
         } else {
           return mapInclusion_ == null ?
-              com.google.trilliann.proto.MapLeafInclusion.getDefaultInstance() : mapInclusion_;
+              com.google.trillian.proto.MapLeafInclusion.getDefaultInstance() : mapInclusion_;
         }
       }
       /**
@@ -6604,11 +6604,11 @@ public final class Keytransparency {
        * <code>.trillian.MapLeafInclusion map_inclusion = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trilliann.proto.MapLeafInclusion, com.google.trilliann.proto.MapLeafInclusion.Builder, com.google.trilliann.proto.MapLeafInclusionOrBuilder>
+          com.google.trillian.proto.MapLeafInclusion, com.google.trillian.proto.MapLeafInclusion.Builder, com.google.trillian.proto.MapLeafInclusionOrBuilder>
           getMapInclusionFieldBuilder() {
         if (mapInclusionBuilder_ == null) {
           mapInclusionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              com.google.trilliann.proto.MapLeafInclusion, com.google.trilliann.proto.MapLeafInclusion.Builder, com.google.trilliann.proto.MapLeafInclusionOrBuilder>(
+              com.google.trillian.proto.MapLeafInclusion, com.google.trillian.proto.MapLeafInclusion.Builder, com.google.trillian.proto.MapLeafInclusionOrBuilder>(
                   getMapInclusion(),
                   getParentForChildren(),
                   isClean());
@@ -25173,7 +25173,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.SignedMapRoot map_root = 1;</code>
      */
-    com.google.trilliann.proto.SignedMapRoot getMapRoot();
+    com.google.trillian.proto.SignedMapRoot getMapRoot();
     /**
      * <pre>
      * map_root contains the signed map root for the sparse Merkle Tree.
@@ -25181,7 +25181,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.SignedMapRoot map_root = 1;</code>
      */
-    com.google.trilliann.proto.SignedMapRootOrBuilder getMapRootOrBuilder();
+    com.google.trillian.proto.SignedMapRootOrBuilder getMapRootOrBuilder();
 
     /**
      * <pre>
@@ -25256,11 +25256,11 @@ public final class Keytransparency {
               done = true;
               break;
             case 10: {
-              com.google.trilliann.proto.SignedMapRoot.Builder subBuilder = null;
+              com.google.trillian.proto.SignedMapRoot.Builder subBuilder = null;
               if (mapRoot_ != null) {
                 subBuilder = mapRoot_.toBuilder();
               }
-              mapRoot_ = input.readMessage(com.google.trilliann.proto.SignedMapRoot.parser(), extensionRegistry);
+              mapRoot_ = input.readMessage(com.google.trillian.proto.SignedMapRoot.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(mapRoot_);
                 mapRoot_ = subBuilder.buildPartial();
@@ -25313,7 +25313,7 @@ public final class Keytransparency {
 
     private int bitField0_;
     public static final int MAP_ROOT_FIELD_NUMBER = 1;
-    private com.google.trilliann.proto.SignedMapRoot mapRoot_;
+    private com.google.trillian.proto.SignedMapRoot mapRoot_;
     /**
      * <pre>
      * map_root contains the signed map root for the sparse Merkle Tree.
@@ -25331,8 +25331,8 @@ public final class Keytransparency {
      *
      * <code>.trillian.SignedMapRoot map_root = 1;</code>
      */
-    public com.google.trilliann.proto.SignedMapRoot getMapRoot() {
-      return mapRoot_ == null ? com.google.trilliann.proto.SignedMapRoot.getDefaultInstance() : mapRoot_;
+    public com.google.trillian.proto.SignedMapRoot getMapRoot() {
+      return mapRoot_ == null ? com.google.trillian.proto.SignedMapRoot.getDefaultInstance() : mapRoot_;
     }
     /**
      * <pre>
@@ -25341,7 +25341,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.SignedMapRoot map_root = 1;</code>
      */
-    public com.google.trilliann.proto.SignedMapRootOrBuilder getMapRootOrBuilder() {
+    public com.google.trillian.proto.SignedMapRootOrBuilder getMapRootOrBuilder() {
       return getMapRoot();
     }
 
@@ -25741,9 +25741,9 @@ public final class Keytransparency {
       }
       private int bitField0_;
 
-      private com.google.trilliann.proto.SignedMapRoot mapRoot_ = null;
+      private com.google.trillian.proto.SignedMapRoot mapRoot_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trilliann.proto.SignedMapRoot, com.google.trilliann.proto.SignedMapRoot.Builder, com.google.trilliann.proto.SignedMapRootOrBuilder> mapRootBuilder_;
+          com.google.trillian.proto.SignedMapRoot, com.google.trillian.proto.SignedMapRoot.Builder, com.google.trillian.proto.SignedMapRootOrBuilder> mapRootBuilder_;
       /**
        * <pre>
        * map_root contains the signed map root for the sparse Merkle Tree.
@@ -25761,9 +25761,9 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedMapRoot map_root = 1;</code>
        */
-      public com.google.trilliann.proto.SignedMapRoot getMapRoot() {
+      public com.google.trillian.proto.SignedMapRoot getMapRoot() {
         if (mapRootBuilder_ == null) {
-          return mapRoot_ == null ? com.google.trilliann.proto.SignedMapRoot.getDefaultInstance() : mapRoot_;
+          return mapRoot_ == null ? com.google.trillian.proto.SignedMapRoot.getDefaultInstance() : mapRoot_;
         } else {
           return mapRootBuilder_.getMessage();
         }
@@ -25775,7 +25775,7 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedMapRoot map_root = 1;</code>
        */
-      public Builder setMapRoot(com.google.trilliann.proto.SignedMapRoot value) {
+      public Builder setMapRoot(com.google.trillian.proto.SignedMapRoot value) {
         if (mapRootBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -25796,7 +25796,7 @@ public final class Keytransparency {
        * <code>.trillian.SignedMapRoot map_root = 1;</code>
        */
       public Builder setMapRoot(
-          com.google.trilliann.proto.SignedMapRoot.Builder builderForValue) {
+          com.google.trillian.proto.SignedMapRoot.Builder builderForValue) {
         if (mapRootBuilder_ == null) {
           mapRoot_ = builderForValue.build();
           onChanged();
@@ -25813,11 +25813,11 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedMapRoot map_root = 1;</code>
        */
-      public Builder mergeMapRoot(com.google.trilliann.proto.SignedMapRoot value) {
+      public Builder mergeMapRoot(com.google.trillian.proto.SignedMapRoot value) {
         if (mapRootBuilder_ == null) {
           if (mapRoot_ != null) {
             mapRoot_ =
-              com.google.trilliann.proto.SignedMapRoot.newBuilder(mapRoot_).mergeFrom(value).buildPartial();
+              com.google.trillian.proto.SignedMapRoot.newBuilder(mapRoot_).mergeFrom(value).buildPartial();
           } else {
             mapRoot_ = value;
           }
@@ -25853,7 +25853,7 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedMapRoot map_root = 1;</code>
        */
-      public com.google.trilliann.proto.SignedMapRoot.Builder getMapRootBuilder() {
+      public com.google.trillian.proto.SignedMapRoot.Builder getMapRootBuilder() {
         
         onChanged();
         return getMapRootFieldBuilder().getBuilder();
@@ -25865,12 +25865,12 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedMapRoot map_root = 1;</code>
        */
-      public com.google.trilliann.proto.SignedMapRootOrBuilder getMapRootOrBuilder() {
+      public com.google.trillian.proto.SignedMapRootOrBuilder getMapRootOrBuilder() {
         if (mapRootBuilder_ != null) {
           return mapRootBuilder_.getMessageOrBuilder();
         } else {
           return mapRoot_ == null ?
-              com.google.trilliann.proto.SignedMapRoot.getDefaultInstance() : mapRoot_;
+              com.google.trillian.proto.SignedMapRoot.getDefaultInstance() : mapRoot_;
         }
       }
       /**
@@ -25881,11 +25881,11 @@ public final class Keytransparency {
        * <code>.trillian.SignedMapRoot map_root = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trilliann.proto.SignedMapRoot, com.google.trilliann.proto.SignedMapRoot.Builder, com.google.trilliann.proto.SignedMapRootOrBuilder>
+          com.google.trillian.proto.SignedMapRoot, com.google.trillian.proto.SignedMapRoot.Builder, com.google.trillian.proto.SignedMapRootOrBuilder>
           getMapRootFieldBuilder() {
         if (mapRootBuilder_ == null) {
           mapRootBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              com.google.trilliann.proto.SignedMapRoot, com.google.trilliann.proto.SignedMapRoot.Builder, com.google.trilliann.proto.SignedMapRootOrBuilder>(
+              com.google.trillian.proto.SignedMapRoot, com.google.trillian.proto.SignedMapRoot.Builder, com.google.trillian.proto.SignedMapRootOrBuilder>(
                   getMapRoot(),
                   getParentForChildren(),
                   isClean());
@@ -26663,7 +26663,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.SignedLogRoot log_root = 1;</code>
      */
-    com.google.trilliann.proto.SignedLogRoot getLogRoot();
+    com.google.trillian.proto.SignedLogRoot getLogRoot();
     /**
      * <pre>
      * log_root is the latest globally consistent log root.
@@ -26671,7 +26671,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.SignedLogRoot log_root = 1;</code>
      */
-    com.google.trilliann.proto.SignedLogRootOrBuilder getLogRootOrBuilder();
+    com.google.trillian.proto.SignedLogRootOrBuilder getLogRootOrBuilder();
 
     /**
      * <pre>
@@ -26746,11 +26746,11 @@ public final class Keytransparency {
               done = true;
               break;
             case 10: {
-              com.google.trilliann.proto.SignedLogRoot.Builder subBuilder = null;
+              com.google.trillian.proto.SignedLogRoot.Builder subBuilder = null;
               if (logRoot_ != null) {
                 subBuilder = logRoot_.toBuilder();
               }
-              logRoot_ = input.readMessage(com.google.trilliann.proto.SignedLogRoot.parser(), extensionRegistry);
+              logRoot_ = input.readMessage(com.google.trillian.proto.SignedLogRoot.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(logRoot_);
                 logRoot_ = subBuilder.buildPartial();
@@ -26803,7 +26803,7 @@ public final class Keytransparency {
 
     private int bitField0_;
     public static final int LOG_ROOT_FIELD_NUMBER = 1;
-    private com.google.trilliann.proto.SignedLogRoot logRoot_;
+    private com.google.trillian.proto.SignedLogRoot logRoot_;
     /**
      * <pre>
      * log_root is the latest globally consistent log root.
@@ -26821,8 +26821,8 @@ public final class Keytransparency {
      *
      * <code>.trillian.SignedLogRoot log_root = 1;</code>
      */
-    public com.google.trilliann.proto.SignedLogRoot getLogRoot() {
-      return logRoot_ == null ? com.google.trilliann.proto.SignedLogRoot.getDefaultInstance() : logRoot_;
+    public com.google.trillian.proto.SignedLogRoot getLogRoot() {
+      return logRoot_ == null ? com.google.trillian.proto.SignedLogRoot.getDefaultInstance() : logRoot_;
     }
     /**
      * <pre>
@@ -26831,7 +26831,7 @@ public final class Keytransparency {
      *
      * <code>.trillian.SignedLogRoot log_root = 1;</code>
      */
-    public com.google.trilliann.proto.SignedLogRootOrBuilder getLogRootOrBuilder() {
+    public com.google.trillian.proto.SignedLogRootOrBuilder getLogRootOrBuilder() {
       return getLogRoot();
     }
 
@@ -27231,9 +27231,9 @@ public final class Keytransparency {
       }
       private int bitField0_;
 
-      private com.google.trilliann.proto.SignedLogRoot logRoot_ = null;
+      private com.google.trillian.proto.SignedLogRoot logRoot_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trilliann.proto.SignedLogRoot, com.google.trilliann.proto.SignedLogRoot.Builder, com.google.trilliann.proto.SignedLogRootOrBuilder> logRootBuilder_;
+          com.google.trillian.proto.SignedLogRoot, com.google.trillian.proto.SignedLogRoot.Builder, com.google.trillian.proto.SignedLogRootOrBuilder> logRootBuilder_;
       /**
        * <pre>
        * log_root is the latest globally consistent log root.
@@ -27251,9 +27251,9 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedLogRoot log_root = 1;</code>
        */
-      public com.google.trilliann.proto.SignedLogRoot getLogRoot() {
+      public com.google.trillian.proto.SignedLogRoot getLogRoot() {
         if (logRootBuilder_ == null) {
-          return logRoot_ == null ? com.google.trilliann.proto.SignedLogRoot.getDefaultInstance() : logRoot_;
+          return logRoot_ == null ? com.google.trillian.proto.SignedLogRoot.getDefaultInstance() : logRoot_;
         } else {
           return logRootBuilder_.getMessage();
         }
@@ -27265,7 +27265,7 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedLogRoot log_root = 1;</code>
        */
-      public Builder setLogRoot(com.google.trilliann.proto.SignedLogRoot value) {
+      public Builder setLogRoot(com.google.trillian.proto.SignedLogRoot value) {
         if (logRootBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -27286,7 +27286,7 @@ public final class Keytransparency {
        * <code>.trillian.SignedLogRoot log_root = 1;</code>
        */
       public Builder setLogRoot(
-          com.google.trilliann.proto.SignedLogRoot.Builder builderForValue) {
+          com.google.trillian.proto.SignedLogRoot.Builder builderForValue) {
         if (logRootBuilder_ == null) {
           logRoot_ = builderForValue.build();
           onChanged();
@@ -27303,11 +27303,11 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedLogRoot log_root = 1;</code>
        */
-      public Builder mergeLogRoot(com.google.trilliann.proto.SignedLogRoot value) {
+      public Builder mergeLogRoot(com.google.trillian.proto.SignedLogRoot value) {
         if (logRootBuilder_ == null) {
           if (logRoot_ != null) {
             logRoot_ =
-              com.google.trilliann.proto.SignedLogRoot.newBuilder(logRoot_).mergeFrom(value).buildPartial();
+              com.google.trillian.proto.SignedLogRoot.newBuilder(logRoot_).mergeFrom(value).buildPartial();
           } else {
             logRoot_ = value;
           }
@@ -27343,7 +27343,7 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedLogRoot log_root = 1;</code>
        */
-      public com.google.trilliann.proto.SignedLogRoot.Builder getLogRootBuilder() {
+      public com.google.trillian.proto.SignedLogRoot.Builder getLogRootBuilder() {
         
         onChanged();
         return getLogRootFieldBuilder().getBuilder();
@@ -27355,12 +27355,12 @@ public final class Keytransparency {
        *
        * <code>.trillian.SignedLogRoot log_root = 1;</code>
        */
-      public com.google.trilliann.proto.SignedLogRootOrBuilder getLogRootOrBuilder() {
+      public com.google.trillian.proto.SignedLogRootOrBuilder getLogRootOrBuilder() {
         if (logRootBuilder_ != null) {
           return logRootBuilder_.getMessageOrBuilder();
         } else {
           return logRoot_ == null ?
-              com.google.trilliann.proto.SignedLogRoot.getDefaultInstance() : logRoot_;
+              com.google.trillian.proto.SignedLogRoot.getDefaultInstance() : logRoot_;
         }
       }
       /**
@@ -27371,11 +27371,11 @@ public final class Keytransparency {
        * <code>.trillian.SignedLogRoot log_root = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          com.google.trilliann.proto.SignedLogRoot, com.google.trilliann.proto.SignedLogRoot.Builder, com.google.trilliann.proto.SignedLogRootOrBuilder>
+          com.google.trillian.proto.SignedLogRoot, com.google.trillian.proto.SignedLogRoot.Builder, com.google.trillian.proto.SignedLogRootOrBuilder>
           getLogRootFieldBuilder() {
         if (logRootBuilder_ == null) {
           logRootBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              com.google.trilliann.proto.SignedLogRoot, com.google.trilliann.proto.SignedLogRoot.Builder, com.google.trilliann.proto.SignedLogRootOrBuilder>(
+              com.google.trillian.proto.SignedLogRoot, com.google.trillian.proto.SignedLogRoot.Builder, com.google.trillian.proto.SignedLogRootOrBuilder>(
                   getLogRoot(),
                   getParentForChildren(),
                   isClean());
@@ -31072,8 +31072,8 @@ public final class Keytransparency {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.api.AnnotationsProto.getDescriptor(),
           com.google.protobuf.EmptyProto.getDescriptor(),
-          com.google.trilliann.proto.TrillianProto.getDescriptor(),
-          com.google.trilliann.proto.TrillianMapApiProto.getDescriptor(),
+          com.google.trillian.proto.TrillianProto.getDescriptor(),
+          com.google.trillian.proto.TrillianMapApiProto.getDescriptor(),
           google.keytransparency.v1.Admin.getDescriptor(),
         }, assigner);
     internal_static_google_keytransparency_v1_Committed_descriptor =
@@ -31287,8 +31287,8 @@ public final class Keytransparency {
         .internalUpdateFileDescriptor(descriptor, registry);
     com.google.api.AnnotationsProto.getDescriptor();
     com.google.protobuf.EmptyProto.getDescriptor();
-    com.google.trilliann.proto.TrillianProto.getDescriptor();
-    com.google.trilliann.proto.TrillianMapApiProto.getDescriptor();
+    com.google.trillian.proto.TrillianProto.getDescriptor();
+    com.google.trillian.proto.TrillianMapApiProto.getDescriptor();
     google.keytransparency.v1.Admin.getDescriptor();
   }
 
