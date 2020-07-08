@@ -1,4 +1,5 @@
 package org.thoughtcrime.securesms;
+//package com.google.keytransparency;
 
 import android.os.Bundle;
 
