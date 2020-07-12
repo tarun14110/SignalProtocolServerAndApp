@@ -68,6 +68,7 @@ repositories {
 protobuf {
     protoc {
         artifact = 'com.google.protobuf:protoc:3.12.2'
+        //artifact = 'com.google.protobuf:protoc:3.10.0'
     }
     generateProtoTasks {
         all().each { task ->
@@ -95,6 +96,8 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     useLibrary 'org.apache.http.legacy'
+
+
 
     dexOptions {
         javaMaxHeapSize "4g"
@@ -250,6 +253,11 @@ android {
         unitTests {
             includeAndroidResources = true
         }
+    }
+    configurations {
+        implementation.exclude module:'proto-google-common-protos'
+        implementation.exclude module:'protolite-well-known-types'
+        implementation.exclude module:'protobuf-lite'
     }
 }
 
