@@ -5,7 +5,7 @@ package com.google.trillian.proto;
 
 public interface SignedLogRootOrBuilder extends
     // @@protoc_insertion_point(interface_extends:trillian.SignedLogRoot)
-    com.google.protobuf.MessageOrBuilder {
+    com.google.protobuf.MessageLiteOrBuilder {
 
   /**
    * <pre>
@@ -20,6 +20,7 @@ public interface SignedLogRootOrBuilder extends
    * </pre>
    *
    * <code>bytes key_hint = 7;</code>
+   * @return The keyHint.
    */
   com.google.protobuf.ByteString getKeyHint();
 
@@ -56,6 +57,7 @@ public interface SignedLogRootOrBuilder extends
    * </pre>
    *
    * <code>bytes log_root = 8;</code>
+   * @return The logRoot.
    */
   com.google.protobuf.ByteString getLogRoot();
 
@@ -65,6 +67,7 @@ public interface SignedLogRootOrBuilder extends
    * </pre>
    *
    * <code>bytes log_root_signature = 9;</code>
+   * @return The logRootSignature.
    */
   com.google.protobuf.ByteString getLogRootSignature();
 }

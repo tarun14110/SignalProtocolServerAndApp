@@ -11,7 +11,7 @@ package com.google.trillian.proto;
  * Protobuf enum {@code trillian.TreeType}
  */
 public enum TreeType
-    implements com.google.protobuf.ProtocolMessageEnum {
+    implements com.google.protobuf.Internal.EnumLite {
   /**
    * <pre>
    * Tree type cannot be determined. Included to enable detection of mismatched
@@ -85,6 +85,7 @@ public enum TreeType
   public static final int PREORDERED_LOG_VALUE = 3;
 
 
+  @java.lang.Override
   public final int getNumber() {
     if (this == UNRECOGNIZED) {
       throw new java.lang.IllegalArgumentException(
@@ -94,6 +95,8 @@ public enum TreeType
   }
 
   /**
+   * @param value The number of the enum to look for.
+   * @return The enum associated with the given number.
    * @deprecated Use {@link #forNumber(int)} instead.
    */
   @java.lang.Deprecated
@@ -118,37 +121,25 @@ public enum TreeType
   private static final com.google.protobuf.Internal.EnumLiteMap<
       TreeType> internalValueMap =
         new com.google.protobuf.Internal.EnumLiteMap<TreeType>() {
+          @java.lang.Override
           public TreeType findValueByNumber(int number) {
             return TreeType.forNumber(number);
           }
         };
 
-  public final com.google.protobuf.Descriptors.EnumValueDescriptor
-      getValueDescriptor() {
-    return getDescriptor().getValues().get(ordinal());
-  }
-  public final com.google.protobuf.Descriptors.EnumDescriptor
-      getDescriptorForType() {
-    return getDescriptor();
-  }
-  public static final com.google.protobuf.Descriptors.EnumDescriptor
-      getDescriptor() {
-    return com.google.trillian.proto.TrillianProto.getDescriptor().getEnumTypes().get(4);
+  public static com.google.protobuf.Internal.EnumVerifier 
+      internalGetVerifier() {
+    return TreeTypeVerifier.INSTANCE;
   }
 
-  private static final TreeType[] VALUES = values();
-
-  public static TreeType valueOf(
-      com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
-    if (desc.getType() != getDescriptor()) {
-      throw new java.lang.IllegalArgumentException(
-        "EnumValueDescriptor is not for this type.");
-    }
-    if (desc.getIndex() == -1) {
-      return UNRECOGNIZED;
-    }
-    return VALUES[desc.getIndex()];
-  }
+  private static final class TreeTypeVerifier implements 
+       com.google.protobuf.Internal.EnumVerifier { 
+          static final com.google.protobuf.Internal.EnumVerifier           INSTANCE = new TreeTypeVerifier();
+          @java.lang.Override
+          public boolean isInRange(int number) {
+            return TreeType.forNumber(number) != null;
+          }
+        };
 
   private final int value;
 

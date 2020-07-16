@@ -11,84 +11,14 @@ package com.google.trillian.proto;
  * Protobuf type {@code trillian.SignedMapRoot}
  */
 public  final class SignedMapRoot extends
-    com.google.protobuf.GeneratedMessageV3 implements
+    com.google.protobuf.GeneratedMessageLite<
+        SignedMapRoot, SignedMapRoot.Builder> implements
     // @@protoc_insertion_point(message_implements:trillian.SignedMapRoot)
     SignedMapRootOrBuilder {
-private static final long serialVersionUID = 0L;
-  // Use SignedMapRoot.newBuilder() to construct.
-  private SignedMapRoot(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-    super(builder);
-  }
   private SignedMapRoot() {
     mapRoot_ = com.google.protobuf.ByteString.EMPTY;
     signature_ = com.google.protobuf.ByteString.EMPTY;
   }
-
-  @java.lang.Override
-  public final com.google.protobuf.UnknownFieldSet
-  getUnknownFields() {
-    return this.unknownFields;
-  }
-  private SignedMapRoot(
-      com.google.protobuf.CodedInputStream input,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    this();
-    if (extensionRegistry == null) {
-      throw new java.lang.NullPointerException();
-    }
-    int mutable_bitField0_ = 0;
-    com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-        com.google.protobuf.UnknownFieldSet.newBuilder();
-    try {
-      boolean done = false;
-      while (!done) {
-        int tag = input.readTag();
-        switch (tag) {
-          case 0:
-            done = true;
-            break;
-          default: {
-            if (!parseUnknownFieldProto3(
-                input, unknownFields, extensionRegistry, tag)) {
-              done = true;
-            }
-            break;
-          }
-          case 34: {
-
-            signature_ = input.readBytes();
-            break;
-          }
-          case 74: {
-
-            mapRoot_ = input.readBytes();
-            break;
-          }
-        }
-      }
-    } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-      throw e.setUnfinishedMessage(this);
-    } catch (java.io.IOException e) {
-      throw new com.google.protobuf.InvalidProtocolBufferException(
-          e).setUnfinishedMessage(this);
-    } finally {
-      this.unknownFields = unknownFields.build();
-      makeExtensionsImmutable();
-    }
-  }
-  public static final com.google.protobuf.Descriptors.Descriptor
-      getDescriptor() {
-    return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedMapRoot_descriptor;
-  }
-
-  protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internalGetFieldAccessorTable() {
-    return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedMapRoot_fieldAccessorTable
-        .ensureFieldAccessorsInitialized(
-            com.google.trillian.proto.SignedMapRoot.class, com.google.trillian.proto.SignedMapRoot.Builder.class);
-  }
-
   public static final int MAP_ROOT_FIELD_NUMBER = 9;
   private com.google.protobuf.ByteString mapRoot_;
   /**
@@ -112,9 +42,65 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>bytes map_root = 9;</code>
+   * @return The mapRoot.
    */
+  @java.lang.Override
   public com.google.protobuf.ByteString getMapRoot() {
     return mapRoot_;
+  }
+  /**
+   * <pre>
+   * map_root holds the TLS-serialization of the following structure (described
+   * in RFC5246 notation): Clients should validate signature with
+   * VerifySignedMapRoot before deserializing map_root.
+   * enum { v1(1), (65535)} Version;
+   * struct {
+   *   opaque root_hash&lt;0..128&gt;;
+   *   uint64 timestamp_nanos;
+   *   uint64 revision;
+   *   opaque metadata&lt;0..65535&gt;;
+   * } MapRootV1;
+   * struct {
+   *   Version version;
+   *   select(version) {
+   *     case v1: MapRootV1;
+   *   }
+   * } MapRoot;
+   * </pre>
+   *
+   * <code>bytes map_root = 9;</code>
+   * @param value The mapRoot to set.
+   */
+  private void setMapRoot(com.google.protobuf.ByteString value) {
+    value.getClass();
+  
+    mapRoot_ = value;
+  }
+  /**
+   * <pre>
+   * map_root holds the TLS-serialization of the following structure (described
+   * in RFC5246 notation): Clients should validate signature with
+   * VerifySignedMapRoot before deserializing map_root.
+   * enum { v1(1), (65535)} Version;
+   * struct {
+   *   opaque root_hash&lt;0..128&gt;;
+   *   uint64 timestamp_nanos;
+   *   uint64 revision;
+   *   opaque metadata&lt;0..65535&gt;;
+   * } MapRootV1;
+   * struct {
+   *   Version version;
+   *   select(version) {
+   *     case v1: MapRootV1;
+   *   }
+   * } MapRoot;
+   * </pre>
+   *
+   * <code>bytes map_root = 9;</code>
+   */
+  private void clearMapRoot() {
+    
+    mapRoot_ = getDefaultInstance().getMapRoot();
   }
 
   public static final int SIGNATURE_FIELD_NUMBER = 4;
@@ -125,173 +111,118 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>bytes signature = 4;</code>
+   * @return The signature.
    */
+  @java.lang.Override
   public com.google.protobuf.ByteString getSignature() {
     return signature_;
   }
-
-  private byte memoizedIsInitialized = -1;
-  public final boolean isInitialized() {
-    byte isInitialized = memoizedIsInitialized;
-    if (isInitialized == 1) return true;
-    if (isInitialized == 0) return false;
-
-    memoizedIsInitialized = 1;
-    return true;
+  /**
+   * <pre>
+   * Signature is the raw signature over MapRoot.
+   * </pre>
+   *
+   * <code>bytes signature = 4;</code>
+   * @param value The signature to set.
+   */
+  private void setSignature(com.google.protobuf.ByteString value) {
+    value.getClass();
+  
+    signature_ = value;
   }
-
-  public void writeTo(com.google.protobuf.CodedOutputStream output)
-                      throws java.io.IOException {
-    if (!signature_.isEmpty()) {
-      output.writeBytes(4, signature_);
-    }
-    if (!mapRoot_.isEmpty()) {
-      output.writeBytes(9, mapRoot_);
-    }
-    unknownFields.writeTo(output);
-  }
-
-  public int getSerializedSize() {
-    int size = memoizedSize;
-    if (size != -1) return size;
-
-    size = 0;
-    if (!signature_.isEmpty()) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeBytesSize(4, signature_);
-    }
-    if (!mapRoot_.isEmpty()) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeBytesSize(9, mapRoot_);
-    }
-    size += unknownFields.getSerializedSize();
-    memoizedSize = size;
-    return size;
-  }
-
-  @java.lang.Override
-  public boolean equals(final java.lang.Object obj) {
-    if (obj == this) {
-     return true;
-    }
-    if (!(obj instanceof com.google.trillian.proto.SignedMapRoot)) {
-      return super.equals(obj);
-    }
-    com.google.trillian.proto.SignedMapRoot other = (com.google.trillian.proto.SignedMapRoot) obj;
-
-    boolean result = true;
-    result = result && getMapRoot()
-        .equals(other.getMapRoot());
-    result = result && getSignature()
-        .equals(other.getSignature());
-    result = result && unknownFields.equals(other.unknownFields);
-    return result;
-  }
-
-  @java.lang.Override
-  public int hashCode() {
-    if (memoizedHashCode != 0) {
-      return memoizedHashCode;
-    }
-    int hash = 41;
-    hash = (19 * hash) + getDescriptor().hashCode();
-    hash = (37 * hash) + MAP_ROOT_FIELD_NUMBER;
-    hash = (53 * hash) + getMapRoot().hashCode();
-    hash = (37 * hash) + SIGNATURE_FIELD_NUMBER;
-    hash = (53 * hash) + getSignature().hashCode();
-    hash = (29 * hash) + unknownFields.hashCode();
-    memoizedHashCode = hash;
-    return hash;
+  /**
+   * <pre>
+   * Signature is the raw signature over MapRoot.
+   * </pre>
+   *
+   * <code>bytes signature = 4;</code>
+   */
+  private void clearSignature() {
+    
+    signature_ = getDefaultInstance().getSignature();
   }
 
   public static com.google.trillian.proto.SignedMapRoot parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data);
   }
   public static com.google.trillian.proto.SignedMapRoot parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedMapRoot parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data);
   }
   public static com.google.trillian.proto.SignedMapRoot parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedMapRoot parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data);
   }
   public static com.google.trillian.proto.SignedMapRoot parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedMapRoot parseFrom(java.io.InputStream input)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input);
   }
   public static com.google.trillian.proto.SignedMapRoot parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedMapRoot parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseDelimitedWithIOException(PARSER, input);
+    return parseDelimitedFrom(DEFAULT_INSTANCE, input);
   }
   public static com.google.trillian.proto.SignedMapRoot parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedMapRoot parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input);
   }
   public static com.google.trillian.proto.SignedMapRoot parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input, extensionRegistry);
   }
 
-  public Builder newBuilderForType() { return newBuilder(); }
   public static Builder newBuilder() {
-    return DEFAULT_INSTANCE.toBuilder();
+    return (Builder) DEFAULT_INSTANCE.createBuilder();
   }
   public static Builder newBuilder(com.google.trillian.proto.SignedMapRoot prototype) {
-    return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-  }
-  public Builder toBuilder() {
-    return this == DEFAULT_INSTANCE
-        ? new Builder() : new Builder().mergeFrom(this);
+    return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
   }
 
-  @java.lang.Override
-  protected Builder newBuilderForType(
-      com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-    Builder builder = new Builder(parent);
-    return builder;
-  }
   /**
    * <pre>
    * SignedMapRoot represents a commitment by a Map to a particular tree.
@@ -300,141 +231,16 @@ private static final long serialVersionUID = 0L;
    * Protobuf type {@code trillian.SignedMapRoot}
    */
   public static final class Builder extends
-      com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+      com.google.protobuf.GeneratedMessageLite.Builder<
+        com.google.trillian.proto.SignedMapRoot, Builder> implements
       // @@protoc_insertion_point(builder_implements:trillian.SignedMapRoot)
       com.google.trillian.proto.SignedMapRootOrBuilder {
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedMapRoot_descriptor;
-    }
-
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedMapRoot_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              com.google.trillian.proto.SignedMapRoot.class, com.google.trillian.proto.SignedMapRoot.Builder.class);
-    }
-
     // Construct using com.google.trillian.proto.SignedMapRoot.newBuilder()
     private Builder() {
-      maybeForceBuilderInitialization();
+      super(DEFAULT_INSTANCE);
     }
 
-    private Builder(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      super(parent);
-      maybeForceBuilderInitialization();
-    }
-    private void maybeForceBuilderInitialization() {
-      if (com.google.protobuf.GeneratedMessageV3
-              .alwaysUseFieldBuilders) {
-      }
-    }
-    public Builder clear() {
-      super.clear();
-      mapRoot_ = com.google.protobuf.ByteString.EMPTY;
 
-      signature_ = com.google.protobuf.ByteString.EMPTY;
-
-      return this;
-    }
-
-    public com.google.protobuf.Descriptors.Descriptor
-        getDescriptorForType() {
-      return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedMapRoot_descriptor;
-    }
-
-    public com.google.trillian.proto.SignedMapRoot getDefaultInstanceForType() {
-      return com.google.trillian.proto.SignedMapRoot.getDefaultInstance();
-    }
-
-    public com.google.trillian.proto.SignedMapRoot build() {
-      com.google.trillian.proto.SignedMapRoot result = buildPartial();
-      if (!result.isInitialized()) {
-        throw newUninitializedMessageException(result);
-      }
-      return result;
-    }
-
-    public com.google.trillian.proto.SignedMapRoot buildPartial() {
-      com.google.trillian.proto.SignedMapRoot result = new com.google.trillian.proto.SignedMapRoot(this);
-      result.mapRoot_ = mapRoot_;
-      result.signature_ = signature_;
-      onBuilt();
-      return result;
-    }
-
-    public Builder clone() {
-      return (Builder) super.clone();
-    }
-    public Builder setField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        java.lang.Object value) {
-      return (Builder) super.setField(field, value);
-    }
-    public Builder clearField(
-        com.google.protobuf.Descriptors.FieldDescriptor field) {
-      return (Builder) super.clearField(field);
-    }
-    public Builder clearOneof(
-        com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-      return (Builder) super.clearOneof(oneof);
-    }
-    public Builder setRepeatedField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        int index, java.lang.Object value) {
-      return (Builder) super.setRepeatedField(field, index, value);
-    }
-    public Builder addRepeatedField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        java.lang.Object value) {
-      return (Builder) super.addRepeatedField(field, value);
-    }
-    public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof com.google.trillian.proto.SignedMapRoot) {
-        return mergeFrom((com.google.trillian.proto.SignedMapRoot)other);
-      } else {
-        super.mergeFrom(other);
-        return this;
-      }
-    }
-
-    public Builder mergeFrom(com.google.trillian.proto.SignedMapRoot other) {
-      if (other == com.google.trillian.proto.SignedMapRoot.getDefaultInstance()) return this;
-      if (other.getMapRoot() != com.google.protobuf.ByteString.EMPTY) {
-        setMapRoot(other.getMapRoot());
-      }
-      if (other.getSignature() != com.google.protobuf.ByteString.EMPTY) {
-        setSignature(other.getSignature());
-      }
-      this.mergeUnknownFields(other.unknownFields);
-      onChanged();
-      return this;
-    }
-
-    public final boolean isInitialized() {
-      return true;
-    }
-
-    public Builder mergeFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      com.google.trillian.proto.SignedMapRoot parsedMessage = null;
-      try {
-        parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (com.google.trillian.proto.SignedMapRoot) e.getUnfinishedMessage();
-        throw e.unwrapIOException();
-      } finally {
-        if (parsedMessage != null) {
-          mergeFrom(parsedMessage);
-        }
-      }
-      return this;
-    }
-
-    private com.google.protobuf.ByteString mapRoot_ = com.google.protobuf.ByteString.EMPTY;
     /**
      * <pre>
      * map_root holds the TLS-serialization of the following structure (described
@@ -456,9 +262,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bytes map_root = 9;</code>
+     * @return The mapRoot.
      */
+    @java.lang.Override
     public com.google.protobuf.ByteString getMapRoot() {
-      return mapRoot_;
+      return instance.getMapRoot();
     }
     /**
      * <pre>
@@ -481,14 +289,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bytes map_root = 9;</code>
+     * @param value The mapRoot to set.
+     * @return This builder for chaining.
      */
     public Builder setMapRoot(com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      mapRoot_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setMapRoot(value);
       return this;
     }
     /**
@@ -512,24 +318,25 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bytes map_root = 9;</code>
+     * @return This builder for chaining.
      */
     public Builder clearMapRoot() {
-      
-      mapRoot_ = getDefaultInstance().getMapRoot();
-      onChanged();
+      copyOnWrite();
+      instance.clearMapRoot();
       return this;
     }
 
-    private com.google.protobuf.ByteString signature_ = com.google.protobuf.ByteString.EMPTY;
     /**
      * <pre>
      * Signature is the raw signature over MapRoot.
      * </pre>
      *
      * <code>bytes signature = 4;</code>
+     * @return The signature.
      */
+    @java.lang.Override
     public com.google.protobuf.ByteString getSignature() {
-      return signature_;
+      return instance.getSignature();
     }
     /**
      * <pre>
@@ -537,14 +344,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bytes signature = 4;</code>
+     * @param value The signature to set.
+     * @return This builder for chaining.
      */
     public Builder setSignature(com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      signature_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setSignature(value);
       return this;
     }
     /**
@@ -553,59 +358,86 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bytes signature = 4;</code>
+     * @return This builder for chaining.
      */
     public Builder clearSignature() {
-      
-      signature_ = getDefaultInstance().getSignature();
-      onChanged();
+      copyOnWrite();
+      instance.clearSignature();
       return this;
     }
-    public final Builder setUnknownFields(
-        final com.google.protobuf.UnknownFieldSet unknownFields) {
-      return super.setUnknownFieldsProto3(unknownFields);
-    }
-
-    public final Builder mergeUnknownFields(
-        final com.google.protobuf.UnknownFieldSet unknownFields) {
-      return super.mergeUnknownFields(unknownFields);
-    }
-
 
     // @@protoc_insertion_point(builder_scope:trillian.SignedMapRoot)
   }
+  @java.lang.Override
+  @java.lang.SuppressWarnings({"unchecked", "fallthrough"})
+  protected final java.lang.Object dynamicMethod(
+      com.google.protobuf.GeneratedMessageLite.MethodToInvoke method,
+      java.lang.Object arg0, java.lang.Object arg1) {
+    switch (method) {
+      case NEW_MUTABLE_INSTANCE: {
+        return new com.google.trillian.proto.SignedMapRoot();
+      }
+      case NEW_BUILDER: {
+        return new Builder();
+      }
+      case BUILD_MESSAGE_INFO: {
+          java.lang.Object[] objects = new java.lang.Object[] {
+            "signature_",
+            "mapRoot_",
+          };
+          java.lang.String info =
+              "\u0000\u0002\u0000\u0000\u0004\t\u0002\u0000\u0000\u0000\u0004\n\t\n";
+          return newMessageInfo(DEFAULT_INSTANCE, info, objects);
+      }
+      // fall through
+      case GET_DEFAULT_INSTANCE: {
+        return DEFAULT_INSTANCE;
+      }
+      case GET_PARSER: {
+        com.google.protobuf.Parser<com.google.trillian.proto.SignedMapRoot> parser = PARSER;
+        if (parser == null) {
+          synchronized (com.google.trillian.proto.SignedMapRoot.class) {
+            parser = PARSER;
+            if (parser == null) {
+              parser =
+                  new DefaultInstanceBasedParser<com.google.trillian.proto.SignedMapRoot>(
+                      DEFAULT_INSTANCE);
+              PARSER = parser;
+            }
+          }
+        }
+        return parser;
+    }
+    case GET_MEMOIZED_IS_INITIALIZED: {
+      return (byte) 1;
+    }
+    case SET_MEMOIZED_IS_INITIALIZED: {
+      return null;
+    }
+    }
+    throw new UnsupportedOperationException();
+  }
+
 
   // @@protoc_insertion_point(class_scope:trillian.SignedMapRoot)
   private static final com.google.trillian.proto.SignedMapRoot DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new com.google.trillian.proto.SignedMapRoot();
+    SignedMapRoot defaultInstance = new SignedMapRoot();
+    // New instances are implicitly immutable so no need to make
+    // immutable.
+    DEFAULT_INSTANCE = defaultInstance;
+    com.google.protobuf.GeneratedMessageLite.registerDefaultInstance(
+      SignedMapRoot.class, defaultInstance);
   }
 
   public static com.google.trillian.proto.SignedMapRoot getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
-  private static final com.google.protobuf.Parser<SignedMapRoot>
-      PARSER = new com.google.protobuf.AbstractParser<SignedMapRoot>() {
-    public SignedMapRoot parsePartialFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return new SignedMapRoot(input, extensionRegistry);
-    }
-  };
+  private static volatile com.google.protobuf.Parser<SignedMapRoot> PARSER;
 
   public static com.google.protobuf.Parser<SignedMapRoot> parser() {
-    return PARSER;
+    return DEFAULT_INSTANCE.getParserForType();
   }
-
-  @java.lang.Override
-  public com.google.protobuf.Parser<SignedMapRoot> getParserForType() {
-    return PARSER;
-  }
-
-  public com.google.trillian.proto.SignedMapRoot getDefaultInstanceForType() {
-    return DEFAULT_INSTANCE;
-  }
-
 }
 

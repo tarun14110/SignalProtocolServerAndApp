@@ -5,7 +5,7 @@ package com.google.trillian.proto;
 
 public interface SignedMapRootOrBuilder extends
     // @@protoc_insertion_point(interface_extends:trillian.SignedMapRoot)
-    com.google.protobuf.MessageOrBuilder {
+    com.google.protobuf.MessageLiteOrBuilder {
 
   /**
    * <pre>
@@ -28,6 +28,7 @@ public interface SignedMapRootOrBuilder extends
    * </pre>
    *
    * <code>bytes map_root = 9;</code>
+   * @return The mapRoot.
    */
   com.google.protobuf.ByteString getMapRoot();
 
@@ -37,6 +38,7 @@ public interface SignedMapRootOrBuilder extends
    * </pre>
    *
    * <code>bytes signature = 4;</code>
+   * @return The signature.
    */
   com.google.protobuf.ByteString getSignature();
 }

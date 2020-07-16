@@ -3,8 +3,8 @@
 
 package com.google.keytransparency.v1;
 
-public final class Readtoken {
-  private Readtoken() {}
+public final class ReadTokenMessage {
+  private ReadTokenMessage() {}
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistryLite registry) {
   }
@@ -122,73 +122,73 @@ public final class Readtoken {
       startWatermark_ = 0L;
     }
 
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseDelimitedFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Readtoken.ReadToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -199,7 +199,7 @@ public final class Readtoken {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Readtoken.ReadToken prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.ReadTokenMessage.ReadToken prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -212,10 +212,10 @@ public final class Readtoken {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Readtoken.ReadToken, Builder> implements
+          com.google.keytransparency.v1.ReadTokenMessage.ReadToken, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ReadToken)
-        com.google.keytransparency.v1.Readtoken.ReadTokenOrBuilder {
-      // Construct using com.google.keytransparency.v1.Readtoken.ReadToken.newBuilder()
+        com.google.keytransparency.v1.ReadTokenMessage.ReadTokenOrBuilder {
+      // Construct using com.google.keytransparency.v1.ReadTokenMessage.ReadToken.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -310,7 +310,7 @@ public final class Readtoken {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Readtoken.ReadToken();
+          return new com.google.keytransparency.v1.ReadTokenMessage.ReadToken();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -330,13 +330,13 @@ public final class Readtoken {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Readtoken.ReadToken> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.ReadTokenMessage.ReadToken> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Readtoken.ReadToken.class) {
+            synchronized (com.google.keytransparency.v1.ReadTokenMessage.ReadToken.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Readtoken.ReadToken>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.ReadTokenMessage.ReadToken>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -356,7 +356,7 @@ public final class Readtoken {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ReadToken)
-    private static final com.google.keytransparency.v1.Readtoken.ReadToken DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.ReadTokenMessage.ReadToken DEFAULT_INSTANCE;
     static {
       ReadToken defaultInstance = new ReadToken();
       // New instances are implicitly immutable so no need to make
@@ -366,7 +366,7 @@ public final class Readtoken {
         ReadToken.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Readtoken.ReadToken getDefaultInstance() {
+    public static com.google.keytransparency.v1.ReadTokenMessage.ReadToken getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -554,73 +554,73 @@ public final class Readtoken {
       revisionsReturned_ = 0L;
     }
 
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseDelimitedFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken parseFrom(
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -631,7 +631,7 @@ public final class Readtoken {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -645,10 +645,10 @@ public final class Readtoken {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken, Builder> implements
+          com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListUserRevisionsToken)
-        com.google.keytransparency.v1.Readtoken.ListUserRevisionsTokenOrBuilder {
-      // Construct using com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken.newBuilder()
+        com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsTokenOrBuilder {
+      // Construct using com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -795,7 +795,7 @@ public final class Readtoken {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken();
+          return new com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -815,13 +815,13 @@ public final class Readtoken {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken.class) {
+            synchronized (com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -841,7 +841,7 @@ public final class Readtoken {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListUserRevisionsToken)
-    private static final com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken DEFAULT_INSTANCE;
     static {
       ListUserRevisionsToken defaultInstance = new ListUserRevisionsToken();
       // New instances are implicitly immutable so no need to make
@@ -851,7 +851,7 @@ public final class Readtoken {
         ListUserRevisionsToken.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Readtoken.ListUserRevisionsToken getDefaultInstance() {
+    public static com.google.keytransparency.v1.ReadTokenMessage.ListUserRevisionsToken getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 

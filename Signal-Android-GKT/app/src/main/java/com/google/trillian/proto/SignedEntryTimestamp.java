@@ -7,113 +7,62 @@ package com.google.trillian.proto;
  * Protobuf type {@code trillian.SignedEntryTimestamp}
  */
 public  final class SignedEntryTimestamp extends
-    com.google.protobuf.GeneratedMessageV3 implements
+    com.google.protobuf.GeneratedMessageLite<
+        SignedEntryTimestamp, SignedEntryTimestamp.Builder> implements
     // @@protoc_insertion_point(message_implements:trillian.SignedEntryTimestamp)
     SignedEntryTimestampOrBuilder {
-private static final long serialVersionUID = 0L;
-  // Use SignedEntryTimestamp.newBuilder() to construct.
-  private SignedEntryTimestamp(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-    super(builder);
-  }
   private SignedEntryTimestamp() {
-    timestampNanos_ = 0L;
-    logId_ = 0L;
   }
-
-  @java.lang.Override
-  public final com.google.protobuf.UnknownFieldSet
-  getUnknownFields() {
-    return this.unknownFields;
-  }
-  private SignedEntryTimestamp(
-      com.google.protobuf.CodedInputStream input,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    this();
-    if (extensionRegistry == null) {
-      throw new java.lang.NullPointerException();
-    }
-    int mutable_bitField0_ = 0;
-    com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-        com.google.protobuf.UnknownFieldSet.newBuilder();
-    try {
-      boolean done = false;
-      while (!done) {
-        int tag = input.readTag();
-        switch (tag) {
-          case 0:
-            done = true;
-            break;
-          default: {
-            if (!parseUnknownFieldProto3(
-                input, unknownFields, extensionRegistry, tag)) {
-              done = true;
-            }
-            break;
-          }
-          case 8: {
-
-            timestampNanos_ = input.readInt64();
-            break;
-          }
-          case 16: {
-
-            logId_ = input.readInt64();
-            break;
-          }
-          case 26: {
-            sigpb.Sigpb.DigitallySigned.Builder subBuilder = null;
-            if (signature_ != null) {
-              subBuilder = signature_.toBuilder();
-            }
-            signature_ = input.readMessage(sigpb.Sigpb.DigitallySigned.parser(), extensionRegistry);
-            if (subBuilder != null) {
-              subBuilder.mergeFrom(signature_);
-              signature_ = subBuilder.buildPartial();
-            }
-
-            break;
-          }
-        }
-      }
-    } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-      throw e.setUnfinishedMessage(this);
-    } catch (java.io.IOException e) {
-      throw new com.google.protobuf.InvalidProtocolBufferException(
-          e).setUnfinishedMessage(this);
-    } finally {
-      this.unknownFields = unknownFields.build();
-      makeExtensionsImmutable();
-    }
-  }
-  public static final com.google.protobuf.Descriptors.Descriptor
-      getDescriptor() {
-    return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedEntryTimestamp_descriptor;
-  }
-
-  protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internalGetFieldAccessorTable() {
-    return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedEntryTimestamp_fieldAccessorTable
-        .ensureFieldAccessorsInitialized(
-            com.google.trillian.proto.SignedEntryTimestamp.class, com.google.trillian.proto.SignedEntryTimestamp.Builder.class);
-  }
-
   public static final int TIMESTAMP_NANOS_FIELD_NUMBER = 1;
   private long timestampNanos_;
   /**
    * <code>int64 timestamp_nanos = 1;</code>
+   * @return The timestampNanos.
    */
+  @java.lang.Override
   public long getTimestampNanos() {
     return timestampNanos_;
+  }
+  /**
+   * <code>int64 timestamp_nanos = 1;</code>
+   * @param value The timestampNanos to set.
+   */
+  private void setTimestampNanos(long value) {
+    
+    timestampNanos_ = value;
+  }
+  /**
+   * <code>int64 timestamp_nanos = 1;</code>
+   */
+  private void clearTimestampNanos() {
+    
+    timestampNanos_ = 0L;
   }
 
   public static final int LOG_ID_FIELD_NUMBER = 2;
   private long logId_;
   /**
    * <code>int64 log_id = 2;</code>
+   * @return The logId.
    */
+  @java.lang.Override
   public long getLogId() {
     return logId_;
+  }
+  /**
+   * <code>int64 log_id = 2;</code>
+   * @param value The logId to set.
+   */
+  private void setLogId(long value) {
+    
+    logId_ = value;
+  }
+  /**
+   * <code>int64 log_id = 2;</code>
+   */
+  private void clearLogId() {
+    
+    logId_ = 0L;
   }
 
   public static final int SIGNATURE_FIELD_NUMBER = 3;
@@ -121,568 +70,319 @@ private static final long serialVersionUID = 0L;
   /**
    * <code>.sigpb.DigitallySigned signature = 3;</code>
    */
+  @java.lang.Override
   public boolean hasSignature() {
     return signature_ != null;
   }
   /**
    * <code>.sigpb.DigitallySigned signature = 3;</code>
    */
+  @java.lang.Override
   public sigpb.Sigpb.DigitallySigned getSignature() {
     return signature_ == null ? sigpb.Sigpb.DigitallySigned.getDefaultInstance() : signature_;
   }
   /**
    * <code>.sigpb.DigitallySigned signature = 3;</code>
    */
-  public sigpb.Sigpb.DigitallySignedOrBuilder getSignatureOrBuilder() {
-    return getSignature();
+  private void setSignature(sigpb.Sigpb.DigitallySigned value) {
+    value.getClass();
+  signature_ = value;
+    
+    }
+  /**
+   * <code>.sigpb.DigitallySigned signature = 3;</code>
+   */
+  @java.lang.SuppressWarnings({"ReferenceEquality"})
+  private void mergeSignature(sigpb.Sigpb.DigitallySigned value) {
+    value.getClass();
+  if (signature_ != null &&
+        signature_ != sigpb.Sigpb.DigitallySigned.getDefaultInstance()) {
+      signature_ =
+        sigpb.Sigpb.DigitallySigned.newBuilder(signature_).mergeFrom(value).buildPartial();
+    } else {
+      signature_ = value;
+    }
+    
   }
-
-  private byte memoizedIsInitialized = -1;
-  public final boolean isInitialized() {
-    byte isInitialized = memoizedIsInitialized;
-    if (isInitialized == 1) return true;
-    if (isInitialized == 0) return false;
-
-    memoizedIsInitialized = 1;
-    return true;
-  }
-
-  public void writeTo(com.google.protobuf.CodedOutputStream output)
-                      throws java.io.IOException {
-    if (timestampNanos_ != 0L) {
-      output.writeInt64(1, timestampNanos_);
-    }
-    if (logId_ != 0L) {
-      output.writeInt64(2, logId_);
-    }
-    if (signature_ != null) {
-      output.writeMessage(3, getSignature());
-    }
-    unknownFields.writeTo(output);
-  }
-
-  public int getSerializedSize() {
-    int size = memoizedSize;
-    if (size != -1) return size;
-
-    size = 0;
-    if (timestampNanos_ != 0L) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeInt64Size(1, timestampNanos_);
-    }
-    if (logId_ != 0L) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeInt64Size(2, logId_);
-    }
-    if (signature_ != null) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeMessageSize(3, getSignature());
-    }
-    size += unknownFields.getSerializedSize();
-    memoizedSize = size;
-    return size;
-  }
-
-  @java.lang.Override
-  public boolean equals(final java.lang.Object obj) {
-    if (obj == this) {
-     return true;
-    }
-    if (!(obj instanceof com.google.trillian.proto.SignedEntryTimestamp)) {
-      return super.equals(obj);
-    }
-    com.google.trillian.proto.SignedEntryTimestamp other = (com.google.trillian.proto.SignedEntryTimestamp) obj;
-
-    boolean result = true;
-    result = result && (getTimestampNanos()
-        == other.getTimestampNanos());
-    result = result && (getLogId()
-        == other.getLogId());
-    result = result && (hasSignature() == other.hasSignature());
-    if (hasSignature()) {
-      result = result && getSignature()
-          .equals(other.getSignature());
-    }
-    result = result && unknownFields.equals(other.unknownFields);
-    return result;
-  }
-
-  @java.lang.Override
-  public int hashCode() {
-    if (memoizedHashCode != 0) {
-      return memoizedHashCode;
-    }
-    int hash = 41;
-    hash = (19 * hash) + getDescriptor().hashCode();
-    hash = (37 * hash) + TIMESTAMP_NANOS_FIELD_NUMBER;
-    hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-        getTimestampNanos());
-    hash = (37 * hash) + LOG_ID_FIELD_NUMBER;
-    hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-        getLogId());
-    if (hasSignature()) {
-      hash = (37 * hash) + SIGNATURE_FIELD_NUMBER;
-      hash = (53 * hash) + getSignature().hashCode();
-    }
-    hash = (29 * hash) + unknownFields.hashCode();
-    memoizedHashCode = hash;
-    return hash;
+  /**
+   * <code>.sigpb.DigitallySigned signature = 3;</code>
+   */
+  private void clearSignature() {  signature_ = null;
+    
   }
 
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(java.io.InputStream input)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseDelimitedWithIOException(PARSER, input);
+    return parseDelimitedFrom(DEFAULT_INSTANCE, input);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input);
   }
   public static com.google.trillian.proto.SignedEntryTimestamp parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input, extensionRegistry);
   }
 
-  public Builder newBuilderForType() { return newBuilder(); }
   public static Builder newBuilder() {
-    return DEFAULT_INSTANCE.toBuilder();
+    return (Builder) DEFAULT_INSTANCE.createBuilder();
   }
   public static Builder newBuilder(com.google.trillian.proto.SignedEntryTimestamp prototype) {
-    return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-  }
-  public Builder toBuilder() {
-    return this == DEFAULT_INSTANCE
-        ? new Builder() : new Builder().mergeFrom(this);
+    return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
   }
 
-  @java.lang.Override
-  protected Builder newBuilderForType(
-      com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-    Builder builder = new Builder(parent);
-    return builder;
-  }
   /**
    * Protobuf type {@code trillian.SignedEntryTimestamp}
    */
   public static final class Builder extends
-      com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+      com.google.protobuf.GeneratedMessageLite.Builder<
+        com.google.trillian.proto.SignedEntryTimestamp, Builder> implements
       // @@protoc_insertion_point(builder_implements:trillian.SignedEntryTimestamp)
       com.google.trillian.proto.SignedEntryTimestampOrBuilder {
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedEntryTimestamp_descriptor;
-    }
-
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedEntryTimestamp_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              com.google.trillian.proto.SignedEntryTimestamp.class, com.google.trillian.proto.SignedEntryTimestamp.Builder.class);
-    }
-
     // Construct using com.google.trillian.proto.SignedEntryTimestamp.newBuilder()
     private Builder() {
-      maybeForceBuilderInitialization();
+      super(DEFAULT_INSTANCE);
     }
 
-    private Builder(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      super(parent);
-      maybeForceBuilderInitialization();
-    }
-    private void maybeForceBuilderInitialization() {
-      if (com.google.protobuf.GeneratedMessageV3
-              .alwaysUseFieldBuilders) {
-      }
-    }
-    public Builder clear() {
-      super.clear();
-      timestampNanos_ = 0L;
 
-      logId_ = 0L;
-
-      if (signatureBuilder_ == null) {
-        signature_ = null;
-      } else {
-        signature_ = null;
-        signatureBuilder_ = null;
-      }
-      return this;
-    }
-
-    public com.google.protobuf.Descriptors.Descriptor
-        getDescriptorForType() {
-      return com.google.trillian.proto.TrillianProto.internal_static_trillian_SignedEntryTimestamp_descriptor;
-    }
-
-    public com.google.trillian.proto.SignedEntryTimestamp getDefaultInstanceForType() {
-      return com.google.trillian.proto.SignedEntryTimestamp.getDefaultInstance();
-    }
-
-    public com.google.trillian.proto.SignedEntryTimestamp build() {
-      com.google.trillian.proto.SignedEntryTimestamp result = buildPartial();
-      if (!result.isInitialized()) {
-        throw newUninitializedMessageException(result);
-      }
-      return result;
-    }
-
-    public com.google.trillian.proto.SignedEntryTimestamp buildPartial() {
-      com.google.trillian.proto.SignedEntryTimestamp result = new com.google.trillian.proto.SignedEntryTimestamp(this);
-      result.timestampNanos_ = timestampNanos_;
-      result.logId_ = logId_;
-      if (signatureBuilder_ == null) {
-        result.signature_ = signature_;
-      } else {
-        result.signature_ = signatureBuilder_.build();
-      }
-      onBuilt();
-      return result;
-    }
-
-    public Builder clone() {
-      return (Builder) super.clone();
-    }
-    public Builder setField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        java.lang.Object value) {
-      return (Builder) super.setField(field, value);
-    }
-    public Builder clearField(
-        com.google.protobuf.Descriptors.FieldDescriptor field) {
-      return (Builder) super.clearField(field);
-    }
-    public Builder clearOneof(
-        com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-      return (Builder) super.clearOneof(oneof);
-    }
-    public Builder setRepeatedField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        int index, java.lang.Object value) {
-      return (Builder) super.setRepeatedField(field, index, value);
-    }
-    public Builder addRepeatedField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        java.lang.Object value) {
-      return (Builder) super.addRepeatedField(field, value);
-    }
-    public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof com.google.trillian.proto.SignedEntryTimestamp) {
-        return mergeFrom((com.google.trillian.proto.SignedEntryTimestamp)other);
-      } else {
-        super.mergeFrom(other);
-        return this;
-      }
-    }
-
-    public Builder mergeFrom(com.google.trillian.proto.SignedEntryTimestamp other) {
-      if (other == com.google.trillian.proto.SignedEntryTimestamp.getDefaultInstance()) return this;
-      if (other.getTimestampNanos() != 0L) {
-        setTimestampNanos(other.getTimestampNanos());
-      }
-      if (other.getLogId() != 0L) {
-        setLogId(other.getLogId());
-      }
-      if (other.hasSignature()) {
-        mergeSignature(other.getSignature());
-      }
-      this.mergeUnknownFields(other.unknownFields);
-      onChanged();
-      return this;
-    }
-
-    public final boolean isInitialized() {
-      return true;
-    }
-
-    public Builder mergeFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      com.google.trillian.proto.SignedEntryTimestamp parsedMessage = null;
-      try {
-        parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (com.google.trillian.proto.SignedEntryTimestamp) e.getUnfinishedMessage();
-        throw e.unwrapIOException();
-      } finally {
-        if (parsedMessage != null) {
-          mergeFrom(parsedMessage);
-        }
-      }
-      return this;
-    }
-
-    private long timestampNanos_ ;
     /**
      * <code>int64 timestamp_nanos = 1;</code>
+     * @return The timestampNanos.
      */
+    @java.lang.Override
     public long getTimestampNanos() {
-      return timestampNanos_;
+      return instance.getTimestampNanos();
     }
     /**
      * <code>int64 timestamp_nanos = 1;</code>
+     * @param value The timestampNanos to set.
+     * @return This builder for chaining.
      */
     public Builder setTimestampNanos(long value) {
-      
-      timestampNanos_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setTimestampNanos(value);
       return this;
     }
     /**
      * <code>int64 timestamp_nanos = 1;</code>
+     * @return This builder for chaining.
      */
     public Builder clearTimestampNanos() {
-      
-      timestampNanos_ = 0L;
-      onChanged();
+      copyOnWrite();
+      instance.clearTimestampNanos();
       return this;
     }
 
-    private long logId_ ;
     /**
      * <code>int64 log_id = 2;</code>
+     * @return The logId.
      */
+    @java.lang.Override
     public long getLogId() {
-      return logId_;
+      return instance.getLogId();
     }
     /**
      * <code>int64 log_id = 2;</code>
+     * @param value The logId to set.
+     * @return This builder for chaining.
      */
     public Builder setLogId(long value) {
-      
-      logId_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setLogId(value);
       return this;
     }
     /**
      * <code>int64 log_id = 2;</code>
+     * @return This builder for chaining.
      */
     public Builder clearLogId() {
-      
-      logId_ = 0L;
-      onChanged();
+      copyOnWrite();
+      instance.clearLogId();
       return this;
     }
 
-    private sigpb.Sigpb.DigitallySigned signature_ = null;
-    private com.google.protobuf.SingleFieldBuilderV3<
-        sigpb.Sigpb.DigitallySigned, sigpb.Sigpb.DigitallySigned.Builder, sigpb.Sigpb.DigitallySignedOrBuilder> signatureBuilder_;
     /**
      * <code>.sigpb.DigitallySigned signature = 3;</code>
      */
+    @java.lang.Override
     public boolean hasSignature() {
-      return signatureBuilder_ != null || signature_ != null;
+      return instance.hasSignature();
     }
     /**
      * <code>.sigpb.DigitallySigned signature = 3;</code>
      */
+    @java.lang.Override
     public sigpb.Sigpb.DigitallySigned getSignature() {
-      if (signatureBuilder_ == null) {
-        return signature_ == null ? sigpb.Sigpb.DigitallySigned.getDefaultInstance() : signature_;
-      } else {
-        return signatureBuilder_.getMessage();
-      }
+      return instance.getSignature();
     }
     /**
      * <code>.sigpb.DigitallySigned signature = 3;</code>
      */
     public Builder setSignature(sigpb.Sigpb.DigitallySigned value) {
-      if (signatureBuilder_ == null) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        signature_ = value;
-        onChanged();
-      } else {
-        signatureBuilder_.setMessage(value);
-      }
-
+      copyOnWrite();
+      instance.setSignature(value);
       return this;
-    }
+      }
     /**
      * <code>.sigpb.DigitallySigned signature = 3;</code>
      */
     public Builder setSignature(
         sigpb.Sigpb.DigitallySigned.Builder builderForValue) {
-      if (signatureBuilder_ == null) {
-        signature_ = builderForValue.build();
-        onChanged();
-      } else {
-        signatureBuilder_.setMessage(builderForValue.build());
-      }
-
+      copyOnWrite();
+      instance.setSignature(builderForValue.build());
       return this;
     }
     /**
      * <code>.sigpb.DigitallySigned signature = 3;</code>
      */
     public Builder mergeSignature(sigpb.Sigpb.DigitallySigned value) {
-      if (signatureBuilder_ == null) {
-        if (signature_ != null) {
-          signature_ =
-            sigpb.Sigpb.DigitallySigned.newBuilder(signature_).mergeFrom(value).buildPartial();
-        } else {
-          signature_ = value;
-        }
-        onChanged();
-      } else {
-        signatureBuilder_.mergeFrom(value);
-      }
-
+      copyOnWrite();
+      instance.mergeSignature(value);
       return this;
     }
     /**
      * <code>.sigpb.DigitallySigned signature = 3;</code>
      */
-    public Builder clearSignature() {
-      if (signatureBuilder_ == null) {
-        signature_ = null;
-        onChanged();
-      } else {
-        signature_ = null;
-        signatureBuilder_ = null;
-      }
-
+    public Builder clearSignature() {  copyOnWrite();
+      instance.clearSignature();
       return this;
     }
-    /**
-     * <code>.sigpb.DigitallySigned signature = 3;</code>
-     */
-    public sigpb.Sigpb.DigitallySigned.Builder getSignatureBuilder() {
-      
-      onChanged();
-      return getSignatureFieldBuilder().getBuilder();
-    }
-    /**
-     * <code>.sigpb.DigitallySigned signature = 3;</code>
-     */
-    public sigpb.Sigpb.DigitallySignedOrBuilder getSignatureOrBuilder() {
-      if (signatureBuilder_ != null) {
-        return signatureBuilder_.getMessageOrBuilder();
-      } else {
-        return signature_ == null ?
-            sigpb.Sigpb.DigitallySigned.getDefaultInstance() : signature_;
-      }
-    }
-    /**
-     * <code>.sigpb.DigitallySigned signature = 3;</code>
-     */
-    private com.google.protobuf.SingleFieldBuilderV3<
-        sigpb.Sigpb.DigitallySigned, sigpb.Sigpb.DigitallySigned.Builder, sigpb.Sigpb.DigitallySignedOrBuilder> 
-        getSignatureFieldBuilder() {
-      if (signatureBuilder_ == null) {
-        signatureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-            sigpb.Sigpb.DigitallySigned, sigpb.Sigpb.DigitallySigned.Builder, sigpb.Sigpb.DigitallySignedOrBuilder>(
-                getSignature(),
-                getParentForChildren(),
-                isClean());
-        signature_ = null;
-      }
-      return signatureBuilder_;
-    }
-    public final Builder setUnknownFields(
-        final com.google.protobuf.UnknownFieldSet unknownFields) {
-      return super.setUnknownFieldsProto3(unknownFields);
-    }
-
-    public final Builder mergeUnknownFields(
-        final com.google.protobuf.UnknownFieldSet unknownFields) {
-      return super.mergeUnknownFields(unknownFields);
-    }
-
 
     // @@protoc_insertion_point(builder_scope:trillian.SignedEntryTimestamp)
   }
+  @java.lang.Override
+  @java.lang.SuppressWarnings({"unchecked", "fallthrough"})
+  protected final java.lang.Object dynamicMethod(
+      com.google.protobuf.GeneratedMessageLite.MethodToInvoke method,
+      java.lang.Object arg0, java.lang.Object arg1) {
+    switch (method) {
+      case NEW_MUTABLE_INSTANCE: {
+        return new com.google.trillian.proto.SignedEntryTimestamp();
+      }
+      case NEW_BUILDER: {
+        return new Builder();
+      }
+      case BUILD_MESSAGE_INFO: {
+          java.lang.Object[] objects = new java.lang.Object[] {
+            "timestampNanos_",
+            "logId_",
+            "signature_",
+          };
+          java.lang.String info =
+              "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\u0002\u0002\u0002" +
+              "\u0003\t";
+          return newMessageInfo(DEFAULT_INSTANCE, info, objects);
+      }
+      // fall through
+      case GET_DEFAULT_INSTANCE: {
+        return DEFAULT_INSTANCE;
+      }
+      case GET_PARSER: {
+        com.google.protobuf.Parser<com.google.trillian.proto.SignedEntryTimestamp> parser = PARSER;
+        if (parser == null) {
+          synchronized (com.google.trillian.proto.SignedEntryTimestamp.class) {
+            parser = PARSER;
+            if (parser == null) {
+              parser =
+                  new DefaultInstanceBasedParser<com.google.trillian.proto.SignedEntryTimestamp>(
+                      DEFAULT_INSTANCE);
+              PARSER = parser;
+            }
+          }
+        }
+        return parser;
+    }
+    case GET_MEMOIZED_IS_INITIALIZED: {
+      return (byte) 1;
+    }
+    case SET_MEMOIZED_IS_INITIALIZED: {
+      return null;
+    }
+    }
+    throw new UnsupportedOperationException();
+  }
+
 
   // @@protoc_insertion_point(class_scope:trillian.SignedEntryTimestamp)
   private static final com.google.trillian.proto.SignedEntryTimestamp DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new com.google.trillian.proto.SignedEntryTimestamp();
+    SignedEntryTimestamp defaultInstance = new SignedEntryTimestamp();
+    // New instances are implicitly immutable so no need to make
+    // immutable.
+    DEFAULT_INSTANCE = defaultInstance;
+    com.google.protobuf.GeneratedMessageLite.registerDefaultInstance(
+      SignedEntryTimestamp.class, defaultInstance);
   }
 
   public static com.google.trillian.proto.SignedEntryTimestamp getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
-  private static final com.google.protobuf.Parser<SignedEntryTimestamp>
-      PARSER = new com.google.protobuf.AbstractParser<SignedEntryTimestamp>() {
-    public SignedEntryTimestamp parsePartialFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return new SignedEntryTimestamp(input, extensionRegistry);
-    }
-  };
+  private static volatile com.google.protobuf.Parser<SignedEntryTimestamp> PARSER;
 
   public static com.google.protobuf.Parser<SignedEntryTimestamp> parser() {
-    return PARSER;
+    return DEFAULT_INSTANCE.getParserForType();
   }
-
-  @java.lang.Override
-  public com.google.protobuf.Parser<SignedEntryTimestamp> getParserForType() {
-    return PARSER;
-  }
-
-  public com.google.trillian.proto.SignedEntryTimestamp getDefaultInstanceForType() {
-    return DEFAULT_INSTANCE;
-  }
-
 }
 

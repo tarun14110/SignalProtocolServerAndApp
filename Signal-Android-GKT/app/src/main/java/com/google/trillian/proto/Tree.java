@@ -16,224 +16,14 @@ package com.google.trillian.proto;
  * Protobuf type {@code trillian.Tree}
  */
 public  final class Tree extends
-    com.google.protobuf.GeneratedMessageV3 implements
+    com.google.protobuf.GeneratedMessageLite<
+        Tree, Tree.Builder> implements
     // @@protoc_insertion_point(message_implements:trillian.Tree)
     TreeOrBuilder {
-private static final long serialVersionUID = 0L;
-  // Use Tree.newBuilder() to construct.
-  private Tree(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
-    super(builder);
-  }
   private Tree() {
-    treeId_ = 0L;
-    treeState_ = 0;
-    treeType_ = 0;
-    hashStrategy_ = 0;
-    hashAlgorithm_ = 0;
-    signatureAlgorithm_ = 0;
     displayName_ = "";
     description_ = "";
-    deleted_ = false;
   }
-
-  @java.lang.Override
-  public final com.google.protobuf.UnknownFieldSet
-  getUnknownFields() {
-    return this.unknownFields;
-  }
-  private Tree(
-      com.google.protobuf.CodedInputStream input,
-      com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-      throws com.google.protobuf.InvalidProtocolBufferException {
-    this();
-    if (extensionRegistry == null) {
-      throw new java.lang.NullPointerException();
-    }
-    int mutable_bitField0_ = 0;
-    com.google.protobuf.UnknownFieldSet.Builder unknownFields =
-        com.google.protobuf.UnknownFieldSet.newBuilder();
-    try {
-      boolean done = false;
-      while (!done) {
-        int tag = input.readTag();
-        switch (tag) {
-          case 0:
-            done = true;
-            break;
-          default: {
-            if (!parseUnknownFieldProto3(
-                input, unknownFields, extensionRegistry, tag)) {
-              done = true;
-            }
-            break;
-          }
-          case 8: {
-
-            treeId_ = input.readInt64();
-            break;
-          }
-          case 16: {
-            int rawValue = input.readEnum();
-
-            treeState_ = rawValue;
-            break;
-          }
-          case 24: {
-            int rawValue = input.readEnum();
-
-            treeType_ = rawValue;
-            break;
-          }
-          case 32: {
-            int rawValue = input.readEnum();
-
-            hashStrategy_ = rawValue;
-            break;
-          }
-          case 40: {
-            int rawValue = input.readEnum();
-
-            hashAlgorithm_ = rawValue;
-            break;
-          }
-          case 48: {
-            int rawValue = input.readEnum();
-
-            signatureAlgorithm_ = rawValue;
-            break;
-          }
-          case 66: {
-            java.lang.String s = input.readStringRequireUtf8();
-
-            displayName_ = s;
-            break;
-          }
-          case 74: {
-            java.lang.String s = input.readStringRequireUtf8();
-
-            description_ = s;
-            break;
-          }
-          case 98: {
-            com.google.protobuf.Any.Builder subBuilder = null;
-            if (privateKey_ != null) {
-              subBuilder = privateKey_.toBuilder();
-            }
-            privateKey_ = input.readMessage(com.google.protobuf.Any.parser(), extensionRegistry);
-            if (subBuilder != null) {
-              subBuilder.mergeFrom(privateKey_);
-              privateKey_ = subBuilder.buildPartial();
-            }
-
-            break;
-          }
-          case 106: {
-            com.google.protobuf.Any.Builder subBuilder = null;
-            if (storageSettings_ != null) {
-              subBuilder = storageSettings_.toBuilder();
-            }
-            storageSettings_ = input.readMessage(com.google.protobuf.Any.parser(), extensionRegistry);
-            if (subBuilder != null) {
-              subBuilder.mergeFrom(storageSettings_);
-              storageSettings_ = subBuilder.buildPartial();
-            }
-
-            break;
-          }
-          case 114: {
-            keyspb.Keyspb.PublicKey.Builder subBuilder = null;
-            if (publicKey_ != null) {
-              subBuilder = publicKey_.toBuilder();
-            }
-            publicKey_ = input.readMessage(keyspb.Keyspb.PublicKey.parser(), extensionRegistry);
-            if (subBuilder != null) {
-              subBuilder.mergeFrom(publicKey_);
-              publicKey_ = subBuilder.buildPartial();
-            }
-
-            break;
-          }
-          case 122: {
-            com.google.protobuf.Duration.Builder subBuilder = null;
-            if (maxRootDuration_ != null) {
-              subBuilder = maxRootDuration_.toBuilder();
-            }
-            maxRootDuration_ = input.readMessage(com.google.protobuf.Duration.parser(), extensionRegistry);
-            if (subBuilder != null) {
-              subBuilder.mergeFrom(maxRootDuration_);
-              maxRootDuration_ = subBuilder.buildPartial();
-            }
-
-            break;
-          }
-          case 130: {
-            com.google.protobuf.Timestamp.Builder subBuilder = null;
-            if (createTime_ != null) {
-              subBuilder = createTime_.toBuilder();
-            }
-            createTime_ = input.readMessage(com.google.protobuf.Timestamp.parser(), extensionRegistry);
-            if (subBuilder != null) {
-              subBuilder.mergeFrom(createTime_);
-              createTime_ = subBuilder.buildPartial();
-            }
-
-            break;
-          }
-          case 138: {
-            com.google.protobuf.Timestamp.Builder subBuilder = null;
-            if (updateTime_ != null) {
-              subBuilder = updateTime_.toBuilder();
-            }
-            updateTime_ = input.readMessage(com.google.protobuf.Timestamp.parser(), extensionRegistry);
-            if (subBuilder != null) {
-              subBuilder.mergeFrom(updateTime_);
-              updateTime_ = subBuilder.buildPartial();
-            }
-
-            break;
-          }
-          case 152: {
-
-            deleted_ = input.readBool();
-            break;
-          }
-          case 162: {
-            com.google.protobuf.Timestamp.Builder subBuilder = null;
-            if (deleteTime_ != null) {
-              subBuilder = deleteTime_.toBuilder();
-            }
-            deleteTime_ = input.readMessage(com.google.protobuf.Timestamp.parser(), extensionRegistry);
-            if (subBuilder != null) {
-              subBuilder.mergeFrom(deleteTime_);
-              deleteTime_ = subBuilder.buildPartial();
-            }
-
-            break;
-          }
-        }
-      }
-    } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-      throw e.setUnfinishedMessage(this);
-    } catch (java.io.IOException e) {
-      throw new com.google.protobuf.InvalidProtocolBufferException(
-          e).setUnfinishedMessage(this);
-    } finally {
-      this.unknownFields = unknownFields.build();
-      makeExtensionsImmutable();
-    }
-  }
-  public static final com.google.protobuf.Descriptors.Descriptor
-      getDescriptor() {
-    return com.google.trillian.proto.TrillianProto.internal_static_trillian_Tree_descriptor;
-  }
-
-  protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internalGetFieldAccessorTable() {
-    return com.google.trillian.proto.TrillianProto.internal_static_trillian_Tree_fieldAccessorTable
-        .ensureFieldAccessorsInitialized(
-            com.google.trillian.proto.Tree.class, com.google.trillian.proto.Tree.Builder.class);
-  }
-
   public static final int TREE_ID_FIELD_NUMBER = 1;
   private long treeId_;
   /**
@@ -243,9 +33,36 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>int64 tree_id = 1;</code>
+   * @return The treeId.
    */
+  @java.lang.Override
   public long getTreeId() {
     return treeId_;
+  }
+  /**
+   * <pre>
+   * ID of the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>int64 tree_id = 1;</code>
+   * @param value The treeId to set.
+   */
+  private void setTreeId(long value) {
+    
+    treeId_ = value;
+  }
+  /**
+   * <pre>
+   * ID of the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>int64 tree_id = 1;</code>
+   */
+  private void clearTreeId() {
+    
+    treeId_ = 0L;
   }
 
   public static final int TREE_STATE_FIELD_NUMBER = 2;
@@ -258,7 +75,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.trillian.TreeState tree_state = 2;</code>
+   * @return The enum numeric value on the wire for treeState.
    */
+  @java.lang.Override
   public int getTreeStateValue() {
     return treeState_;
   }
@@ -270,10 +89,52 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.trillian.TreeState tree_state = 2;</code>
+   * @return The treeState.
    */
+  @java.lang.Override
   public com.google.trillian.proto.TreeState getTreeState() {
-    com.google.trillian.proto.TreeState result = com.google.trillian.proto.TreeState.valueOf(treeState_);
+    com.google.trillian.proto.TreeState result = com.google.trillian.proto.TreeState.forNumber(treeState_);
     return result == null ? com.google.trillian.proto.TreeState.UNRECOGNIZED : result;
+  }
+  /**
+   * <pre>
+   * State of the tree.
+   * Trees are ACTIVE after creation. At any point the tree may transition
+   * between ACTIVE, DRAINING and FROZEN states.
+   * </pre>
+   *
+   * <code>.trillian.TreeState tree_state = 2;</code>
+   * @param value The enum numeric value on the wire for treeState to set.
+   */
+  private void setTreeStateValue(int value) {
+      treeState_ = value;
+  }
+  /**
+   * <pre>
+   * State of the tree.
+   * Trees are ACTIVE after creation. At any point the tree may transition
+   * between ACTIVE, DRAINING and FROZEN states.
+   * </pre>
+   *
+   * <code>.trillian.TreeState tree_state = 2;</code>
+   * @param value The treeState to set.
+   */
+  private void setTreeState(com.google.trillian.proto.TreeState value) {
+    treeState_ = value.getNumber();
+    
+  }
+  /**
+   * <pre>
+   * State of the tree.
+   * Trees are ACTIVE after creation. At any point the tree may transition
+   * between ACTIVE, DRAINING and FROZEN states.
+   * </pre>
+   *
+   * <code>.trillian.TreeState tree_state = 2;</code>
+   */
+  private void clearTreeState() {
+    
+    treeState_ = 0;
   }
 
   public static final int TREE_TYPE_FIELD_NUMBER = 3;
@@ -286,7 +147,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.trillian.TreeType tree_type = 3;</code>
+   * @return The enum numeric value on the wire for treeType.
    */
+  @java.lang.Override
   public int getTreeTypeValue() {
     return treeType_;
   }
@@ -298,10 +161,52 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.trillian.TreeType tree_type = 3;</code>
+   * @return The treeType.
    */
+  @java.lang.Override
   public com.google.trillian.proto.TreeType getTreeType() {
-    com.google.trillian.proto.TreeType result = com.google.trillian.proto.TreeType.valueOf(treeType_);
+    com.google.trillian.proto.TreeType result = com.google.trillian.proto.TreeType.forNumber(treeType_);
     return result == null ? com.google.trillian.proto.TreeType.UNRECOGNIZED : result;
+  }
+  /**
+   * <pre>
+   * Type of the tree.
+   * Readonly after Tree creation. Exception: Can be switched from
+   * PREORDERED_LOG to LOG if the Tree is and remains in the FROZEN state.
+   * </pre>
+   *
+   * <code>.trillian.TreeType tree_type = 3;</code>
+   * @param value The enum numeric value on the wire for treeType to set.
+   */
+  private void setTreeTypeValue(int value) {
+      treeType_ = value;
+  }
+  /**
+   * <pre>
+   * Type of the tree.
+   * Readonly after Tree creation. Exception: Can be switched from
+   * PREORDERED_LOG to LOG if the Tree is and remains in the FROZEN state.
+   * </pre>
+   *
+   * <code>.trillian.TreeType tree_type = 3;</code>
+   * @param value The treeType to set.
+   */
+  private void setTreeType(com.google.trillian.proto.TreeType value) {
+    treeType_ = value.getNumber();
+    
+  }
+  /**
+   * <pre>
+   * Type of the tree.
+   * Readonly after Tree creation. Exception: Can be switched from
+   * PREORDERED_LOG to LOG if the Tree is and remains in the FROZEN state.
+   * </pre>
+   *
+   * <code>.trillian.TreeType tree_type = 3;</code>
+   */
+  private void clearTreeType() {
+    
+    treeType_ = 0;
   }
 
   public static final int HASH_STRATEGY_FIELD_NUMBER = 4;
@@ -313,7 +218,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+   * @return The enum numeric value on the wire for hashStrategy.
    */
+  @java.lang.Override
   public int getHashStrategyValue() {
     return hashStrategy_;
   }
@@ -324,10 +231,49 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+   * @return The hashStrategy.
    */
+  @java.lang.Override
   public com.google.trillian.proto.HashStrategy getHashStrategy() {
-    com.google.trillian.proto.HashStrategy result = com.google.trillian.proto.HashStrategy.valueOf(hashStrategy_);
+    com.google.trillian.proto.HashStrategy result = com.google.trillian.proto.HashStrategy.forNumber(hashStrategy_);
     return result == null ? com.google.trillian.proto.HashStrategy.UNRECOGNIZED : result;
+  }
+  /**
+   * <pre>
+   * Hash strategy to be used by the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+   * @param value The enum numeric value on the wire for hashStrategy to set.
+   */
+  private void setHashStrategyValue(int value) {
+      hashStrategy_ = value;
+  }
+  /**
+   * <pre>
+   * Hash strategy to be used by the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+   * @param value The hashStrategy to set.
+   */
+  private void setHashStrategy(com.google.trillian.proto.HashStrategy value) {
+    hashStrategy_ = value.getNumber();
+    
+  }
+  /**
+   * <pre>
+   * Hash strategy to be used by the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+   */
+  private void clearHashStrategy() {
+    
+    hashStrategy_ = 0;
   }
 
   public static final int HASH_ALGORITHM_FIELD_NUMBER = 5;
@@ -339,7 +285,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+   * @return The enum numeric value on the wire for hashAlgorithm.
    */
+  @java.lang.Override
   public int getHashAlgorithmValue() {
     return hashAlgorithm_;
   }
@@ -350,10 +298,49 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+   * @return The hashAlgorithm.
    */
+  @java.lang.Override
   public sigpb.Sigpb.DigitallySigned.HashAlgorithm getHashAlgorithm() {
-    sigpb.Sigpb.DigitallySigned.HashAlgorithm result = sigpb.Sigpb.DigitallySigned.HashAlgorithm.valueOf(hashAlgorithm_);
+    sigpb.Sigpb.DigitallySigned.HashAlgorithm result = sigpb.Sigpb.DigitallySigned.HashAlgorithm.forNumber(hashAlgorithm_);
     return result == null ? sigpb.Sigpb.DigitallySigned.HashAlgorithm.UNRECOGNIZED : result;
+  }
+  /**
+   * <pre>
+   * Hash algorithm to be used by the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+   * @param value The enum numeric value on the wire for hashAlgorithm to set.
+   */
+  private void setHashAlgorithmValue(int value) {
+      hashAlgorithm_ = value;
+  }
+  /**
+   * <pre>
+   * Hash algorithm to be used by the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+   * @param value The hashAlgorithm to set.
+   */
+  private void setHashAlgorithm(sigpb.Sigpb.DigitallySigned.HashAlgorithm value) {
+    hashAlgorithm_ = value.getNumber();
+    
+  }
+  /**
+   * <pre>
+   * Hash algorithm to be used by the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+   */
+  private void clearHashAlgorithm() {
+    
+    hashAlgorithm_ = 0;
   }
 
   public static final int SIGNATURE_ALGORITHM_FIELD_NUMBER = 6;
@@ -365,7 +352,9 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+   * @return The enum numeric value on the wire for signatureAlgorithm.
    */
+  @java.lang.Override
   public int getSignatureAlgorithmValue() {
     return signatureAlgorithm_;
   }
@@ -376,14 +365,53 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+   * @return The signatureAlgorithm.
    */
+  @java.lang.Override
   public sigpb.Sigpb.DigitallySigned.SignatureAlgorithm getSignatureAlgorithm() {
-    sigpb.Sigpb.DigitallySigned.SignatureAlgorithm result = sigpb.Sigpb.DigitallySigned.SignatureAlgorithm.valueOf(signatureAlgorithm_);
+    sigpb.Sigpb.DigitallySigned.SignatureAlgorithm result = sigpb.Sigpb.DigitallySigned.SignatureAlgorithm.forNumber(signatureAlgorithm_);
     return result == null ? sigpb.Sigpb.DigitallySigned.SignatureAlgorithm.UNRECOGNIZED : result;
+  }
+  /**
+   * <pre>
+   * Signature algorithm to be used by the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+   * @param value The enum numeric value on the wire for signatureAlgorithm to set.
+   */
+  private void setSignatureAlgorithmValue(int value) {
+      signatureAlgorithm_ = value;
+  }
+  /**
+   * <pre>
+   * Signature algorithm to be used by the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+   * @param value The signatureAlgorithm to set.
+   */
+  private void setSignatureAlgorithm(sigpb.Sigpb.DigitallySigned.SignatureAlgorithm value) {
+    signatureAlgorithm_ = value.getNumber();
+    
+  }
+  /**
+   * <pre>
+   * Signature algorithm to be used by the tree.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+   */
+  private void clearSignatureAlgorithm() {
+    
+    signatureAlgorithm_ = 0;
   }
 
   public static final int DISPLAY_NAME_FIELD_NUMBER = 8;
-  private volatile java.lang.Object displayName_;
+  private java.lang.String displayName_;
   /**
    * <pre>
    * Display name of the tree.
@@ -391,18 +419,40 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string display_name = 8;</code>
+   * @return The displayName.
    */
+  @java.lang.Override
   public java.lang.String getDisplayName() {
-    java.lang.Object ref = displayName_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      displayName_ = s;
-      return s;
-    }
+    return displayName_;
+  }
+  /**
+   * <pre>
+   * Display name of the tree.
+   * Optional.
+   * </pre>
+   *
+   * <code>string display_name = 8;</code>
+   * @return The bytes for displayName.
+   */
+  @java.lang.Override
+  public com.google.protobuf.ByteString
+      getDisplayNameBytes() {
+    return com.google.protobuf.ByteString.copyFromUtf8(displayName_);
+  }
+  /**
+   * <pre>
+   * Display name of the tree.
+   * Optional.
+   * </pre>
+   *
+   * <code>string display_name = 8;</code>
+   * @param value The displayName to set.
+   */
+  private void setDisplayName(
+      java.lang.String value) {
+    value.getClass();
+  
+    displayName_ = value;
   }
   /**
    * <pre>
@@ -412,22 +462,28 @@ private static final long serialVersionUID = 0L;
    *
    * <code>string display_name = 8;</code>
    */
-  public com.google.protobuf.ByteString
-      getDisplayNameBytes() {
-    java.lang.Object ref = displayName_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      displayName_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
+  private void clearDisplayName() {
+    
+    displayName_ = getDefaultInstance().getDisplayName();
+  }
+  /**
+   * <pre>
+   * Display name of the tree.
+   * Optional.
+   * </pre>
+   *
+   * <code>string display_name = 8;</code>
+   * @param value The bytes for displayName to set.
+   */
+  private void setDisplayNameBytes(
+      com.google.protobuf.ByteString value) {
+    checkByteStringIsUtf8(value);
+    displayName_ = value.toStringUtf8();
+    
   }
 
   public static final int DESCRIPTION_FIELD_NUMBER = 9;
-  private volatile java.lang.Object description_;
+  private java.lang.String description_;
   /**
    * <pre>
    * Description of the tree,
@@ -435,18 +491,40 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>string description = 9;</code>
+   * @return The description.
    */
+  @java.lang.Override
   public java.lang.String getDescription() {
-    java.lang.Object ref = description_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      description_ = s;
-      return s;
-    }
+    return description_;
+  }
+  /**
+   * <pre>
+   * Description of the tree,
+   * Optional.
+   * </pre>
+   *
+   * <code>string description = 9;</code>
+   * @return The bytes for description.
+   */
+  @java.lang.Override
+  public com.google.protobuf.ByteString
+      getDescriptionBytes() {
+    return com.google.protobuf.ByteString.copyFromUtf8(description_);
+  }
+  /**
+   * <pre>
+   * Description of the tree,
+   * Optional.
+   * </pre>
+   *
+   * <code>string description = 9;</code>
+   * @param value The description to set.
+   */
+  private void setDescription(
+      java.lang.String value) {
+    value.getClass();
+  
+    description_ = value;
   }
   /**
    * <pre>
@@ -456,18 +534,24 @@ private static final long serialVersionUID = 0L;
    *
    * <code>string description = 9;</code>
    */
-  public com.google.protobuf.ByteString
-      getDescriptionBytes() {
-    java.lang.Object ref = description_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      description_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
+  private void clearDescription() {
+    
+    description_ = getDefaultInstance().getDescription();
+  }
+  /**
+   * <pre>
+   * Description of the tree,
+   * Optional.
+   * </pre>
+   *
+   * <code>string description = 9;</code>
+   * @param value The bytes for description to set.
+   */
+  private void setDescriptionBytes(
+      com.google.protobuf.ByteString value) {
+    checkByteStringIsUtf8(value);
+    description_ = value.toStringUtf8();
+    
   }
 
   public static final int PRIVATE_KEY_FIELD_NUMBER = 12;
@@ -486,6 +570,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Any private_key = 12;</code>
    */
+  @java.lang.Override
   public boolean hasPrivateKey() {
     return privateKey_ != null;
   }
@@ -503,6 +588,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Any private_key = 12;</code>
    */
+  @java.lang.Override
   public com.google.protobuf.Any getPrivateKey() {
     return privateKey_ == null ? com.google.protobuf.Any.getDefaultInstance() : privateKey_;
   }
@@ -520,8 +606,53 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Any private_key = 12;</code>
    */
-  public com.google.protobuf.AnyOrBuilder getPrivateKeyOrBuilder() {
-    return getPrivateKey();
+  private void setPrivateKey(com.google.protobuf.Any value) {
+    value.getClass();
+  privateKey_ = value;
+    
+    }
+  /**
+   * <pre>
+   * Identifies the private key used for signing tree heads and entry
+   * timestamps.
+   * This can be any type of message to accommodate different key management
+   * systems, e.g. PEM files, HSMs, etc.
+   * Private keys are write-only: they're never returned by RPCs.
+   * The private_key message can be changed after a tree is created, but the
+   * underlying key must remain the same - this is to enable migrating a key
+   * from one provider to another.
+   * </pre>
+   *
+   * <code>.google.protobuf.Any private_key = 12;</code>
+   */
+  @java.lang.SuppressWarnings({"ReferenceEquality"})
+  private void mergePrivateKey(com.google.protobuf.Any value) {
+    value.getClass();
+  if (privateKey_ != null &&
+        privateKey_ != com.google.protobuf.Any.getDefaultInstance()) {
+      privateKey_ =
+        com.google.protobuf.Any.newBuilder(privateKey_).mergeFrom(value).buildPartial();
+    } else {
+      privateKey_ = value;
+    }
+    
+  }
+  /**
+   * <pre>
+   * Identifies the private key used for signing tree heads and entry
+   * timestamps.
+   * This can be any type of message to accommodate different key management
+   * systems, e.g. PEM files, HSMs, etc.
+   * Private keys are write-only: they're never returned by RPCs.
+   * The private_key message can be changed after a tree is created, but the
+   * underlying key must remain the same - this is to enable migrating a key
+   * from one provider to another.
+   * </pre>
+   *
+   * <code>.google.protobuf.Any private_key = 12;</code>
+   */
+  private void clearPrivateKey() {  privateKey_ = null;
+    
   }
 
   public static final int STORAGE_SETTINGS_FIELD_NUMBER = 13;
@@ -534,6 +665,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Any storage_settings = 13;</code>
    */
+  @java.lang.Override
   public boolean hasStorageSettings() {
     return storageSettings_ != null;
   }
@@ -545,6 +677,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Any storage_settings = 13;</code>
    */
+  @java.lang.Override
   public com.google.protobuf.Any getStorageSettings() {
     return storageSettings_ == null ? com.google.protobuf.Any.getDefaultInstance() : storageSettings_;
   }
@@ -556,8 +689,41 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Any storage_settings = 13;</code>
    */
-  public com.google.protobuf.AnyOrBuilder getStorageSettingsOrBuilder() {
-    return getStorageSettings();
+  private void setStorageSettings(com.google.protobuf.Any value) {
+    value.getClass();
+  storageSettings_ = value;
+    
+    }
+  /**
+   * <pre>
+   * Storage-specific settings.
+   * Varies according to the storage implementation backing Trillian.
+   * </pre>
+   *
+   * <code>.google.protobuf.Any storage_settings = 13;</code>
+   */
+  @java.lang.SuppressWarnings({"ReferenceEquality"})
+  private void mergeStorageSettings(com.google.protobuf.Any value) {
+    value.getClass();
+  if (storageSettings_ != null &&
+        storageSettings_ != com.google.protobuf.Any.getDefaultInstance()) {
+      storageSettings_ =
+        com.google.protobuf.Any.newBuilder(storageSettings_).mergeFrom(value).buildPartial();
+    } else {
+      storageSettings_ = value;
+    }
+    
+  }
+  /**
+   * <pre>
+   * Storage-specific settings.
+   * Varies according to the storage implementation backing Trillian.
+   * </pre>
+   *
+   * <code>.google.protobuf.Any storage_settings = 13;</code>
+   */
+  private void clearStorageSettings() {  storageSettings_ = null;
+    
   }
 
   public static final int PUBLIC_KEY_FIELD_NUMBER = 14;
@@ -570,6 +736,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.keyspb.PublicKey public_key = 14;</code>
    */
+  @java.lang.Override
   public boolean hasPublicKey() {
     return publicKey_ != null;
   }
@@ -581,6 +748,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.keyspb.PublicKey public_key = 14;</code>
    */
+  @java.lang.Override
   public keyspb.Keyspb.PublicKey getPublicKey() {
     return publicKey_ == null ? keyspb.Keyspb.PublicKey.getDefaultInstance() : publicKey_;
   }
@@ -592,8 +760,41 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.keyspb.PublicKey public_key = 14;</code>
    */
-  public keyspb.Keyspb.PublicKeyOrBuilder getPublicKeyOrBuilder() {
-    return getPublicKey();
+  private void setPublicKey(keyspb.Keyspb.PublicKey value) {
+    value.getClass();
+  publicKey_ = value;
+    
+    }
+  /**
+   * <pre>
+   * The public key used for verifying tree heads and entry timestamps.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.keyspb.PublicKey public_key = 14;</code>
+   */
+  @java.lang.SuppressWarnings({"ReferenceEquality"})
+  private void mergePublicKey(keyspb.Keyspb.PublicKey value) {
+    value.getClass();
+  if (publicKey_ != null &&
+        publicKey_ != keyspb.Keyspb.PublicKey.getDefaultInstance()) {
+      publicKey_ =
+        keyspb.Keyspb.PublicKey.newBuilder(publicKey_).mergeFrom(value).buildPartial();
+    } else {
+      publicKey_ = value;
+    }
+    
+  }
+  /**
+   * <pre>
+   * The public key used for verifying tree heads and entry timestamps.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.keyspb.PublicKey public_key = 14;</code>
+   */
+  private void clearPublicKey() {  publicKey_ = null;
+    
   }
 
   public static final int MAX_ROOT_DURATION_FIELD_NUMBER = 15;
@@ -606,6 +807,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Duration max_root_duration = 15;</code>
    */
+  @java.lang.Override
   public boolean hasMaxRootDuration() {
     return maxRootDuration_ != null;
   }
@@ -617,6 +819,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Duration max_root_duration = 15;</code>
    */
+  @java.lang.Override
   public com.google.protobuf.Duration getMaxRootDuration() {
     return maxRootDuration_ == null ? com.google.protobuf.Duration.getDefaultInstance() : maxRootDuration_;
   }
@@ -628,8 +831,41 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Duration max_root_duration = 15;</code>
    */
-  public com.google.protobuf.DurationOrBuilder getMaxRootDurationOrBuilder() {
-    return getMaxRootDuration();
+  private void setMaxRootDuration(com.google.protobuf.Duration value) {
+    value.getClass();
+  maxRootDuration_ = value;
+    
+    }
+  /**
+   * <pre>
+   * Interval after which a new signed root is produced even if there have been
+   * no submission.  If zero, this behavior is disabled.
+   * </pre>
+   *
+   * <code>.google.protobuf.Duration max_root_duration = 15;</code>
+   */
+  @java.lang.SuppressWarnings({"ReferenceEquality"})
+  private void mergeMaxRootDuration(com.google.protobuf.Duration value) {
+    value.getClass();
+  if (maxRootDuration_ != null &&
+        maxRootDuration_ != com.google.protobuf.Duration.getDefaultInstance()) {
+      maxRootDuration_ =
+        com.google.protobuf.Duration.newBuilder(maxRootDuration_).mergeFrom(value).buildPartial();
+    } else {
+      maxRootDuration_ = value;
+    }
+    
+  }
+  /**
+   * <pre>
+   * Interval after which a new signed root is produced even if there have been
+   * no submission.  If zero, this behavior is disabled.
+   * </pre>
+   *
+   * <code>.google.protobuf.Duration max_root_duration = 15;</code>
+   */
+  private void clearMaxRootDuration() {  maxRootDuration_ = null;
+    
   }
 
   public static final int CREATE_TIME_FIELD_NUMBER = 16;
@@ -642,6 +878,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Timestamp create_time = 16;</code>
    */
+  @java.lang.Override
   public boolean hasCreateTime() {
     return createTime_ != null;
   }
@@ -653,6 +890,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Timestamp create_time = 16;</code>
    */
+  @java.lang.Override
   public com.google.protobuf.Timestamp getCreateTime() {
     return createTime_ == null ? com.google.protobuf.Timestamp.getDefaultInstance() : createTime_;
   }
@@ -664,8 +902,41 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Timestamp create_time = 16;</code>
    */
-  public com.google.protobuf.TimestampOrBuilder getCreateTimeOrBuilder() {
-    return getCreateTime();
+  private void setCreateTime(com.google.protobuf.Timestamp value) {
+    value.getClass();
+  createTime_ = value;
+    
+    }
+  /**
+   * <pre>
+   * Time of tree creation.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.google.protobuf.Timestamp create_time = 16;</code>
+   */
+  @java.lang.SuppressWarnings({"ReferenceEquality"})
+  private void mergeCreateTime(com.google.protobuf.Timestamp value) {
+    value.getClass();
+  if (createTime_ != null &&
+        createTime_ != com.google.protobuf.Timestamp.getDefaultInstance()) {
+      createTime_ =
+        com.google.protobuf.Timestamp.newBuilder(createTime_).mergeFrom(value).buildPartial();
+    } else {
+      createTime_ = value;
+    }
+    
+  }
+  /**
+   * <pre>
+   * Time of tree creation.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.google.protobuf.Timestamp create_time = 16;</code>
+   */
+  private void clearCreateTime() {  createTime_ = null;
+    
   }
 
   public static final int UPDATE_TIME_FIELD_NUMBER = 17;
@@ -678,6 +949,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Timestamp update_time = 17;</code>
    */
+  @java.lang.Override
   public boolean hasUpdateTime() {
     return updateTime_ != null;
   }
@@ -689,6 +961,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Timestamp update_time = 17;</code>
    */
+  @java.lang.Override
   public com.google.protobuf.Timestamp getUpdateTime() {
     return updateTime_ == null ? com.google.protobuf.Timestamp.getDefaultInstance() : updateTime_;
   }
@@ -700,8 +973,41 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Timestamp update_time = 17;</code>
    */
-  public com.google.protobuf.TimestampOrBuilder getUpdateTimeOrBuilder() {
-    return getUpdateTime();
+  private void setUpdateTime(com.google.protobuf.Timestamp value) {
+    value.getClass();
+  updateTime_ = value;
+    
+    }
+  /**
+   * <pre>
+   * Time of last tree update.
+   * Readonly (automatically assigned on updates).
+   * </pre>
+   *
+   * <code>.google.protobuf.Timestamp update_time = 17;</code>
+   */
+  @java.lang.SuppressWarnings({"ReferenceEquality"})
+  private void mergeUpdateTime(com.google.protobuf.Timestamp value) {
+    value.getClass();
+  if (updateTime_ != null &&
+        updateTime_ != com.google.protobuf.Timestamp.getDefaultInstance()) {
+      updateTime_ =
+        com.google.protobuf.Timestamp.newBuilder(updateTime_).mergeFrom(value).buildPartial();
+    } else {
+      updateTime_ = value;
+    }
+    
+  }
+  /**
+   * <pre>
+   * Time of last tree update.
+   * Readonly (automatically assigned on updates).
+   * </pre>
+   *
+   * <code>.google.protobuf.Timestamp update_time = 17;</code>
+   */
+  private void clearUpdateTime() {  updateTime_ = null;
+    
   }
 
   public static final int DELETED_FIELD_NUMBER = 19;
@@ -715,9 +1021,40 @@ private static final long serialVersionUID = 0L;
    * </pre>
    *
    * <code>bool deleted = 19;</code>
+   * @return The deleted.
    */
+  @java.lang.Override
   public boolean getDeleted() {
     return deleted_;
+  }
+  /**
+   * <pre>
+   * If true, the tree has been deleted.
+   * Deleted trees may be undeleted during a certain time window, after which
+   * they're permanently deleted (and unrecoverable).
+   * Readonly.
+   * </pre>
+   *
+   * <code>bool deleted = 19;</code>
+   * @param value The deleted to set.
+   */
+  private void setDeleted(boolean value) {
+    
+    deleted_ = value;
+  }
+  /**
+   * <pre>
+   * If true, the tree has been deleted.
+   * Deleted trees may be undeleted during a certain time window, after which
+   * they're permanently deleted (and unrecoverable).
+   * Readonly.
+   * </pre>
+   *
+   * <code>bool deleted = 19;</code>
+   */
+  private void clearDeleted() {
+    
+    deleted_ = false;
   }
 
   public static final int DELETE_TIME_FIELD_NUMBER = 20;
@@ -730,6 +1067,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Timestamp delete_time = 20;</code>
    */
+  @java.lang.Override
   public boolean hasDeleteTime() {
     return deleteTime_ != null;
   }
@@ -741,6 +1079,7 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Timestamp delete_time = 20;</code>
    */
+  @java.lang.Override
   public com.google.protobuf.Timestamp getDeleteTime() {
     return deleteTime_ == null ? com.google.protobuf.Timestamp.getDefaultInstance() : deleteTime_;
   }
@@ -752,356 +1091,124 @@ private static final long serialVersionUID = 0L;
    *
    * <code>.google.protobuf.Timestamp delete_time = 20;</code>
    */
-  public com.google.protobuf.TimestampOrBuilder getDeleteTimeOrBuilder() {
-    return getDeleteTime();
+  private void setDeleteTime(com.google.protobuf.Timestamp value) {
+    value.getClass();
+  deleteTime_ = value;
+    
+    }
+  /**
+   * <pre>
+   * Time of tree deletion, if any.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.google.protobuf.Timestamp delete_time = 20;</code>
+   */
+  @java.lang.SuppressWarnings({"ReferenceEquality"})
+  private void mergeDeleteTime(com.google.protobuf.Timestamp value) {
+    value.getClass();
+  if (deleteTime_ != null &&
+        deleteTime_ != com.google.protobuf.Timestamp.getDefaultInstance()) {
+      deleteTime_ =
+        com.google.protobuf.Timestamp.newBuilder(deleteTime_).mergeFrom(value).buildPartial();
+    } else {
+      deleteTime_ = value;
+    }
+    
   }
-
-  private byte memoizedIsInitialized = -1;
-  public final boolean isInitialized() {
-    byte isInitialized = memoizedIsInitialized;
-    if (isInitialized == 1) return true;
-    if (isInitialized == 0) return false;
-
-    memoizedIsInitialized = 1;
-    return true;
-  }
-
-  public void writeTo(com.google.protobuf.CodedOutputStream output)
-                      throws java.io.IOException {
-    if (treeId_ != 0L) {
-      output.writeInt64(1, treeId_);
-    }
-    if (treeState_ != com.google.trillian.proto.TreeState.UNKNOWN_TREE_STATE.getNumber()) {
-      output.writeEnum(2, treeState_);
-    }
-    if (treeType_ != com.google.trillian.proto.TreeType.UNKNOWN_TREE_TYPE.getNumber()) {
-      output.writeEnum(3, treeType_);
-    }
-    if (hashStrategy_ != com.google.trillian.proto.HashStrategy.UNKNOWN_HASH_STRATEGY.getNumber()) {
-      output.writeEnum(4, hashStrategy_);
-    }
-    if (hashAlgorithm_ != sigpb.Sigpb.DigitallySigned.HashAlgorithm.NONE.getNumber()) {
-      output.writeEnum(5, hashAlgorithm_);
-    }
-    if (signatureAlgorithm_ != sigpb.Sigpb.DigitallySigned.SignatureAlgorithm.ANONYMOUS.getNumber()) {
-      output.writeEnum(6, signatureAlgorithm_);
-    }
-    if (!getDisplayNameBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 8, displayName_);
-    }
-    if (!getDescriptionBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 9, description_);
-    }
-    if (privateKey_ != null) {
-      output.writeMessage(12, getPrivateKey());
-    }
-    if (storageSettings_ != null) {
-      output.writeMessage(13, getStorageSettings());
-    }
-    if (publicKey_ != null) {
-      output.writeMessage(14, getPublicKey());
-    }
-    if (maxRootDuration_ != null) {
-      output.writeMessage(15, getMaxRootDuration());
-    }
-    if (createTime_ != null) {
-      output.writeMessage(16, getCreateTime());
-    }
-    if (updateTime_ != null) {
-      output.writeMessage(17, getUpdateTime());
-    }
-    if (deleted_ != false) {
-      output.writeBool(19, deleted_);
-    }
-    if (deleteTime_ != null) {
-      output.writeMessage(20, getDeleteTime());
-    }
-    unknownFields.writeTo(output);
-  }
-
-  public int getSerializedSize() {
-    int size = memoizedSize;
-    if (size != -1) return size;
-
-    size = 0;
-    if (treeId_ != 0L) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeInt64Size(1, treeId_);
-    }
-    if (treeState_ != com.google.trillian.proto.TreeState.UNKNOWN_TREE_STATE.getNumber()) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeEnumSize(2, treeState_);
-    }
-    if (treeType_ != com.google.trillian.proto.TreeType.UNKNOWN_TREE_TYPE.getNumber()) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeEnumSize(3, treeType_);
-    }
-    if (hashStrategy_ != com.google.trillian.proto.HashStrategy.UNKNOWN_HASH_STRATEGY.getNumber()) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeEnumSize(4, hashStrategy_);
-    }
-    if (hashAlgorithm_ != sigpb.Sigpb.DigitallySigned.HashAlgorithm.NONE.getNumber()) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeEnumSize(5, hashAlgorithm_);
-    }
-    if (signatureAlgorithm_ != sigpb.Sigpb.DigitallySigned.SignatureAlgorithm.ANONYMOUS.getNumber()) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeEnumSize(6, signatureAlgorithm_);
-    }
-    if (!getDisplayNameBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, displayName_);
-    }
-    if (!getDescriptionBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(9, description_);
-    }
-    if (privateKey_ != null) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeMessageSize(12, getPrivateKey());
-    }
-    if (storageSettings_ != null) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeMessageSize(13, getStorageSettings());
-    }
-    if (publicKey_ != null) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeMessageSize(14, getPublicKey());
-    }
-    if (maxRootDuration_ != null) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeMessageSize(15, getMaxRootDuration());
-    }
-    if (createTime_ != null) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeMessageSize(16, getCreateTime());
-    }
-    if (updateTime_ != null) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeMessageSize(17, getUpdateTime());
-    }
-    if (deleted_ != false) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeBoolSize(19, deleted_);
-    }
-    if (deleteTime_ != null) {
-      size += com.google.protobuf.CodedOutputStream
-        .computeMessageSize(20, getDeleteTime());
-    }
-    size += unknownFields.getSerializedSize();
-    memoizedSize = size;
-    return size;
-  }
-
-  @java.lang.Override
-  public boolean equals(final java.lang.Object obj) {
-    if (obj == this) {
-     return true;
-    }
-    if (!(obj instanceof com.google.trillian.proto.Tree)) {
-      return super.equals(obj);
-    }
-    com.google.trillian.proto.Tree other = (com.google.trillian.proto.Tree) obj;
-
-    boolean result = true;
-    result = result && (getTreeId()
-        == other.getTreeId());
-    result = result && treeState_ == other.treeState_;
-    result = result && treeType_ == other.treeType_;
-    result = result && hashStrategy_ == other.hashStrategy_;
-    result = result && hashAlgorithm_ == other.hashAlgorithm_;
-    result = result && signatureAlgorithm_ == other.signatureAlgorithm_;
-    result = result && getDisplayName()
-        .equals(other.getDisplayName());
-    result = result && getDescription()
-        .equals(other.getDescription());
-    result = result && (hasPrivateKey() == other.hasPrivateKey());
-    if (hasPrivateKey()) {
-      result = result && getPrivateKey()
-          .equals(other.getPrivateKey());
-    }
-    result = result && (hasStorageSettings() == other.hasStorageSettings());
-    if (hasStorageSettings()) {
-      result = result && getStorageSettings()
-          .equals(other.getStorageSettings());
-    }
-    result = result && (hasPublicKey() == other.hasPublicKey());
-    if (hasPublicKey()) {
-      result = result && getPublicKey()
-          .equals(other.getPublicKey());
-    }
-    result = result && (hasMaxRootDuration() == other.hasMaxRootDuration());
-    if (hasMaxRootDuration()) {
-      result = result && getMaxRootDuration()
-          .equals(other.getMaxRootDuration());
-    }
-    result = result && (hasCreateTime() == other.hasCreateTime());
-    if (hasCreateTime()) {
-      result = result && getCreateTime()
-          .equals(other.getCreateTime());
-    }
-    result = result && (hasUpdateTime() == other.hasUpdateTime());
-    if (hasUpdateTime()) {
-      result = result && getUpdateTime()
-          .equals(other.getUpdateTime());
-    }
-    result = result && (getDeleted()
-        == other.getDeleted());
-    result = result && (hasDeleteTime() == other.hasDeleteTime());
-    if (hasDeleteTime()) {
-      result = result && getDeleteTime()
-          .equals(other.getDeleteTime());
-    }
-    result = result && unknownFields.equals(other.unknownFields);
-    return result;
-  }
-
-  @java.lang.Override
-  public int hashCode() {
-    if (memoizedHashCode != 0) {
-      return memoizedHashCode;
-    }
-    int hash = 41;
-    hash = (19 * hash) + getDescriptor().hashCode();
-    hash = (37 * hash) + TREE_ID_FIELD_NUMBER;
-    hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-        getTreeId());
-    hash = (37 * hash) + TREE_STATE_FIELD_NUMBER;
-    hash = (53 * hash) + treeState_;
-    hash = (37 * hash) + TREE_TYPE_FIELD_NUMBER;
-    hash = (53 * hash) + treeType_;
-    hash = (37 * hash) + HASH_STRATEGY_FIELD_NUMBER;
-    hash = (53 * hash) + hashStrategy_;
-    hash = (37 * hash) + HASH_ALGORITHM_FIELD_NUMBER;
-    hash = (53 * hash) + hashAlgorithm_;
-    hash = (37 * hash) + SIGNATURE_ALGORITHM_FIELD_NUMBER;
-    hash = (53 * hash) + signatureAlgorithm_;
-    hash = (37 * hash) + DISPLAY_NAME_FIELD_NUMBER;
-    hash = (53 * hash) + getDisplayName().hashCode();
-    hash = (37 * hash) + DESCRIPTION_FIELD_NUMBER;
-    hash = (53 * hash) + getDescription().hashCode();
-    if (hasPrivateKey()) {
-      hash = (37 * hash) + PRIVATE_KEY_FIELD_NUMBER;
-      hash = (53 * hash) + getPrivateKey().hashCode();
-    }
-    if (hasStorageSettings()) {
-      hash = (37 * hash) + STORAGE_SETTINGS_FIELD_NUMBER;
-      hash = (53 * hash) + getStorageSettings().hashCode();
-    }
-    if (hasPublicKey()) {
-      hash = (37 * hash) + PUBLIC_KEY_FIELD_NUMBER;
-      hash = (53 * hash) + getPublicKey().hashCode();
-    }
-    if (hasMaxRootDuration()) {
-      hash = (37 * hash) + MAX_ROOT_DURATION_FIELD_NUMBER;
-      hash = (53 * hash) + getMaxRootDuration().hashCode();
-    }
-    if (hasCreateTime()) {
-      hash = (37 * hash) + CREATE_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getCreateTime().hashCode();
-    }
-    if (hasUpdateTime()) {
-      hash = (37 * hash) + UPDATE_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getUpdateTime().hashCode();
-    }
-    hash = (37 * hash) + DELETED_FIELD_NUMBER;
-    hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-        getDeleted());
-    if (hasDeleteTime()) {
-      hash = (37 * hash) + DELETE_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getDeleteTime().hashCode();
-    }
-    hash = (29 * hash) + unknownFields.hashCode();
-    memoizedHashCode = hash;
-    return hash;
+  /**
+   * <pre>
+   * Time of tree deletion, if any.
+   * Readonly.
+   * </pre>
+   *
+   * <code>.google.protobuf.Timestamp delete_time = 20;</code>
+   */
+  private void clearDeleteTime() {  deleteTime_ = null;
+    
   }
 
   public static com.google.trillian.proto.Tree parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data);
   }
   public static com.google.trillian.proto.Tree parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data, extensionRegistry);
   }
   public static com.google.trillian.proto.Tree parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data);
   }
   public static com.google.trillian.proto.Tree parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data, extensionRegistry);
   }
   public static com.google.trillian.proto.Tree parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data);
   }
   public static com.google.trillian.proto.Tree parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
-    return PARSER.parseFrom(data, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, data, extensionRegistry);
   }
   public static com.google.trillian.proto.Tree parseFrom(java.io.InputStream input)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input);
   }
   public static com.google.trillian.proto.Tree parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input, extensionRegistry);
   }
   public static com.google.trillian.proto.Tree parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseDelimitedWithIOException(PARSER, input);
+    return parseDelimitedFrom(DEFAULT_INSTANCE, input);
   }
   public static com.google.trillian.proto.Tree parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
   }
   public static com.google.trillian.proto.Tree parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input);
   }
   public static com.google.trillian.proto.Tree parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
-    return com.google.protobuf.GeneratedMessageV3
-        .parseWithIOException(PARSER, input, extensionRegistry);
+    return com.google.protobuf.GeneratedMessageLite.parseFrom(
+        DEFAULT_INSTANCE, input, extensionRegistry);
   }
 
-  public Builder newBuilderForType() { return newBuilder(); }
   public static Builder newBuilder() {
-    return DEFAULT_INSTANCE.toBuilder();
+    return (Builder) DEFAULT_INSTANCE.createBuilder();
   }
   public static Builder newBuilder(com.google.trillian.proto.Tree prototype) {
-    return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
-  }
-  public Builder toBuilder() {
-    return this == DEFAULT_INSTANCE
-        ? new Builder() : new Builder().mergeFrom(this);
+    return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
   }
 
-  @java.lang.Override
-  protected Builder newBuilderForType(
-      com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-    Builder builder = new Builder(parent);
-    return builder;
-  }
   /**
    * <pre>
    * Represents a tree, which may be either a verifiable log or map.
@@ -1115,283 +1222,16 @@ private static final long serialVersionUID = 0L;
    * Protobuf type {@code trillian.Tree}
    */
   public static final class Builder extends
-      com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+      com.google.protobuf.GeneratedMessageLite.Builder<
+        com.google.trillian.proto.Tree, Builder> implements
       // @@protoc_insertion_point(builder_implements:trillian.Tree)
       com.google.trillian.proto.TreeOrBuilder {
-    public static final com.google.protobuf.Descriptors.Descriptor
-        getDescriptor() {
-      return com.google.trillian.proto.TrillianProto.internal_static_trillian_Tree_descriptor;
-    }
-
-    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-        internalGetFieldAccessorTable() {
-      return com.google.trillian.proto.TrillianProto.internal_static_trillian_Tree_fieldAccessorTable
-          .ensureFieldAccessorsInitialized(
-              com.google.trillian.proto.Tree.class, com.google.trillian.proto.Tree.Builder.class);
-    }
-
     // Construct using com.google.trillian.proto.Tree.newBuilder()
     private Builder() {
-      maybeForceBuilderInitialization();
+      super(DEFAULT_INSTANCE);
     }
 
-    private Builder(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
-      super(parent);
-      maybeForceBuilderInitialization();
-    }
-    private void maybeForceBuilderInitialization() {
-      if (com.google.protobuf.GeneratedMessageV3
-              .alwaysUseFieldBuilders) {
-      }
-    }
-    public Builder clear() {
-      super.clear();
-      treeId_ = 0L;
 
-      treeState_ = 0;
-
-      treeType_ = 0;
-
-      hashStrategy_ = 0;
-
-      hashAlgorithm_ = 0;
-
-      signatureAlgorithm_ = 0;
-
-      displayName_ = "";
-
-      description_ = "";
-
-      if (privateKeyBuilder_ == null) {
-        privateKey_ = null;
-      } else {
-        privateKey_ = null;
-        privateKeyBuilder_ = null;
-      }
-      if (storageSettingsBuilder_ == null) {
-        storageSettings_ = null;
-      } else {
-        storageSettings_ = null;
-        storageSettingsBuilder_ = null;
-      }
-      if (publicKeyBuilder_ == null) {
-        publicKey_ = null;
-      } else {
-        publicKey_ = null;
-        publicKeyBuilder_ = null;
-      }
-      if (maxRootDurationBuilder_ == null) {
-        maxRootDuration_ = null;
-      } else {
-        maxRootDuration_ = null;
-        maxRootDurationBuilder_ = null;
-      }
-      if (createTimeBuilder_ == null) {
-        createTime_ = null;
-      } else {
-        createTime_ = null;
-        createTimeBuilder_ = null;
-      }
-      if (updateTimeBuilder_ == null) {
-        updateTime_ = null;
-      } else {
-        updateTime_ = null;
-        updateTimeBuilder_ = null;
-      }
-      deleted_ = false;
-
-      if (deleteTimeBuilder_ == null) {
-        deleteTime_ = null;
-      } else {
-        deleteTime_ = null;
-        deleteTimeBuilder_ = null;
-      }
-      return this;
-    }
-
-    public com.google.protobuf.Descriptors.Descriptor
-        getDescriptorForType() {
-      return com.google.trillian.proto.TrillianProto.internal_static_trillian_Tree_descriptor;
-    }
-
-    public com.google.trillian.proto.Tree getDefaultInstanceForType() {
-      return com.google.trillian.proto.Tree.getDefaultInstance();
-    }
-
-    public com.google.trillian.proto.Tree build() {
-      com.google.trillian.proto.Tree result = buildPartial();
-      if (!result.isInitialized()) {
-        throw newUninitializedMessageException(result);
-      }
-      return result;
-    }
-
-    public com.google.trillian.proto.Tree buildPartial() {
-      com.google.trillian.proto.Tree result = new com.google.trillian.proto.Tree(this);
-      result.treeId_ = treeId_;
-      result.treeState_ = treeState_;
-      result.treeType_ = treeType_;
-      result.hashStrategy_ = hashStrategy_;
-      result.hashAlgorithm_ = hashAlgorithm_;
-      result.signatureAlgorithm_ = signatureAlgorithm_;
-      result.displayName_ = displayName_;
-      result.description_ = description_;
-      if (privateKeyBuilder_ == null) {
-        result.privateKey_ = privateKey_;
-      } else {
-        result.privateKey_ = privateKeyBuilder_.build();
-      }
-      if (storageSettingsBuilder_ == null) {
-        result.storageSettings_ = storageSettings_;
-      } else {
-        result.storageSettings_ = storageSettingsBuilder_.build();
-      }
-      if (publicKeyBuilder_ == null) {
-        result.publicKey_ = publicKey_;
-      } else {
-        result.publicKey_ = publicKeyBuilder_.build();
-      }
-      if (maxRootDurationBuilder_ == null) {
-        result.maxRootDuration_ = maxRootDuration_;
-      } else {
-        result.maxRootDuration_ = maxRootDurationBuilder_.build();
-      }
-      if (createTimeBuilder_ == null) {
-        result.createTime_ = createTime_;
-      } else {
-        result.createTime_ = createTimeBuilder_.build();
-      }
-      if (updateTimeBuilder_ == null) {
-        result.updateTime_ = updateTime_;
-      } else {
-        result.updateTime_ = updateTimeBuilder_.build();
-      }
-      result.deleted_ = deleted_;
-      if (deleteTimeBuilder_ == null) {
-        result.deleteTime_ = deleteTime_;
-      } else {
-        result.deleteTime_ = deleteTimeBuilder_.build();
-      }
-      onBuilt();
-      return result;
-    }
-
-    public Builder clone() {
-      return (Builder) super.clone();
-    }
-    public Builder setField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        java.lang.Object value) {
-      return (Builder) super.setField(field, value);
-    }
-    public Builder clearField(
-        com.google.protobuf.Descriptors.FieldDescriptor field) {
-      return (Builder) super.clearField(field);
-    }
-    public Builder clearOneof(
-        com.google.protobuf.Descriptors.OneofDescriptor oneof) {
-      return (Builder) super.clearOneof(oneof);
-    }
-    public Builder setRepeatedField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        int index, java.lang.Object value) {
-      return (Builder) super.setRepeatedField(field, index, value);
-    }
-    public Builder addRepeatedField(
-        com.google.protobuf.Descriptors.FieldDescriptor field,
-        java.lang.Object value) {
-      return (Builder) super.addRepeatedField(field, value);
-    }
-    public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof com.google.trillian.proto.Tree) {
-        return mergeFrom((com.google.trillian.proto.Tree)other);
-      } else {
-        super.mergeFrom(other);
-        return this;
-      }
-    }
-
-    public Builder mergeFrom(com.google.trillian.proto.Tree other) {
-      if (other == com.google.trillian.proto.Tree.getDefaultInstance()) return this;
-      if (other.getTreeId() != 0L) {
-        setTreeId(other.getTreeId());
-      }
-      if (other.treeState_ != 0) {
-        setTreeStateValue(other.getTreeStateValue());
-      }
-      if (other.treeType_ != 0) {
-        setTreeTypeValue(other.getTreeTypeValue());
-      }
-      if (other.hashStrategy_ != 0) {
-        setHashStrategyValue(other.getHashStrategyValue());
-      }
-      if (other.hashAlgorithm_ != 0) {
-        setHashAlgorithmValue(other.getHashAlgorithmValue());
-      }
-      if (other.signatureAlgorithm_ != 0) {
-        setSignatureAlgorithmValue(other.getSignatureAlgorithmValue());
-      }
-      if (!other.getDisplayName().isEmpty()) {
-        displayName_ = other.displayName_;
-        onChanged();
-      }
-      if (!other.getDescription().isEmpty()) {
-        description_ = other.description_;
-        onChanged();
-      }
-      if (other.hasPrivateKey()) {
-        mergePrivateKey(other.getPrivateKey());
-      }
-      if (other.hasStorageSettings()) {
-        mergeStorageSettings(other.getStorageSettings());
-      }
-      if (other.hasPublicKey()) {
-        mergePublicKey(other.getPublicKey());
-      }
-      if (other.hasMaxRootDuration()) {
-        mergeMaxRootDuration(other.getMaxRootDuration());
-      }
-      if (other.hasCreateTime()) {
-        mergeCreateTime(other.getCreateTime());
-      }
-      if (other.hasUpdateTime()) {
-        mergeUpdateTime(other.getUpdateTime());
-      }
-      if (other.getDeleted() != false) {
-        setDeleted(other.getDeleted());
-      }
-      if (other.hasDeleteTime()) {
-        mergeDeleteTime(other.getDeleteTime());
-      }
-      this.mergeUnknownFields(other.unknownFields);
-      onChanged();
-      return this;
-    }
-
-    public final boolean isInitialized() {
-      return true;
-    }
-
-    public Builder mergeFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws java.io.IOException {
-      com.google.trillian.proto.Tree parsedMessage = null;
-      try {
-        parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
-      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (com.google.trillian.proto.Tree) e.getUnfinishedMessage();
-        throw e.unwrapIOException();
-      } finally {
-        if (parsedMessage != null) {
-          mergeFrom(parsedMessage);
-        }
-      }
-      return this;
-    }
-
-    private long treeId_ ;
     /**
      * <pre>
      * ID of the tree.
@@ -1399,9 +1239,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>int64 tree_id = 1;</code>
+     * @return The treeId.
      */
+    @java.lang.Override
     public long getTreeId() {
-      return treeId_;
+      return instance.getTreeId();
     }
     /**
      * <pre>
@@ -1410,11 +1252,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>int64 tree_id = 1;</code>
+     * @param value The treeId to set.
+     * @return This builder for chaining.
      */
     public Builder setTreeId(long value) {
-      
-      treeId_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setTreeId(value);
       return this;
     }
     /**
@@ -1424,15 +1267,14 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>int64 tree_id = 1;</code>
+     * @return This builder for chaining.
      */
     public Builder clearTreeId() {
-      
-      treeId_ = 0L;
-      onChanged();
+      copyOnWrite();
+      instance.clearTreeId();
       return this;
     }
 
-    private int treeState_ = 0;
     /**
      * <pre>
      * State of the tree.
@@ -1441,9 +1283,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeState tree_state = 2;</code>
+     * @return The enum numeric value on the wire for treeState.
      */
+    @java.lang.Override
     public int getTreeStateValue() {
-      return treeState_;
+      return instance.getTreeStateValue();
     }
     /**
      * <pre>
@@ -1453,10 +1297,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeState tree_state = 2;</code>
+     * @param value The treeState to set.
+     * @return This builder for chaining.
      */
     public Builder setTreeStateValue(int value) {
-      treeState_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setTreeStateValue(value);
       return this;
     }
     /**
@@ -1467,10 +1313,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeState tree_state = 2;</code>
+     * @return The treeState.
      */
+    @java.lang.Override
     public com.google.trillian.proto.TreeState getTreeState() {
-      com.google.trillian.proto.TreeState result = com.google.trillian.proto.TreeState.valueOf(treeState_);
-      return result == null ? com.google.trillian.proto.TreeState.UNRECOGNIZED : result;
+      return instance.getTreeState();
     }
     /**
      * <pre>
@@ -1480,14 +1327,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeState tree_state = 2;</code>
+     * @param value The enum numeric value on the wire for treeState to set.
+     * @return This builder for chaining.
      */
     public Builder setTreeState(com.google.trillian.proto.TreeState value) {
-      if (value == null) {
-        throw new NullPointerException();
-      }
-      
-      treeState_ = value.getNumber();
-      onChanged();
+      copyOnWrite();
+      instance.setTreeState(value);
       return this;
     }
     /**
@@ -1498,15 +1343,14 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeState tree_state = 2;</code>
+     * @return This builder for chaining.
      */
     public Builder clearTreeState() {
-      
-      treeState_ = 0;
-      onChanged();
+      copyOnWrite();
+      instance.clearTreeState();
       return this;
     }
 
-    private int treeType_ = 0;
     /**
      * <pre>
      * Type of the tree.
@@ -1515,9 +1359,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeType tree_type = 3;</code>
+     * @return The enum numeric value on the wire for treeType.
      */
+    @java.lang.Override
     public int getTreeTypeValue() {
-      return treeType_;
+      return instance.getTreeTypeValue();
     }
     /**
      * <pre>
@@ -1527,10 +1373,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeType tree_type = 3;</code>
+     * @param value The treeType to set.
+     * @return This builder for chaining.
      */
     public Builder setTreeTypeValue(int value) {
-      treeType_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setTreeTypeValue(value);
       return this;
     }
     /**
@@ -1541,10 +1389,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeType tree_type = 3;</code>
+     * @return The treeType.
      */
+    @java.lang.Override
     public com.google.trillian.proto.TreeType getTreeType() {
-      com.google.trillian.proto.TreeType result = com.google.trillian.proto.TreeType.valueOf(treeType_);
-      return result == null ? com.google.trillian.proto.TreeType.UNRECOGNIZED : result;
+      return instance.getTreeType();
     }
     /**
      * <pre>
@@ -1554,14 +1403,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeType tree_type = 3;</code>
+     * @param value The enum numeric value on the wire for treeType to set.
+     * @return This builder for chaining.
      */
     public Builder setTreeType(com.google.trillian.proto.TreeType value) {
-      if (value == null) {
-        throw new NullPointerException();
-      }
-      
-      treeType_ = value.getNumber();
-      onChanged();
+      copyOnWrite();
+      instance.setTreeType(value);
       return this;
     }
     /**
@@ -1572,15 +1419,14 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.TreeType tree_type = 3;</code>
+     * @return This builder for chaining.
      */
     public Builder clearTreeType() {
-      
-      treeType_ = 0;
-      onChanged();
+      copyOnWrite();
+      instance.clearTreeType();
       return this;
     }
 
-    private int hashStrategy_ = 0;
     /**
      * <pre>
      * Hash strategy to be used by the tree.
@@ -1588,9 +1434,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+     * @return The enum numeric value on the wire for hashStrategy.
      */
+    @java.lang.Override
     public int getHashStrategyValue() {
-      return hashStrategy_;
+      return instance.getHashStrategyValue();
     }
     /**
      * <pre>
@@ -1599,10 +1447,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+     * @param value The hashStrategy to set.
+     * @return This builder for chaining.
      */
     public Builder setHashStrategyValue(int value) {
-      hashStrategy_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setHashStrategyValue(value);
       return this;
     }
     /**
@@ -1612,10 +1462,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+     * @return The hashStrategy.
      */
+    @java.lang.Override
     public com.google.trillian.proto.HashStrategy getHashStrategy() {
-      com.google.trillian.proto.HashStrategy result = com.google.trillian.proto.HashStrategy.valueOf(hashStrategy_);
-      return result == null ? com.google.trillian.proto.HashStrategy.UNRECOGNIZED : result;
+      return instance.getHashStrategy();
     }
     /**
      * <pre>
@@ -1624,14 +1475,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+     * @param value The enum numeric value on the wire for hashStrategy to set.
+     * @return This builder for chaining.
      */
     public Builder setHashStrategy(com.google.trillian.proto.HashStrategy value) {
-      if (value == null) {
-        throw new NullPointerException();
-      }
-      
-      hashStrategy_ = value.getNumber();
-      onChanged();
+      copyOnWrite();
+      instance.setHashStrategy(value);
       return this;
     }
     /**
@@ -1641,15 +1490,14 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+     * @return This builder for chaining.
      */
     public Builder clearHashStrategy() {
-      
-      hashStrategy_ = 0;
-      onChanged();
+      copyOnWrite();
+      instance.clearHashStrategy();
       return this;
     }
 
-    private int hashAlgorithm_ = 0;
     /**
      * <pre>
      * Hash algorithm to be used by the tree.
@@ -1657,9 +1505,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+     * @return The enum numeric value on the wire for hashAlgorithm.
      */
+    @java.lang.Override
     public int getHashAlgorithmValue() {
-      return hashAlgorithm_;
+      return instance.getHashAlgorithmValue();
     }
     /**
      * <pre>
@@ -1668,10 +1518,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+     * @param value The hashAlgorithm to set.
+     * @return This builder for chaining.
      */
     public Builder setHashAlgorithmValue(int value) {
-      hashAlgorithm_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setHashAlgorithmValue(value);
       return this;
     }
     /**
@@ -1681,10 +1533,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+     * @return The hashAlgorithm.
      */
+    @java.lang.Override
     public sigpb.Sigpb.DigitallySigned.HashAlgorithm getHashAlgorithm() {
-      sigpb.Sigpb.DigitallySigned.HashAlgorithm result = sigpb.Sigpb.DigitallySigned.HashAlgorithm.valueOf(hashAlgorithm_);
-      return result == null ? sigpb.Sigpb.DigitallySigned.HashAlgorithm.UNRECOGNIZED : result;
+      return instance.getHashAlgorithm();
     }
     /**
      * <pre>
@@ -1693,14 +1546,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+     * @param value The enum numeric value on the wire for hashAlgorithm to set.
+     * @return This builder for chaining.
      */
     public Builder setHashAlgorithm(sigpb.Sigpb.DigitallySigned.HashAlgorithm value) {
-      if (value == null) {
-        throw new NullPointerException();
-      }
-      
-      hashAlgorithm_ = value.getNumber();
-      onChanged();
+      copyOnWrite();
+      instance.setHashAlgorithm(value);
       return this;
     }
     /**
@@ -1710,15 +1561,14 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+     * @return This builder for chaining.
      */
     public Builder clearHashAlgorithm() {
-      
-      hashAlgorithm_ = 0;
-      onChanged();
+      copyOnWrite();
+      instance.clearHashAlgorithm();
       return this;
     }
 
-    private int signatureAlgorithm_ = 0;
     /**
      * <pre>
      * Signature algorithm to be used by the tree.
@@ -1726,9 +1576,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+     * @return The enum numeric value on the wire for signatureAlgorithm.
      */
+    @java.lang.Override
     public int getSignatureAlgorithmValue() {
-      return signatureAlgorithm_;
+      return instance.getSignatureAlgorithmValue();
     }
     /**
      * <pre>
@@ -1737,10 +1589,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+     * @param value The signatureAlgorithm to set.
+     * @return This builder for chaining.
      */
     public Builder setSignatureAlgorithmValue(int value) {
-      signatureAlgorithm_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setSignatureAlgorithmValue(value);
       return this;
     }
     /**
@@ -1750,10 +1604,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+     * @return The signatureAlgorithm.
      */
+    @java.lang.Override
     public sigpb.Sigpb.DigitallySigned.SignatureAlgorithm getSignatureAlgorithm() {
-      sigpb.Sigpb.DigitallySigned.SignatureAlgorithm result = sigpb.Sigpb.DigitallySigned.SignatureAlgorithm.valueOf(signatureAlgorithm_);
-      return result == null ? sigpb.Sigpb.DigitallySigned.SignatureAlgorithm.UNRECOGNIZED : result;
+      return instance.getSignatureAlgorithm();
     }
     /**
      * <pre>
@@ -1762,14 +1617,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+     * @param value The enum numeric value on the wire for signatureAlgorithm to set.
+     * @return This builder for chaining.
      */
     public Builder setSignatureAlgorithm(sigpb.Sigpb.DigitallySigned.SignatureAlgorithm value) {
-      if (value == null) {
-        throw new NullPointerException();
-      }
-      
-      signatureAlgorithm_ = value.getNumber();
-      onChanged();
+      copyOnWrite();
+      instance.setSignatureAlgorithm(value);
       return this;
     }
     /**
@@ -1779,15 +1632,14 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+     * @return This builder for chaining.
      */
     public Builder clearSignatureAlgorithm() {
-      
-      signatureAlgorithm_ = 0;
-      onChanged();
+      copyOnWrite();
+      instance.clearSignatureAlgorithm();
       return this;
     }
 
-    private java.lang.Object displayName_ = "";
     /**
      * <pre>
      * Display name of the tree.
@@ -1795,18 +1647,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string display_name = 8;</code>
+     * @return The displayName.
      */
+    @java.lang.Override
     public java.lang.String getDisplayName() {
-      java.lang.Object ref = displayName_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        displayName_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+      return instance.getDisplayName();
     }
     /**
      * <pre>
@@ -1815,19 +1660,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string display_name = 8;</code>
+     * @return The bytes for displayName.
      */
+    @java.lang.Override
     public com.google.protobuf.ByteString
         getDisplayNameBytes() {
-      java.lang.Object ref = displayName_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        displayName_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+      return instance.getDisplayNameBytes();
     }
     /**
      * <pre>
@@ -1836,15 +1674,13 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string display_name = 8;</code>
+     * @param value The displayName to set.
+     * @return This builder for chaining.
      */
     public Builder setDisplayName(
         java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      displayName_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setDisplayName(value);
       return this;
     }
     /**
@@ -1854,11 +1690,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string display_name = 8;</code>
+     * @return This builder for chaining.
      */
     public Builder clearDisplayName() {
-      
-      displayName_ = getDefaultInstance().getDisplayName();
-      onChanged();
+      copyOnWrite();
+      instance.clearDisplayName();
       return this;
     }
     /**
@@ -1868,20 +1704,16 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string display_name = 8;</code>
+     * @param value The bytes for displayName to set.
+     * @return This builder for chaining.
      */
     public Builder setDisplayNameBytes(
         com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      displayName_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setDisplayNameBytes(value);
       return this;
     }
 
-    private java.lang.Object description_ = "";
     /**
      * <pre>
      * Description of the tree,
@@ -1889,18 +1721,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string description = 9;</code>
+     * @return The description.
      */
+    @java.lang.Override
     public java.lang.String getDescription() {
-      java.lang.Object ref = description_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        description_ = s;
-        return s;
-      } else {
-        return (java.lang.String) ref;
-      }
+      return instance.getDescription();
     }
     /**
      * <pre>
@@ -1909,19 +1734,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string description = 9;</code>
+     * @return The bytes for description.
      */
+    @java.lang.Override
     public com.google.protobuf.ByteString
         getDescriptionBytes() {
-      java.lang.Object ref = description_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        description_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+      return instance.getDescriptionBytes();
     }
     /**
      * <pre>
@@ -1930,15 +1748,13 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string description = 9;</code>
+     * @param value The description to set.
+     * @return This builder for chaining.
      */
     public Builder setDescription(
         java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      description_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setDescription(value);
       return this;
     }
     /**
@@ -1948,11 +1764,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string description = 9;</code>
+     * @return This builder for chaining.
      */
     public Builder clearDescription() {
-      
-      description_ = getDefaultInstance().getDescription();
-      onChanged();
+      copyOnWrite();
+      instance.clearDescription();
       return this;
     }
     /**
@@ -1962,22 +1778,16 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>string description = 9;</code>
+     * @param value The bytes for description to set.
+     * @return This builder for chaining.
      */
     public Builder setDescriptionBytes(
         com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      description_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setDescriptionBytes(value);
       return this;
     }
 
-    private com.google.protobuf.Any privateKey_ = null;
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Any, com.google.protobuf.Any.Builder, com.google.protobuf.AnyOrBuilder> privateKeyBuilder_;
     /**
      * <pre>
      * Identifies the private key used for signing tree heads and entry
@@ -1992,8 +1802,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Any private_key = 12;</code>
      */
+    @java.lang.Override
     public boolean hasPrivateKey() {
-      return privateKeyBuilder_ != null || privateKey_ != null;
+      return instance.hasPrivateKey();
     }
     /**
      * <pre>
@@ -2009,12 +1820,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Any private_key = 12;</code>
      */
+    @java.lang.Override
     public com.google.protobuf.Any getPrivateKey() {
-      if (privateKeyBuilder_ == null) {
-        return privateKey_ == null ? com.google.protobuf.Any.getDefaultInstance() : privateKey_;
-      } else {
-        return privateKeyBuilder_.getMessage();
-      }
+      return instance.getPrivateKey();
     }
     /**
      * <pre>
@@ -2031,18 +1839,10 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Any private_key = 12;</code>
      */
     public Builder setPrivateKey(com.google.protobuf.Any value) {
-      if (privateKeyBuilder_ == null) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        privateKey_ = value;
-        onChanged();
-      } else {
-        privateKeyBuilder_.setMessage(value);
-      }
-
+      copyOnWrite();
+      instance.setPrivateKey(value);
       return this;
-    }
+      }
     /**
      * <pre>
      * Identifies the private key used for signing tree heads and entry
@@ -2059,13 +1859,8 @@ private static final long serialVersionUID = 0L;
      */
     public Builder setPrivateKey(
         com.google.protobuf.Any.Builder builderForValue) {
-      if (privateKeyBuilder_ == null) {
-        privateKey_ = builderForValue.build();
-        onChanged();
-      } else {
-        privateKeyBuilder_.setMessage(builderForValue.build());
-      }
-
+      copyOnWrite();
+      instance.setPrivateKey(builderForValue.build());
       return this;
     }
     /**
@@ -2083,18 +1878,8 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Any private_key = 12;</code>
      */
     public Builder mergePrivateKey(com.google.protobuf.Any value) {
-      if (privateKeyBuilder_ == null) {
-        if (privateKey_ != null) {
-          privateKey_ =
-            com.google.protobuf.Any.newBuilder(privateKey_).mergeFrom(value).buildPartial();
-        } else {
-          privateKey_ = value;
-        }
-        onChanged();
-      } else {
-        privateKeyBuilder_.mergeFrom(value);
-      }
-
+      copyOnWrite();
+      instance.mergePrivateKey(value);
       return this;
     }
     /**
@@ -2111,89 +1896,11 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Any private_key = 12;</code>
      */
-    public Builder clearPrivateKey() {
-      if (privateKeyBuilder_ == null) {
-        privateKey_ = null;
-        onChanged();
-      } else {
-        privateKey_ = null;
-        privateKeyBuilder_ = null;
-      }
-
+    public Builder clearPrivateKey() {  copyOnWrite();
+      instance.clearPrivateKey();
       return this;
     }
-    /**
-     * <pre>
-     * Identifies the private key used for signing tree heads and entry
-     * timestamps.
-     * This can be any type of message to accommodate different key management
-     * systems, e.g. PEM files, HSMs, etc.
-     * Private keys are write-only: they're never returned by RPCs.
-     * The private_key message can be changed after a tree is created, but the
-     * underlying key must remain the same - this is to enable migrating a key
-     * from one provider to another.
-     * </pre>
-     *
-     * <code>.google.protobuf.Any private_key = 12;</code>
-     */
-    public com.google.protobuf.Any.Builder getPrivateKeyBuilder() {
-      
-      onChanged();
-      return getPrivateKeyFieldBuilder().getBuilder();
-    }
-    /**
-     * <pre>
-     * Identifies the private key used for signing tree heads and entry
-     * timestamps.
-     * This can be any type of message to accommodate different key management
-     * systems, e.g. PEM files, HSMs, etc.
-     * Private keys are write-only: they're never returned by RPCs.
-     * The private_key message can be changed after a tree is created, but the
-     * underlying key must remain the same - this is to enable migrating a key
-     * from one provider to another.
-     * </pre>
-     *
-     * <code>.google.protobuf.Any private_key = 12;</code>
-     */
-    public com.google.protobuf.AnyOrBuilder getPrivateKeyOrBuilder() {
-      if (privateKeyBuilder_ != null) {
-        return privateKeyBuilder_.getMessageOrBuilder();
-      } else {
-        return privateKey_ == null ?
-            com.google.protobuf.Any.getDefaultInstance() : privateKey_;
-      }
-    }
-    /**
-     * <pre>
-     * Identifies the private key used for signing tree heads and entry
-     * timestamps.
-     * This can be any type of message to accommodate different key management
-     * systems, e.g. PEM files, HSMs, etc.
-     * Private keys are write-only: they're never returned by RPCs.
-     * The private_key message can be changed after a tree is created, but the
-     * underlying key must remain the same - this is to enable migrating a key
-     * from one provider to another.
-     * </pre>
-     *
-     * <code>.google.protobuf.Any private_key = 12;</code>
-     */
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Any, com.google.protobuf.Any.Builder, com.google.protobuf.AnyOrBuilder> 
-        getPrivateKeyFieldBuilder() {
-      if (privateKeyBuilder_ == null) {
-        privateKeyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-            com.google.protobuf.Any, com.google.protobuf.Any.Builder, com.google.protobuf.AnyOrBuilder>(
-                getPrivateKey(),
-                getParentForChildren(),
-                isClean());
-        privateKey_ = null;
-      }
-      return privateKeyBuilder_;
-    }
 
-    private com.google.protobuf.Any storageSettings_ = null;
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Any, com.google.protobuf.Any.Builder, com.google.protobuf.AnyOrBuilder> storageSettingsBuilder_;
     /**
      * <pre>
      * Storage-specific settings.
@@ -2202,8 +1909,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Any storage_settings = 13;</code>
      */
+    @java.lang.Override
     public boolean hasStorageSettings() {
-      return storageSettingsBuilder_ != null || storageSettings_ != null;
+      return instance.hasStorageSettings();
     }
     /**
      * <pre>
@@ -2213,12 +1921,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Any storage_settings = 13;</code>
      */
+    @java.lang.Override
     public com.google.protobuf.Any getStorageSettings() {
-      if (storageSettingsBuilder_ == null) {
-        return storageSettings_ == null ? com.google.protobuf.Any.getDefaultInstance() : storageSettings_;
-      } else {
-        return storageSettingsBuilder_.getMessage();
-      }
+      return instance.getStorageSettings();
     }
     /**
      * <pre>
@@ -2229,18 +1934,10 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Any storage_settings = 13;</code>
      */
     public Builder setStorageSettings(com.google.protobuf.Any value) {
-      if (storageSettingsBuilder_ == null) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        storageSettings_ = value;
-        onChanged();
-      } else {
-        storageSettingsBuilder_.setMessage(value);
-      }
-
+      copyOnWrite();
+      instance.setStorageSettings(value);
       return this;
-    }
+      }
     /**
      * <pre>
      * Storage-specific settings.
@@ -2251,13 +1948,8 @@ private static final long serialVersionUID = 0L;
      */
     public Builder setStorageSettings(
         com.google.protobuf.Any.Builder builderForValue) {
-      if (storageSettingsBuilder_ == null) {
-        storageSettings_ = builderForValue.build();
-        onChanged();
-      } else {
-        storageSettingsBuilder_.setMessage(builderForValue.build());
-      }
-
+      copyOnWrite();
+      instance.setStorageSettings(builderForValue.build());
       return this;
     }
     /**
@@ -2269,18 +1961,8 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Any storage_settings = 13;</code>
      */
     public Builder mergeStorageSettings(com.google.protobuf.Any value) {
-      if (storageSettingsBuilder_ == null) {
-        if (storageSettings_ != null) {
-          storageSettings_ =
-            com.google.protobuf.Any.newBuilder(storageSettings_).mergeFrom(value).buildPartial();
-        } else {
-          storageSettings_ = value;
-        }
-        onChanged();
-      } else {
-        storageSettingsBuilder_.mergeFrom(value);
-      }
-
+      copyOnWrite();
+      instance.mergeStorageSettings(value);
       return this;
     }
     /**
@@ -2291,71 +1973,11 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Any storage_settings = 13;</code>
      */
-    public Builder clearStorageSettings() {
-      if (storageSettingsBuilder_ == null) {
-        storageSettings_ = null;
-        onChanged();
-      } else {
-        storageSettings_ = null;
-        storageSettingsBuilder_ = null;
-      }
-
+    public Builder clearStorageSettings() {  copyOnWrite();
+      instance.clearStorageSettings();
       return this;
     }
-    /**
-     * <pre>
-     * Storage-specific settings.
-     * Varies according to the storage implementation backing Trillian.
-     * </pre>
-     *
-     * <code>.google.protobuf.Any storage_settings = 13;</code>
-     */
-    public com.google.protobuf.Any.Builder getStorageSettingsBuilder() {
-      
-      onChanged();
-      return getStorageSettingsFieldBuilder().getBuilder();
-    }
-    /**
-     * <pre>
-     * Storage-specific settings.
-     * Varies according to the storage implementation backing Trillian.
-     * </pre>
-     *
-     * <code>.google.protobuf.Any storage_settings = 13;</code>
-     */
-    public com.google.protobuf.AnyOrBuilder getStorageSettingsOrBuilder() {
-      if (storageSettingsBuilder_ != null) {
-        return storageSettingsBuilder_.getMessageOrBuilder();
-      } else {
-        return storageSettings_ == null ?
-            com.google.protobuf.Any.getDefaultInstance() : storageSettings_;
-      }
-    }
-    /**
-     * <pre>
-     * Storage-specific settings.
-     * Varies according to the storage implementation backing Trillian.
-     * </pre>
-     *
-     * <code>.google.protobuf.Any storage_settings = 13;</code>
-     */
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Any, com.google.protobuf.Any.Builder, com.google.protobuf.AnyOrBuilder> 
-        getStorageSettingsFieldBuilder() {
-      if (storageSettingsBuilder_ == null) {
-        storageSettingsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-            com.google.protobuf.Any, com.google.protobuf.Any.Builder, com.google.protobuf.AnyOrBuilder>(
-                getStorageSettings(),
-                getParentForChildren(),
-                isClean());
-        storageSettings_ = null;
-      }
-      return storageSettingsBuilder_;
-    }
 
-    private keyspb.Keyspb.PublicKey publicKey_ = null;
-    private com.google.protobuf.SingleFieldBuilderV3<
-        keyspb.Keyspb.PublicKey, keyspb.Keyspb.PublicKey.Builder, keyspb.Keyspb.PublicKeyOrBuilder> publicKeyBuilder_;
     /**
      * <pre>
      * The public key used for verifying tree heads and entry timestamps.
@@ -2364,8 +1986,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.keyspb.PublicKey public_key = 14;</code>
      */
+    @java.lang.Override
     public boolean hasPublicKey() {
-      return publicKeyBuilder_ != null || publicKey_ != null;
+      return instance.hasPublicKey();
     }
     /**
      * <pre>
@@ -2375,12 +1998,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.keyspb.PublicKey public_key = 14;</code>
      */
+    @java.lang.Override
     public keyspb.Keyspb.PublicKey getPublicKey() {
-      if (publicKeyBuilder_ == null) {
-        return publicKey_ == null ? keyspb.Keyspb.PublicKey.getDefaultInstance() : publicKey_;
-      } else {
-        return publicKeyBuilder_.getMessage();
-      }
+      return instance.getPublicKey();
     }
     /**
      * <pre>
@@ -2391,18 +2011,10 @@ private static final long serialVersionUID = 0L;
      * <code>.keyspb.PublicKey public_key = 14;</code>
      */
     public Builder setPublicKey(keyspb.Keyspb.PublicKey value) {
-      if (publicKeyBuilder_ == null) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        publicKey_ = value;
-        onChanged();
-      } else {
-        publicKeyBuilder_.setMessage(value);
-      }
-
+      copyOnWrite();
+      instance.setPublicKey(value);
       return this;
-    }
+      }
     /**
      * <pre>
      * The public key used for verifying tree heads and entry timestamps.
@@ -2413,13 +2025,8 @@ private static final long serialVersionUID = 0L;
      */
     public Builder setPublicKey(
         keyspb.Keyspb.PublicKey.Builder builderForValue) {
-      if (publicKeyBuilder_ == null) {
-        publicKey_ = builderForValue.build();
-        onChanged();
-      } else {
-        publicKeyBuilder_.setMessage(builderForValue.build());
-      }
-
+      copyOnWrite();
+      instance.setPublicKey(builderForValue.build());
       return this;
     }
     /**
@@ -2431,18 +2038,8 @@ private static final long serialVersionUID = 0L;
      * <code>.keyspb.PublicKey public_key = 14;</code>
      */
     public Builder mergePublicKey(keyspb.Keyspb.PublicKey value) {
-      if (publicKeyBuilder_ == null) {
-        if (publicKey_ != null) {
-          publicKey_ =
-            keyspb.Keyspb.PublicKey.newBuilder(publicKey_).mergeFrom(value).buildPartial();
-        } else {
-          publicKey_ = value;
-        }
-        onChanged();
-      } else {
-        publicKeyBuilder_.mergeFrom(value);
-      }
-
+      copyOnWrite();
+      instance.mergePublicKey(value);
       return this;
     }
     /**
@@ -2453,71 +2050,11 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.keyspb.PublicKey public_key = 14;</code>
      */
-    public Builder clearPublicKey() {
-      if (publicKeyBuilder_ == null) {
-        publicKey_ = null;
-        onChanged();
-      } else {
-        publicKey_ = null;
-        publicKeyBuilder_ = null;
-      }
-
+    public Builder clearPublicKey() {  copyOnWrite();
+      instance.clearPublicKey();
       return this;
     }
-    /**
-     * <pre>
-     * The public key used for verifying tree heads and entry timestamps.
-     * Readonly.
-     * </pre>
-     *
-     * <code>.keyspb.PublicKey public_key = 14;</code>
-     */
-    public keyspb.Keyspb.PublicKey.Builder getPublicKeyBuilder() {
-      
-      onChanged();
-      return getPublicKeyFieldBuilder().getBuilder();
-    }
-    /**
-     * <pre>
-     * The public key used for verifying tree heads and entry timestamps.
-     * Readonly.
-     * </pre>
-     *
-     * <code>.keyspb.PublicKey public_key = 14;</code>
-     */
-    public keyspb.Keyspb.PublicKeyOrBuilder getPublicKeyOrBuilder() {
-      if (publicKeyBuilder_ != null) {
-        return publicKeyBuilder_.getMessageOrBuilder();
-      } else {
-        return publicKey_ == null ?
-            keyspb.Keyspb.PublicKey.getDefaultInstance() : publicKey_;
-      }
-    }
-    /**
-     * <pre>
-     * The public key used for verifying tree heads and entry timestamps.
-     * Readonly.
-     * </pre>
-     *
-     * <code>.keyspb.PublicKey public_key = 14;</code>
-     */
-    private com.google.protobuf.SingleFieldBuilderV3<
-        keyspb.Keyspb.PublicKey, keyspb.Keyspb.PublicKey.Builder, keyspb.Keyspb.PublicKeyOrBuilder> 
-        getPublicKeyFieldBuilder() {
-      if (publicKeyBuilder_ == null) {
-        publicKeyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-            keyspb.Keyspb.PublicKey, keyspb.Keyspb.PublicKey.Builder, keyspb.Keyspb.PublicKeyOrBuilder>(
-                getPublicKey(),
-                getParentForChildren(),
-                isClean());
-        publicKey_ = null;
-      }
-      return publicKeyBuilder_;
-    }
 
-    private com.google.protobuf.Duration maxRootDuration_ = null;
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Duration, com.google.protobuf.Duration.Builder, com.google.protobuf.DurationOrBuilder> maxRootDurationBuilder_;
     /**
      * <pre>
      * Interval after which a new signed root is produced even if there have been
@@ -2526,8 +2063,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Duration max_root_duration = 15;</code>
      */
+    @java.lang.Override
     public boolean hasMaxRootDuration() {
-      return maxRootDurationBuilder_ != null || maxRootDuration_ != null;
+      return instance.hasMaxRootDuration();
     }
     /**
      * <pre>
@@ -2537,12 +2075,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Duration max_root_duration = 15;</code>
      */
+    @java.lang.Override
     public com.google.protobuf.Duration getMaxRootDuration() {
-      if (maxRootDurationBuilder_ == null) {
-        return maxRootDuration_ == null ? com.google.protobuf.Duration.getDefaultInstance() : maxRootDuration_;
-      } else {
-        return maxRootDurationBuilder_.getMessage();
-      }
+      return instance.getMaxRootDuration();
     }
     /**
      * <pre>
@@ -2553,18 +2088,10 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Duration max_root_duration = 15;</code>
      */
     public Builder setMaxRootDuration(com.google.protobuf.Duration value) {
-      if (maxRootDurationBuilder_ == null) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        maxRootDuration_ = value;
-        onChanged();
-      } else {
-        maxRootDurationBuilder_.setMessage(value);
-      }
-
+      copyOnWrite();
+      instance.setMaxRootDuration(value);
       return this;
-    }
+      }
     /**
      * <pre>
      * Interval after which a new signed root is produced even if there have been
@@ -2575,13 +2102,8 @@ private static final long serialVersionUID = 0L;
      */
     public Builder setMaxRootDuration(
         com.google.protobuf.Duration.Builder builderForValue) {
-      if (maxRootDurationBuilder_ == null) {
-        maxRootDuration_ = builderForValue.build();
-        onChanged();
-      } else {
-        maxRootDurationBuilder_.setMessage(builderForValue.build());
-      }
-
+      copyOnWrite();
+      instance.setMaxRootDuration(builderForValue.build());
       return this;
     }
     /**
@@ -2593,18 +2115,8 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Duration max_root_duration = 15;</code>
      */
     public Builder mergeMaxRootDuration(com.google.protobuf.Duration value) {
-      if (maxRootDurationBuilder_ == null) {
-        if (maxRootDuration_ != null) {
-          maxRootDuration_ =
-            com.google.protobuf.Duration.newBuilder(maxRootDuration_).mergeFrom(value).buildPartial();
-        } else {
-          maxRootDuration_ = value;
-        }
-        onChanged();
-      } else {
-        maxRootDurationBuilder_.mergeFrom(value);
-      }
-
+      copyOnWrite();
+      instance.mergeMaxRootDuration(value);
       return this;
     }
     /**
@@ -2615,71 +2127,11 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Duration max_root_duration = 15;</code>
      */
-    public Builder clearMaxRootDuration() {
-      if (maxRootDurationBuilder_ == null) {
-        maxRootDuration_ = null;
-        onChanged();
-      } else {
-        maxRootDuration_ = null;
-        maxRootDurationBuilder_ = null;
-      }
-
+    public Builder clearMaxRootDuration() {  copyOnWrite();
+      instance.clearMaxRootDuration();
       return this;
     }
-    /**
-     * <pre>
-     * Interval after which a new signed root is produced even if there have been
-     * no submission.  If zero, this behavior is disabled.
-     * </pre>
-     *
-     * <code>.google.protobuf.Duration max_root_duration = 15;</code>
-     */
-    public com.google.protobuf.Duration.Builder getMaxRootDurationBuilder() {
-      
-      onChanged();
-      return getMaxRootDurationFieldBuilder().getBuilder();
-    }
-    /**
-     * <pre>
-     * Interval after which a new signed root is produced even if there have been
-     * no submission.  If zero, this behavior is disabled.
-     * </pre>
-     *
-     * <code>.google.protobuf.Duration max_root_duration = 15;</code>
-     */
-    public com.google.protobuf.DurationOrBuilder getMaxRootDurationOrBuilder() {
-      if (maxRootDurationBuilder_ != null) {
-        return maxRootDurationBuilder_.getMessageOrBuilder();
-      } else {
-        return maxRootDuration_ == null ?
-            com.google.protobuf.Duration.getDefaultInstance() : maxRootDuration_;
-      }
-    }
-    /**
-     * <pre>
-     * Interval after which a new signed root is produced even if there have been
-     * no submission.  If zero, this behavior is disabled.
-     * </pre>
-     *
-     * <code>.google.protobuf.Duration max_root_duration = 15;</code>
-     */
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Duration, com.google.protobuf.Duration.Builder, com.google.protobuf.DurationOrBuilder> 
-        getMaxRootDurationFieldBuilder() {
-      if (maxRootDurationBuilder_ == null) {
-        maxRootDurationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-            com.google.protobuf.Duration, com.google.protobuf.Duration.Builder, com.google.protobuf.DurationOrBuilder>(
-                getMaxRootDuration(),
-                getParentForChildren(),
-                isClean());
-        maxRootDuration_ = null;
-      }
-      return maxRootDurationBuilder_;
-    }
 
-    private com.google.protobuf.Timestamp createTime_ = null;
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> createTimeBuilder_;
     /**
      * <pre>
      * Time of tree creation.
@@ -2688,8 +2140,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Timestamp create_time = 16;</code>
      */
+    @java.lang.Override
     public boolean hasCreateTime() {
-      return createTimeBuilder_ != null || createTime_ != null;
+      return instance.hasCreateTime();
     }
     /**
      * <pre>
@@ -2699,12 +2152,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Timestamp create_time = 16;</code>
      */
+    @java.lang.Override
     public com.google.protobuf.Timestamp getCreateTime() {
-      if (createTimeBuilder_ == null) {
-        return createTime_ == null ? com.google.protobuf.Timestamp.getDefaultInstance() : createTime_;
-      } else {
-        return createTimeBuilder_.getMessage();
-      }
+      return instance.getCreateTime();
     }
     /**
      * <pre>
@@ -2715,18 +2165,10 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Timestamp create_time = 16;</code>
      */
     public Builder setCreateTime(com.google.protobuf.Timestamp value) {
-      if (createTimeBuilder_ == null) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        createTime_ = value;
-        onChanged();
-      } else {
-        createTimeBuilder_.setMessage(value);
-      }
-
+      copyOnWrite();
+      instance.setCreateTime(value);
       return this;
-    }
+      }
     /**
      * <pre>
      * Time of tree creation.
@@ -2737,13 +2179,8 @@ private static final long serialVersionUID = 0L;
      */
     public Builder setCreateTime(
         com.google.protobuf.Timestamp.Builder builderForValue) {
-      if (createTimeBuilder_ == null) {
-        createTime_ = builderForValue.build();
-        onChanged();
-      } else {
-        createTimeBuilder_.setMessage(builderForValue.build());
-      }
-
+      copyOnWrite();
+      instance.setCreateTime(builderForValue.build());
       return this;
     }
     /**
@@ -2755,18 +2192,8 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Timestamp create_time = 16;</code>
      */
     public Builder mergeCreateTime(com.google.protobuf.Timestamp value) {
-      if (createTimeBuilder_ == null) {
-        if (createTime_ != null) {
-          createTime_ =
-            com.google.protobuf.Timestamp.newBuilder(createTime_).mergeFrom(value).buildPartial();
-        } else {
-          createTime_ = value;
-        }
-        onChanged();
-      } else {
-        createTimeBuilder_.mergeFrom(value);
-      }
-
+      copyOnWrite();
+      instance.mergeCreateTime(value);
       return this;
     }
     /**
@@ -2777,71 +2204,11 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Timestamp create_time = 16;</code>
      */
-    public Builder clearCreateTime() {
-      if (createTimeBuilder_ == null) {
-        createTime_ = null;
-        onChanged();
-      } else {
-        createTime_ = null;
-        createTimeBuilder_ = null;
-      }
-
+    public Builder clearCreateTime() {  copyOnWrite();
+      instance.clearCreateTime();
       return this;
     }
-    /**
-     * <pre>
-     * Time of tree creation.
-     * Readonly.
-     * </pre>
-     *
-     * <code>.google.protobuf.Timestamp create_time = 16;</code>
-     */
-    public com.google.protobuf.Timestamp.Builder getCreateTimeBuilder() {
-      
-      onChanged();
-      return getCreateTimeFieldBuilder().getBuilder();
-    }
-    /**
-     * <pre>
-     * Time of tree creation.
-     * Readonly.
-     * </pre>
-     *
-     * <code>.google.protobuf.Timestamp create_time = 16;</code>
-     */
-    public com.google.protobuf.TimestampOrBuilder getCreateTimeOrBuilder() {
-      if (createTimeBuilder_ != null) {
-        return createTimeBuilder_.getMessageOrBuilder();
-      } else {
-        return createTime_ == null ?
-            com.google.protobuf.Timestamp.getDefaultInstance() : createTime_;
-      }
-    }
-    /**
-     * <pre>
-     * Time of tree creation.
-     * Readonly.
-     * </pre>
-     *
-     * <code>.google.protobuf.Timestamp create_time = 16;</code>
-     */
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> 
-        getCreateTimeFieldBuilder() {
-      if (createTimeBuilder_ == null) {
-        createTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-            com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder>(
-                getCreateTime(),
-                getParentForChildren(),
-                isClean());
-        createTime_ = null;
-      }
-      return createTimeBuilder_;
-    }
 
-    private com.google.protobuf.Timestamp updateTime_ = null;
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> updateTimeBuilder_;
     /**
      * <pre>
      * Time of last tree update.
@@ -2850,8 +2217,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Timestamp update_time = 17;</code>
      */
+    @java.lang.Override
     public boolean hasUpdateTime() {
-      return updateTimeBuilder_ != null || updateTime_ != null;
+      return instance.hasUpdateTime();
     }
     /**
      * <pre>
@@ -2861,12 +2229,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Timestamp update_time = 17;</code>
      */
+    @java.lang.Override
     public com.google.protobuf.Timestamp getUpdateTime() {
-      if (updateTimeBuilder_ == null) {
-        return updateTime_ == null ? com.google.protobuf.Timestamp.getDefaultInstance() : updateTime_;
-      } else {
-        return updateTimeBuilder_.getMessage();
-      }
+      return instance.getUpdateTime();
     }
     /**
      * <pre>
@@ -2877,18 +2242,10 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Timestamp update_time = 17;</code>
      */
     public Builder setUpdateTime(com.google.protobuf.Timestamp value) {
-      if (updateTimeBuilder_ == null) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        updateTime_ = value;
-        onChanged();
-      } else {
-        updateTimeBuilder_.setMessage(value);
-      }
-
+      copyOnWrite();
+      instance.setUpdateTime(value);
       return this;
-    }
+      }
     /**
      * <pre>
      * Time of last tree update.
@@ -2899,13 +2256,8 @@ private static final long serialVersionUID = 0L;
      */
     public Builder setUpdateTime(
         com.google.protobuf.Timestamp.Builder builderForValue) {
-      if (updateTimeBuilder_ == null) {
-        updateTime_ = builderForValue.build();
-        onChanged();
-      } else {
-        updateTimeBuilder_.setMessage(builderForValue.build());
-      }
-
+      copyOnWrite();
+      instance.setUpdateTime(builderForValue.build());
       return this;
     }
     /**
@@ -2917,18 +2269,8 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Timestamp update_time = 17;</code>
      */
     public Builder mergeUpdateTime(com.google.protobuf.Timestamp value) {
-      if (updateTimeBuilder_ == null) {
-        if (updateTime_ != null) {
-          updateTime_ =
-            com.google.protobuf.Timestamp.newBuilder(updateTime_).mergeFrom(value).buildPartial();
-        } else {
-          updateTime_ = value;
-        }
-        onChanged();
-      } else {
-        updateTimeBuilder_.mergeFrom(value);
-      }
-
+      copyOnWrite();
+      instance.mergeUpdateTime(value);
       return this;
     }
     /**
@@ -2939,69 +2281,11 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Timestamp update_time = 17;</code>
      */
-    public Builder clearUpdateTime() {
-      if (updateTimeBuilder_ == null) {
-        updateTime_ = null;
-        onChanged();
-      } else {
-        updateTime_ = null;
-        updateTimeBuilder_ = null;
-      }
-
+    public Builder clearUpdateTime() {  copyOnWrite();
+      instance.clearUpdateTime();
       return this;
     }
-    /**
-     * <pre>
-     * Time of last tree update.
-     * Readonly (automatically assigned on updates).
-     * </pre>
-     *
-     * <code>.google.protobuf.Timestamp update_time = 17;</code>
-     */
-    public com.google.protobuf.Timestamp.Builder getUpdateTimeBuilder() {
-      
-      onChanged();
-      return getUpdateTimeFieldBuilder().getBuilder();
-    }
-    /**
-     * <pre>
-     * Time of last tree update.
-     * Readonly (automatically assigned on updates).
-     * </pre>
-     *
-     * <code>.google.protobuf.Timestamp update_time = 17;</code>
-     */
-    public com.google.protobuf.TimestampOrBuilder getUpdateTimeOrBuilder() {
-      if (updateTimeBuilder_ != null) {
-        return updateTimeBuilder_.getMessageOrBuilder();
-      } else {
-        return updateTime_ == null ?
-            com.google.protobuf.Timestamp.getDefaultInstance() : updateTime_;
-      }
-    }
-    /**
-     * <pre>
-     * Time of last tree update.
-     * Readonly (automatically assigned on updates).
-     * </pre>
-     *
-     * <code>.google.protobuf.Timestamp update_time = 17;</code>
-     */
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> 
-        getUpdateTimeFieldBuilder() {
-      if (updateTimeBuilder_ == null) {
-        updateTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-            com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder>(
-                getUpdateTime(),
-                getParentForChildren(),
-                isClean());
-        updateTime_ = null;
-      }
-      return updateTimeBuilder_;
-    }
 
-    private boolean deleted_ ;
     /**
      * <pre>
      * If true, the tree has been deleted.
@@ -3011,9 +2295,11 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool deleted = 19;</code>
+     * @return The deleted.
      */
+    @java.lang.Override
     public boolean getDeleted() {
-      return deleted_;
+      return instance.getDeleted();
     }
     /**
      * <pre>
@@ -3024,11 +2310,12 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool deleted = 19;</code>
+     * @param value The deleted to set.
+     * @return This builder for chaining.
      */
     public Builder setDeleted(boolean value) {
-      
-      deleted_ = value;
-      onChanged();
+      copyOnWrite();
+      instance.setDeleted(value);
       return this;
     }
     /**
@@ -3040,17 +2327,14 @@ private static final long serialVersionUID = 0L;
      * </pre>
      *
      * <code>bool deleted = 19;</code>
+     * @return This builder for chaining.
      */
     public Builder clearDeleted() {
-      
-      deleted_ = false;
-      onChanged();
+      copyOnWrite();
+      instance.clearDeleted();
       return this;
     }
 
-    private com.google.protobuf.Timestamp deleteTime_ = null;
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> deleteTimeBuilder_;
     /**
      * <pre>
      * Time of tree deletion, if any.
@@ -3059,8 +2343,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Timestamp delete_time = 20;</code>
      */
+    @java.lang.Override
     public boolean hasDeleteTime() {
-      return deleteTimeBuilder_ != null || deleteTime_ != null;
+      return instance.hasDeleteTime();
     }
     /**
      * <pre>
@@ -3070,12 +2355,9 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Timestamp delete_time = 20;</code>
      */
+    @java.lang.Override
     public com.google.protobuf.Timestamp getDeleteTime() {
-      if (deleteTimeBuilder_ == null) {
-        return deleteTime_ == null ? com.google.protobuf.Timestamp.getDefaultInstance() : deleteTime_;
-      } else {
-        return deleteTimeBuilder_.getMessage();
-      }
+      return instance.getDeleteTime();
     }
     /**
      * <pre>
@@ -3086,18 +2368,10 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Timestamp delete_time = 20;</code>
      */
     public Builder setDeleteTime(com.google.protobuf.Timestamp value) {
-      if (deleteTimeBuilder_ == null) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        deleteTime_ = value;
-        onChanged();
-      } else {
-        deleteTimeBuilder_.setMessage(value);
-      }
-
+      copyOnWrite();
+      instance.setDeleteTime(value);
       return this;
-    }
+      }
     /**
      * <pre>
      * Time of tree deletion, if any.
@@ -3108,13 +2382,8 @@ private static final long serialVersionUID = 0L;
      */
     public Builder setDeleteTime(
         com.google.protobuf.Timestamp.Builder builderForValue) {
-      if (deleteTimeBuilder_ == null) {
-        deleteTime_ = builderForValue.build();
-        onChanged();
-      } else {
-        deleteTimeBuilder_.setMessage(builderForValue.build());
-      }
-
+      copyOnWrite();
+      instance.setDeleteTime(builderForValue.build());
       return this;
     }
     /**
@@ -3126,18 +2395,8 @@ private static final long serialVersionUID = 0L;
      * <code>.google.protobuf.Timestamp delete_time = 20;</code>
      */
     public Builder mergeDeleteTime(com.google.protobuf.Timestamp value) {
-      if (deleteTimeBuilder_ == null) {
-        if (deleteTime_ != null) {
-          deleteTime_ =
-            com.google.protobuf.Timestamp.newBuilder(deleteTime_).mergeFrom(value).buildPartial();
-        } else {
-          deleteTime_ = value;
-        }
-        onChanged();
-      } else {
-        deleteTimeBuilder_.mergeFrom(value);
-      }
-
+      copyOnWrite();
+      instance.mergeDeleteTime(value);
       return this;
     }
     /**
@@ -3148,113 +2407,99 @@ private static final long serialVersionUID = 0L;
      *
      * <code>.google.protobuf.Timestamp delete_time = 20;</code>
      */
-    public Builder clearDeleteTime() {
-      if (deleteTimeBuilder_ == null) {
-        deleteTime_ = null;
-        onChanged();
-      } else {
-        deleteTime_ = null;
-        deleteTimeBuilder_ = null;
-      }
-
+    public Builder clearDeleteTime() {  copyOnWrite();
+      instance.clearDeleteTime();
       return this;
     }
-    /**
-     * <pre>
-     * Time of tree deletion, if any.
-     * Readonly.
-     * </pre>
-     *
-     * <code>.google.protobuf.Timestamp delete_time = 20;</code>
-     */
-    public com.google.protobuf.Timestamp.Builder getDeleteTimeBuilder() {
-      
-      onChanged();
-      return getDeleteTimeFieldBuilder().getBuilder();
-    }
-    /**
-     * <pre>
-     * Time of tree deletion, if any.
-     * Readonly.
-     * </pre>
-     *
-     * <code>.google.protobuf.Timestamp delete_time = 20;</code>
-     */
-    public com.google.protobuf.TimestampOrBuilder getDeleteTimeOrBuilder() {
-      if (deleteTimeBuilder_ != null) {
-        return deleteTimeBuilder_.getMessageOrBuilder();
-      } else {
-        return deleteTime_ == null ?
-            com.google.protobuf.Timestamp.getDefaultInstance() : deleteTime_;
-      }
-    }
-    /**
-     * <pre>
-     * Time of tree deletion, if any.
-     * Readonly.
-     * </pre>
-     *
-     * <code>.google.protobuf.Timestamp delete_time = 20;</code>
-     */
-    private com.google.protobuf.SingleFieldBuilderV3<
-        com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> 
-        getDeleteTimeFieldBuilder() {
-      if (deleteTimeBuilder_ == null) {
-        deleteTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-            com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder>(
-                getDeleteTime(),
-                getParentForChildren(),
-                isClean());
-        deleteTime_ = null;
-      }
-      return deleteTimeBuilder_;
-    }
-    public final Builder setUnknownFields(
-        final com.google.protobuf.UnknownFieldSet unknownFields) {
-      return super.setUnknownFieldsProto3(unknownFields);
-    }
-
-    public final Builder mergeUnknownFields(
-        final com.google.protobuf.UnknownFieldSet unknownFields) {
-      return super.mergeUnknownFields(unknownFields);
-    }
-
 
     // @@protoc_insertion_point(builder_scope:trillian.Tree)
   }
+  @java.lang.Override
+  @java.lang.SuppressWarnings({"unchecked", "fallthrough"})
+  protected final java.lang.Object dynamicMethod(
+      com.google.protobuf.GeneratedMessageLite.MethodToInvoke method,
+      java.lang.Object arg0, java.lang.Object arg1) {
+    switch (method) {
+      case NEW_MUTABLE_INSTANCE: {
+        return new com.google.trillian.proto.Tree();
+      }
+      case NEW_BUILDER: {
+        return new Builder();
+      }
+      case BUILD_MESSAGE_INFO: {
+          java.lang.Object[] objects = new java.lang.Object[] {
+            "treeId_",
+            "treeState_",
+            "treeType_",
+            "hashStrategy_",
+            "hashAlgorithm_",
+            "signatureAlgorithm_",
+            "displayName_",
+            "description_",
+            "privateKey_",
+            "storageSettings_",
+            "publicKey_",
+            "maxRootDuration_",
+            "createTime_",
+            "updateTime_",
+            "deleted_",
+            "deleteTime_",
+          };
+          java.lang.String info =
+              "\u0000\u0010\u0000\u0000\u0001\u0014\u0010\u0000\u0000\u0000\u0001\u0002\u0002\f" +
+              "\u0003\f\u0004\f\u0005\f\u0006\f\b\u0208\t\u0208\f\t\r\t\u000e\t\u000f\t\u0010\t" +
+              "\u0011\t\u0013\u0007\u0014\t";
+          return newMessageInfo(DEFAULT_INSTANCE, info, objects);
+      }
+      // fall through
+      case GET_DEFAULT_INSTANCE: {
+        return DEFAULT_INSTANCE;
+      }
+      case GET_PARSER: {
+        com.google.protobuf.Parser<com.google.trillian.proto.Tree> parser = PARSER;
+        if (parser == null) {
+          synchronized (com.google.trillian.proto.Tree.class) {
+            parser = PARSER;
+            if (parser == null) {
+              parser =
+                  new DefaultInstanceBasedParser<com.google.trillian.proto.Tree>(
+                      DEFAULT_INSTANCE);
+              PARSER = parser;
+            }
+          }
+        }
+        return parser;
+    }
+    case GET_MEMOIZED_IS_INITIALIZED: {
+      return (byte) 1;
+    }
+    case SET_MEMOIZED_IS_INITIALIZED: {
+      return null;
+    }
+    }
+    throw new UnsupportedOperationException();
+  }
+
 
   // @@protoc_insertion_point(class_scope:trillian.Tree)
   private static final com.google.trillian.proto.Tree DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new com.google.trillian.proto.Tree();
+    Tree defaultInstance = new Tree();
+    // New instances are implicitly immutable so no need to make
+    // immutable.
+    DEFAULT_INSTANCE = defaultInstance;
+    com.google.protobuf.GeneratedMessageLite.registerDefaultInstance(
+      Tree.class, defaultInstance);
   }
 
   public static com.google.trillian.proto.Tree getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
-  private static final com.google.protobuf.Parser<Tree>
-      PARSER = new com.google.protobuf.AbstractParser<Tree>() {
-    public Tree parsePartialFrom(
-        com.google.protobuf.CodedInputStream input,
-        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
-        throws com.google.protobuf.InvalidProtocolBufferException {
-      return new Tree(input, extensionRegistry);
-    }
-  };
+  private static volatile com.google.protobuf.Parser<Tree> PARSER;
 
   public static com.google.protobuf.Parser<Tree> parser() {
-    return PARSER;
+    return DEFAULT_INSTANCE.getParserForType();
   }
-
-  @java.lang.Override
-  public com.google.protobuf.Parser<Tree> getParserForType() {
-    return PARSER;
-  }
-
-  public com.google.trillian.proto.Tree getDefaultInstanceForType() {
-    return DEFAULT_INSTANCE;
-  }
-
 }
 

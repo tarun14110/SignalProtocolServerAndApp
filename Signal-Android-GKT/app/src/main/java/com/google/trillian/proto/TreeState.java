@@ -11,7 +11,7 @@ package com.google.trillian.proto;
  * Protobuf enum {@code trillian.TreeState}
  */
 public enum TreeState
-    implements com.google.protobuf.ProtocolMessageEnum {
+    implements com.google.protobuf.Internal.EnumLite {
   /**
    * <pre>
    * Tree state cannot be determined. Included to enable detection of
@@ -105,7 +105,7 @@ public enum TreeState
    *
    * <code>DEPRECATED_SOFT_DELETED = 3 [deprecated = true];</code>
    */
-  public static final int DEPRECATED_SOFT_DELETED_VALUE = 3;
+  @java.lang.Deprecated public static final int DEPRECATED_SOFT_DELETED_VALUE = 3;
   /**
    * <pre>
    * Deprecated: now tracked in Tree.deleted.
@@ -113,7 +113,7 @@ public enum TreeState
    *
    * <code>DEPRECATED_HARD_DELETED = 4 [deprecated = true];</code>
    */
-  public static final int DEPRECATED_HARD_DELETED_VALUE = 4;
+  @java.lang.Deprecated public static final int DEPRECATED_HARD_DELETED_VALUE = 4;
   /**
    * <pre>
    * A tree that is draining will continue to integrate queued entries.
@@ -125,6 +125,7 @@ public enum TreeState
   public static final int DRAINING_VALUE = 5;
 
 
+  @java.lang.Override
   public final int getNumber() {
     if (this == UNRECOGNIZED) {
       throw new java.lang.IllegalArgumentException(
@@ -134,6 +135,8 @@ public enum TreeState
   }
 
   /**
+   * @param value The number of the enum to look for.
+   * @return The enum associated with the given number.
    * @deprecated Use {@link #forNumber(int)} instead.
    */
   @java.lang.Deprecated
@@ -160,37 +163,25 @@ public enum TreeState
   private static final com.google.protobuf.Internal.EnumLiteMap<
       TreeState> internalValueMap =
         new com.google.protobuf.Internal.EnumLiteMap<TreeState>() {
+          @java.lang.Override
           public TreeState findValueByNumber(int number) {
             return TreeState.forNumber(number);
           }
         };
 
-  public final com.google.protobuf.Descriptors.EnumValueDescriptor
-      getValueDescriptor() {
-    return getDescriptor().getValues().get(ordinal());
-  }
-  public final com.google.protobuf.Descriptors.EnumDescriptor
-      getDescriptorForType() {
-    return getDescriptor();
-  }
-  public static final com.google.protobuf.Descriptors.EnumDescriptor
-      getDescriptor() {
-    return com.google.trillian.proto.TrillianProto.getDescriptor().getEnumTypes().get(3);
+  public static com.google.protobuf.Internal.EnumVerifier 
+      internalGetVerifier() {
+    return TreeStateVerifier.INSTANCE;
   }
 
-  private static final TreeState[] VALUES = values();
-
-  public static TreeState valueOf(
-      com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
-    if (desc.getType() != getDescriptor()) {
-      throw new java.lang.IllegalArgumentException(
-        "EnumValueDescriptor is not for this type.");
-    }
-    if (desc.getIndex() == -1) {
-      return UNRECOGNIZED;
-    }
-    return VALUES[desc.getIndex()];
-  }
+  private static final class TreeStateVerifier implements 
+       com.google.protobuf.Internal.EnumVerifier { 
+          static final com.google.protobuf.Internal.EnumVerifier           INSTANCE = new TreeStateVerifier();
+          @java.lang.Override
+          public boolean isInRange(int number) {
+            return TreeState.forNumber(number) != null;
+          }
+        };
 
   private final int value;
 

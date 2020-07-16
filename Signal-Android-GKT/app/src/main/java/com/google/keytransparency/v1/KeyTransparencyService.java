@@ -3,8 +3,8 @@
 
 package com.google.keytransparency.v1;
 
-public final class Keytransparency {
-  private Keytransparency() {}
+public final class KeyTransparencyService {
+  private KeyTransparencyService() {}
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistryLite registry) {
   }
@@ -127,73 +127,73 @@ public final class Keytransparency {
       data_ = getDefaultInstance().getData();
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Committed parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -204,7 +204,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.Committed prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.Committed prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -218,10 +218,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.Committed, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.Committed, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.Committed)
-        com.google.keytransparency.v1.Keytransparency.CommittedOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.Committed.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.CommittedOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.Committed.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -316,7 +316,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.Committed();
+          return new com.google.keytransparency.v1.KeyTransparencyService.Committed();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -335,13 +335,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.Committed> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.Committed> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.Committed.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.Committed.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.Committed>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.Committed>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -361,7 +361,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.Committed)
-    private static final com.google.keytransparency.v1.Keytransparency.Committed DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.Committed DEFAULT_INSTANCE;
     static {
       Committed defaultInstance = new Committed();
       // New instances are implicitly immutable so no need to make
@@ -371,7 +371,7 @@ public final class Keytransparency {
         Committed.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.Committed getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.Committed getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -423,7 +423,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.SignedEntry mutation = 2;</code>
      * @return The mutation.
      */
-    com.google.keytransparency.v1.Keytransparency.SignedEntry getMutation();
+    com.google.keytransparency.v1.KeyTransparencyService.SignedEntry getMutation();
 
     /**
      * <pre>
@@ -442,7 +442,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
      * @return The committed.
      */
-    com.google.keytransparency.v1.Keytransparency.Committed getCommitted();
+    com.google.keytransparency.v1.KeyTransparencyService.Committed getCommitted();
   }
   /**
    * <pre>
@@ -528,7 +528,7 @@ public final class Keytransparency {
     }
 
     public static final int MUTATION_FIELD_NUMBER = 2;
-    private com.google.keytransparency.v1.Keytransparency.SignedEntry mutation_;
+    private com.google.keytransparency.v1.KeyTransparencyService.SignedEntry mutation_;
     /**
      * <pre>
      * mutation authorizes the change to entry.
@@ -548,8 +548,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.SignedEntry mutation = 2;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.SignedEntry getMutation() {
-      return mutation_ == null ? com.google.keytransparency.v1.Keytransparency.SignedEntry.getDefaultInstance() : mutation_;
+    public com.google.keytransparency.v1.KeyTransparencyService.SignedEntry getMutation() {
+      return mutation_ == null ? com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.getDefaultInstance() : mutation_;
     }
     /**
      * <pre>
@@ -558,7 +558,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.SignedEntry mutation = 2;</code>
      */
-    private void setMutation(com.google.keytransparency.v1.Keytransparency.SignedEntry value) {
+    private void setMutation(com.google.keytransparency.v1.KeyTransparencyService.SignedEntry value) {
       value.getClass();
   mutation_ = value;
       
@@ -571,12 +571,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.SignedEntry mutation = 2;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeMutation(com.google.keytransparency.v1.Keytransparency.SignedEntry value) {
+    private void mergeMutation(com.google.keytransparency.v1.KeyTransparencyService.SignedEntry value) {
       value.getClass();
   if (mutation_ != null &&
-          mutation_ != com.google.keytransparency.v1.Keytransparency.SignedEntry.getDefaultInstance()) {
+          mutation_ != com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.getDefaultInstance()) {
         mutation_ =
-          com.google.keytransparency.v1.Keytransparency.SignedEntry.newBuilder(mutation_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.newBuilder(mutation_).mergeFrom(value).buildPartial();
       } else {
         mutation_ = value;
       }
@@ -594,7 +594,7 @@ public final class Keytransparency {
     }
 
     public static final int COMMITTED_FIELD_NUMBER = 3;
-    private com.google.keytransparency.v1.Keytransparency.Committed committed_;
+    private com.google.keytransparency.v1.KeyTransparencyService.Committed committed_;
     /**
      * <pre>
      * committed contains the data committed to in mutation.commitment.
@@ -614,8 +614,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.Committed getCommitted() {
-      return committed_ == null ? com.google.keytransparency.v1.Keytransparency.Committed.getDefaultInstance() : committed_;
+    public com.google.keytransparency.v1.KeyTransparencyService.Committed getCommitted() {
+      return committed_ == null ? com.google.keytransparency.v1.KeyTransparencyService.Committed.getDefaultInstance() : committed_;
     }
     /**
      * <pre>
@@ -624,7 +624,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
      */
-    private void setCommitted(com.google.keytransparency.v1.Keytransparency.Committed value) {
+    private void setCommitted(com.google.keytransparency.v1.KeyTransparencyService.Committed value) {
       value.getClass();
   committed_ = value;
       
@@ -637,12 +637,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeCommitted(com.google.keytransparency.v1.Keytransparency.Committed value) {
+    private void mergeCommitted(com.google.keytransparency.v1.KeyTransparencyService.Committed value) {
       value.getClass();
   if (committed_ != null &&
-          committed_ != com.google.keytransparency.v1.Keytransparency.Committed.getDefaultInstance()) {
+          committed_ != com.google.keytransparency.v1.KeyTransparencyService.Committed.getDefaultInstance()) {
         committed_ =
-          com.google.keytransparency.v1.Keytransparency.Committed.newBuilder(committed_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.Committed.newBuilder(committed_).mergeFrom(value).buildPartial();
       } else {
         committed_ = value;
       }
@@ -659,73 +659,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -736,7 +736,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.EntryUpdate prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -750,10 +750,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.EntryUpdate, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.EntryUpdate)
-        com.google.keytransparency.v1.Keytransparency.EntryUpdateOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.EntryUpdate.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.EntryUpdateOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -847,7 +847,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.SignedEntry mutation = 2;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.SignedEntry getMutation() {
+      public com.google.keytransparency.v1.KeyTransparencyService.SignedEntry getMutation() {
         return instance.getMutation();
       }
       /**
@@ -857,7 +857,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.SignedEntry mutation = 2;</code>
        */
-      public Builder setMutation(com.google.keytransparency.v1.Keytransparency.SignedEntry value) {
+      public Builder setMutation(com.google.keytransparency.v1.KeyTransparencyService.SignedEntry value) {
         copyOnWrite();
         instance.setMutation(value);
         return this;
@@ -870,7 +870,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.SignedEntry mutation = 2;</code>
        */
       public Builder setMutation(
-          com.google.keytransparency.v1.Keytransparency.SignedEntry.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.Builder builderForValue) {
         copyOnWrite();
         instance.setMutation(builderForValue.build());
         return this;
@@ -882,7 +882,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.SignedEntry mutation = 2;</code>
        */
-      public Builder mergeMutation(com.google.keytransparency.v1.Keytransparency.SignedEntry value) {
+      public Builder mergeMutation(com.google.keytransparency.v1.KeyTransparencyService.SignedEntry value) {
         copyOnWrite();
         instance.mergeMutation(value);
         return this;
@@ -918,7 +918,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.Committed getCommitted() {
+      public com.google.keytransparency.v1.KeyTransparencyService.Committed getCommitted() {
         return instance.getCommitted();
       }
       /**
@@ -928,7 +928,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
        */
-      public Builder setCommitted(com.google.keytransparency.v1.Keytransparency.Committed value) {
+      public Builder setCommitted(com.google.keytransparency.v1.KeyTransparencyService.Committed value) {
         copyOnWrite();
         instance.setCommitted(value);
         return this;
@@ -941,7 +941,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
        */
       public Builder setCommitted(
-          com.google.keytransparency.v1.Keytransparency.Committed.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.Committed.Builder builderForValue) {
         copyOnWrite();
         instance.setCommitted(builderForValue.build());
         return this;
@@ -953,7 +953,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
        */
-      public Builder mergeCommitted(com.google.keytransparency.v1.Keytransparency.Committed value) {
+      public Builder mergeCommitted(com.google.keytransparency.v1.KeyTransparencyService.Committed value) {
         copyOnWrite();
         instance.mergeCommitted(value);
         return this;
@@ -979,7 +979,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.EntryUpdate();
+          return new com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -1000,13 +1000,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.EntryUpdate> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.EntryUpdate.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.EntryUpdate>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -1026,7 +1026,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.EntryUpdate)
-    private static final com.google.keytransparency.v1.Keytransparency.EntryUpdate DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate DEFAULT_INSTANCE;
     static {
       EntryUpdate defaultInstance = new EntryUpdate();
       // New instances are implicitly immutable so no need to make
@@ -1036,7 +1036,7 @@ public final class Keytransparency {
         EntryUpdate.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.EntryUpdate getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1267,73 +1267,73 @@ public final class Keytransparency {
       previous_ = getDefaultInstance().getPrevious();
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Entry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1344,7 +1344,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.Entry prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.Entry prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -1359,10 +1359,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.Entry, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.Entry, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.Entry)
-        com.google.keytransparency.v1.Keytransparency.EntryOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.Entry.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.EntryOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.Entry.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -1537,7 +1537,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.Entry();
+          return new com.google.keytransparency.v1.KeyTransparencyService.Entry();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -1559,13 +1559,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.Entry> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.Entry> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.Entry.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.Entry.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.Entry>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.Entry>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -1585,7 +1585,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.Entry)
-    private static final com.google.keytransparency.v1.Keytransparency.Entry DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.Entry DEFAULT_INSTANCE;
     static {
       Entry defaultInstance = new Entry();
       // New instances are implicitly immutable so no need to make
@@ -1595,7 +1595,7 @@ public final class Keytransparency {
         Entry.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.Entry getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.Entry getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1835,73 +1835,73 @@ public final class Keytransparency {
       signatures_ = emptyProtobufList();
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1912,7 +1912,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.SignedEntry prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.SignedEntry prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -1926,10 +1926,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.SignedEntry, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.SignedEntry, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.SignedEntry)
-        com.google.keytransparency.v1.Keytransparency.SignedEntryOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.SignedEntry.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.SignedEntryOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -2102,7 +2102,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.SignedEntry();
+          return new com.google.keytransparency.v1.KeyTransparencyService.SignedEntry();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -2122,13 +2122,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.SignedEntry> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.SignedEntry> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.SignedEntry.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.SignedEntry>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.SignedEntry>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -2148,7 +2148,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.SignedEntry)
-    private static final com.google.keytransparency.v1.Keytransparency.SignedEntry DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.SignedEntry DEFAULT_INSTANCE;
     static {
       SignedEntry defaultInstance = new SignedEntry();
       // New instances are implicitly immutable so no need to make
@@ -2158,7 +2158,7 @@ public final class Keytransparency {
         SignedEntry.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.SignedEntry getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.SignedEntry getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2194,7 +2194,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.SignedEntry mutation = 1;</code>
      * @return The mutation.
      */
-    com.google.keytransparency.v1.Keytransparency.SignedEntry getMutation();
+    com.google.keytransparency.v1.KeyTransparencyService.SignedEntry getMutation();
 
     /**
      * <pre>
@@ -2235,7 +2235,7 @@ public final class Keytransparency {
     private MutationProof() {
     }
     public static final int MUTATION_FIELD_NUMBER = 1;
-    private com.google.keytransparency.v1.Keytransparency.SignedEntry mutation_;
+    private com.google.keytransparency.v1.KeyTransparencyService.SignedEntry mutation_;
     /**
      * <pre>
      * mutation contains the information needed to modify the old leaf.
@@ -2259,8 +2259,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.SignedEntry mutation = 1;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.SignedEntry getMutation() {
-      return mutation_ == null ? com.google.keytransparency.v1.Keytransparency.SignedEntry.getDefaultInstance() : mutation_;
+    public com.google.keytransparency.v1.KeyTransparencyService.SignedEntry getMutation() {
+      return mutation_ == null ? com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.getDefaultInstance() : mutation_;
     }
     /**
      * <pre>
@@ -2271,7 +2271,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.SignedEntry mutation = 1;</code>
      */
-    private void setMutation(com.google.keytransparency.v1.Keytransparency.SignedEntry value) {
+    private void setMutation(com.google.keytransparency.v1.KeyTransparencyService.SignedEntry value) {
       value.getClass();
   mutation_ = value;
       
@@ -2286,12 +2286,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.SignedEntry mutation = 1;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeMutation(com.google.keytransparency.v1.Keytransparency.SignedEntry value) {
+    private void mergeMutation(com.google.keytransparency.v1.KeyTransparencyService.SignedEntry value) {
       value.getClass();
   if (mutation_ != null &&
-          mutation_ != com.google.keytransparency.v1.Keytransparency.SignedEntry.getDefaultInstance()) {
+          mutation_ != com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.getDefaultInstance()) {
         mutation_ =
-          com.google.keytransparency.v1.Keytransparency.SignedEntry.newBuilder(mutation_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.newBuilder(mutation_).mergeFrom(value).buildPartial();
       } else {
         mutation_ = value;
       }
@@ -2381,73 +2381,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2458,7 +2458,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.MutationProof prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.MutationProof prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -2474,10 +2474,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.MutationProof, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.MutationProof, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.MutationProof)
-        com.google.keytransparency.v1.Keytransparency.MutationProofOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.MutationProof.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.MutationProofOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.MutationProof.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -2506,7 +2506,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.SignedEntry mutation = 1;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.SignedEntry getMutation() {
+      public com.google.keytransparency.v1.KeyTransparencyService.SignedEntry getMutation() {
         return instance.getMutation();
       }
       /**
@@ -2518,7 +2518,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.SignedEntry mutation = 1;</code>
        */
-      public Builder setMutation(com.google.keytransparency.v1.Keytransparency.SignedEntry value) {
+      public Builder setMutation(com.google.keytransparency.v1.KeyTransparencyService.SignedEntry value) {
         copyOnWrite();
         instance.setMutation(value);
         return this;
@@ -2533,7 +2533,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.SignedEntry mutation = 1;</code>
        */
       public Builder setMutation(
-          com.google.keytransparency.v1.Keytransparency.SignedEntry.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.SignedEntry.Builder builderForValue) {
         copyOnWrite();
         instance.setMutation(builderForValue.build());
         return this;
@@ -2547,7 +2547,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.SignedEntry mutation = 1;</code>
        */
-      public Builder mergeMutation(com.google.keytransparency.v1.Keytransparency.SignedEntry value) {
+      public Builder mergeMutation(com.google.keytransparency.v1.KeyTransparencyService.SignedEntry value) {
         copyOnWrite();
         instance.mergeMutation(value);
         return this;
@@ -2652,7 +2652,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.MutationProof();
+          return new com.google.keytransparency.v1.KeyTransparencyService.MutationProof();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -2671,13 +2671,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.MutationProof> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.MutationProof> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.MutationProof.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.MutationProof.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.MutationProof>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.MutationProof>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -2697,7 +2697,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.MutationProof)
-    private static final com.google.keytransparency.v1.Keytransparency.MutationProof DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.MutationProof DEFAULT_INSTANCE;
     static {
       MutationProof defaultInstance = new MutationProof();
       // New instances are implicitly immutable so no need to make
@@ -2707,7 +2707,7 @@ public final class Keytransparency {
         MutationProof.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MutationProof getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.MutationProof getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2769,73 +2769,73 @@ public final class Keytransparency {
       highestFullyCompletedSeq_ = 0L;
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2846,7 +2846,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.MapperMetadata prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -2860,10 +2860,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.MapperMetadata, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.MapperMetadata)
-        com.google.keytransparency.v1.Keytransparency.MapperMetadataOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.MapperMetadata.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.MapperMetadataOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -2906,7 +2906,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.MapperMetadata();
+          return new com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -2924,13 +2924,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.MapperMetadata> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.MapperMetadata.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.MapperMetadata>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -2950,7 +2950,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.MapperMetadata)
-    private static final com.google.keytransparency.v1.Keytransparency.MapperMetadata DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata DEFAULT_INSTANCE;
     static {
       MapperMetadata defaultInstance = new MapperMetadata();
       // New instances are implicitly immutable so no need to make
@@ -2960,7 +2960,7 @@ public final class Keytransparency {
         MapperMetadata.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MapperMetadata getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapperMetadata getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3036,7 +3036,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      * @return The lastVerified.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified();
   }
   /**
    * <pre>
@@ -3194,7 +3194,7 @@ public final class Keytransparency {
     }
 
     public static final int LAST_VERIFIED_FIELD_NUMBER = 4;
-    private com.google.keytransparency.v1.Keytransparency.LogRootRequest lastVerified_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest lastVerified_;
     /**
      * <pre>
      * last_verified is the last log root the client verified.
@@ -3216,8 +3216,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
-      return lastVerified_ == null ? com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance() : lastVerified_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
+      return lastVerified_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance() : lastVerified_;
     }
     /**
      * <pre>
@@ -3227,7 +3227,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      */
-    private void setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   lastVerified_ = value;
       
@@ -3241,12 +3241,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   if (lastVerified_ != null &&
-          lastVerified_ != com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance()) {
+          lastVerified_ != com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance()) {
         lastVerified_ =
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
       } else {
         lastVerified_ = value;
       }
@@ -3264,73 +3264,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -3341,7 +3341,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.GetUserRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -3354,10 +3354,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.GetUserRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.GetUserRequest)
-        com.google.keytransparency.v1.Keytransparency.GetUserRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.GetUserRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.GetUserRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -3527,7 +3527,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
         return instance.getLastVerified();
       }
       /**
@@ -3538,7 +3538,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
-      public Builder setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.setLastVerified(value);
         return this;
@@ -3552,7 +3552,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
       public Builder setLastVerified(
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.Builder builderForValue) {
         copyOnWrite();
         instance.setLastVerified(builderForValue.build());
         return this;
@@ -3565,7 +3565,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
-      public Builder mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.mergeLastVerified(value);
         return this;
@@ -3592,7 +3592,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.GetUserRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -3613,13 +3613,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.GetUserRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.GetUserRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.GetUserRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -3639,7 +3639,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.GetUserRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.GetUserRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest DEFAULT_INSTANCE;
     static {
       GetUserRequest defaultInstance = new GetUserRequest();
       // New instances are implicitly immutable so no need to make
@@ -3649,7 +3649,7 @@ public final class Keytransparency {
         GetUserRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.GetUserRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3722,7 +3722,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
      * @return The committed.
      */
-    com.google.keytransparency.v1.Keytransparency.Committed getCommitted();
+    com.google.keytransparency.v1.KeyTransparencyService.Committed getCommitted();
   }
   /**
    * <pre>
@@ -3855,7 +3855,7 @@ public final class Keytransparency {
     }
 
     public static final int COMMITTED_FIELD_NUMBER = 3;
-    private com.google.keytransparency.v1.Keytransparency.Committed committed_;
+    private com.google.keytransparency.v1.KeyTransparencyService.Committed committed_;
     /**
      * <pre>
      * committed contains the data and nonce used to make a cryptographic
@@ -3883,8 +3883,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.Committed getCommitted() {
-      return committed_ == null ? com.google.keytransparency.v1.Keytransparency.Committed.getDefaultInstance() : committed_;
+    public com.google.keytransparency.v1.KeyTransparencyService.Committed getCommitted() {
+      return committed_ == null ? com.google.keytransparency.v1.KeyTransparencyService.Committed.getDefaultInstance() : committed_;
     }
     /**
      * <pre>
@@ -3897,7 +3897,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
      */
-    private void setCommitted(com.google.keytransparency.v1.Keytransparency.Committed value) {
+    private void setCommitted(com.google.keytransparency.v1.KeyTransparencyService.Committed value) {
       value.getClass();
   committed_ = value;
       
@@ -3914,12 +3914,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeCommitted(com.google.keytransparency.v1.Keytransparency.Committed value) {
+    private void mergeCommitted(com.google.keytransparency.v1.KeyTransparencyService.Committed value) {
       value.getClass();
   if (committed_ != null &&
-          committed_ != com.google.keytransparency.v1.Keytransparency.Committed.getDefaultInstance()) {
+          committed_ != com.google.keytransparency.v1.KeyTransparencyService.Committed.getDefaultInstance()) {
         committed_ =
-          com.google.keytransparency.v1.Keytransparency.Committed.newBuilder(committed_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.Committed.newBuilder(committed_).mergeFrom(value).buildPartial();
       } else {
         committed_ = value;
       }
@@ -3940,73 +3940,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4017,7 +4017,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.MapLeaf prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.MapLeaf prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -4030,10 +4030,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.MapLeaf, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.MapLeaf, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.MapLeaf)
-        com.google.keytransparency.v1.Keytransparency.MapLeafOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.MapLeaf.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.MapLeafOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -4189,7 +4189,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.Committed getCommitted() {
+      public com.google.keytransparency.v1.KeyTransparencyService.Committed getCommitted() {
         return instance.getCommitted();
       }
       /**
@@ -4203,7 +4203,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
        */
-      public Builder setCommitted(com.google.keytransparency.v1.Keytransparency.Committed value) {
+      public Builder setCommitted(com.google.keytransparency.v1.KeyTransparencyService.Committed value) {
         copyOnWrite();
         instance.setCommitted(value);
         return this;
@@ -4220,7 +4220,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
        */
       public Builder setCommitted(
-          com.google.keytransparency.v1.Keytransparency.Committed.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.Committed.Builder builderForValue) {
         copyOnWrite();
         instance.setCommitted(builderForValue.build());
         return this;
@@ -4236,7 +4236,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.Committed committed = 3;</code>
        */
-      public Builder mergeCommitted(com.google.keytransparency.v1.Keytransparency.Committed value) {
+      public Builder mergeCommitted(com.google.keytransparency.v1.KeyTransparencyService.Committed value) {
         copyOnWrite();
         instance.mergeCommitted(value);
         return this;
@@ -4266,7 +4266,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.MapLeaf();
+          return new com.google.keytransparency.v1.KeyTransparencyService.MapLeaf();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -4287,13 +4287,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.MapLeaf> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.MapLeaf.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.MapLeaf>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -4313,7 +4313,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.MapLeaf)
-    private static final com.google.keytransparency.v1.Keytransparency.MapLeaf DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.MapLeaf DEFAULT_INSTANCE;
     static {
       MapLeaf defaultInstance = new MapLeaf();
       // New instances are implicitly immutable so no need to make
@@ -4323,7 +4323,7 @@ public final class Keytransparency {
         MapLeaf.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MapLeaf getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4355,7 +4355,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
      * @return The revision.
      */
-    com.google.keytransparency.v1.Keytransparency.Revision getRevision();
+    com.google.keytransparency.v1.KeyTransparencyService.Revision getRevision();
 
     /**
      * <pre>
@@ -4374,7 +4374,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapLeaf leaf = 2;</code>
      * @return The leaf.
      */
-    com.google.keytransparency.v1.Keytransparency.MapLeaf getLeaf();
+    com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getLeaf();
   }
   /**
    * <pre>
@@ -4391,7 +4391,7 @@ public final class Keytransparency {
     private GetUserResponse() {
     }
     public static final int REVISION_FIELD_NUMBER = 1;
-    private com.google.keytransparency.v1.Keytransparency.Revision revision_;
+    private com.google.keytransparency.v1.KeyTransparencyService.Revision revision_;
     /**
      * <pre>
      * revision is the most recently published revision.
@@ -4411,8 +4411,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.Revision getRevision() {
-      return revision_ == null ? com.google.keytransparency.v1.Keytransparency.Revision.getDefaultInstance() : revision_;
+    public com.google.keytransparency.v1.KeyTransparencyService.Revision getRevision() {
+      return revision_ == null ? com.google.keytransparency.v1.KeyTransparencyService.Revision.getDefaultInstance() : revision_;
     }
     /**
      * <pre>
@@ -4421,7 +4421,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
      */
-    private void setRevision(com.google.keytransparency.v1.Keytransparency.Revision value) {
+    private void setRevision(com.google.keytransparency.v1.KeyTransparencyService.Revision value) {
       value.getClass();
   revision_ = value;
       
@@ -4434,12 +4434,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeRevision(com.google.keytransparency.v1.Keytransparency.Revision value) {
+    private void mergeRevision(com.google.keytransparency.v1.KeyTransparencyService.Revision value) {
       value.getClass();
   if (revision_ != null &&
-          revision_ != com.google.keytransparency.v1.Keytransparency.Revision.getDefaultInstance()) {
+          revision_ != com.google.keytransparency.v1.KeyTransparencyService.Revision.getDefaultInstance()) {
         revision_ =
-          com.google.keytransparency.v1.Keytransparency.Revision.newBuilder(revision_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.Revision.newBuilder(revision_).mergeFrom(value).buildPartial();
       } else {
         revision_ = value;
       }
@@ -4457,7 +4457,7 @@ public final class Keytransparency {
     }
 
     public static final int LEAF_FIELD_NUMBER = 2;
-    private com.google.keytransparency.v1.Keytransparency.MapLeaf leaf_;
+    private com.google.keytransparency.v1.KeyTransparencyService.MapLeaf leaf_;
     /**
      * <pre>
      * leaf is the leaf entry for the requested user.
@@ -4477,8 +4477,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapLeaf leaf = 2;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.MapLeaf getLeaf() {
-      return leaf_ == null ? com.google.keytransparency.v1.Keytransparency.MapLeaf.getDefaultInstance() : leaf_;
+    public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getLeaf() {
+      return leaf_ == null ? com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.getDefaultInstance() : leaf_;
     }
     /**
      * <pre>
@@ -4487,7 +4487,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.MapLeaf leaf = 2;</code>
      */
-    private void setLeaf(com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+    private void setLeaf(com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
       value.getClass();
   leaf_ = value;
       
@@ -4500,12 +4500,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapLeaf leaf = 2;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLeaf(com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+    private void mergeLeaf(com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
       value.getClass();
   if (leaf_ != null &&
-          leaf_ != com.google.keytransparency.v1.Keytransparency.MapLeaf.getDefaultInstance()) {
+          leaf_ != com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.getDefaultInstance()) {
         leaf_ =
-          com.google.keytransparency.v1.Keytransparency.MapLeaf.newBuilder(leaf_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.newBuilder(leaf_).mergeFrom(value).buildPartial();
       } else {
         leaf_ = value;
       }
@@ -4522,73 +4522,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -4599,7 +4599,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.GetUserResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -4612,10 +4612,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.GetUserResponse, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.GetUserResponse)
-        com.google.keytransparency.v1.Keytransparency.GetUserResponseOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.GetUserResponse.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.GetUserResponseOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -4640,7 +4640,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.Revision getRevision() {
+      public com.google.keytransparency.v1.KeyTransparencyService.Revision getRevision() {
         return instance.getRevision();
       }
       /**
@@ -4650,7 +4650,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
        */
-      public Builder setRevision(com.google.keytransparency.v1.Keytransparency.Revision value) {
+      public Builder setRevision(com.google.keytransparency.v1.KeyTransparencyService.Revision value) {
         copyOnWrite();
         instance.setRevision(value);
         return this;
@@ -4663,7 +4663,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
        */
       public Builder setRevision(
-          com.google.keytransparency.v1.Keytransparency.Revision.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.Revision.Builder builderForValue) {
         copyOnWrite();
         instance.setRevision(builderForValue.build());
         return this;
@@ -4675,7 +4675,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
        */
-      public Builder mergeRevision(com.google.keytransparency.v1.Keytransparency.Revision value) {
+      public Builder mergeRevision(com.google.keytransparency.v1.KeyTransparencyService.Revision value) {
         copyOnWrite();
         instance.mergeRevision(value);
         return this;
@@ -4711,7 +4711,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapLeaf leaf = 2;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.MapLeaf getLeaf() {
+      public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getLeaf() {
         return instance.getLeaf();
       }
       /**
@@ -4721,7 +4721,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapLeaf leaf = 2;</code>
        */
-      public Builder setLeaf(com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+      public Builder setLeaf(com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
         copyOnWrite();
         instance.setLeaf(value);
         return this;
@@ -4734,7 +4734,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapLeaf leaf = 2;</code>
        */
       public Builder setLeaf(
-          com.google.keytransparency.v1.Keytransparency.MapLeaf.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.Builder builderForValue) {
         copyOnWrite();
         instance.setLeaf(builderForValue.build());
         return this;
@@ -4746,7 +4746,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapLeaf leaf = 2;</code>
        */
-      public Builder mergeLeaf(com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+      public Builder mergeLeaf(com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
         copyOnWrite();
         instance.mergeLeaf(value);
         return this;
@@ -4772,7 +4772,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.GetUserResponse();
+          return new com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -4791,13 +4791,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.GetUserResponse> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.GetUserResponse.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.GetUserResponse>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -4817,7 +4817,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.GetUserResponse)
-    private static final com.google.keytransparency.v1.Keytransparency.GetUserResponse DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse DEFAULT_INSTANCE;
     static {
       GetUserResponse defaultInstance = new GetUserResponse();
       // New instances are implicitly immutable so no need to make
@@ -4827,7 +4827,7 @@ public final class Keytransparency {
         GetUserResponse.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.GetUserResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -4926,7 +4926,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      * @return The lastVerified.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified();
   }
   /**
    * <pre>
@@ -5150,7 +5150,7 @@ public final class Keytransparency {
     }
 
     public static final int LAST_VERIFIED_FIELD_NUMBER = 4;
-    private com.google.keytransparency.v1.Keytransparency.LogRootRequest lastVerified_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest lastVerified_;
     /**
      * <pre>
      * last_verified is the last log root the client verified.
@@ -5172,8 +5172,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
-      return lastVerified_ == null ? com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance() : lastVerified_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
+      return lastVerified_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance() : lastVerified_;
     }
     /**
      * <pre>
@@ -5183,7 +5183,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      */
-    private void setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   lastVerified_ = value;
       
@@ -5197,12 +5197,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   if (lastVerified_ != null &&
-          lastVerified_ != com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance()) {
+          lastVerified_ != com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance()) {
         lastVerified_ =
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
       } else {
         lastVerified_ = value;
       }
@@ -5220,73 +5220,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -5297,7 +5297,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -5310,10 +5310,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.BatchGetUserRequest)
-        com.google.keytransparency.v1.Keytransparency.BatchGetUserRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -5546,7 +5546,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
         return instance.getLastVerified();
       }
       /**
@@ -5557,7 +5557,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
-      public Builder setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.setLastVerified(value);
         return this;
@@ -5571,7 +5571,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
       public Builder setLastVerified(
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.Builder builderForValue) {
         copyOnWrite();
         instance.setLastVerified(builderForValue.build());
         return this;
@@ -5584,7 +5584,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
-      public Builder mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.mergeLastVerified(value);
         return this;
@@ -5611,7 +5611,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -5632,13 +5632,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -5658,7 +5658,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.BatchGetUserRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest DEFAULT_INSTANCE;
     static {
       BatchGetUserRequest defaultInstance = new BatchGetUserRequest();
       // New instances are implicitly immutable so no need to make
@@ -5668,7 +5668,7 @@ public final class Keytransparency {
         BatchGetUserRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -5956,73 +5956,73 @@ public final class Keytransparency {
       userIds_.add(value.toStringUtf8());
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6033,7 +6033,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -6046,10 +6046,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.BatchGetUserIndexRequest)
-        com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -6261,7 +6261,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -6281,13 +6281,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -6307,7 +6307,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.BatchGetUserIndexRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest DEFAULT_INSTANCE;
     static {
       BatchGetUserIndexRequest defaultInstance = new BatchGetUserIndexRequest();
       // New instances are implicitly immutable so no need to make
@@ -6317,7 +6317,7 @@ public final class Keytransparency {
         BatchGetUserIndexRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6523,73 +6523,73 @@ public final class Keytransparency {
       return internalGetMutableProofs();
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -6600,7 +6600,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -6613,10 +6613,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.BatchGetUserIndexResponse)
-        com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponseOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponseOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -6764,7 +6764,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse();
+          return new com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -6783,13 +6783,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -6809,7 +6809,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.BatchGetUserIndexResponse)
-    private static final com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse DEFAULT_INSTANCE;
     static {
       BatchGetUserIndexResponse defaultInstance = new BatchGetUserIndexResponse();
       // New instances are implicitly immutable so no need to make
@@ -6819,7 +6819,7 @@ public final class Keytransparency {
         BatchGetUserIndexResponse.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserIndexResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserIndexResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -6851,7 +6851,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
      * @return The revision.
      */
-    com.google.keytransparency.v1.Keytransparency.Revision getRevision();
+    com.google.keytransparency.v1.KeyTransparencyService.Revision getRevision();
 
     /**
      * <pre>
@@ -6876,7 +6876,7 @@ public final class Keytransparency {
      * Use {@link #getMapLeavesByUserIdMap()} instead.
      */
     @java.lang.Deprecated
-    java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     getMapLeavesByUserId();
     /**
      * <pre>
@@ -6886,7 +6886,7 @@ public final class Keytransparency {
      *
      * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
      */
-    java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     getMapLeavesByUserIdMap();
     /**
      * <pre>
@@ -6897,9 +6897,9 @@ public final class Keytransparency {
      * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
      */
 
-    com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrDefault(
+    com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrDefault(
         java.lang.String key,
-        com.google.keytransparency.v1.Keytransparency.MapLeaf defaultValue);
+        com.google.keytransparency.v1.KeyTransparencyService.MapLeaf defaultValue);
     /**
      * <pre>
      * map_leaves_by_user_id is a map from user_id to the map leaf at the most
@@ -6909,7 +6909,7 @@ public final class Keytransparency {
      * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
      */
 
-    com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrThrow(
+    com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrThrow(
         java.lang.String key);
   }
   /**
@@ -6928,7 +6928,7 @@ public final class Keytransparency {
     private BatchGetUserResponse() {
     }
     public static final int REVISION_FIELD_NUMBER = 1;
-    private com.google.keytransparency.v1.Keytransparency.Revision revision_;
+    private com.google.keytransparency.v1.KeyTransparencyService.Revision revision_;
     /**
      * <pre>
      * revision is the most recently published revision.
@@ -6948,8 +6948,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.Revision getRevision() {
-      return revision_ == null ? com.google.keytransparency.v1.Keytransparency.Revision.getDefaultInstance() : revision_;
+    public com.google.keytransparency.v1.KeyTransparencyService.Revision getRevision() {
+      return revision_ == null ? com.google.keytransparency.v1.KeyTransparencyService.Revision.getDefaultInstance() : revision_;
     }
     /**
      * <pre>
@@ -6958,7 +6958,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
      */
-    private void setRevision(com.google.keytransparency.v1.Keytransparency.Revision value) {
+    private void setRevision(com.google.keytransparency.v1.KeyTransparencyService.Revision value) {
       value.getClass();
   revision_ = value;
       
@@ -6971,12 +6971,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeRevision(com.google.keytransparency.v1.Keytransparency.Revision value) {
+    private void mergeRevision(com.google.keytransparency.v1.KeyTransparencyService.Revision value) {
       value.getClass();
   if (revision_ != null &&
-          revision_ != com.google.keytransparency.v1.Keytransparency.Revision.getDefaultInstance()) {
+          revision_ != com.google.keytransparency.v1.KeyTransparencyService.Revision.getDefaultInstance()) {
         revision_ =
-          com.google.keytransparency.v1.Keytransparency.Revision.newBuilder(revision_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.Revision.newBuilder(revision_).mergeFrom(value).buildPartial();
       } else {
         revision_ = value;
       }
@@ -6996,22 +6996,22 @@ public final class Keytransparency {
     public static final int MAP_LEAVES_BY_USER_ID_FIELD_NUMBER = 2;
     private static final class MapLeavesByUserIdDefaultEntryHolder {
       static final com.google.protobuf.MapEntryLite<
-          java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> defaultEntry =
+          java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> defaultEntry =
               com.google.protobuf.MapEntryLite
-              .<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>newDefaultInstance(
+              .<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>newDefaultInstance(
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  com.google.keytransparency.v1.Keytransparency.MapLeaf.getDefaultInstance());
+                  com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.getDefaultInstance());
     }
     private com.google.protobuf.MapFieldLite<
-        java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> mapLeavesByUserId_ =
+        java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> mapLeavesByUserId_ =
             com.google.protobuf.MapFieldLite.emptyMapField();
-    private com.google.protobuf.MapFieldLite<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    private com.google.protobuf.MapFieldLite<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     internalGetMapLeavesByUserId() {
       return mapLeavesByUserId_;
     }
-    private com.google.protobuf.MapFieldLite<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    private com.google.protobuf.MapFieldLite<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     internalGetMutableMapLeavesByUserId() {
       if (!mapLeavesByUserId_.isMutable()) {
         mapLeavesByUserId_ = mapLeavesByUserId_.mutableCopy();
@@ -7043,7 +7043,7 @@ public final class Keytransparency {
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> getMapLeavesByUserId() {
+    public java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> getMapLeavesByUserId() {
       return getMapLeavesByUserIdMap();
     }
     /**
@@ -7056,7 +7056,7 @@ public final class Keytransparency {
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> getMapLeavesByUserIdMap() {
+    public java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> getMapLeavesByUserIdMap() {
       return java.util.Collections.unmodifiableMap(
           internalGetMapLeavesByUserId());
     }
@@ -7070,11 +7070,11 @@ public final class Keytransparency {
      */
     @java.lang.Override
 
-    public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrDefault(
+    public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrDefault(
         java.lang.String key,
-        com.google.keytransparency.v1.Keytransparency.MapLeaf defaultValue) {
+        com.google.keytransparency.v1.KeyTransparencyService.MapLeaf defaultValue) {
       key.getClass();
-      java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> map =
+      java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> map =
           internalGetMapLeavesByUserId();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
@@ -7088,10 +7088,10 @@ public final class Keytransparency {
      */
     @java.lang.Override
 
-    public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrThrow(
+    public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrThrow(
         java.lang.String key) {
       key.getClass();
-      java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> map =
+      java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> map =
           internalGetMapLeavesByUserId();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
@@ -7106,78 +7106,78 @@ public final class Keytransparency {
      *
      * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
      */
-    private java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    private java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     getMutableMapLeavesByUserIdMap() {
       return internalGetMutableMapLeavesByUserId();
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7188,7 +7188,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -7202,10 +7202,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.BatchGetUserResponse)
-        com.google.keytransparency.v1.Keytransparency.BatchGetUserResponseOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponseOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -7230,7 +7230,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.Revision getRevision() {
+      public com.google.keytransparency.v1.KeyTransparencyService.Revision getRevision() {
         return instance.getRevision();
       }
       /**
@@ -7240,7 +7240,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
        */
-      public Builder setRevision(com.google.keytransparency.v1.Keytransparency.Revision value) {
+      public Builder setRevision(com.google.keytransparency.v1.KeyTransparencyService.Revision value) {
         copyOnWrite();
         instance.setRevision(value);
         return this;
@@ -7253,7 +7253,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
        */
       public Builder setRevision(
-          com.google.keytransparency.v1.Keytransparency.Revision.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.Revision.Builder builderForValue) {
         copyOnWrite();
         instance.setRevision(builderForValue.build());
         return this;
@@ -7265,7 +7265,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.Revision revision = 1;</code>
        */
-      public Builder mergeRevision(com.google.keytransparency.v1.Keytransparency.Revision value) {
+      public Builder mergeRevision(com.google.keytransparency.v1.KeyTransparencyService.Revision value) {
         copyOnWrite();
         instance.mergeRevision(value);
         return this;
@@ -7329,7 +7329,7 @@ public final class Keytransparency {
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> getMapLeavesByUserId() {
+      public java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> getMapLeavesByUserId() {
         return getMapLeavesByUserIdMap();
       }
       /**
@@ -7341,7 +7341,7 @@ public final class Keytransparency {
        * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
        */
       @java.lang.Override
-      public java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> getMapLeavesByUserIdMap() {
+      public java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> getMapLeavesByUserIdMap() {
         return java.util.Collections.unmodifiableMap(
             instance.getMapLeavesByUserIdMap());
       }
@@ -7355,11 +7355,11 @@ public final class Keytransparency {
        */
       @java.lang.Override
 
-      public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrDefault(
+      public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrDefault(
           java.lang.String key,
-          com.google.keytransparency.v1.Keytransparency.MapLeaf defaultValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapLeaf defaultValue) {
         key.getClass();
-        java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> map =
+        java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> map =
             instance.getMapLeavesByUserIdMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
@@ -7373,10 +7373,10 @@ public final class Keytransparency {
        */
       @java.lang.Override
 
-      public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrThrow(
+      public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrThrow(
           java.lang.String key) {
         key.getClass();
-        java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> map =
+        java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> map =
             instance.getMapLeavesByUserIdMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
@@ -7393,7 +7393,7 @@ public final class Keytransparency {
        */
       public Builder putMapLeavesByUserId(
           java.lang.String key,
-          com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
         key.getClass();
         value.getClass();
         copyOnWrite();
@@ -7409,7 +7409,7 @@ public final class Keytransparency {
        * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
        */
       public Builder putAllMapLeavesByUserId(
-          java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> values) {
+          java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> values) {
         copyOnWrite();
         instance.getMutableMapLeavesByUserIdMap().putAll(values);
         return this;
@@ -7424,7 +7424,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse();
+          return new com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -7444,13 +7444,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -7470,7 +7470,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.BatchGetUserResponse)
-    private static final com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse DEFAULT_INSTANCE;
     static {
       BatchGetUserResponse defaultInstance = new BatchGetUserResponse();
       // New instances are implicitly immutable so no need to make
@@ -7480,7 +7480,7 @@ public final class Keytransparency {
         BatchGetUserResponse.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchGetUserResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchGetUserResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -7575,7 +7575,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 7;</code>
      * @return The lastVerified.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified();
   }
   /**
    * <pre>
@@ -7807,7 +7807,7 @@ public final class Keytransparency {
     }
 
     public static final int LAST_VERIFIED_FIELD_NUMBER = 7;
-    private com.google.keytransparency.v1.Keytransparency.LogRootRequest lastVerified_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest lastVerified_;
     /**
      * <pre>
      * last_verified is the last log root the client verified.
@@ -7829,8 +7829,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 7;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
-      return lastVerified_ == null ? com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance() : lastVerified_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
+      return lastVerified_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance() : lastVerified_;
     }
     /**
      * <pre>
@@ -7840,7 +7840,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 7;</code>
      */
-    private void setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   lastVerified_ = value;
       
@@ -7854,12 +7854,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 7;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   if (lastVerified_ != null &&
-          lastVerified_ != com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance()) {
+          lastVerified_ != com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance()) {
         lastVerified_ =
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
       } else {
         lastVerified_ = value;
       }
@@ -7877,73 +7877,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -7954,7 +7954,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -7967,10 +7967,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListEntryHistoryRequest)
-        com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -8218,7 +8218,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 7;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
         return instance.getLastVerified();
       }
       /**
@@ -8229,7 +8229,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 7;</code>
        */
-      public Builder setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.setLastVerified(value);
         return this;
@@ -8243,7 +8243,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 7;</code>
        */
       public Builder setLastVerified(
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.Builder builderForValue) {
         copyOnWrite();
         instance.setLastVerified(builderForValue.build());
         return this;
@@ -8256,7 +8256,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 7;</code>
        */
-      public Builder mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.mergeLastVerified(value);
         return this;
@@ -8283,7 +8283,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -8306,13 +8306,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -8332,7 +8332,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListEntryHistoryRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest DEFAULT_INSTANCE;
     static {
       ListEntryHistoryRequest defaultInstance = new ListEntryHistoryRequest();
       // New instances are implicitly immutable so no need to make
@@ -8342,7 +8342,7 @@ public final class Keytransparency {
         ListEntryHistoryRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -8364,7 +8364,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
-    java.util.List<com.google.keytransparency.v1.Keytransparency.GetUserResponse>
+    java.util.List<com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse>
         getValuesList();
     /**
      * <pre>
@@ -8373,7 +8373,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
-    com.google.keytransparency.v1.Keytransparency.GetUserResponse getValues(int index);
+    com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse getValues(int index);
     /**
      * <pre>
      * values represents the list of keys this user_id has contained over time.
@@ -8410,7 +8410,7 @@ public final class Keytransparency {
       values_ = emptyProtobufList();
     }
     public static final int VALUES_FIELD_NUMBER = 1;
-    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.GetUserResponse> values_;
+    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse> values_;
     /**
      * <pre>
      * values represents the list of keys this user_id has contained over time.
@@ -8419,7 +8419,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<com.google.keytransparency.v1.Keytransparency.GetUserResponse> getValuesList() {
+    public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse> getValuesList() {
       return values_;
     }
     /**
@@ -8429,7 +8429,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
-    public java.util.List<? extends com.google.keytransparency.v1.Keytransparency.GetUserResponseOrBuilder>
+    public java.util.List<? extends com.google.keytransparency.v1.KeyTransparencyService.GetUserResponseOrBuilder>
         getValuesOrBuilderList() {
       return values_;
     }
@@ -8452,7 +8452,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.GetUserResponse getValues(int index) {
+    public com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse getValues(int index) {
       return values_.get(index);
     }
     /**
@@ -8462,12 +8462,12 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
-    public com.google.keytransparency.v1.Keytransparency.GetUserResponseOrBuilder getValuesOrBuilder(
+    public com.google.keytransparency.v1.KeyTransparencyService.GetUserResponseOrBuilder getValuesOrBuilder(
         int index) {
       return values_.get(index);
     }
     private void ensureValuesIsMutable() {
-      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.GetUserResponse> tmp = values_;
+      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse> tmp = values_;
       if (!tmp.isModifiable()) {
         values_ =
             com.google.protobuf.GeneratedMessageLite.mutableCopy(tmp);
@@ -8482,7 +8482,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
     private void setValues(
-        int index, com.google.keytransparency.v1.Keytransparency.GetUserResponse value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse value) {
       value.getClass();
   ensureValuesIsMutable();
       values_.set(index, value);
@@ -8494,7 +8494,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
-    private void addValues(com.google.keytransparency.v1.Keytransparency.GetUserResponse value) {
+    private void addValues(com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse value) {
       value.getClass();
   ensureValuesIsMutable();
       values_.add(value);
@@ -8507,7 +8507,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
     private void addValues(
-        int index, com.google.keytransparency.v1.Keytransparency.GetUserResponse value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse value) {
       value.getClass();
   ensureValuesIsMutable();
       values_.add(index, value);
@@ -8520,7 +8520,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
      */
     private void addAllValues(
-        java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.GetUserResponse> values) {
+        java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse> values) {
       ensureValuesIsMutable();
       com.google.protobuf.AbstractMessageLite.addAll(
           values, values_);
@@ -8588,73 +8588,73 @@ public final class Keytransparency {
       nextStart_ = 0L;
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -8665,7 +8665,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -8678,10 +8678,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListEntryHistoryResponse)
-        com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponseOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponseOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -8695,7 +8695,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
        */
       @java.lang.Override
-      public java.util.List<com.google.keytransparency.v1.Keytransparency.GetUserResponse> getValuesList() {
+      public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse> getValuesList() {
         return java.util.Collections.unmodifiableList(
             instance.getValuesList());
       }
@@ -8717,7 +8717,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.GetUserResponse getValues(int index) {
+      public com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse getValues(int index) {
         return instance.getValues(index);
       }
       /**
@@ -8728,7 +8728,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
        */
       public Builder setValues(
-          int index, com.google.keytransparency.v1.Keytransparency.GetUserResponse value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse value) {
         copyOnWrite();
         instance.setValues(index, value);
         return this;
@@ -8741,7 +8741,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
        */
       public Builder setValues(
-          int index, com.google.keytransparency.v1.Keytransparency.GetUserResponse.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse.Builder builderForValue) {
         copyOnWrite();
         instance.setValues(index,
             builderForValue.build());
@@ -8754,7 +8754,7 @@ public final class Keytransparency {
        *
        * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
        */
-      public Builder addValues(com.google.keytransparency.v1.Keytransparency.GetUserResponse value) {
+      public Builder addValues(com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse value) {
         copyOnWrite();
         instance.addValues(value);
         return this;
@@ -8767,7 +8767,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
        */
       public Builder addValues(
-          int index, com.google.keytransparency.v1.Keytransparency.GetUserResponse value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse value) {
         copyOnWrite();
         instance.addValues(index, value);
         return this;
@@ -8780,7 +8780,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
        */
       public Builder addValues(
-          com.google.keytransparency.v1.Keytransparency.GetUserResponse.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse.Builder builderForValue) {
         copyOnWrite();
         instance.addValues(builderForValue.build());
         return this;
@@ -8793,7 +8793,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
        */
       public Builder addValues(
-          int index, com.google.keytransparency.v1.Keytransparency.GetUserResponse.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse.Builder builderForValue) {
         copyOnWrite();
         instance.addValues(index,
             builderForValue.build());
@@ -8807,7 +8807,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.GetUserResponse values = 1;</code>
        */
       public Builder addAllValues(
-          java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.GetUserResponse> values) {
+          java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse> values) {
         copyOnWrite();
         instance.addAllValues(values);
         return this;
@@ -8889,7 +8889,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse();
+          return new com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -8897,7 +8897,7 @@ public final class Keytransparency {
         case BUILD_MESSAGE_INFO: {
             java.lang.Object[] objects = new java.lang.Object[] {
               "values_",
-              com.google.keytransparency.v1.Keytransparency.GetUserResponse.class,
+              com.google.keytransparency.v1.KeyTransparencyService.GetUserResponse.class,
               "nextStart_",
             };
             java.lang.String info =
@@ -8910,13 +8910,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -8936,7 +8936,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListEntryHistoryResponse)
-    private static final com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse DEFAULT_INSTANCE;
     static {
       ListEntryHistoryResponse defaultInstance = new ListEntryHistoryResponse();
       // New instances are implicitly immutable so no need to make
@@ -8946,7 +8946,7 @@ public final class Keytransparency {
         ListEntryHistoryResponse.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListEntryHistoryResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListEntryHistoryResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -9071,7 +9071,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
      * @return The lastVerified.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified();
   }
   /**
    * <pre>
@@ -9409,7 +9409,7 @@ public final class Keytransparency {
     }
 
     public static final int LAST_VERIFIED_FIELD_NUMBER = 8;
-    private com.google.keytransparency.v1.Keytransparency.LogRootRequest lastVerified_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest lastVerified_;
     /**
      * <pre>
      * last_verified is the last log root the client verified.
@@ -9431,8 +9431,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
-      return lastVerified_ == null ? com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance() : lastVerified_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
+      return lastVerified_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance() : lastVerified_;
     }
     /**
      * <pre>
@@ -9442,7 +9442,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
      */
-    private void setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   lastVerified_ = value;
       
@@ -9456,12 +9456,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   if (lastVerified_ != null &&
-          lastVerified_ != com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance()) {
+          lastVerified_ != com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance()) {
         lastVerified_ =
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
       } else {
         lastVerified_ = value;
       }
@@ -9479,73 +9479,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -9556,7 +9556,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -9569,10 +9569,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListUserRevisionsRequest)
-        com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -9929,7 +9929,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
         return instance.getLastVerified();
       }
       /**
@@ -9940,7 +9940,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
        */
-      public Builder setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.setLastVerified(value);
         return this;
@@ -9954,7 +9954,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
        */
       public Builder setLastVerified(
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.Builder builderForValue) {
         copyOnWrite();
         instance.setLastVerified(builderForValue.build());
         return this;
@@ -9967,7 +9967,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
        */
-      public Builder mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.mergeLastVerified(value);
         return this;
@@ -9994,7 +9994,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -10019,13 +10019,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -10045,7 +10045,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListUserRevisionsRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest DEFAULT_INSTANCE;
     static {
       ListUserRevisionsRequest defaultInstance = new ListUserRevisionsRequest();
       // New instances are implicitly immutable so no need to make
@@ -10055,7 +10055,7 @@ public final class Keytransparency {
         ListUserRevisionsRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10087,7 +10087,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
      * @return The mapRoot.
      */
-    com.google.keytransparency.v1.Keytransparency.MapRoot getMapRoot();
+    com.google.keytransparency.v1.KeyTransparencyService.MapRoot getMapRoot();
 
     /**
      * <pre>
@@ -10106,7 +10106,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapLeaf map_leaf = 2;</code>
      * @return The mapLeaf.
      */
-    com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeaf();
+    com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeaf();
   }
   /**
    * <pre>
@@ -10123,7 +10123,7 @@ public final class Keytransparency {
     private MapRevision() {
     }
     public static final int MAP_ROOT_FIELD_NUMBER = 1;
-    private com.google.keytransparency.v1.Keytransparency.MapRoot mapRoot_;
+    private com.google.keytransparency.v1.KeyTransparencyService.MapRoot mapRoot_;
     /**
      * <pre>
      * map_root contains the map root and its inclusion in the log.
@@ -10143,8 +10143,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.MapRoot getMapRoot() {
-      return mapRoot_ == null ? com.google.keytransparency.v1.Keytransparency.MapRoot.getDefaultInstance() : mapRoot_;
+    public com.google.keytransparency.v1.KeyTransparencyService.MapRoot getMapRoot() {
+      return mapRoot_ == null ? com.google.keytransparency.v1.KeyTransparencyService.MapRoot.getDefaultInstance() : mapRoot_;
     }
     /**
      * <pre>
@@ -10153,7 +10153,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
      */
-    private void setMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+    private void setMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
       value.getClass();
   mapRoot_ = value;
       
@@ -10166,12 +10166,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+    private void mergeMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
       value.getClass();
   if (mapRoot_ != null &&
-          mapRoot_ != com.google.keytransparency.v1.Keytransparency.MapRoot.getDefaultInstance()) {
+          mapRoot_ != com.google.keytransparency.v1.KeyTransparencyService.MapRoot.getDefaultInstance()) {
         mapRoot_ =
-          com.google.keytransparency.v1.Keytransparency.MapRoot.newBuilder(mapRoot_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.MapRoot.newBuilder(mapRoot_).mergeFrom(value).buildPartial();
       } else {
         mapRoot_ = value;
       }
@@ -10189,7 +10189,7 @@ public final class Keytransparency {
     }
 
     public static final int MAP_LEAF_FIELD_NUMBER = 2;
-    private com.google.keytransparency.v1.Keytransparency.MapLeaf mapLeaf_;
+    private com.google.keytransparency.v1.KeyTransparencyService.MapLeaf mapLeaf_;
     /**
      * <pre>
      * map_leaf contains a leaf and its inclusion proof to map_root.
@@ -10209,8 +10209,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapLeaf map_leaf = 2;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeaf() {
-      return mapLeaf_ == null ? com.google.keytransparency.v1.Keytransparency.MapLeaf.getDefaultInstance() : mapLeaf_;
+    public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeaf() {
+      return mapLeaf_ == null ? com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.getDefaultInstance() : mapLeaf_;
     }
     /**
      * <pre>
@@ -10219,7 +10219,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.MapLeaf map_leaf = 2;</code>
      */
-    private void setMapLeaf(com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+    private void setMapLeaf(com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
       value.getClass();
   mapLeaf_ = value;
       
@@ -10232,12 +10232,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapLeaf map_leaf = 2;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeMapLeaf(com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+    private void mergeMapLeaf(com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
       value.getClass();
   if (mapLeaf_ != null &&
-          mapLeaf_ != com.google.keytransparency.v1.Keytransparency.MapLeaf.getDefaultInstance()) {
+          mapLeaf_ != com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.getDefaultInstance()) {
         mapLeaf_ =
-          com.google.keytransparency.v1.Keytransparency.MapLeaf.newBuilder(mapLeaf_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.newBuilder(mapLeaf_).mergeFrom(value).buildPartial();
       } else {
         mapLeaf_ = value;
       }
@@ -10254,73 +10254,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -10331,7 +10331,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.MapRevision prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.MapRevision prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -10344,10 +10344,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.MapRevision, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.MapRevision, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.MapRevision)
-        com.google.keytransparency.v1.Keytransparency.MapRevisionOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.MapRevision.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.MapRevisionOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.MapRevision.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -10372,7 +10372,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.MapRoot getMapRoot() {
+      public com.google.keytransparency.v1.KeyTransparencyService.MapRoot getMapRoot() {
         return instance.getMapRoot();
       }
       /**
@@ -10382,7 +10382,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
        */
-      public Builder setMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+      public Builder setMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
         copyOnWrite();
         instance.setMapRoot(value);
         return this;
@@ -10395,7 +10395,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
        */
       public Builder setMapRoot(
-          com.google.keytransparency.v1.Keytransparency.MapRoot.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapRoot.Builder builderForValue) {
         copyOnWrite();
         instance.setMapRoot(builderForValue.build());
         return this;
@@ -10407,7 +10407,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
        */
-      public Builder mergeMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+      public Builder mergeMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
         copyOnWrite();
         instance.mergeMapRoot(value);
         return this;
@@ -10443,7 +10443,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapLeaf map_leaf = 2;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeaf() {
+      public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeaf() {
         return instance.getMapLeaf();
       }
       /**
@@ -10453,7 +10453,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapLeaf map_leaf = 2;</code>
        */
-      public Builder setMapLeaf(com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+      public Builder setMapLeaf(com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
         copyOnWrite();
         instance.setMapLeaf(value);
         return this;
@@ -10466,7 +10466,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapLeaf map_leaf = 2;</code>
        */
       public Builder setMapLeaf(
-          com.google.keytransparency.v1.Keytransparency.MapLeaf.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.Builder builderForValue) {
         copyOnWrite();
         instance.setMapLeaf(builderForValue.build());
         return this;
@@ -10478,7 +10478,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapLeaf map_leaf = 2;</code>
        */
-      public Builder mergeMapLeaf(com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+      public Builder mergeMapLeaf(com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
         copyOnWrite();
         instance.mergeMapLeaf(value);
         return this;
@@ -10504,7 +10504,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.MapRevision();
+          return new com.google.keytransparency.v1.KeyTransparencyService.MapRevision();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -10523,13 +10523,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.MapRevision> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.MapRevision> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.MapRevision.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.MapRevision.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.MapRevision>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.MapRevision>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -10549,7 +10549,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.MapRevision)
-    private static final com.google.keytransparency.v1.Keytransparency.MapRevision DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.MapRevision DEFAULT_INSTANCE;
     static {
       MapRevision defaultInstance = new MapRevision();
       // New instances are implicitly immutable so no need to make
@@ -10559,7 +10559,7 @@ public final class Keytransparency {
         MapRevision.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MapRevision getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRevision getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -10591,7 +10591,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
      * @return The latestLogRoot.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRoot getLatestLogRoot();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRoot getLatestLogRoot();
 
     /**
      * <pre>
@@ -10601,7 +10601,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
-    java.util.List<com.google.keytransparency.v1.Keytransparency.MapRevision>
+    java.util.List<com.google.keytransparency.v1.KeyTransparencyService.MapRevision>
         getMapRevisionsList();
     /**
      * <pre>
@@ -10611,7 +10611,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
-    com.google.keytransparency.v1.Keytransparency.MapRevision getMapRevisions(int index);
+    com.google.keytransparency.v1.KeyTransparencyService.MapRevision getMapRevisions(int index);
     /**
      * <pre>
      * map_revisions represents the list of keys this user_id has contained over
@@ -10663,7 +10663,7 @@ public final class Keytransparency {
       nextPageToken_ = "";
     }
     public static final int LATEST_LOG_ROOT_FIELD_NUMBER = 1;
-    private com.google.keytransparency.v1.Keytransparency.LogRoot latestLogRoot_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRoot latestLogRoot_;
     /**
      * <pre>
      * latest_log_root contains the latest log root and its consistency proof.
@@ -10683,8 +10683,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRoot getLatestLogRoot() {
-      return latestLogRoot_ == null ? com.google.keytransparency.v1.Keytransparency.LogRoot.getDefaultInstance() : latestLogRoot_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRoot getLatestLogRoot() {
+      return latestLogRoot_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRoot.getDefaultInstance() : latestLogRoot_;
     }
     /**
      * <pre>
@@ -10693,7 +10693,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
      */
-    private void setLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+    private void setLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
       value.getClass();
   latestLogRoot_ = value;
       
@@ -10706,12 +10706,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+    private void mergeLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
       value.getClass();
   if (latestLogRoot_ != null &&
-          latestLogRoot_ != com.google.keytransparency.v1.Keytransparency.LogRoot.getDefaultInstance()) {
+          latestLogRoot_ != com.google.keytransparency.v1.KeyTransparencyService.LogRoot.getDefaultInstance()) {
         latestLogRoot_ =
-          com.google.keytransparency.v1.Keytransparency.LogRoot.newBuilder(latestLogRoot_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRoot.newBuilder(latestLogRoot_).mergeFrom(value).buildPartial();
       } else {
         latestLogRoot_ = value;
       }
@@ -10729,7 +10729,7 @@ public final class Keytransparency {
     }
 
     public static final int MAP_REVISIONS_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.MapRevision> mapRevisions_;
+    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.MapRevision> mapRevisions_;
     /**
      * <pre>
      * map_revisions represents the list of keys this user_id has contained over
@@ -10739,7 +10739,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<com.google.keytransparency.v1.Keytransparency.MapRevision> getMapRevisionsList() {
+    public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.MapRevision> getMapRevisionsList() {
       return mapRevisions_;
     }
     /**
@@ -10750,7 +10750,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
-    public java.util.List<? extends com.google.keytransparency.v1.Keytransparency.MapRevisionOrBuilder>
+    public java.util.List<? extends com.google.keytransparency.v1.KeyTransparencyService.MapRevisionOrBuilder>
         getMapRevisionsOrBuilderList() {
       return mapRevisions_;
     }
@@ -10775,7 +10775,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.MapRevision getMapRevisions(int index) {
+    public com.google.keytransparency.v1.KeyTransparencyService.MapRevision getMapRevisions(int index) {
       return mapRevisions_.get(index);
     }
     /**
@@ -10786,12 +10786,12 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
-    public com.google.keytransparency.v1.Keytransparency.MapRevisionOrBuilder getMapRevisionsOrBuilder(
+    public com.google.keytransparency.v1.KeyTransparencyService.MapRevisionOrBuilder getMapRevisionsOrBuilder(
         int index) {
       return mapRevisions_.get(index);
     }
     private void ensureMapRevisionsIsMutable() {
-      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.MapRevision> tmp = mapRevisions_;
+      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.MapRevision> tmp = mapRevisions_;
       if (!tmp.isModifiable()) {
         mapRevisions_ =
             com.google.protobuf.GeneratedMessageLite.mutableCopy(tmp);
@@ -10807,7 +10807,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
     private void setMapRevisions(
-        int index, com.google.keytransparency.v1.Keytransparency.MapRevision value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.MapRevision value) {
       value.getClass();
   ensureMapRevisionsIsMutable();
       mapRevisions_.set(index, value);
@@ -10820,7 +10820,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
-    private void addMapRevisions(com.google.keytransparency.v1.Keytransparency.MapRevision value) {
+    private void addMapRevisions(com.google.keytransparency.v1.KeyTransparencyService.MapRevision value) {
       value.getClass();
   ensureMapRevisionsIsMutable();
       mapRevisions_.add(value);
@@ -10834,7 +10834,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
     private void addMapRevisions(
-        int index, com.google.keytransparency.v1.Keytransparency.MapRevision value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.MapRevision value) {
       value.getClass();
   ensureMapRevisionsIsMutable();
       mapRevisions_.add(index, value);
@@ -10848,7 +10848,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
      */
     private void addAllMapRevisions(
-        java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.MapRevision> values) {
+        java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.MapRevision> values) {
       ensureMapRevisionsIsMutable();
       com.google.protobuf.AbstractMessageLite.addAll(
           values, mapRevisions_);
@@ -10954,73 +10954,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -11031,7 +11031,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -11044,10 +11044,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListUserRevisionsResponse)
-        com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponseOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponseOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -11072,7 +11072,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRoot getLatestLogRoot() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRoot getLatestLogRoot() {
         return instance.getLatestLogRoot();
       }
       /**
@@ -11082,7 +11082,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
        */
-      public Builder setLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+      public Builder setLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
         copyOnWrite();
         instance.setLatestLogRoot(value);
         return this;
@@ -11095,7 +11095,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
        */
       public Builder setLatestLogRoot(
-          com.google.keytransparency.v1.Keytransparency.LogRoot.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRoot.Builder builderForValue) {
         copyOnWrite();
         instance.setLatestLogRoot(builderForValue.build());
         return this;
@@ -11107,7 +11107,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
        */
-      public Builder mergeLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+      public Builder mergeLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
         copyOnWrite();
         instance.mergeLatestLogRoot(value);
         return this;
@@ -11133,7 +11133,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
        */
       @java.lang.Override
-      public java.util.List<com.google.keytransparency.v1.Keytransparency.MapRevision> getMapRevisionsList() {
+      public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.MapRevision> getMapRevisionsList() {
         return java.util.Collections.unmodifiableList(
             instance.getMapRevisionsList());
       }
@@ -11157,7 +11157,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.MapRevision getMapRevisions(int index) {
+      public com.google.keytransparency.v1.KeyTransparencyService.MapRevision getMapRevisions(int index) {
         return instance.getMapRevisions(index);
       }
       /**
@@ -11169,7 +11169,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
        */
       public Builder setMapRevisions(
-          int index, com.google.keytransparency.v1.Keytransparency.MapRevision value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.MapRevision value) {
         copyOnWrite();
         instance.setMapRevisions(index, value);
         return this;
@@ -11183,7 +11183,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
        */
       public Builder setMapRevisions(
-          int index, com.google.keytransparency.v1.Keytransparency.MapRevision.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.MapRevision.Builder builderForValue) {
         copyOnWrite();
         instance.setMapRevisions(index,
             builderForValue.build());
@@ -11197,7 +11197,7 @@ public final class Keytransparency {
        *
        * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
        */
-      public Builder addMapRevisions(com.google.keytransparency.v1.Keytransparency.MapRevision value) {
+      public Builder addMapRevisions(com.google.keytransparency.v1.KeyTransparencyService.MapRevision value) {
         copyOnWrite();
         instance.addMapRevisions(value);
         return this;
@@ -11211,7 +11211,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
        */
       public Builder addMapRevisions(
-          int index, com.google.keytransparency.v1.Keytransparency.MapRevision value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.MapRevision value) {
         copyOnWrite();
         instance.addMapRevisions(index, value);
         return this;
@@ -11225,7 +11225,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
        */
       public Builder addMapRevisions(
-          com.google.keytransparency.v1.Keytransparency.MapRevision.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapRevision.Builder builderForValue) {
         copyOnWrite();
         instance.addMapRevisions(builderForValue.build());
         return this;
@@ -11239,7 +11239,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
        */
       public Builder addMapRevisions(
-          int index, com.google.keytransparency.v1.Keytransparency.MapRevision.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.MapRevision.Builder builderForValue) {
         copyOnWrite();
         instance.addMapRevisions(index,
             builderForValue.build());
@@ -11254,7 +11254,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MapRevision map_revisions = 2;</code>
        */
       public Builder addAllMapRevisions(
-          java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.MapRevision> values) {
+          java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.MapRevision> values) {
         copyOnWrite();
         instance.addAllMapRevisions(values);
         return this;
@@ -11374,7 +11374,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse();
+          return new com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -11383,7 +11383,7 @@ public final class Keytransparency {
             java.lang.Object[] objects = new java.lang.Object[] {
               "latestLogRoot_",
               "mapRevisions_",
-              com.google.keytransparency.v1.Keytransparency.MapRevision.class,
+              com.google.keytransparency.v1.KeyTransparencyService.MapRevision.class,
               "nextPageToken_",
             };
             java.lang.String info =
@@ -11396,13 +11396,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -11422,7 +11422,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListUserRevisionsResponse)
-    private static final com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse DEFAULT_INSTANCE;
     static {
       ListUserRevisionsResponse defaultInstance = new ListUserRevisionsResponse();
       // New instances are implicitly immutable so no need to make
@@ -11432,7 +11432,7 @@ public final class Keytransparency {
         ListUserRevisionsResponse.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListUserRevisionsResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListUserRevisionsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -11578,7 +11578,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
      * @return The lastVerified.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified();
   }
   /**
    * <pre>
@@ -11978,7 +11978,7 @@ public final class Keytransparency {
     }
 
     public static final int LAST_VERIFIED_FIELD_NUMBER = 8;
-    private com.google.keytransparency.v1.Keytransparency.LogRootRequest lastVerified_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest lastVerified_;
     /**
      * <pre>
      * last_verified is the last log root the client verified.
@@ -12000,8 +12000,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
-      return lastVerified_ == null ? com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance() : lastVerified_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
+      return lastVerified_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance() : lastVerified_;
     }
     /**
      * <pre>
@@ -12011,7 +12011,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
      */
-    private void setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   lastVerified_ = value;
       
@@ -12025,12 +12025,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   if (lastVerified_ != null &&
-          lastVerified_ != com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance()) {
+          lastVerified_ != com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance()) {
         lastVerified_ =
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
       } else {
         lastVerified_ = value;
       }
@@ -12048,73 +12048,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -12125,7 +12125,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -12138,10 +12138,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.BatchListUserRevisionsRequest)
-        com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -12557,7 +12557,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
         return instance.getLastVerified();
       }
       /**
@@ -12568,7 +12568,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
        */
-      public Builder setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.setLastVerified(value);
         return this;
@@ -12582,7 +12582,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
        */
       public Builder setLastVerified(
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.Builder builderForValue) {
         copyOnWrite();
         instance.setLastVerified(builderForValue.build());
         return this;
@@ -12595,7 +12595,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 8;</code>
        */
-      public Builder mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.mergeLastVerified(value);
         return this;
@@ -12622,7 +12622,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -12647,13 +12647,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -12673,7 +12673,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.BatchListUserRevisionsRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest DEFAULT_INSTANCE;
     static {
       BatchListUserRevisionsRequest defaultInstance = new BatchListUserRevisionsRequest();
       // New instances are implicitly immutable so no need to make
@@ -12683,7 +12683,7 @@ public final class Keytransparency {
         BatchListUserRevisionsRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -12715,7 +12715,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
      * @return The mapRoot.
      */
-    com.google.keytransparency.v1.Keytransparency.MapRoot getMapRoot();
+    com.google.keytransparency.v1.KeyTransparencyService.MapRoot getMapRoot();
 
     /**
      * <pre>
@@ -12740,7 +12740,7 @@ public final class Keytransparency {
      * Use {@link #getMapLeavesByUserIdMap()} instead.
      */
     @java.lang.Deprecated
-    java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     getMapLeavesByUserId();
     /**
      * <pre>
@@ -12750,7 +12750,7 @@ public final class Keytransparency {
      *
      * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
      */
-    java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     getMapLeavesByUserIdMap();
     /**
      * <pre>
@@ -12761,9 +12761,9 @@ public final class Keytransparency {
      * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
      */
 
-    com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrDefault(
+    com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrDefault(
         java.lang.String key,
-        com.google.keytransparency.v1.Keytransparency.MapLeaf defaultValue);
+        com.google.keytransparency.v1.KeyTransparencyService.MapLeaf defaultValue);
     /**
      * <pre>
      * map_leaves_by_user_id contains a mapping from user_id to the map leaf at
@@ -12773,7 +12773,7 @@ public final class Keytransparency {
      * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
      */
 
-    com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrThrow(
+    com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrThrow(
         java.lang.String key);
   }
   /**
@@ -12791,7 +12791,7 @@ public final class Keytransparency {
     private BatchMapRevision() {
     }
     public static final int MAP_ROOT_FIELD_NUMBER = 1;
-    private com.google.keytransparency.v1.Keytransparency.MapRoot mapRoot_;
+    private com.google.keytransparency.v1.KeyTransparencyService.MapRoot mapRoot_;
     /**
      * <pre>
      * map_root contains the map root and its inclusion in the log.
@@ -12811,8 +12811,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.MapRoot getMapRoot() {
-      return mapRoot_ == null ? com.google.keytransparency.v1.Keytransparency.MapRoot.getDefaultInstance() : mapRoot_;
+    public com.google.keytransparency.v1.KeyTransparencyService.MapRoot getMapRoot() {
+      return mapRoot_ == null ? com.google.keytransparency.v1.KeyTransparencyService.MapRoot.getDefaultInstance() : mapRoot_;
     }
     /**
      * <pre>
@@ -12821,7 +12821,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
      */
-    private void setMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+    private void setMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
       value.getClass();
   mapRoot_ = value;
       
@@ -12834,12 +12834,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+    private void mergeMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
       value.getClass();
   if (mapRoot_ != null &&
-          mapRoot_ != com.google.keytransparency.v1.Keytransparency.MapRoot.getDefaultInstance()) {
+          mapRoot_ != com.google.keytransparency.v1.KeyTransparencyService.MapRoot.getDefaultInstance()) {
         mapRoot_ =
-          com.google.keytransparency.v1.Keytransparency.MapRoot.newBuilder(mapRoot_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.MapRoot.newBuilder(mapRoot_).mergeFrom(value).buildPartial();
       } else {
         mapRoot_ = value;
       }
@@ -12859,22 +12859,22 @@ public final class Keytransparency {
     public static final int MAP_LEAVES_BY_USER_ID_FIELD_NUMBER = 2;
     private static final class MapLeavesByUserIdDefaultEntryHolder {
       static final com.google.protobuf.MapEntryLite<
-          java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> defaultEntry =
+          java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> defaultEntry =
               com.google.protobuf.MapEntryLite
-              .<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>newDefaultInstance(
+              .<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>newDefaultInstance(
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  com.google.keytransparency.v1.Keytransparency.MapLeaf.getDefaultInstance());
+                  com.google.keytransparency.v1.KeyTransparencyService.MapLeaf.getDefaultInstance());
     }
     private com.google.protobuf.MapFieldLite<
-        java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> mapLeavesByUserId_ =
+        java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> mapLeavesByUserId_ =
             com.google.protobuf.MapFieldLite.emptyMapField();
-    private com.google.protobuf.MapFieldLite<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    private com.google.protobuf.MapFieldLite<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     internalGetMapLeavesByUserId() {
       return mapLeavesByUserId_;
     }
-    private com.google.protobuf.MapFieldLite<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    private com.google.protobuf.MapFieldLite<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     internalGetMutableMapLeavesByUserId() {
       if (!mapLeavesByUserId_.isMutable()) {
         mapLeavesByUserId_ = mapLeavesByUserId_.mutableCopy();
@@ -12906,7 +12906,7 @@ public final class Keytransparency {
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> getMapLeavesByUserId() {
+    public java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> getMapLeavesByUserId() {
       return getMapLeavesByUserIdMap();
     }
     /**
@@ -12919,7 +12919,7 @@ public final class Keytransparency {
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> getMapLeavesByUserIdMap() {
+    public java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> getMapLeavesByUserIdMap() {
       return java.util.Collections.unmodifiableMap(
           internalGetMapLeavesByUserId());
     }
@@ -12933,11 +12933,11 @@ public final class Keytransparency {
      */
     @java.lang.Override
 
-    public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrDefault(
+    public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrDefault(
         java.lang.String key,
-        com.google.keytransparency.v1.Keytransparency.MapLeaf defaultValue) {
+        com.google.keytransparency.v1.KeyTransparencyService.MapLeaf defaultValue) {
       key.getClass();
-      java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> map =
+      java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> map =
           internalGetMapLeavesByUserId();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
@@ -12951,10 +12951,10 @@ public final class Keytransparency {
      */
     @java.lang.Override
 
-    public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrThrow(
+    public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrThrow(
         java.lang.String key) {
       key.getClass();
-      java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> map =
+      java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> map =
           internalGetMapLeavesByUserId();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
@@ -12969,78 +12969,78 @@ public final class Keytransparency {
      *
      * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
      */
-    private java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf>
+    private java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf>
     getMutableMapLeavesByUserIdMap() {
       return internalGetMutableMapLeavesByUserId();
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -13051,7 +13051,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.BatchMapRevision prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -13064,10 +13064,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.BatchMapRevision, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.BatchMapRevision)
-        com.google.keytransparency.v1.Keytransparency.BatchMapRevisionOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.BatchMapRevision.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevisionOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -13092,7 +13092,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.MapRoot getMapRoot() {
+      public com.google.keytransparency.v1.KeyTransparencyService.MapRoot getMapRoot() {
         return instance.getMapRoot();
       }
       /**
@@ -13102,7 +13102,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
        */
-      public Builder setMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+      public Builder setMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
         copyOnWrite();
         instance.setMapRoot(value);
         return this;
@@ -13115,7 +13115,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
        */
       public Builder setMapRoot(
-          com.google.keytransparency.v1.Keytransparency.MapRoot.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapRoot.Builder builderForValue) {
         copyOnWrite();
         instance.setMapRoot(builderForValue.build());
         return this;
@@ -13127,7 +13127,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 1;</code>
        */
-      public Builder mergeMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+      public Builder mergeMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
         copyOnWrite();
         instance.mergeMapRoot(value);
         return this;
@@ -13191,7 +13191,7 @@ public final class Keytransparency {
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> getMapLeavesByUserId() {
+      public java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> getMapLeavesByUserId() {
         return getMapLeavesByUserIdMap();
       }
       /**
@@ -13203,7 +13203,7 @@ public final class Keytransparency {
        * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
        */
       @java.lang.Override
-      public java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> getMapLeavesByUserIdMap() {
+      public java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> getMapLeavesByUserIdMap() {
         return java.util.Collections.unmodifiableMap(
             instance.getMapLeavesByUserIdMap());
       }
@@ -13217,11 +13217,11 @@ public final class Keytransparency {
        */
       @java.lang.Override
 
-      public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrDefault(
+      public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrDefault(
           java.lang.String key,
-          com.google.keytransparency.v1.Keytransparency.MapLeaf defaultValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapLeaf defaultValue) {
         key.getClass();
-        java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> map =
+        java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> map =
             instance.getMapLeavesByUserIdMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
@@ -13235,10 +13235,10 @@ public final class Keytransparency {
        */
       @java.lang.Override
 
-      public com.google.keytransparency.v1.Keytransparency.MapLeaf getMapLeavesByUserIdOrThrow(
+      public com.google.keytransparency.v1.KeyTransparencyService.MapLeaf getMapLeavesByUserIdOrThrow(
           java.lang.String key) {
         key.getClass();
-        java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> map =
+        java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> map =
             instance.getMapLeavesByUserIdMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
@@ -13255,7 +13255,7 @@ public final class Keytransparency {
        */
       public Builder putMapLeavesByUserId(
           java.lang.String key,
-          com.google.keytransparency.v1.Keytransparency.MapLeaf value) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapLeaf value) {
         key.getClass();
         value.getClass();
         copyOnWrite();
@@ -13271,7 +13271,7 @@ public final class Keytransparency {
        * <code>map&lt;string, .com.google.keytransparency.v1.MapLeaf&gt; map_leaves_by_user_id = 2;</code>
        */
       public Builder putAllMapLeavesByUserId(
-          java.util.Map<java.lang.String, com.google.keytransparency.v1.Keytransparency.MapLeaf> values) {
+          java.util.Map<java.lang.String, com.google.keytransparency.v1.KeyTransparencyService.MapLeaf> values) {
         copyOnWrite();
         instance.getMutableMapLeavesByUserIdMap().putAll(values);
         return this;
@@ -13286,7 +13286,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.BatchMapRevision();
+          return new com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -13306,13 +13306,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.BatchMapRevision> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.BatchMapRevision.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.BatchMapRevision>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -13332,7 +13332,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.BatchMapRevision)
-    private static final com.google.keytransparency.v1.Keytransparency.BatchMapRevision DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision DEFAULT_INSTANCE;
     static {
       BatchMapRevision defaultInstance = new BatchMapRevision();
       // New instances are implicitly immutable so no need to make
@@ -13342,7 +13342,7 @@ public final class Keytransparency {
         BatchMapRevision.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchMapRevision getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -13374,7 +13374,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
      * @return The latestLogRoot.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRoot getLatestLogRoot();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRoot getLatestLogRoot();
 
     /**
      * <pre>
@@ -13383,7 +13383,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
-    java.util.List<com.google.keytransparency.v1.Keytransparency.BatchMapRevision>
+    java.util.List<com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision>
         getMapRevisionsList();
     /**
      * <pre>
@@ -13392,7 +13392,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
-    com.google.keytransparency.v1.Keytransparency.BatchMapRevision getMapRevisions(int index);
+    com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision getMapRevisions(int index);
     /**
      * <pre>
      * map_revisions is a list of map revisions.  At most page_size revisions will be returned.
@@ -13418,7 +13418,7 @@ public final class Keytransparency {
       mapRevisions_ = emptyProtobufList();
     }
     public static final int LATEST_LOG_ROOT_FIELD_NUMBER = 1;
-    private com.google.keytransparency.v1.Keytransparency.LogRoot latestLogRoot_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRoot latestLogRoot_;
     /**
      * <pre>
      * latest_log_root contains the latest log root and its consistency proof.
@@ -13438,8 +13438,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRoot getLatestLogRoot() {
-      return latestLogRoot_ == null ? com.google.keytransparency.v1.Keytransparency.LogRoot.getDefaultInstance() : latestLogRoot_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRoot getLatestLogRoot() {
+      return latestLogRoot_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRoot.getDefaultInstance() : latestLogRoot_;
     }
     /**
      * <pre>
@@ -13448,7 +13448,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
      */
-    private void setLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+    private void setLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
       value.getClass();
   latestLogRoot_ = value;
       
@@ -13461,12 +13461,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+    private void mergeLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
       value.getClass();
   if (latestLogRoot_ != null &&
-          latestLogRoot_ != com.google.keytransparency.v1.Keytransparency.LogRoot.getDefaultInstance()) {
+          latestLogRoot_ != com.google.keytransparency.v1.KeyTransparencyService.LogRoot.getDefaultInstance()) {
         latestLogRoot_ =
-          com.google.keytransparency.v1.Keytransparency.LogRoot.newBuilder(latestLogRoot_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRoot.newBuilder(latestLogRoot_).mergeFrom(value).buildPartial();
       } else {
         latestLogRoot_ = value;
       }
@@ -13484,7 +13484,7 @@ public final class Keytransparency {
     }
 
     public static final int MAP_REVISIONS_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.BatchMapRevision> mapRevisions_;
+    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision> mapRevisions_;
     /**
      * <pre>
      * map_revisions is a list of map revisions.  At most page_size revisions will be returned.
@@ -13493,7 +13493,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<com.google.keytransparency.v1.Keytransparency.BatchMapRevision> getMapRevisionsList() {
+    public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision> getMapRevisionsList() {
       return mapRevisions_;
     }
     /**
@@ -13503,7 +13503,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
-    public java.util.List<? extends com.google.keytransparency.v1.Keytransparency.BatchMapRevisionOrBuilder>
+    public java.util.List<? extends com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevisionOrBuilder>
         getMapRevisionsOrBuilderList() {
       return mapRevisions_;
     }
@@ -13526,7 +13526,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.BatchMapRevision getMapRevisions(int index) {
+    public com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision getMapRevisions(int index) {
       return mapRevisions_.get(index);
     }
     /**
@@ -13536,12 +13536,12 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
-    public com.google.keytransparency.v1.Keytransparency.BatchMapRevisionOrBuilder getMapRevisionsOrBuilder(
+    public com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevisionOrBuilder getMapRevisionsOrBuilder(
         int index) {
       return mapRevisions_.get(index);
     }
     private void ensureMapRevisionsIsMutable() {
-      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.BatchMapRevision> tmp = mapRevisions_;
+      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision> tmp = mapRevisions_;
       if (!tmp.isModifiable()) {
         mapRevisions_ =
             com.google.protobuf.GeneratedMessageLite.mutableCopy(tmp);
@@ -13556,7 +13556,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
     private void setMapRevisions(
-        int index, com.google.keytransparency.v1.Keytransparency.BatchMapRevision value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision value) {
       value.getClass();
   ensureMapRevisionsIsMutable();
       mapRevisions_.set(index, value);
@@ -13568,7 +13568,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
-    private void addMapRevisions(com.google.keytransparency.v1.Keytransparency.BatchMapRevision value) {
+    private void addMapRevisions(com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision value) {
       value.getClass();
   ensureMapRevisionsIsMutable();
       mapRevisions_.add(value);
@@ -13581,7 +13581,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
     private void addMapRevisions(
-        int index, com.google.keytransparency.v1.Keytransparency.BatchMapRevision value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision value) {
       value.getClass();
   ensureMapRevisionsIsMutable();
       mapRevisions_.add(index, value);
@@ -13594,7 +13594,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
      */
     private void addAllMapRevisions(
-        java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.BatchMapRevision> values) {
+        java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision> values) {
       ensureMapRevisionsIsMutable();
       com.google.protobuf.AbstractMessageLite.addAll(
           values, mapRevisions_);
@@ -13621,73 +13621,73 @@ public final class Keytransparency {
       mapRevisions_.remove(index);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -13698,7 +13698,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -13711,10 +13711,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.BatchListUserRevisionsResponse)
-        com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponseOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponseOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -13739,7 +13739,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRoot getLatestLogRoot() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRoot getLatestLogRoot() {
         return instance.getLatestLogRoot();
       }
       /**
@@ -13749,7 +13749,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
        */
-      public Builder setLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+      public Builder setLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
         copyOnWrite();
         instance.setLatestLogRoot(value);
         return this;
@@ -13762,7 +13762,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
        */
       public Builder setLatestLogRoot(
-          com.google.keytransparency.v1.Keytransparency.LogRoot.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRoot.Builder builderForValue) {
         copyOnWrite();
         instance.setLatestLogRoot(builderForValue.build());
         return this;
@@ -13774,7 +13774,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 1;</code>
        */
-      public Builder mergeLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+      public Builder mergeLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
         copyOnWrite();
         instance.mergeLatestLogRoot(value);
         return this;
@@ -13799,7 +13799,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
        */
       @java.lang.Override
-      public java.util.List<com.google.keytransparency.v1.Keytransparency.BatchMapRevision> getMapRevisionsList() {
+      public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision> getMapRevisionsList() {
         return java.util.Collections.unmodifiableList(
             instance.getMapRevisionsList());
       }
@@ -13821,7 +13821,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.BatchMapRevision getMapRevisions(int index) {
+      public com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision getMapRevisions(int index) {
         return instance.getMapRevisions(index);
       }
       /**
@@ -13832,7 +13832,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
        */
       public Builder setMapRevisions(
-          int index, com.google.keytransparency.v1.Keytransparency.BatchMapRevision value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision value) {
         copyOnWrite();
         instance.setMapRevisions(index, value);
         return this;
@@ -13845,7 +13845,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
        */
       public Builder setMapRevisions(
-          int index, com.google.keytransparency.v1.Keytransparency.BatchMapRevision.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision.Builder builderForValue) {
         copyOnWrite();
         instance.setMapRevisions(index,
             builderForValue.build());
@@ -13858,7 +13858,7 @@ public final class Keytransparency {
        *
        * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
        */
-      public Builder addMapRevisions(com.google.keytransparency.v1.Keytransparency.BatchMapRevision value) {
+      public Builder addMapRevisions(com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision value) {
         copyOnWrite();
         instance.addMapRevisions(value);
         return this;
@@ -13871,7 +13871,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
        */
       public Builder addMapRevisions(
-          int index, com.google.keytransparency.v1.Keytransparency.BatchMapRevision value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision value) {
         copyOnWrite();
         instance.addMapRevisions(index, value);
         return this;
@@ -13884,7 +13884,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
        */
       public Builder addMapRevisions(
-          com.google.keytransparency.v1.Keytransparency.BatchMapRevision.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision.Builder builderForValue) {
         copyOnWrite();
         instance.addMapRevisions(builderForValue.build());
         return this;
@@ -13897,7 +13897,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
        */
       public Builder addMapRevisions(
-          int index, com.google.keytransparency.v1.Keytransparency.BatchMapRevision.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision.Builder builderForValue) {
         copyOnWrite();
         instance.addMapRevisions(index,
             builderForValue.build());
@@ -13911,7 +13911,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.BatchMapRevision map_revisions = 2;</code>
        */
       public Builder addAllMapRevisions(
-          java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.BatchMapRevision> values) {
+          java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision> values) {
         copyOnWrite();
         instance.addAllMapRevisions(values);
         return this;
@@ -13950,7 +13950,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse();
+          return new com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -13959,7 +13959,7 @@ public final class Keytransparency {
             java.lang.Object[] objects = new java.lang.Object[] {
               "latestLogRoot_",
               "mapRevisions_",
-              com.google.keytransparency.v1.Keytransparency.BatchMapRevision.class,
+              com.google.keytransparency.v1.KeyTransparencyService.BatchMapRevision.class,
             };
             java.lang.String info =
                 "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\t\u0002\u001b" +
@@ -13971,13 +13971,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -13997,7 +13997,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.BatchListUserRevisionsResponse)
-    private static final com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse DEFAULT_INSTANCE;
     static {
       BatchListUserRevisionsResponse defaultInstance = new BatchListUserRevisionsResponse();
       // New instances are implicitly immutable so no need to make
@@ -14007,7 +14007,7 @@ public final class Keytransparency {
         BatchListUserRevisionsResponse.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchListUserRevisionsResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchListUserRevisionsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -14059,7 +14059,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.EntryUpdate entry_update = 4;</code>
      * @return The entryUpdate.
      */
-    com.google.keytransparency.v1.Keytransparency.EntryUpdate getEntryUpdate();
+    com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate getEntryUpdate();
   }
   /**
    * <pre>
@@ -14144,7 +14144,7 @@ public final class Keytransparency {
     }
 
     public static final int ENTRY_UPDATE_FIELD_NUMBER = 4;
-    private com.google.keytransparency.v1.Keytransparency.EntryUpdate entryUpdate_;
+    private com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate entryUpdate_;
     /**
      * <pre>
      * entry_update contains the user submitted update.
@@ -14164,8 +14164,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.EntryUpdate entry_update = 4;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.EntryUpdate getEntryUpdate() {
-      return entryUpdate_ == null ? com.google.keytransparency.v1.Keytransparency.EntryUpdate.getDefaultInstance() : entryUpdate_;
+    public com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate getEntryUpdate() {
+      return entryUpdate_ == null ? com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.getDefaultInstance() : entryUpdate_;
     }
     /**
      * <pre>
@@ -14174,7 +14174,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.EntryUpdate entry_update = 4;</code>
      */
-    private void setEntryUpdate(com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+    private void setEntryUpdate(com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
       value.getClass();
   entryUpdate_ = value;
       
@@ -14187,12 +14187,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.EntryUpdate entry_update = 4;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeEntryUpdate(com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+    private void mergeEntryUpdate(com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
       value.getClass();
   if (entryUpdate_ != null &&
-          entryUpdate_ != com.google.keytransparency.v1.Keytransparency.EntryUpdate.getDefaultInstance()) {
+          entryUpdate_ != com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.getDefaultInstance()) {
         entryUpdate_ =
-          com.google.keytransparency.v1.Keytransparency.EntryUpdate.newBuilder(entryUpdate_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.newBuilder(entryUpdate_).mergeFrom(value).buildPartial();
       } else {
         entryUpdate_ = value;
       }
@@ -14209,73 +14209,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -14286,7 +14286,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -14299,10 +14299,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.UpdateEntryRequest)
-        com.google.keytransparency.v1.Keytransparency.UpdateEntryRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -14396,7 +14396,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.EntryUpdate entry_update = 4;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.EntryUpdate getEntryUpdate() {
+      public com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate getEntryUpdate() {
         return instance.getEntryUpdate();
       }
       /**
@@ -14406,7 +14406,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.EntryUpdate entry_update = 4;</code>
        */
-      public Builder setEntryUpdate(com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+      public Builder setEntryUpdate(com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
         copyOnWrite();
         instance.setEntryUpdate(value);
         return this;
@@ -14419,7 +14419,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.EntryUpdate entry_update = 4;</code>
        */
       public Builder setEntryUpdate(
-          com.google.keytransparency.v1.Keytransparency.EntryUpdate.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.Builder builderForValue) {
         copyOnWrite();
         instance.setEntryUpdate(builderForValue.build());
         return this;
@@ -14431,7 +14431,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.EntryUpdate entry_update = 4;</code>
        */
-      public Builder mergeEntryUpdate(com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+      public Builder mergeEntryUpdate(com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
         copyOnWrite();
         instance.mergeEntryUpdate(value);
         return this;
@@ -14457,7 +14457,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -14477,13 +14477,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -14503,7 +14503,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.UpdateEntryRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest DEFAULT_INSTANCE;
     static {
       UpdateEntryRequest defaultInstance = new UpdateEntryRequest();
       // New instances are implicitly immutable so no need to make
@@ -14513,7 +14513,7 @@ public final class Keytransparency {
         UpdateEntryRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.UpdateEntryRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.UpdateEntryRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -14555,7 +14555,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
-    java.util.List<com.google.keytransparency.v1.Keytransparency.EntryUpdate>
+    java.util.List<com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate>
         getUpdatesList();
     /**
      * <pre>
@@ -14564,7 +14564,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
-    com.google.keytransparency.v1.Keytransparency.EntryUpdate getUpdates(int index);
+    com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate getUpdates(int index);
     /**
      * <pre>
      * updates contains user updates.
@@ -14658,7 +14658,7 @@ public final class Keytransparency {
     }
 
     public static final int UPDATES_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.EntryUpdate> updates_;
+    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate> updates_;
     /**
      * <pre>
      * updates contains user updates.
@@ -14667,7 +14667,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<com.google.keytransparency.v1.Keytransparency.EntryUpdate> getUpdatesList() {
+    public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate> getUpdatesList() {
       return updates_;
     }
     /**
@@ -14677,7 +14677,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
-    public java.util.List<? extends com.google.keytransparency.v1.Keytransparency.EntryUpdateOrBuilder>
+    public java.util.List<? extends com.google.keytransparency.v1.KeyTransparencyService.EntryUpdateOrBuilder>
         getUpdatesOrBuilderList() {
       return updates_;
     }
@@ -14700,7 +14700,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.EntryUpdate getUpdates(int index) {
+    public com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate getUpdates(int index) {
       return updates_.get(index);
     }
     /**
@@ -14710,12 +14710,12 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
-    public com.google.keytransparency.v1.Keytransparency.EntryUpdateOrBuilder getUpdatesOrBuilder(
+    public com.google.keytransparency.v1.KeyTransparencyService.EntryUpdateOrBuilder getUpdatesOrBuilder(
         int index) {
       return updates_.get(index);
     }
     private void ensureUpdatesIsMutable() {
-      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.EntryUpdate> tmp = updates_;
+      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate> tmp = updates_;
       if (!tmp.isModifiable()) {
         updates_ =
             com.google.protobuf.GeneratedMessageLite.mutableCopy(tmp);
@@ -14730,7 +14730,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
     private void setUpdates(
-        int index, com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
       value.getClass();
   ensureUpdatesIsMutable();
       updates_.set(index, value);
@@ -14742,7 +14742,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
-    private void addUpdates(com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+    private void addUpdates(com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
       value.getClass();
   ensureUpdatesIsMutable();
       updates_.add(value);
@@ -14755,7 +14755,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
     private void addUpdates(
-        int index, com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
       value.getClass();
   ensureUpdatesIsMutable();
       updates_.add(index, value);
@@ -14768,7 +14768,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
      */
     private void addAllUpdates(
-        java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.EntryUpdate> values) {
+        java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate> values) {
       ensureUpdatesIsMutable();
       com.google.protobuf.AbstractMessageLite.addAll(
           values, updates_);
@@ -14795,73 +14795,73 @@ public final class Keytransparency {
       updates_.remove(index);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -14872,7 +14872,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -14885,10 +14885,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.BatchQueueUserUpdateRequest)
-        com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -14971,7 +14971,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
        */
       @java.lang.Override
-      public java.util.List<com.google.keytransparency.v1.Keytransparency.EntryUpdate> getUpdatesList() {
+      public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate> getUpdatesList() {
         return java.util.Collections.unmodifiableList(
             instance.getUpdatesList());
       }
@@ -14993,7 +14993,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.EntryUpdate getUpdates(int index) {
+      public com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate getUpdates(int index) {
         return instance.getUpdates(index);
       }
       /**
@@ -15004,7 +15004,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
        */
       public Builder setUpdates(
-          int index, com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
         copyOnWrite();
         instance.setUpdates(index, value);
         return this;
@@ -15017,7 +15017,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
        */
       public Builder setUpdates(
-          int index, com.google.keytransparency.v1.Keytransparency.EntryUpdate.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.Builder builderForValue) {
         copyOnWrite();
         instance.setUpdates(index,
             builderForValue.build());
@@ -15030,7 +15030,7 @@ public final class Keytransparency {
        *
        * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
        */
-      public Builder addUpdates(com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+      public Builder addUpdates(com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
         copyOnWrite();
         instance.addUpdates(value);
         return this;
@@ -15043,7 +15043,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
        */
       public Builder addUpdates(
-          int index, com.google.keytransparency.v1.Keytransparency.EntryUpdate value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate value) {
         copyOnWrite();
         instance.addUpdates(index, value);
         return this;
@@ -15056,7 +15056,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
        */
       public Builder addUpdates(
-          com.google.keytransparency.v1.Keytransparency.EntryUpdate.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.Builder builderForValue) {
         copyOnWrite();
         instance.addUpdates(builderForValue.build());
         return this;
@@ -15069,7 +15069,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
        */
       public Builder addUpdates(
-          int index, com.google.keytransparency.v1.Keytransparency.EntryUpdate.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.Builder builderForValue) {
         copyOnWrite();
         instance.addUpdates(index,
             builderForValue.build());
@@ -15083,7 +15083,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.EntryUpdate updates = 2;</code>
        */
       public Builder addAllUpdates(
-          java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.EntryUpdate> values) {
+          java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate> values) {
         copyOnWrite();
         instance.addAllUpdates(values);
         return this;
@@ -15122,7 +15122,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -15131,7 +15131,7 @@ public final class Keytransparency {
             java.lang.Object[] objects = new java.lang.Object[] {
               "directoryId_",
               "updates_",
-              com.google.keytransparency.v1.Keytransparency.EntryUpdate.class,
+              com.google.keytransparency.v1.KeyTransparencyService.EntryUpdate.class,
             };
             java.lang.String info =
                 "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0208\u0002\u001b" +
@@ -15143,13 +15143,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -15169,7 +15169,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.BatchQueueUserUpdateRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest DEFAULT_INSTANCE;
     static {
       BatchQueueUserUpdateRequest defaultInstance = new BatchQueueUserUpdateRequest();
       // New instances are implicitly immutable so no need to make
@@ -15179,7 +15179,7 @@ public final class Keytransparency {
         BatchQueueUserUpdateRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.BatchQueueUserUpdateRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.BatchQueueUserUpdateRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -15243,7 +15243,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      * @return The lastVerified.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified();
   }
   /**
    * <pre>
@@ -15366,7 +15366,7 @@ public final class Keytransparency {
     }
 
     public static final int LAST_VERIFIED_FIELD_NUMBER = 4;
-    private com.google.keytransparency.v1.Keytransparency.LogRootRequest lastVerified_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest lastVerified_;
     /**
      * <pre>
      * last_verified is the last log root the client verified.
@@ -15388,8 +15388,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
-      return lastVerified_ == null ? com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance() : lastVerified_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
+      return lastVerified_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance() : lastVerified_;
     }
     /**
      * <pre>
@@ -15399,7 +15399,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      */
-    private void setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   lastVerified_ = value;
       
@@ -15413,12 +15413,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   if (lastVerified_ != null &&
-          lastVerified_ != com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance()) {
+          lastVerified_ != com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance()) {
         lastVerified_ =
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
       } else {
         lastVerified_ = value;
       }
@@ -15436,73 +15436,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -15513,7 +15513,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.GetRevisionRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -15526,10 +15526,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.GetRevisionRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.GetRevisionRequest)
-        com.google.keytransparency.v1.Keytransparency.GetRevisionRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.GetRevisionRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -15665,7 +15665,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
         return instance.getLastVerified();
       }
       /**
@@ -15676,7 +15676,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
-      public Builder setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.setLastVerified(value);
         return this;
@@ -15690,7 +15690,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
       public Builder setLastVerified(
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.Builder builderForValue) {
         copyOnWrite();
         instance.setLastVerified(builderForValue.build());
         return this;
@@ -15703,7 +15703,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 4;</code>
        */
-      public Builder mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.mergeLastVerified(value);
         return this;
@@ -15730,7 +15730,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.GetRevisionRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -15751,13 +15751,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.GetRevisionRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.GetRevisionRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.GetRevisionRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -15777,7 +15777,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.GetRevisionRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.GetRevisionRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest DEFAULT_INSTANCE;
     static {
       GetRevisionRequest defaultInstance = new GetRevisionRequest();
       // New instances are implicitly immutable so no need to make
@@ -15787,7 +15787,7 @@ public final class Keytransparency {
         GetRevisionRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.GetRevisionRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetRevisionRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -15841,7 +15841,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 3;</code>
      * @return The lastVerified.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified();
   }
   /**
    * <pre>
@@ -15926,7 +15926,7 @@ public final class Keytransparency {
     }
 
     public static final int LAST_VERIFIED_FIELD_NUMBER = 3;
-    private com.google.keytransparency.v1.Keytransparency.LogRootRequest lastVerified_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest lastVerified_;
     /**
      * <pre>
      * last_verified is the last log root the client verified.
@@ -15948,8 +15948,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 3;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
-      return lastVerified_ == null ? com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance() : lastVerified_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
+      return lastVerified_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance() : lastVerified_;
     }
     /**
      * <pre>
@@ -15959,7 +15959,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 3;</code>
      */
-    private void setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   lastVerified_ = value;
       
@@ -15973,12 +15973,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 3;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+    private void mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
       value.getClass();
   if (lastVerified_ != null &&
-          lastVerified_ != com.google.keytransparency.v1.Keytransparency.LogRootRequest.getDefaultInstance()) {
+          lastVerified_ != com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.getDefaultInstance()) {
         lastVerified_ =
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.newBuilder(lastVerified_).mergeFrom(value).buildPartial();
       } else {
         lastVerified_ = value;
       }
@@ -15996,73 +15996,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -16073,7 +16073,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -16086,10 +16086,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.GetLatestRevisionRequest)
-        com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -16185,7 +16185,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 3;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRootRequest getLastVerified() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getLastVerified() {
         return instance.getLastVerified();
       }
       /**
@@ -16196,7 +16196,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 3;</code>
        */
-      public Builder setLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder setLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.setLastVerified(value);
         return this;
@@ -16210,7 +16210,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 3;</code>
        */
       public Builder setLastVerified(
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.Builder builderForValue) {
         copyOnWrite();
         instance.setLastVerified(builderForValue.build());
         return this;
@@ -16223,7 +16223,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRootRequest last_verified = 3;</code>
        */
-      public Builder mergeLastVerified(com.google.keytransparency.v1.Keytransparency.LogRootRequest value) {
+      public Builder mergeLastVerified(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest value) {
         copyOnWrite();
         instance.mergeLastVerified(value);
         return this;
@@ -16250,7 +16250,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -16270,13 +16270,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -16296,7 +16296,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.GetLatestRevisionRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest DEFAULT_INSTANCE;
     static {
       GetLatestRevisionRequest defaultInstance = new GetLatestRevisionRequest();
       // New instances are implicitly immutable so no need to make
@@ -16306,7 +16306,7 @@ public final class Keytransparency {
         GetLatestRevisionRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.GetLatestRevisionRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.GetLatestRevisionRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -16560,73 +16560,73 @@ public final class Keytransparency {
       logInclusion_ = emptyProtobufList();
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -16637,7 +16637,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.MapRoot prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.MapRoot prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -16650,10 +16650,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.MapRoot, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.MapRoot, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.MapRoot)
-        com.google.keytransparency.v1.Keytransparency.MapRootOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.MapRoot.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.MapRootOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.MapRoot.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -16843,7 +16843,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.MapRoot();
+          return new com.google.keytransparency.v1.KeyTransparencyService.MapRoot();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -16863,13 +16863,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.MapRoot> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.MapRoot> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.MapRoot.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.MapRoot.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.MapRoot>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.MapRoot>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -16889,7 +16889,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.MapRoot)
-    private static final com.google.keytransparency.v1.Keytransparency.MapRoot DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.MapRoot DEFAULT_INSTANCE;
     static {
       MapRoot defaultInstance = new MapRoot();
       // New instances are implicitly immutable so no need to make
@@ -16899,7 +16899,7 @@ public final class Keytransparency {
         MapRoot.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.MapRoot getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.MapRoot getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -17026,73 +17026,73 @@ public final class Keytransparency {
       treeSize_ = 0L;
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -17103,7 +17103,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.LogRootRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -17116,10 +17116,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.LogRootRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.LogRootRequest)
-        com.google.keytransparency.v1.Keytransparency.LogRootRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.LogRootRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.LogRootRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -17214,7 +17214,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.LogRootRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -17234,13 +17234,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.LogRootRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.LogRootRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.LogRootRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -17260,7 +17260,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.LogRootRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.LogRootRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest DEFAULT_INSTANCE;
     static {
       LogRootRequest defaultInstance = new LogRootRequest();
       // New instances are implicitly immutable so no need to make
@@ -17270,7 +17270,7 @@ public final class Keytransparency {
         LogRootRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.LogRootRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRootRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -17524,73 +17524,73 @@ public final class Keytransparency {
       logConsistency_ = emptyProtobufList();
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -17601,7 +17601,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.LogRoot prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.LogRoot prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -17614,10 +17614,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.LogRoot, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.LogRoot, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.LogRoot)
-        com.google.keytransparency.v1.Keytransparency.LogRootOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.LogRoot.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.LogRootOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.LogRoot.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -17807,7 +17807,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.LogRoot();
+          return new com.google.keytransparency.v1.KeyTransparencyService.LogRoot();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -17827,13 +17827,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.LogRoot> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.LogRoot> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.LogRoot.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.LogRoot.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.LogRoot>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.LogRoot>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -17853,7 +17853,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.LogRoot)
-    private static final com.google.keytransparency.v1.Keytransparency.LogRoot DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.LogRoot DEFAULT_INSTANCE;
     static {
       LogRoot defaultInstance = new LogRoot();
       // New instances are implicitly immutable so no need to make
@@ -17863,7 +17863,7 @@ public final class Keytransparency {
         LogRoot.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.LogRoot getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.LogRoot getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -17915,7 +17915,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 5;</code>
      * @return The mapRoot.
      */
-    com.google.keytransparency.v1.Keytransparency.MapRoot getMapRoot();
+    com.google.keytransparency.v1.KeyTransparencyService.MapRoot getMapRoot();
 
     /**
      * <pre>
@@ -17936,7 +17936,7 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 6;</code>
      * @return The latestLogRoot.
      */
-    com.google.keytransparency.v1.Keytransparency.LogRoot getLatestLogRoot();
+    com.google.keytransparency.v1.KeyTransparencyService.LogRoot getLatestLogRoot();
   }
   /**
    * <pre>
@@ -18022,7 +18022,7 @@ public final class Keytransparency {
     }
 
     public static final int MAP_ROOT_FIELD_NUMBER = 5;
-    private com.google.keytransparency.v1.Keytransparency.MapRoot mapRoot_;
+    private com.google.keytransparency.v1.KeyTransparencyService.MapRoot mapRoot_;
     /**
      * <pre>
      * map_root contains the map root and its inclusion in the log.
@@ -18042,8 +18042,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 5;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.MapRoot getMapRoot() {
-      return mapRoot_ == null ? com.google.keytransparency.v1.Keytransparency.MapRoot.getDefaultInstance() : mapRoot_;
+    public com.google.keytransparency.v1.KeyTransparencyService.MapRoot getMapRoot() {
+      return mapRoot_ == null ? com.google.keytransparency.v1.KeyTransparencyService.MapRoot.getDefaultInstance() : mapRoot_;
     }
     /**
      * <pre>
@@ -18052,7 +18052,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 5;</code>
      */
-    private void setMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+    private void setMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
       value.getClass();
   mapRoot_ = value;
       
@@ -18065,12 +18065,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.MapRoot map_root = 5;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+    private void mergeMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
       value.getClass();
   if (mapRoot_ != null &&
-          mapRoot_ != com.google.keytransparency.v1.Keytransparency.MapRoot.getDefaultInstance()) {
+          mapRoot_ != com.google.keytransparency.v1.KeyTransparencyService.MapRoot.getDefaultInstance()) {
         mapRoot_ =
-          com.google.keytransparency.v1.Keytransparency.MapRoot.newBuilder(mapRoot_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.MapRoot.newBuilder(mapRoot_).mergeFrom(value).buildPartial();
       } else {
         mapRoot_ = value;
       }
@@ -18088,7 +18088,7 @@ public final class Keytransparency {
     }
 
     public static final int LATEST_LOG_ROOT_FIELD_NUMBER = 6;
-    private com.google.keytransparency.v1.Keytransparency.LogRoot latestLogRoot_;
+    private com.google.keytransparency.v1.KeyTransparencyService.LogRoot latestLogRoot_;
     /**
      * <pre>
      * latest_log_root contains the most recent log root and its consistency
@@ -18110,8 +18110,8 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 6;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.LogRoot getLatestLogRoot() {
-      return latestLogRoot_ == null ? com.google.keytransparency.v1.Keytransparency.LogRoot.getDefaultInstance() : latestLogRoot_;
+    public com.google.keytransparency.v1.KeyTransparencyService.LogRoot getLatestLogRoot() {
+      return latestLogRoot_ == null ? com.google.keytransparency.v1.KeyTransparencyService.LogRoot.getDefaultInstance() : latestLogRoot_;
     }
     /**
      * <pre>
@@ -18121,7 +18121,7 @@ public final class Keytransparency {
      *
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 6;</code>
      */
-    private void setLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+    private void setLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
       value.getClass();
   latestLogRoot_ = value;
       
@@ -18135,12 +18135,12 @@ public final class Keytransparency {
      * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 6;</code>
      */
     @java.lang.SuppressWarnings({"ReferenceEquality"})
-    private void mergeLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+    private void mergeLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
       value.getClass();
   if (latestLogRoot_ != null &&
-          latestLogRoot_ != com.google.keytransparency.v1.Keytransparency.LogRoot.getDefaultInstance()) {
+          latestLogRoot_ != com.google.keytransparency.v1.KeyTransparencyService.LogRoot.getDefaultInstance()) {
         latestLogRoot_ =
-          com.google.keytransparency.v1.Keytransparency.LogRoot.newBuilder(latestLogRoot_).mergeFrom(value).buildPartial();
+          com.google.keytransparency.v1.KeyTransparencyService.LogRoot.newBuilder(latestLogRoot_).mergeFrom(value).buildPartial();
       } else {
         latestLogRoot_ = value;
       }
@@ -18158,73 +18158,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.Revision parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -18235,7 +18235,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.Revision prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.Revision prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -18249,10 +18249,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.Revision, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.Revision, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.Revision)
-        com.google.keytransparency.v1.Keytransparency.RevisionOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.Revision.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.RevisionOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.Revision.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -18346,7 +18346,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 5;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.MapRoot getMapRoot() {
+      public com.google.keytransparency.v1.KeyTransparencyService.MapRoot getMapRoot() {
         return instance.getMapRoot();
       }
       /**
@@ -18356,7 +18356,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 5;</code>
        */
-      public Builder setMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+      public Builder setMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
         copyOnWrite();
         instance.setMapRoot(value);
         return this;
@@ -18369,7 +18369,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 5;</code>
        */
       public Builder setMapRoot(
-          com.google.keytransparency.v1.Keytransparency.MapRoot.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.MapRoot.Builder builderForValue) {
         copyOnWrite();
         instance.setMapRoot(builderForValue.build());
         return this;
@@ -18381,7 +18381,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.MapRoot map_root = 5;</code>
        */
-      public Builder mergeMapRoot(com.google.keytransparency.v1.Keytransparency.MapRoot value) {
+      public Builder mergeMapRoot(com.google.keytransparency.v1.KeyTransparencyService.MapRoot value) {
         copyOnWrite();
         instance.mergeMapRoot(value);
         return this;
@@ -18419,7 +18419,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 6;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.LogRoot getLatestLogRoot() {
+      public com.google.keytransparency.v1.KeyTransparencyService.LogRoot getLatestLogRoot() {
         return instance.getLatestLogRoot();
       }
       /**
@@ -18430,7 +18430,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 6;</code>
        */
-      public Builder setLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+      public Builder setLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
         copyOnWrite();
         instance.setLatestLogRoot(value);
         return this;
@@ -18444,7 +18444,7 @@ public final class Keytransparency {
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 6;</code>
        */
       public Builder setLatestLogRoot(
-          com.google.keytransparency.v1.Keytransparency.LogRoot.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.LogRoot.Builder builderForValue) {
         copyOnWrite();
         instance.setLatestLogRoot(builderForValue.build());
         return this;
@@ -18457,7 +18457,7 @@ public final class Keytransparency {
        *
        * <code>.com.google.keytransparency.v1.LogRoot latest_log_root = 6;</code>
        */
-      public Builder mergeLatestLogRoot(com.google.keytransparency.v1.Keytransparency.LogRoot value) {
+      public Builder mergeLatestLogRoot(com.google.keytransparency.v1.KeyTransparencyService.LogRoot value) {
         copyOnWrite();
         instance.mergeLatestLogRoot(value);
         return this;
@@ -18484,7 +18484,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.Revision();
+          return new com.google.keytransparency.v1.KeyTransparencyService.Revision();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -18505,13 +18505,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.Revision> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.Revision> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.Revision.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.Revision.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.Revision>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.Revision>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -18531,7 +18531,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.Revision)
-    private static final com.google.keytransparency.v1.Keytransparency.Revision DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.Revision DEFAULT_INSTANCE;
     static {
       Revision defaultInstance = new Revision();
       // New instances are implicitly immutable so no need to make
@@ -18541,7 +18541,7 @@ public final class Keytransparency {
         Revision.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.Revision getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.Revision getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -18860,73 +18860,73 @@ public final class Keytransparency {
       pageSize_ = 0;
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -18937,7 +18937,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.ListMutationsRequest prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -18950,10 +18950,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.ListMutationsRequest, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListMutationsRequest)
-        com.google.keytransparency.v1.Keytransparency.ListMutationsRequestOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.ListMutationsRequest.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequestOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -19199,7 +19199,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.ListMutationsRequest();
+          return new com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -19221,13 +19221,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.ListMutationsRequest> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.ListMutationsRequest.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.ListMutationsRequest>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -19247,7 +19247,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListMutationsRequest)
-    private static final com.google.keytransparency.v1.Keytransparency.ListMutationsRequest DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest DEFAULT_INSTANCE;
     static {
       ListMutationsRequest defaultInstance = new ListMutationsRequest();
       // New instances are implicitly immutable so no need to make
@@ -19257,7 +19257,7 @@ public final class Keytransparency {
         ListMutationsRequest.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsRequest getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -19279,7 +19279,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
-    java.util.List<com.google.keytransparency.v1.Keytransparency.MutationProof>
+    java.util.List<com.google.keytransparency.v1.KeyTransparencyService.MutationProof>
         getMutationsList();
     /**
      * <pre>
@@ -19288,7 +19288,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
-    com.google.keytransparency.v1.Keytransparency.MutationProof getMutations(int index);
+    com.google.keytransparency.v1.KeyTransparencyService.MutationProof getMutations(int index);
     /**
      * <pre>
      * mutations contains the mutation object and the leaf value it operated on.
@@ -19337,7 +19337,7 @@ public final class Keytransparency {
       nextPageToken_ = "";
     }
     public static final int MUTATIONS_FIELD_NUMBER = 6;
-    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.MutationProof> mutations_;
+    private com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.MutationProof> mutations_;
     /**
      * <pre>
      * mutations contains the mutation object and the leaf value it operated on.
@@ -19346,7 +19346,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<com.google.keytransparency.v1.Keytransparency.MutationProof> getMutationsList() {
+    public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.MutationProof> getMutationsList() {
       return mutations_;
     }
     /**
@@ -19356,7 +19356,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
-    public java.util.List<? extends com.google.keytransparency.v1.Keytransparency.MutationProofOrBuilder>
+    public java.util.List<? extends com.google.keytransparency.v1.KeyTransparencyService.MutationProofOrBuilder>
         getMutationsOrBuilderList() {
       return mutations_;
     }
@@ -19379,7 +19379,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
     @java.lang.Override
-    public com.google.keytransparency.v1.Keytransparency.MutationProof getMutations(int index) {
+    public com.google.keytransparency.v1.KeyTransparencyService.MutationProof getMutations(int index) {
       return mutations_.get(index);
     }
     /**
@@ -19389,12 +19389,12 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
-    public com.google.keytransparency.v1.Keytransparency.MutationProofOrBuilder getMutationsOrBuilder(
+    public com.google.keytransparency.v1.KeyTransparencyService.MutationProofOrBuilder getMutationsOrBuilder(
         int index) {
       return mutations_.get(index);
     }
     private void ensureMutationsIsMutable() {
-      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.Keytransparency.MutationProof> tmp = mutations_;
+      com.google.protobuf.Internal.ProtobufList<com.google.keytransparency.v1.KeyTransparencyService.MutationProof> tmp = mutations_;
       if (!tmp.isModifiable()) {
         mutations_ =
             com.google.protobuf.GeneratedMessageLite.mutableCopy(tmp);
@@ -19409,7 +19409,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
     private void setMutations(
-        int index, com.google.keytransparency.v1.Keytransparency.MutationProof value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.MutationProof value) {
       value.getClass();
   ensureMutationsIsMutable();
       mutations_.set(index, value);
@@ -19421,7 +19421,7 @@ public final class Keytransparency {
      *
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
-    private void addMutations(com.google.keytransparency.v1.Keytransparency.MutationProof value) {
+    private void addMutations(com.google.keytransparency.v1.KeyTransparencyService.MutationProof value) {
       value.getClass();
   ensureMutationsIsMutable();
       mutations_.add(value);
@@ -19434,7 +19434,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
     private void addMutations(
-        int index, com.google.keytransparency.v1.Keytransparency.MutationProof value) {
+        int index, com.google.keytransparency.v1.KeyTransparencyService.MutationProof value) {
       value.getClass();
   ensureMutationsIsMutable();
       mutations_.add(index, value);
@@ -19447,7 +19447,7 @@ public final class Keytransparency {
      * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
      */
     private void addAllMutations(
-        java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.MutationProof> values) {
+        java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.MutationProof> values) {
       ensureMutationsIsMutable();
       com.google.protobuf.AbstractMessageLite.addAll(
           values, mutations_);
@@ -19546,73 +19546,73 @@ public final class Keytransparency {
       
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(byte[] data)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, data, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseDelimitedFrom(java.io.InputStream input)
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseDelimitedFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return parseDelimitedFrom(DEFAULT_INSTANCE, input, extensionRegistry);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageLite.parseFrom(
           DEFAULT_INSTANCE, input);
     }
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse parseFrom(
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -19623,7 +19623,7 @@ public final class Keytransparency {
     public static Builder newBuilder() {
       return (Builder) DEFAULT_INSTANCE.createBuilder();
     }
-    public static Builder newBuilder(com.google.keytransparency.v1.Keytransparency.ListMutationsResponse prototype) {
+    public static Builder newBuilder(com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse prototype) {
       return (Builder) DEFAULT_INSTANCE.createBuilder(prototype);
     }
 
@@ -19636,10 +19636,10 @@ public final class Keytransparency {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageLite.Builder<
-          com.google.keytransparency.v1.Keytransparency.ListMutationsResponse, Builder> implements
+          com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse, Builder> implements
         // @@protoc_insertion_point(builder_implements:com.google.keytransparency.v1.ListMutationsResponse)
-        com.google.keytransparency.v1.Keytransparency.ListMutationsResponseOrBuilder {
-      // Construct using com.google.keytransparency.v1.Keytransparency.ListMutationsResponse.newBuilder()
+        com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponseOrBuilder {
+      // Construct using com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse.newBuilder()
       private Builder() {
         super(DEFAULT_INSTANCE);
       }
@@ -19653,7 +19653,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
        */
       @java.lang.Override
-      public java.util.List<com.google.keytransparency.v1.Keytransparency.MutationProof> getMutationsList() {
+      public java.util.List<com.google.keytransparency.v1.KeyTransparencyService.MutationProof> getMutationsList() {
         return java.util.Collections.unmodifiableList(
             instance.getMutationsList());
       }
@@ -19675,7 +19675,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
        */
       @java.lang.Override
-      public com.google.keytransparency.v1.Keytransparency.MutationProof getMutations(int index) {
+      public com.google.keytransparency.v1.KeyTransparencyService.MutationProof getMutations(int index) {
         return instance.getMutations(index);
       }
       /**
@@ -19686,7 +19686,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
        */
       public Builder setMutations(
-          int index, com.google.keytransparency.v1.Keytransparency.MutationProof value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.MutationProof value) {
         copyOnWrite();
         instance.setMutations(index, value);
         return this;
@@ -19699,7 +19699,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
        */
       public Builder setMutations(
-          int index, com.google.keytransparency.v1.Keytransparency.MutationProof.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.MutationProof.Builder builderForValue) {
         copyOnWrite();
         instance.setMutations(index,
             builderForValue.build());
@@ -19712,7 +19712,7 @@ public final class Keytransparency {
        *
        * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
        */
-      public Builder addMutations(com.google.keytransparency.v1.Keytransparency.MutationProof value) {
+      public Builder addMutations(com.google.keytransparency.v1.KeyTransparencyService.MutationProof value) {
         copyOnWrite();
         instance.addMutations(value);
         return this;
@@ -19725,7 +19725,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
        */
       public Builder addMutations(
-          int index, com.google.keytransparency.v1.Keytransparency.MutationProof value) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.MutationProof value) {
         copyOnWrite();
         instance.addMutations(index, value);
         return this;
@@ -19738,7 +19738,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
        */
       public Builder addMutations(
-          com.google.keytransparency.v1.Keytransparency.MutationProof.Builder builderForValue) {
+          com.google.keytransparency.v1.KeyTransparencyService.MutationProof.Builder builderForValue) {
         copyOnWrite();
         instance.addMutations(builderForValue.build());
         return this;
@@ -19751,7 +19751,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
        */
       public Builder addMutations(
-          int index, com.google.keytransparency.v1.Keytransparency.MutationProof.Builder builderForValue) {
+          int index, com.google.keytransparency.v1.KeyTransparencyService.MutationProof.Builder builderForValue) {
         copyOnWrite();
         instance.addMutations(index,
             builderForValue.build());
@@ -19765,7 +19765,7 @@ public final class Keytransparency {
        * <code>repeated .com.google.keytransparency.v1.MutationProof mutations = 6;</code>
        */
       public Builder addAllMutations(
-          java.lang.Iterable<? extends com.google.keytransparency.v1.Keytransparency.MutationProof> values) {
+          java.lang.Iterable<? extends com.google.keytransparency.v1.KeyTransparencyService.MutationProof> values) {
         copyOnWrite();
         instance.addAllMutations(values);
         return this;
@@ -19878,7 +19878,7 @@ public final class Keytransparency {
         java.lang.Object arg0, java.lang.Object arg1) {
       switch (method) {
         case NEW_MUTABLE_INSTANCE: {
-          return new com.google.keytransparency.v1.Keytransparency.ListMutationsResponse();
+          return new com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse();
         }
         case NEW_BUILDER: {
           return new Builder();
@@ -19886,7 +19886,7 @@ public final class Keytransparency {
         case BUILD_MESSAGE_INFO: {
             java.lang.Object[] objects = new java.lang.Object[] {
               "mutations_",
-              com.google.keytransparency.v1.Keytransparency.MutationProof.class,
+              com.google.keytransparency.v1.KeyTransparencyService.MutationProof.class,
               "nextPageToken_",
             };
             java.lang.String info =
@@ -19899,13 +19899,13 @@ public final class Keytransparency {
           return DEFAULT_INSTANCE;
         }
         case GET_PARSER: {
-          com.google.protobuf.Parser<com.google.keytransparency.v1.Keytransparency.ListMutationsResponse> parser = PARSER;
+          com.google.protobuf.Parser<com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse> parser = PARSER;
           if (parser == null) {
-            synchronized (com.google.keytransparency.v1.Keytransparency.ListMutationsResponse.class) {
+            synchronized (com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse.class) {
               parser = PARSER;
               if (parser == null) {
                 parser =
-                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.Keytransparency.ListMutationsResponse>(
+                    new DefaultInstanceBasedParser<com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse>(
                         DEFAULT_INSTANCE);
                 PARSER = parser;
               }
@@ -19925,7 +19925,7 @@ public final class Keytransparency {
 
 
     // @@protoc_insertion_point(class_scope:com.google.keytransparency.v1.ListMutationsResponse)
-    private static final com.google.keytransparency.v1.Keytransparency.ListMutationsResponse DEFAULT_INSTANCE;
+    private static final com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse DEFAULT_INSTANCE;
     static {
       ListMutationsResponse defaultInstance = new ListMutationsResponse();
       // New instances are implicitly immutable so no need to make
@@ -19935,7 +19935,7 @@ public final class Keytransparency {
         ListMutationsResponse.class, defaultInstance);
     }
 
-    public static com.google.keytransparency.v1.Keytransparency.ListMutationsResponse getDefaultInstance() {
+    public static com.google.keytransparency.v1.KeyTransparencyService.ListMutationsResponse getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 

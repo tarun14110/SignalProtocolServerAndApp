@@ -12,7 +12,7 @@ package com.google.trillian.proto;
  * Protobuf enum {@code trillian.HashStrategy}
  */
 public enum HashStrategy
-    implements com.google.protobuf.ProtocolMessageEnum {
+    implements com.google.protobuf.Internal.EnumLite {
   /**
    * <pre>
    * Hash strategy cannot be determined. Included to enable detection of
@@ -124,6 +124,7 @@ public enum HashStrategy
   public static final int CONIKS_SHA256_VALUE = 5;
 
 
+  @java.lang.Override
   public final int getNumber() {
     if (this == UNRECOGNIZED) {
       throw new java.lang.IllegalArgumentException(
@@ -133,6 +134,8 @@ public enum HashStrategy
   }
 
   /**
+   * @param value The number of the enum to look for.
+   * @return The enum associated with the given number.
    * @deprecated Use {@link #forNumber(int)} instead.
    */
   @java.lang.Deprecated
@@ -159,37 +162,25 @@ public enum HashStrategy
   private static final com.google.protobuf.Internal.EnumLiteMap<
       HashStrategy> internalValueMap =
         new com.google.protobuf.Internal.EnumLiteMap<HashStrategy>() {
+          @java.lang.Override
           public HashStrategy findValueByNumber(int number) {
             return HashStrategy.forNumber(number);
           }
         };
 
-  public final com.google.protobuf.Descriptors.EnumValueDescriptor
-      getValueDescriptor() {
-    return getDescriptor().getValues().get(ordinal());
-  }
-  public final com.google.protobuf.Descriptors.EnumDescriptor
-      getDescriptorForType() {
-    return getDescriptor();
-  }
-  public static final com.google.protobuf.Descriptors.EnumDescriptor
-      getDescriptor() {
-    return com.google.trillian.proto.TrillianProto.getDescriptor().getEnumTypes().get(2);
+  public static com.google.protobuf.Internal.EnumVerifier 
+      internalGetVerifier() {
+    return HashStrategyVerifier.INSTANCE;
   }
 
-  private static final HashStrategy[] VALUES = values();
-
-  public static HashStrategy valueOf(
-      com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
-    if (desc.getType() != getDescriptor()) {
-      throw new java.lang.IllegalArgumentException(
-        "EnumValueDescriptor is not for this type.");
-    }
-    if (desc.getIndex() == -1) {
-      return UNRECOGNIZED;
-    }
-    return VALUES[desc.getIndex()];
-  }
+  private static final class HashStrategyVerifier implements 
+       com.google.protobuf.Internal.EnumVerifier { 
+          static final com.google.protobuf.Internal.EnumVerifier           INSTANCE = new HashStrategyVerifier();
+          @java.lang.Override
+          public boolean isInRange(int number) {
+            return HashStrategy.forNumber(number) != null;
+          }
+        };
 
   private final int value;
 

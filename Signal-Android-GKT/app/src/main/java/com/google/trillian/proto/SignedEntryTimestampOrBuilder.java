@@ -5,28 +5,28 @@ package com.google.trillian.proto;
 
 public interface SignedEntryTimestampOrBuilder extends
     // @@protoc_insertion_point(interface_extends:trillian.SignedEntryTimestamp)
-    com.google.protobuf.MessageOrBuilder {
+    com.google.protobuf.MessageLiteOrBuilder {
 
   /**
    * <code>int64 timestamp_nanos = 1;</code>
+   * @return The timestampNanos.
    */
   long getTimestampNanos();
 
   /**
    * <code>int64 log_id = 2;</code>
+   * @return The logId.
    */
   long getLogId();
 
   /**
    * <code>.sigpb.DigitallySigned signature = 3;</code>
+   * @return Whether the signature field is set.
    */
   boolean hasSignature();
   /**
    * <code>.sigpb.DigitallySigned signature = 3;</code>
+   * @return The signature.
    */
   sigpb.Sigpb.DigitallySigned getSignature();
-  /**
-   * <code>.sigpb.DigitallySigned signature = 3;</code>
-   */
-  sigpb.Sigpb.DigitallySignedOrBuilder getSignatureOrBuilder();
 }

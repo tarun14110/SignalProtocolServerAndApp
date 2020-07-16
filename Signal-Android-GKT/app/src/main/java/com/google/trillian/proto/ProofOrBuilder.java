@@ -5,7 +5,7 @@ package com.google.trillian.proto;
 
 public interface ProofOrBuilder extends
     // @@protoc_insertion_point(interface_extends:trillian.Proof)
-    com.google.protobuf.MessageOrBuilder {
+    com.google.protobuf.MessageLiteOrBuilder {
 
   /**
    * <pre>
@@ -15,19 +15,24 @@ public interface ProofOrBuilder extends
    * </pre>
    *
    * <code>int64 leaf_index = 1;</code>
+   * @return The leafIndex.
    */
   long getLeafIndex();
 
   /**
    * <code>repeated bytes hashes = 3;</code>
+   * @return A list containing the hashes.
    */
   java.util.List<com.google.protobuf.ByteString> getHashesList();
   /**
    * <code>repeated bytes hashes = 3;</code>
+   * @return The count of hashes.
    */
   int getHashesCount();
   /**
    * <code>repeated bytes hashes = 3;</code>
+   * @param index The index of the element to return.
+   * @return The hashes at the given index.
    */
   com.google.protobuf.ByteString getHashes(int index);
 }

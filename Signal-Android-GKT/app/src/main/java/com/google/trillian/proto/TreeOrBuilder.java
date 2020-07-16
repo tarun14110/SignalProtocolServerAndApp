@@ -5,7 +5,7 @@ package com.google.trillian.proto;
 
 public interface TreeOrBuilder extends
     // @@protoc_insertion_point(interface_extends:trillian.Tree)
-    com.google.protobuf.MessageOrBuilder {
+    com.google.protobuf.MessageLiteOrBuilder {
 
   /**
    * <pre>
@@ -14,6 +14,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>int64 tree_id = 1;</code>
+   * @return The treeId.
    */
   long getTreeId();
 
@@ -25,6 +26,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.trillian.TreeState tree_state = 2;</code>
+   * @return The enum numeric value on the wire for treeState.
    */
   int getTreeStateValue();
   /**
@@ -35,6 +37,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.trillian.TreeState tree_state = 2;</code>
+   * @return The treeState.
    */
   com.google.trillian.proto.TreeState getTreeState();
 
@@ -46,6 +49,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.trillian.TreeType tree_type = 3;</code>
+   * @return The enum numeric value on the wire for treeType.
    */
   int getTreeTypeValue();
   /**
@@ -56,6 +60,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.trillian.TreeType tree_type = 3;</code>
+   * @return The treeType.
    */
   com.google.trillian.proto.TreeType getTreeType();
 
@@ -66,6 +71,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+   * @return The enum numeric value on the wire for hashStrategy.
    */
   int getHashStrategyValue();
   /**
@@ -75,6 +81,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.trillian.HashStrategy hash_strategy = 4;</code>
+   * @return The hashStrategy.
    */
   com.google.trillian.proto.HashStrategy getHashStrategy();
 
@@ -85,6 +92,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+   * @return The enum numeric value on the wire for hashAlgorithm.
    */
   int getHashAlgorithmValue();
   /**
@@ -94,6 +102,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.sigpb.DigitallySigned.HashAlgorithm hash_algorithm = 5;</code>
+   * @return The hashAlgorithm.
    */
   sigpb.Sigpb.DigitallySigned.HashAlgorithm getHashAlgorithm();
 
@@ -104,6 +113,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+   * @return The enum numeric value on the wire for signatureAlgorithm.
    */
   int getSignatureAlgorithmValue();
   /**
@@ -113,6 +123,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.sigpb.DigitallySigned.SignatureAlgorithm signature_algorithm = 6;</code>
+   * @return The signatureAlgorithm.
    */
   sigpb.Sigpb.DigitallySigned.SignatureAlgorithm getSignatureAlgorithm();
 
@@ -123,6 +134,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>string display_name = 8;</code>
+   * @return The displayName.
    */
   java.lang.String getDisplayName();
   /**
@@ -132,6 +144,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>string display_name = 8;</code>
+   * @return The bytes for displayName.
    */
   com.google.protobuf.ByteString
       getDisplayNameBytes();
@@ -143,6 +156,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>string description = 9;</code>
+   * @return The description.
    */
   java.lang.String getDescription();
   /**
@@ -152,6 +166,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>string description = 9;</code>
+   * @return The bytes for description.
    */
   com.google.protobuf.ByteString
       getDescriptionBytes();
@@ -169,6 +184,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Any private_key = 12;</code>
+   * @return Whether the privateKey field is set.
    */
   boolean hasPrivateKey();
   /**
@@ -184,23 +200,9 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Any private_key = 12;</code>
+   * @return The privateKey.
    */
   com.google.protobuf.Any getPrivateKey();
-  /**
-   * <pre>
-   * Identifies the private key used for signing tree heads and entry
-   * timestamps.
-   * This can be any type of message to accommodate different key management
-   * systems, e.g. PEM files, HSMs, etc.
-   * Private keys are write-only: they're never returned by RPCs.
-   * The private_key message can be changed after a tree is created, but the
-   * underlying key must remain the same - this is to enable migrating a key
-   * from one provider to another.
-   * </pre>
-   *
-   * <code>.google.protobuf.Any private_key = 12;</code>
-   */
-  com.google.protobuf.AnyOrBuilder getPrivateKeyOrBuilder();
 
   /**
    * <pre>
@@ -209,6 +211,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Any storage_settings = 13;</code>
+   * @return Whether the storageSettings field is set.
    */
   boolean hasStorageSettings();
   /**
@@ -218,17 +221,9 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Any storage_settings = 13;</code>
+   * @return The storageSettings.
    */
   com.google.protobuf.Any getStorageSettings();
-  /**
-   * <pre>
-   * Storage-specific settings.
-   * Varies according to the storage implementation backing Trillian.
-   * </pre>
-   *
-   * <code>.google.protobuf.Any storage_settings = 13;</code>
-   */
-  com.google.protobuf.AnyOrBuilder getStorageSettingsOrBuilder();
 
   /**
    * <pre>
@@ -237,6 +232,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.keyspb.PublicKey public_key = 14;</code>
+   * @return Whether the publicKey field is set.
    */
   boolean hasPublicKey();
   /**
@@ -246,17 +242,9 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.keyspb.PublicKey public_key = 14;</code>
+   * @return The publicKey.
    */
   keyspb.Keyspb.PublicKey getPublicKey();
-  /**
-   * <pre>
-   * The public key used for verifying tree heads and entry timestamps.
-   * Readonly.
-   * </pre>
-   *
-   * <code>.keyspb.PublicKey public_key = 14;</code>
-   */
-  keyspb.Keyspb.PublicKeyOrBuilder getPublicKeyOrBuilder();
 
   /**
    * <pre>
@@ -265,6 +253,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Duration max_root_duration = 15;</code>
+   * @return Whether the maxRootDuration field is set.
    */
   boolean hasMaxRootDuration();
   /**
@@ -274,17 +263,9 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Duration max_root_duration = 15;</code>
+   * @return The maxRootDuration.
    */
   com.google.protobuf.Duration getMaxRootDuration();
-  /**
-   * <pre>
-   * Interval after which a new signed root is produced even if there have been
-   * no submission.  If zero, this behavior is disabled.
-   * </pre>
-   *
-   * <code>.google.protobuf.Duration max_root_duration = 15;</code>
-   */
-  com.google.protobuf.DurationOrBuilder getMaxRootDurationOrBuilder();
 
   /**
    * <pre>
@@ -293,6 +274,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Timestamp create_time = 16;</code>
+   * @return Whether the createTime field is set.
    */
   boolean hasCreateTime();
   /**
@@ -302,17 +284,9 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Timestamp create_time = 16;</code>
+   * @return The createTime.
    */
   com.google.protobuf.Timestamp getCreateTime();
-  /**
-   * <pre>
-   * Time of tree creation.
-   * Readonly.
-   * </pre>
-   *
-   * <code>.google.protobuf.Timestamp create_time = 16;</code>
-   */
-  com.google.protobuf.TimestampOrBuilder getCreateTimeOrBuilder();
 
   /**
    * <pre>
@@ -321,6 +295,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Timestamp update_time = 17;</code>
+   * @return Whether the updateTime field is set.
    */
   boolean hasUpdateTime();
   /**
@@ -330,17 +305,9 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Timestamp update_time = 17;</code>
+   * @return The updateTime.
    */
   com.google.protobuf.Timestamp getUpdateTime();
-  /**
-   * <pre>
-   * Time of last tree update.
-   * Readonly (automatically assigned on updates).
-   * </pre>
-   *
-   * <code>.google.protobuf.Timestamp update_time = 17;</code>
-   */
-  com.google.protobuf.TimestampOrBuilder getUpdateTimeOrBuilder();
 
   /**
    * <pre>
@@ -351,6 +318,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>bool deleted = 19;</code>
+   * @return The deleted.
    */
   boolean getDeleted();
 
@@ -361,6 +329,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Timestamp delete_time = 20;</code>
+   * @return Whether the deleteTime field is set.
    */
   boolean hasDeleteTime();
   /**
@@ -370,15 +339,7 @@ public interface TreeOrBuilder extends
    * </pre>
    *
    * <code>.google.protobuf.Timestamp delete_time = 20;</code>
+   * @return The deleteTime.
    */
   com.google.protobuf.Timestamp getDeleteTime();
-  /**
-   * <pre>
-   * Time of tree deletion, if any.
-   * Readonly.
-   * </pre>
-   *
-   * <code>.google.protobuf.Timestamp delete_time = 20;</code>
-   */
-  com.google.protobuf.TimestampOrBuilder getDeleteTimeOrBuilder();
 }
