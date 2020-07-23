@@ -67,8 +67,8 @@ repositories {
 
 protobuf {
     protoc {
-        artifact = 'com.google.protobuf:protoc:3.12.2'
-        //artifact = 'com.google.protobuf:protoc:3.10.0'
+        //artifact = 'com.google.protobuf:protoc:3.12.2'
+        artifact = 'com.google.protobuf:protoc:3.10.0'
     }
     generateProtoTasks {
         all().each { task ->
@@ -255,13 +255,21 @@ android {
         }
     }
     configurations {
+/*
         implementation.exclude module:'proto-google-common-protos'
         implementation.exclude module:'protolite-well-known-types'
         implementation.exclude module:'protobuf-lite'
+*/
+        implementation.exclude module:'protobuf-java'
+        implementation.exclude module:'guava'
     }
 }
 
 dependencies {
+/*
+    implementation 'com.google.protobuf:protoc:3.10.0'
+    implementation 'com.google.protobuf:protobuf-javalite:3.10.0'
+*/
     lintChecks project(':lintchecks')
 
     implementation('androidx.appcompat:appcompat:1.1.0-beta01') {
@@ -291,7 +299,7 @@ dependencies {
     implementation "androidx.paging:paging-runtime:2.1.2"
     implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
     implementation 'com.google.firebase:firebase-ml-vision-face-model:20.0.1'
-    implementation group: 'com.google.protobuf', name: 'protobuf-java', version: '3.12.2'
+    //implementation group: 'com.google.protobuf', name: 'protobuf-java', version: '3.12.2'
     implementation group: 'com.google.api.grpc', name: 'grpc-core-proto', version: '0.0.1'
 
 
