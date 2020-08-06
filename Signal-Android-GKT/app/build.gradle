@@ -67,8 +67,13 @@ repositories {
 
 protobuf {
     protoc {
-        //artifact = 'com.google.protobuf:protoc:3.12.2'
+        //artifact = 'com.google.protobuf:protoc:3.12.0'
         artifact = 'com.google.protobuf:protoc:3.10.0'
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.31.0'
+        }
     }
     generateProtoTasks {
         all().each { task ->
@@ -76,6 +81,11 @@ protobuf {
                 java {
                     option "lite"
                 }
+            }
+        }
+        all()*.plugins {
+            grpc {
+                option "lite"
             }
         }
     }
@@ -267,9 +277,15 @@ android {
 
 dependencies {
 /*
-    implementation 'com.google.protobuf:protoc:3.10.0'
-    implementation 'com.google.protobuf:protobuf-javalite:3.10.0'
-*/
+    implementation 'com.google.protobuf:protoc:3.10.0'*/
+    //implementation 'com.google.protobuf:protobuf-javalite:3.10.0'
+
+    implementation 'io.grpc:grpc-okhttp:1.31.0'
+    implementation 'io.grpc:grpc-protobuf-lite:1.31.0' //TODO:Not sure if this will be needed, when including it a checksum error occurs
+    implementation 'io.grpc:grpc-stub:1.31.0'
+    compileOnly 'org.apache.tomcat:annotations-api:6.0.53' // necessary for Java 9+
+
+
     lintChecks project(':lintchecks')
 
     implementation('androidx.appcompat:appcompat:1.1.0-beta01') {
