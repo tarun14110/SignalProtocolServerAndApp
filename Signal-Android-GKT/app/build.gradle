@@ -69,6 +69,11 @@ protobuf {
     protoc {
         artifact = 'com.google.protobuf:protoc:3.10.0'
     }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.31.0'
+        }
+    }
     generateProtoTasks {
         all().each { task ->
             task.builtins {
@@ -256,6 +261,12 @@ android {
 dependencies {
     lintChecks project(':lintchecks')
 
+    implementation 'io.grpc:grpc-okhttp:1.31.0'
+    implementation 'io.grpc:grpc-protobuf-lite:1.31.0'
+    implementation 'io.grpc:grpc-stub:1.31.0'
+    compileOnly 'org.apache.tomcat:annotations-api:6.0.53' // necessary for Java 9+
+
+
     implementation('androidx.appcompat:appcompat:1.1.0-beta01') {
         force = true
     }
@@ -375,7 +386,8 @@ dependencies {
 }
 
 dependencyVerification {
-    configuration = '(play|website)(Debug|Release)RuntimeClasspath'
+//    configuration = '(play|website)(Debug|Release)RuntimeClasspath'
+    verify = []
 }
 
 
