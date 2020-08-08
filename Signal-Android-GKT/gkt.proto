@@ -1,0 +1,262 @@
+// Copyright 2016 Google Inc. All Rights Reserved.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+// Modified to only include GetUser endpoint with all dependencies from trillian pulled in
+
+syntax = "proto3";
+
+// Key Transparency
+//
+// The Key Transparency API consists of a map of user names to public
+// keys. Each user name also has a history of public keys that have been
+// associated with it.
+package google.keytransparency.v1;
+
+option go_package = "github.com/google/keytransparency/core/api/v1/keytransparency_go_proto";
+
+import "google/api/annotations.proto";
+//import "google/protobuf/empty.proto";
+
+
+
+service KeyTransparency {
+  // GetDirectory returns the information needed to verify the specified
+  // directory.
+
+  // GetUser returns a user's leaf entry in the Merkle Tree.
+  rpc GetUser(GetUserRequest) returns (GetUserResponse) {
+    option (google.api.http) = {
+      get: "/v1/directories/{directory_id}/users/{user_id}"
+    };
+  }
+
+  }
+
+  // Gets the leaf entry for a user.
+  message GetUserRequest {
+    // directory_id identifies the directory in which the user lives.
+    string directory_id = 1;
+    // user_id is the user identifier, the format for which is defined by the
+    // application.
+    string user_id = 2;
+    // last_verified is the last log root the client verified.
+    // Omitting this field will omit the log consistency proof from the response.
+    LogRootRequest last_verified = 4;
+    reserved 3;
+  }
+
+  // LogRootRequest contains the information needed to request and verify LogRoot.
+  message LogRootRequest {
+    // root_hash is the root hash of the last log root the client verified.
+    bytes root_hash = 1;
+    // tree_size is the tree size of the last log root the client verified.
+    int64 tree_size = 2;
+  }
+
+  // Contains the leaf entry for a user at the most recently published revision.
+  message GetUserResponse {
+    // revision is the most recently published revision.
+    Revision revision = 1;
+    // leaf is the leaf entry for the requested user.
+    MapLeaf leaf = 2;
+  }
+
+  // Revision represents a snapshot of the entire key directory and
+  // a diff of what changed between this revision and the previous revision.
+  message Revision {
+    // directory_id is the directory identifier.
+    string directory_id = 1;
+    // map_root contains the map root and its inclusion in the log.
+    MapRoot map_root = 5;
+    // latest_log_root contains the most recent log root and its consistency
+    // proof to the client's last seen log root.
+    LogRoot latest_log_root = 6;
+    // Deprecated tag numbers, do not reuse.
+    reserved 2, 3, 4;
+  }
+
+  // MapRoot contains the map root and its inclusion proof in the log.
+  message MapRoot {
+    // map_root contains the signed map root for the sparse Merkle Tree.
+    SignedMapRoot map_root = 1;
+    // log_inclusion proves that map_root is part of log_root at
+    // index=map_root.MapRevision.
+    repeated bytes log_inclusion = 2;
+  }
+
+  // LogRoot contains the latest log root and its consistency proof.
+  message LogRoot {
+    // log_root is the latest globally consistent log root.
+    SignedLogRoot log_root = 1;
+    // log_consistency proves that log_root is consistent with previously seen
+    // roots.
+    repeated bytes log_consistency = 2;
+  }
+
+  // Leaf entry for a user.
+  message MapLeaf {
+    // vrf_proof is the proof for the VRF on user_id.
+    bytes vrf_proof = 1;
+    // map_inclusion is an inclusion proof for the map leaf in an accompanying
+    // trillian.SignedMapRoot. If the leaf is non-empty, its leaf.leaf_value
+    // stores a serialized Entry proto.
+    MapLeafInclusion map_inclusion = 2;
+    // committed contains the data and nonce used to make a cryptographic
+    // commitment, which is stored in the commitment field of the serialized Entry
+    // proto from map_inclusion.
+    // Note: committed can also be found serialized in
+    // map_inclusion.leaf.extra_data.
+    Committed committed = 3;
+  }
+
+  // Committed represents the data committed to in a cryptographic commitment.
+  // commitment = HMAC_SHA512_256(key, data)
+  message Committed {
+    // key is the 16 byte random commitment key.
+    bytes key = 1;
+    // data is the data being committed to.
+    bytes data = 2;
+  }
+
+  // SignedLogRoot represents a commitment by a Log to a particular tree.
+  message SignedLogRoot {
+    // Deleted: TimestampNanos moved to LogRoot.
+    reserved 1;
+    // Deleted: RootHash moved to LogRoot.
+    reserved 2;
+    // Deleted: TreeSize moved to LogRoot.
+    reserved 3;
+    // Deleted: Signature replaced by LogRootSignature.
+    reserved 4;
+    // Deleted: LogID is associated with the public key that validates signature.
+    reserved 5;
+    // Deleted: TreeRevision moved to LogRoot.
+    reserved 6;
+
+    // key_hint is a hint to identify the public key for signature verification.
+    // key_hint is not authenticated and may be incorrect or missing, in which
+    // case all known public keys may be used to verify the signature.
+    // When directly communicating with a Trillian gRPC server, the key_hint will
+    // typically contain the LogID encoded as a big-endian 64-bit integer;
+    // however, in other contexts the key_hint is likely to have different
+    // contents (e.g. it could be a GUID, a URL + TreeID, or it could be
+    // derived from the public key itself).
+    bytes key_hint = 7;
+
+    // log_root holds the TLS-serialization of the following structure (described
+    // in RFC5246 notation): Clients should validate log_root_signature with
+    // VerifySignedLogRoot before deserializing log_root.
+    // enum { v1(1), (65535)} Version;
+    // struct {
+    //   uint64 tree_size;
+    //   opaque root_hash<0..128>;
+    //   uint64 timestamp_nanos;
+    //   uint64 revision;
+    //   opaque metadata<0..65535>;
+    // } LogRootV1;
+    // struct {
+    //   Version version;
+    //   select(version) {
+    //     case v1: LogRootV1;
+    //   }
+    // } LogRoot;
+    //
+    // A serialized v1 log root will therefore be laid out as:
+    //
+    // +---+---+---+---+---+---+---+---+---+---+---+---+---+---+-....--+
+    // | ver=1 |          tree_size            |len|    root_hash      |
+    // +---+---+---+---+---+---+---+---+---+---+---+---+---+---+-....--+
+    //
+    // +---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+    // |        timestamp_nanos        |      revision                 |
+    // +---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+    //
+    // +---+---+---+---+---+-....---+
+    // |  len  |    metadata        |
+    // +---+---+---+---+---+-....---+
+    //
+    // (with all integers encoded big-endian).
+    bytes log_root = 8;
+
+    // log_root_signature is the raw signature over log_root.
+    bytes log_root_signature = 9;
+  }
+
+  // SignedMapRoot represents a commitment by a Map to a particular tree.
+  message SignedMapRoot {
+    reserved 1;  // Deprecated: Was timestamp_nanos. Use map_root.
+    reserved 2;  // Deprecated: Was root_hash. Use map_root.
+    reserved 3;  // Deprecated: Was MapperMetadata. Use map_root.
+    reserved 5;  // Deprecated: Was map_id. Use signature.
+    reserved 6;  // Deprecated: Was map_revision. Use map_root.
+    reserved 7;  // Deprecated: Was metadata Any. Use map_root.
+    reserved 8;  // Deprecated: Was metadata bytes. Use map_root.
+
+    // map_root holds the TLS-serialization of the following structure (described
+    // in RFC5246 notation): Clients should validate signature with
+    // VerifySignedMapRoot before deserializing map_root.
+    // enum { v1(1), (65535)} Version;
+    // struct {
+    //   opaque root_hash<0..128>;
+    //   uint64 timestamp_nanos;
+    //   uint64 revision;
+    //   opaque metadata<0..65535>;
+    // } MapRootV1;
+    // struct {
+    //   Version version;
+    //   select(version) {
+    //     case v1: MapRootV1;
+    //   }
+    // } MapRoot;
+    bytes map_root = 9;
+    // Signature is the raw signature over MapRoot.
+    bytes signature = 4;
+  }
+
+  message MapLeafInclusion {
+    TrillianMapLeaf leaf = 1;
+    // inclusion holds the inclusion proof for this leaf in the map root. It
+    // holds one entry for each level of the tree; combining each of these in
+    // turn with the leaf's hash (according to the tree's hash strategy)
+    // reproduces the root hash.  A nil entry for a particular level indicates
+    // that the node in question has an empty subtree beneath it (and so its
+    // associated hash value is hasher.HashEmpty(index, height) rather than
+    // hasher.HashChildren(l_hash, r_hash)).
+    repeated bytes inclusion = 2;
+  }
+
+  // renamed by rwest
+  // TrillianMapLeaf represents the data behind Map leaves.
+  message TrillianMapLeaf {
+    // index is the location of this leaf.
+    // All indexes for a given Map must contain a constant number of bits.
+    // These are not numeric indices. Note that this is typically derived using a
+    // hash and thus the length of all indices in the map will match the number
+    // of bits in the hash function.
+    bytes index = 1;
+    // leaf_hash is the tree hash of leaf_value.  This does not need to be set
+    // on SetMapLeavesRequest; the server will fill it in.
+    // For an empty leaf (len(leaf_value)==0), there may be two possible values
+    // for this hash:
+    //  - If the leaf has never been set, it counts as an empty subtree and
+    //    a nil value is used.
+    //  - If the leaf has been explicitly set to a zero-length entry, it no
+    //    longer counts as empty and the value of hasher.HashLeaf(index, nil)
+    //    will be used.
+    bytes leaf_hash = 2;
+    // leaf_value is the data the tree commits to.
+    bytes leaf_value = 3;
+    // extra_data holds related contextual data, but is not covered by any hash.
+    bytes extra_data = 4;
+  }
