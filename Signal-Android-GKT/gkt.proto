@@ -23,7 +23,8 @@ syntax = "proto3";
 // associated with it.
 package google.keytransparency.v1;
 
-option go_package = "github.com/google/keytransparency/core/api/v1/keytransparency_go_proto";
+//option java_generic_services = true;
+//option go_package = "github.com/google/keytransparency/core/api/v1/keytransparency_go_proto";
 
 import "google/api/annotations.proto";
 //import "google/protobuf/empty.proto";
@@ -41,7 +42,7 @@ service KeyTransparency {
     };
   }
 
-  }
+ }
 
   // Gets the leaf entry for a user.
   message GetUserRequest {
