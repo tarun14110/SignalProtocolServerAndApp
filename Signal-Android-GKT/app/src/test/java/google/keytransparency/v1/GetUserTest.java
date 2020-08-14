@@ -13,14 +13,14 @@ import static junit.framework.Assert.assertEquals;
 
 public class GetUserTest {
     String target = "johnbrooke.cs.byu.edu:8080";
-    String user = "userIDstr"; //TODO: figure out what userID string needs to be to get the right user for the GetUserRequest
-    String dir = "directoryIDstr"; //TODO: figure out what directroyID needs to be to get the right user for the GetUserRequest
+    String user = "jon@arm.com"; //email of the user you want
+    String dir = "default"; //for now always this
     private static final Logger logger = Logger.getLogger(GetUserTest.class.getName());
     ManagedChannel channel = ManagedChannelBuilder.forTarget(target).usePlaintext().build();
 
     @Test
     public void getUser() {
-        // todo get right port 443? that is that port we used when running the client in the cmd line or 8080 as seen in line 91 of the docker-compose.yaml on official GKT repo
+        //TODO: right port 443 or 8080? that is that port we used when running the client in the cmd line or 8080 as seen in line 91 of the docker-compose.yaml on official GKT repo
 //      ManagedChannelBuilder builder = ManagedChannelBuilder.forAddress("johnbrooke.cs.byu.edu", 8080)
         KeyTransparencyGrpc.KeyTransparencyBlockingStub  blockingStub = KeyTransparencyGrpc.newBlockingStub(channel);
         //KeyTransparencyGrpc.KeyTransparencyStub asyncStub = KeyTransparencyGrpc.newStub(channel);
@@ -33,11 +33,5 @@ public class GetUserTest {
             logger.log(Level.WARNING, "RPC failed: {0}", e.getStatus());
             return;
         }
-
-
-        // so you have to construct it another way, not sure
-//      Gkt.GetUserRequest req = new Gkt.GetUserRequest()
-//      Gkt.GetUserResponse resp = blockingStub.getUser(req)
-//      assertEquals(whatever we think response should be, resp);
     }
 }
