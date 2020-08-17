@@ -12,11 +12,11 @@ import io.grpc.StatusRuntimeException;
 import static junit.framework.Assert.assertEquals;
 
 public class GetUserTest {
-    String target = "johnbrooke.cs.byu.edu:8080";
+    String target = "johnbrooke.cs.byu.edu:443";
     String user = "jon@arm.com"; //email of the user you want
     String dir = "default"; //for now always this
     private static final Logger logger = Logger.getLogger(GetUserTest.class.getName());
-    ManagedChannel channel = ManagedChannelBuilder.forTarget(target).usePlaintext().build();
+    ManagedChannel channel = ManagedChannelBuilder.forTarget(target).usePlaintext().build(); //Need to use AndroidChannelBuilder for the actual app
 
     @Test
     public void getUser() {
