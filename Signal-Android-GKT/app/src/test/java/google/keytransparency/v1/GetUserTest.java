@@ -22,7 +22,6 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
 public class GetUserTest {
-<<<<<<< HEAD
     String target = "grpc-test.sandbox.googleapis.com:80"; // Port 443 for json and grpc, as seen on line 91 in docker-compose.yml
     int port = 443;
     String user = "alice@domain.com"; //email of the user you want
@@ -32,13 +31,6 @@ public class GetUserTest {
     //ManagedChannel channel = ManagedChannelBuilder.forAddress(address, port).useTransportSecurity().build();
     //ManagedChannel channel = OkHttpChannelBuilder.forAddress(address, port).socketFactory(SSLSocketFactory.getDefault()).build();
     ManagedChannel channel = OkHttpChannelBuilder.forTarget(target).useTransportSecurity().build();
-=======
-    String target = "johnbrooke.cs.byu.edu:443";
-    String user = "jon@arm.com"; //email of the user you want
-    String dir = "default"; //for now always this
-    private static final Logger logger = Logger.getLogger(GetUserTest.class.getName());
-    ManagedChannel channel = ManagedChannelBuilder.forTarget(target).usePlaintext().build(); //Need to use AndroidChannelBuilder for the actual app
->>>>>>> fdb9d87f6a48fd60657b236d5b8fa34e5803eb30
 
     @Test
     public void getUser() {
