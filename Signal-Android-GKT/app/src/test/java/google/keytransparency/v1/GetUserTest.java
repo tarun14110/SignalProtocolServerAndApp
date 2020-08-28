@@ -22,7 +22,7 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
 public class GetUserTest {
-    String target = "grpc-test.sandbox.googleapis.com:80"; // Port 443 for json and grpc, as seen on line 91 in docker-compose.yml
+    String target = "grpc-test.sandbox.googleapis.com:443"; // Port 443 for json and grpc, as seen on line 91 in docker-compose.yml
     int port = 443;
     String user = "alice@domain.com"; //email of the user you want
     String dir = "default"; //for now always this
