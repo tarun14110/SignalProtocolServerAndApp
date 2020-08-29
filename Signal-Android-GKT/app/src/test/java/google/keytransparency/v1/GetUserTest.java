@@ -1,40 +1,57 @@
 package google.keytransparency.v1;
 
+import com.squareup.okhttp.ConnectionSpec;
+
 import org.bouncycastle.crypto.digests.SHA256Digest;
+import org.bouncycastle.crypto.macs.HMac;
 import org.bouncycastle.crypto.params.KeyParameter;
+import org.conscrypt.Conscrypt;
 import org.junit.Test;
 
-import java.util.concurrent.TimeUnit;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+import java.security.Security;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLSocketFactory;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-//import io.grpc.netty.NettyChannelBuilder;
 import io.grpc.StatusRuntimeException;
 import io.grpc.okhttp.OkHttpChannelBuilder;
-
-import org.bouncycastle.crypto.macs.HMac;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
 public class GetUserTest {
+    static {
+        Security.insertProviderAt(Conscrypt.newProvider(), 1);
+    }
+    /* If testing on grpc-test.sandbox.googleapis.com, connection worked if response code should say UNIMPLEMENTED, and no "negotiation failed" error given. */
     String target = "grpc-test.sandbox.googleapis.com:443"; // Port 443 for json and grpc, as seen on line 91 in docker-compose.yml
+    String address = System.getenv("GKT_SERVER_ADDRESS");
     int port = 443;
-    String user = "alice@domain.com"; //email of the user you want
-    String dir = "default"; //for now always this
+    String user = "alice@domain.com"; // Email of the user you want
+    String dir = "default"; // Name of directory
     private static final Logger logger = Logger.getLogger(GetUserTest.class.getName());
-    //ManagedChannel channel = ManagedChannelBuilder.forTarget(target).useTransportSecurity().build();
-    //ManagedChannel channel = ManagedChannelBuilder.forAddress(address, port).useTransportSecurity().build();
-    //ManagedChannel channel = OkHttpChannelBuilder.forAddress(address, port).socketFactory(SSLSocketFactory.getDefault()).build();
-    ManagedChannel channel = OkHttpChannelBuilder.forTarget(target).useTransportSecurity().build();
 
+/*
     @Test
     public void getUser() {
-        //ManagedChannelBuilder builder = ManagedChannelBuilder.forAddress("johnbrooke.cs.byu.edu", 8080)
+        //SSLContext sc = SSLContext.getInstance("TLSv1.2");
+        //sc.init(null,null,null);
+        ManagedChannel channel = OkHttpChannelBuilder
+                .forAddress(address, port)
+                .useTransportSecurity()
+                .connectionSpec(ConnectionSpec.MODERN_TLS)
+                .hostnameVerifier((hostname, session) -> hostname.equals(address))
+                //.sslSocketFactory(sc.getSocketFactory())
+                .build();
+
         KeyTransparencyGrpc.KeyTransparencyBlockingStub blockingStub = KeyTransparencyGrpc.newBlockingStub(channel);
         //KeyTransparencyGrpc.KeyTransparencyStub asyncStub = KeyTransparencyGrpc.newStub(channel);
 
@@ -44,15 +61,20 @@ public class GetUserTest {
             System.out.println(response);
         } catch (StatusRuntimeException e) {
             logger.log(Level.WARNING, "RPC failed: {0}", e.getStatus());
-            //logger.log(Level.WARNING, "{0}", e.getStackTrace());
-            return;
         }
     }
+*/
 
-/*
     @Test
     public void verifyCommitment() {
-        // Get the GetUserResponse
+        /* Get the GetUserResponse */
+        ManagedChannel channel = OkHttpChannelBuilder
+                .forAddress(address, port)
+                .useTransportSecurity()
+                .connectionSpec(ConnectionSpec.MODERN_TLS)
+                .hostnameVerifier((hostname, session) -> hostname.equals(address))
+                .build();
+
         KeyTransparencyGrpc.KeyTransparencyBlockingStub blockingStub = KeyTransparencyGrpc.newBlockingStub(channel);
         Gkt.GetUserRequest request = Gkt.GetUserRequest.newBuilder().setDirectoryId(dir).setUserId(user).build();
         Gkt.GetUserResponse response;
@@ -61,11 +83,10 @@ public class GetUserTest {
             System.out.println(response);
         } catch (StatusRuntimeException e) {
             logger.log(Level.WARNING, "RPC failed: {0}", e.getStatus());
-            //logger.log(Level.WARNING, "{0}", e.getStackTrace());
             return;
         }
 
-        // Verify the commitment
+        /* Verify the commitment */
         assertTrue(response.getLeaf().hasCommitted());
         Gkt.Committed committed = response.getLeaf().getCommitted();
         HMac hmac_sha256 = new HMac(new SHA256Digest());
@@ -77,5 +98,4 @@ public class GetUserTest {
         byte[] leaf_value = response.getLeaf().getMapInclusion().getLeaf().getLeafValue().toByteArray();
         assertEquals(leaf_value, commitment);
     }
-*/
 }
