@@ -22,6 +22,7 @@ import java.security.Security;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
+import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -59,7 +60,7 @@ public class GetUserTest {
         // (could be from a resource or ByteArrayInputStream or ...)
         CertificateFactory cf = CertificateFactory.getInstance("X.509");
         // Retrieve locally-stored self-signed certificate cert.pem
-        InputStream caInput = new BufferedInputStream(new FileInputStream(System.getenv("GKT_CERT_PATH")));
+        InputStream caInput = new BufferedInputStream(new FileInputStream("/home/jordan/cert.pem"/*System.getenv("GKT_CERT_PATH")*/));
         Certificate ca;
         try {
             ca = cf.generateCertificate(caInput);
@@ -143,32 +144,38 @@ public class GetUserTest {
             return;
         }
 
-        /*  Verify the commitment in 5 steps.
-        *   1. Recreate HMAC(userId, data, nonce) */
+        /*  Verify the commitment in 3 steps.
+        *   1. Recreate HMAC(prefix, nonce, len(userId), userId, data) */
         assertTrue(response.getLeaf().hasCommitted());
         Gkt.Committed committed = response.getLeaf().getCommitted();
-        /* Create hmac and initialize with key. First tried SHA256Digest() */
+
+        /* 1a. Create hmac and initialize with key. */
         HMac hmac_sha256 = new HMac(new SHA256Digest());
         byte[] fixed_key = {(byte) 0x19, (byte) 0x6e, (byte) 0x7e, (byte) 0x52, (byte) 0x84, (byte) 0xa7, (byte) 0xef, (byte) 0x93, (byte) 0x0e, (byte) 0xcb, (byte) 0x9a, (byte) 0x19, (byte) 0x78, (byte) 0x74, (byte) 0x97, (byte) 0x55};
         KeyParameter keyParameter = new KeyParameter(fixed_key);
         hmac_sha256.init(keyParameter);
-        /* Append prefix */
+
+        /* 1b. Append prefix */
         String prefix = "Key Transparency Commitment";
         hmac_sha256.update(prefix.getBytes(), 0, prefix.getBytes().length);
-        /* Append nonce */
-        hmac_sha256.update(committed.getKey().toByteArray(), 0, committed.getKey().toByteArray().length);
-        /* Append userId length */
-        long userlen = user.length() & 0xFFFFFFFFL;
-        ByteBuffer buffer = ByteBuffer.allocate(Long.BYTES);
-        buffer.putLong(userlen);
-        byte[] userlenbytes = reverseBytes(buffer.array());
-        hmac_sha256.update(userlenbytes, 0, userlenbytes.length);
-        /* Append userId */
+
+        /* 1c. Append nonce */
+        byte[] nonce = committed.getKey().toByteArray();
+        hmac_sha256.update(nonce, 0, nonce.length);
+
+        /* 1d. Append userId length */
+        ByteBuffer buffer = ByteBuffer.allocate(Integer.BYTES);
+        buffer.putInt(user.length());
+        hmac_sha256.update(buffer.array(), 0, buffer.array().length);
+
+        /* 1e. Append userId */
         hmac_sha256.update(user.getBytes(), 0, user.getBytes().length);
-        /* Append committed data */
+
+        /* 1f. Append committed data */
         byte[] data = committed.getData().toByteArray();
-        hmac_sha256.update(committed.getData().toByteArray(), 0, committed.getData().toByteArray().length);
-        /* Hash input and return digest */
+        hmac_sha256.update(data, 0, data.length);
+
+        /* 1g. Hash input and return digest */
         byte[] hmac_output = new byte[hmac_sha256.getMacSize()];
         hmac_sha256.doFinal(hmac_output, 0);
 
@@ -197,14 +204,9 @@ public class GetUserTest {
 
         /* 3. Assert the stored commitment and HMAC are equal */
         assertEquals(commitmentbs.size(), hmac_output.length);
-        System.out.printf("Commit: ");
-        for (byte b : commitmentbs.toByteArray()) {
-            System.out.printf("%x ", b);
+        byte[] commitment_bytearr = commitmentbs.toByteArray();
+        for (int i = 0; i < hmac_output.length; i++) {
+            assertEquals(commitment_bytearr[i], hmac_output[i]);
         }
-        System.out.printf("\nDigest: ");
-        for (byte b : hmac_output) {
-            System.out.printf("%x ", b);
-        }
-        assertEquals(commitmentbs.toByteArray(), hmac_output);
     }
 }
