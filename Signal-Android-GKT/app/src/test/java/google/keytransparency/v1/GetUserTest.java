@@ -239,17 +239,17 @@ public class GetUserTest {
         /* Base point G for secp256r1 or P-256 curve
            from Appendix D of https://oag.ca.gov/sites/all/files/agweb/pdfs/erds1/fips_pub_07_2013.pdf.
         */
-        BigInteger gx = new BigInteger(1, new byte[]
+        BigInteger Gx = new BigInteger(1, new byte[]
                 {(byte)0x6b,(byte)0x17,(byte)0xd1,(byte)0xf2, (byte)0xe1,(byte)0x2c,(byte)0x42,(byte)0x47,
                  (byte)0xf8,(byte)0xbc,(byte)0xe6,(byte)0xe5, (byte)0x63,(byte)0xa4,(byte)0x40,(byte)0xf2,
                  (byte)0x77,(byte)0x03,(byte)0x7d,(byte)0x81, (byte)0x2d,(byte)0xeb,(byte)0x33,(byte)0xa0,
                  (byte)0xf4,(byte)0xa1,(byte)0x39,(byte)0x45, (byte)0xd8,(byte)0x98,(byte)0xc2,(byte)0x96});
-        BigInteger gy = new BigInteger(1, new byte[]
+        BigInteger Gy = new BigInteger(1, new byte[]
                 {(byte)0x4f,(byte)0xe3,(byte)0x42,(byte)0xe2, (byte)0xfe,(byte)0x1a,(byte)0x7f,(byte)0x9b,
                  (byte)0x8e,(byte)0xe7,(byte)0xeb,(byte)0x4a, (byte)0x7c,(byte)0x0f,(byte)0x9e,(byte)0x16,
                  (byte)0x2b,(byte)0xce,(byte)0x33,(byte)0x57, (byte)0x6b,(byte)0x31,(byte)0x5e,(byte)0xce,
                  (byte)0xcb,(byte)0xb6,(byte)0x40,(byte)0x68, (byte)0x37,(byte)0xbf,(byte)0x51,(byte)0xf5});
-        ECPoint GPoint = curve.validatePoint(gx, gy);
+        ECPoint GPoint = curve.validatePoint(Gx, Gy);
         ECPoint uHPoint = unmarshal(curve, vrf).normalize();
         assertNotNull(uHPoint);
 
@@ -263,6 +263,7 @@ public class GetUserTest {
         /* Need pk.X and pk.Y. pk is crypto/ecdsa.PublicKey.
            pk.X = 3ae09f14f25911d1e4fcbcf092123290cb6cabebfe416362ec794fdf4bd513c9
            pk.Y = 23d6688367c70fd3ea0c0c3baa39fa965ccd1279dd41a26542c4a133472dccf2
+           TODO: Find programmatic way of retrieving the public key.
          */
         byte[] pkX_bytes = {(byte)0x3a, (byte)0xe0, (byte)0x9f, (byte)0x14, (byte)0xf2, (byte)0x59, (byte)0x11,
                 (byte)0xd1, (byte)0xe4, (byte)0xfc, (byte)0xbc, (byte)0xf0, (byte)0x92, (byte)0x12, (byte)0x32,
@@ -303,7 +304,7 @@ public class GetUserTest {
            = H2(G, H, [k]G, VRF, [t+ks]G, [t+ks]H)
            = H2(G, H, [k]G, VRF, [r]G, [r]H)
          */
-        byte[] m1 = marshal(curve, gx, gy);
+        byte[] m1 = marshal(curve, Gx, Gy);
         byte[] m2 = marshal(curve, removeLeadingZeroBytes(Hx), removeLeadingZeroBytes(Hy));
         byte[] m3 = marshal(curve, pkX, pkY);
         byte[] m4 = marshal(curve, removeLeadingZeroBytes(tksGx), removeLeadingZeroBytes(tksGy));
