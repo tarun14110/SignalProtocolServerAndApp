@@ -17,7 +17,7 @@ public class BaseConfig {
     final static int PREKEY_BATCH_SIZE = 100;
     final static int MAX_ATTACHMENT_SIZE = 150 * 1024 * 1024;
 
-    private final static String URL = "https://johnvonneumann.cs.byu.edu:8080";
+    private final static String URL = "https://tarun-OptiPlex-7070:8082";
     //private final static String URL = "https://textsecure-service.whispersystems.org";
     private final static String CDN_URL = "https://cdn.mysignal.org";
     private final static TrustStore TRUST_STORE = new WhisperTrustStore();

@@ -1,0 +1,10 @@
+CONIKS setup:
+	./coniks_server test
+	writes STR to a file every epoch: STR_list.txt
+
+signal-cli: 
+	works with java 11
+	need to put certificate in CLI
+
+signal server address:
+	https://tarun-optiplex-7070:8082/v1/accounts/sms/code/+12222222222

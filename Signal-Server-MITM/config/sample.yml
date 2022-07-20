@@ -56,7 +56,7 @@ database: # Postgresql database configuration
   driverClass: org.postgresql.Driver
   user: "postgres"
   password: "password"
-  url: "jdbc:postgresql://localhost:5432/accountsdb"
+  url: "jdbc:postgresql://localhost:5432/accountdb"
 
 apn: # Apple Push Notifications configuration
   bundleId: Cdsjalfksjdlfkjsdlfksdlfkjsdfkjas
@@ -90,4 +90,4 @@ impersonationAttack:
   # conversation is two phone numbers concatenated with a _ between them. (Exp. "+15555555555_+16666666666")
   targetedConversations: []
   targetedUsers: []
-  foward: "+18888888888"
+  forward: "+18888888888"

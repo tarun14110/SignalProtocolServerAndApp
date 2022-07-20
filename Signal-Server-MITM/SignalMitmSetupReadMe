@@ -1,0 +1,45 @@
+
+Step 1: sudo bash ./install-dependencies.sh
+
+Step 2: sudo bash ./run-background-services.sh 
+
+Step 3: sudo bash ./build.sh
+		(May need to install Maven: sudo apt install maven)
+
+
+Step 4: java -jar target/TextSecureServer-1.88.jar accountdb migrate config/sample.yml
+		java -jar target/TextSecureServer-1.88.jar messagedb migrate config/sample.yml
+
+
+
+
+
+
+
+omputingforgeeks.com/install-postgresql-12-on-ubuntu/
+
+
+Troubleshooting
+	Error 1:  FATAL:  Peer authentication failed for user "postgres" (https://gist.github.com/AtulKsol/4470d377b448e56468baef85af7fd614)
+		1) locate pg_hba.cof
+		2) Open the file pg_hba.conf (usually it's in path /etc/postgresql/[version]/main/pg_hba.conf)
+		3) Replace the line `local all postgres peer` with `local all postgres md5`
+		4) sudo service postgresql restart
+		5) setup password for postgre
+			a) sudo -u postgres psql postgres
+			b) In postgres run `\password` and type `password` as passsword. If you use a different password, you will need to update the password in config file
+
+	Error 2: PSQLException: 10 Authentication is not supported.
+		Downgrade postgres to version 12
+			sudo apt-get --purge autoremove postgresql*
+			https://computingforgeeks.com/install-postgresql-12-on-ubuntu/
+	
+
+
+We will need to add certificate to android app, signal-cli and our mallory in this repo: 
+Download Keystore Explorer
+In the menu click: File -> Open and open your whisper.store file (Password is "whisper")
+Click import trusted certificate. (Red ribbon with blue down arrow)
+Find the certificate you created for your signal server and import. (It should be in Signal-Server/keygen/*.crt)
+Open up whisper.store in android studio and verify you see your entry.
+
