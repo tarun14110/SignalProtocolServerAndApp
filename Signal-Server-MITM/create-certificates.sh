@@ -1,12 +1,11 @@
 #
-# !!! DISCLAIMER !!! If you misspell your password this script will fail quietly. If you get an error that you are
-# missing files. Retry and make sure you spell all your passwords correctly.
-#
+echo -e "!!! DISCLAIMER !!! If you misspell your password this script will fail quietly. If you get an error that you are missing files. Retry and make sure you spell all your passwords correctly.\n\n"
 
-read -p "Enter your domain name (e.g. philzimmerman.cs.byu.edu): " domain
-read -p "Enter the password you'll be filling in: " passphrase
+domain=$(hostname)
+# read -p "Enter your domain name (e.g. philzimmerman.cs.byu.edu): " domain
+read -p "Enter the password for certificates you'll be filling in: " passphrase
 echo "You will be prompted for this password, make sure you enter it in every time to keep things consistent"
-read -p "Your domain is $domain.  Continue (Y/N)?: " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+read -p "Your domain is $domain.  Continue (Type Y/N)?: " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 
 echo ""
 echo "Generating myCA.key Certificate Authority (Step 1/7)"

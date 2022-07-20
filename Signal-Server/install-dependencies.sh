@@ -3,7 +3,20 @@
 echo "This script follows the instructions laid out in 'Installing OWS Signal 1.88'"
 echo "This script will install the following packages if and only if they haven't been installed already:"
 
-declare -a package_names=("openjdk-8-jdk" "postgresql" "redis-server" "memcached" "coturn")
+
+# postgres  downgrade to 12
+apt-get -y --purge autoremove postgresql*
+
+curl -fsSL https://www.postgresql.org/media/keys/ACCC4CF8.asc|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/postgresql.gpg
+echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list
+apt update
+apt -y install postgresql-12 postgresql-client-12
+
+#coturn
+add-apt-repository ppa:ubuntuhandbook1/coturn
+
+
+declare -a package_names=("openjdk-8-jdk" "postgresql-12" "postgresql-client-12" "postgresql-client-common-12" "redis-server" "memcached" "coturn")
 for package_name in "${package_names[@]}"
 do
   echo "$package_name"
