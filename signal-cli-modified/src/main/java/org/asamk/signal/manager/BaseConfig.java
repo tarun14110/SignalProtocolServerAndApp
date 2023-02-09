@@ -1,4 +1,4 @@
-package org.whispersystems.textsecuregcm.mallory.mysignal.manager;
+package org.asamk.signal.manager;
 
 import org.whispersystems.signalservice.api.push.TrustStore;
 import org.whispersystems.signalservice.internal.configuration.SignalCdnUrl;
@@ -17,10 +17,13 @@ public class BaseConfig {
     final static int PREKEY_BATCH_SIZE = 100;
     final static int MAX_ATTACHMENT_SIZE = 150 * 1024 * 1024;
 
-    private final static String URL = "https://richardstallman.cs.byu.edu:8082";
-    //private final static String URL = "https://textsecure-service.whispersystems.org";
-    private final static String CDN_URL = "https://cdn.mysignal.org";
+    private final static String URL = "https://signal.example.com:8082";
+    private final static String CDN_URL = "https://cdn.signal.org";
     private final static TrustStore TRUST_STORE = new WhisperTrustStore();
+
+    public final static String CONIKS_SERVER_URL = "127.0.0.1";
+    public final static String TOR_SOCKS = "127.0.0.1:9050";
+    public final static String TOR_HOSTNAME = "exampleonionhostname.onion";
 
     final static SignalServiceConfiguration serviceConfiguration = new SignalServiceConfiguration(
             new SignalServiceUrl[]{new SignalServiceUrl(URL, TRUST_STORE)},

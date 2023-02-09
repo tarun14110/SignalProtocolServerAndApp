@@ -7,12 +7,12 @@ sudo pkill postgres
 sudo service postgresql start
 
 echo "Dropping accountsdb"
-sudo PGPASSWORD='password' dropdb -U postgres accountsdb
+sudo PGPASSWORD='password' dropdb -U postgres accountdb
 echo "Dropping messagedb"
 sudo PGPASSWORD='password' dropdb -U postgres messagedb
 
 echo "Creating accountsdb"
-sudo PGPASSWORD='password' createdb -U postgres accountsdb
+sudo PGPASSWORD='password' createdb -U postgres accountdb
 echo "Creating messagedb"
 sudo PGPASSWORD='password' createdb -U postgres messagedb
 

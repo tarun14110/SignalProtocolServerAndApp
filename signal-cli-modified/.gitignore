@@ -1,0 +1,12 @@
+.gradle/
+.idea/*
+!.idea/codeStyles/
+build/
+*~
+*.swp
+*.iml
+local.properties
+.classpath
+.project
+.settings/
+out/

