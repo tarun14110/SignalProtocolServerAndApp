@@ -31,6 +31,7 @@ import org.asamk.signal.storage.threads.ThreadInfo;
 import org.asamk.signal.util.IOUtils;
 import org.asamk.signal.util.Util;
 import org.coniks.coniks_test_client.ClientConfig;
+import org.coniks.coniks_test_client.ClientUtils;
 import org.coniks.coniks_test_client.ConsistencyErr;
 import org.coniks.coniks_test_client.TestClient;
 import org.coniks.util.Convert;
@@ -123,6 +124,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class Manager implements Signal {
 
@@ -264,7 +266,7 @@ public class Manager implements Signal {
         if (coniksInitialized)
             return ConsistencyErr.CHECK_PASSED;
 
-        TestClient.setupLogging("log/");
+        TestClient.setupLogging("coniks/log/");
         TestClient.setIsFullOp(false);
         ClientConfig.useDefaultConfig();
 

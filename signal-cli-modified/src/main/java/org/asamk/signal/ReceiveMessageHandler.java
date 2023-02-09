@@ -1,6 +1,9 @@
 package org.asamk.signal;
 
+<<<<<<< HEAD
 import org.asamk.signal.commands.ReceiveCommand;
+=======
+>>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
 import org.asamk.signal.manager.Manager;
 import org.asamk.signal.storage.contacts.ContactInfo;
 import org.asamk.signal.storage.groups.GroupInfo;
@@ -215,6 +218,7 @@ public class ReceiveMessageHandler implements Manager.ReceiveMessageHandler {
         System.out.println("Message timestamp: " + DateUtils.formatTimestamp(message.getTimestamp()));
 
         if (message.getBody().isPresent()) {
+<<<<<<< HEAD
             if (ReceiveCommand.RUN_CONIKS) {
                 try {
                     if (m.checkMessageForCommitment(message.getBody().get())) {
@@ -227,6 +231,20 @@ public class ReceiveMessageHandler implements Manager.ReceiveMessageHandler {
                     } else {
                         throw e;
                     }
+=======
+            try {
+                if (m.checkMessageForCommitment(message.getBody().get())) {
+                    System.out.println("Verification Completed");
+                    return;
+                }
+            }
+            catch (RuntimeException e) {
+                if (e.getMessage().contains("Equivocation")) {
+                    System.out.println("Equivocation Detected!");
+                }
+                else {
+                    throw e;
+>>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
                 }
             }
             System.out.println("Body: " + message.getBody().get());

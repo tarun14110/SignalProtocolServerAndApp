@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="coniks-crypto" />
+        <module name="coniks_server" />
+        <module name="coniks_common" />
+        <module name="coniks_test_client" />
+        <module name="coniks-util" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="coniks-crypto" options="" />
+      <module name="coniks-java" options="" />
+      <module name="coniks-util" options="" />
+      <module name="coniks_common" options="" />
+      <module name="coniks_server" options="" />
+      <module name="coniks_test_client" options="" />
+    </option>
+  </component>
+</project>

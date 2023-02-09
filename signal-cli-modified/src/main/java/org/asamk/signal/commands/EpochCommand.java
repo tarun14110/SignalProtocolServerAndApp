@@ -1,32 +1,44 @@
 package org.asamk.signal.commands;
 
+<<<<<<< HEAD
 import net.sourceforge.argparse4j.impl.Arguments;
 import net.sourceforge.argparse4j.inf.Namespace;
 import net.sourceforge.argparse4j.inf.Subparser;
 import org.asamk.signal.manager.BaseConfig;
+=======
+import net.sourceforge.argparse4j.inf.Namespace;
+import net.sourceforge.argparse4j.inf.Subparser;
+>>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
 import org.asamk.signal.manager.Manager;
 import org.coniks.coniks_test_client.ConsistencyErr;
 import org.coniks.coniks_test_client.TestClient;
 import org.whispersystems.libsignal.util.Pair;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+=======
+>>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
 public class EpochCommand implements LocalCommand {
 
     @Override
     public void attachToSubparser(final Subparser subparser) {
+<<<<<<< HEAD
         subparser.addArgument("-c", "--coniks")
                 .help("Run the CONIKS check in the epoch")
                 .action(Arguments.storeTrue());
         subparser.addArgument("-t", "--tor")
                 .help("Verify contact keys anonymously")
                 .action(Arguments.storeTrue());
+=======
+>>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
     }
 
     @Override
     public int handleCommand(final Namespace ns, final Manager m) {
+<<<<<<< HEAD
         if (ns.getBoolean("coniks"))
             if (!runConiksCheck(m))
                 return 1;
@@ -40,6 +52,8 @@ public class EpochCommand implements LocalCommand {
 
     // Returns `true` if checks pass.
     private boolean runConiksCheck(final Manager m) {
+=======
+>>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
         // These have a format of (Importance, Difficult)
         // An '*' means value is dependent on completion of another thing
         // Further, "DONE" means I've checked completed the task,
@@ -52,16 +66,28 @@ public class EpochCommand implements LocalCommand {
         // whatever happened, like the number. But I'm opting not to add that.
         int respCode = m.checkUserInConiksStr();
         if (respCode != ConsistencyErr.CHECK_PASSED) {
+<<<<<<< HEAD
             System.err.println("You are under attack!\nUser in STR check failed!");
             TestClient.printErrMsg(respCode, m.getUsername());
             return false;
+=======
+            System.err.println("User in STR check failed!");
+            TestClient.printErrMsg(respCode, m.getUsername());
+            return 1;
+>>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
         }
 
         Pair<Integer, String> contactResp = m.checkContactsInStr();
         if (contactResp.first() != ConsistencyErr.CHECK_PASSED) {
+<<<<<<< HEAD
             System.err.println("You are under attack!\nContacts in STR check failed!");
             TestClient.printErrMsg(contactResp.first(), contactResp.second());
             return false;
+=======
+            System.err.println("Contacts in STR check failed!");
+            TestClient.printErrMsg(contactResp.first(), contactResp.second());
+            return 1;
+>>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
         }
 
         m.sendLatestCommitmentToContacts();
@@ -87,6 +113,7 @@ public class EpochCommand implements LocalCommand {
         // Given their difficulty in implementation, I decided against implementing it.
         // PASS (Low, Hard): Monitor for key changes when sending or receiving
         // PASS (VLow, Easy*):   ^ Short-lived attack monitoring (two key-changes in one epoch)
+<<<<<<< HEAD
         return true;
     }
 
@@ -105,3 +132,9 @@ public class EpochCommand implements LocalCommand {
     }
 
 }
+=======
+        return 0;
+    }
+
+}
+>>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
