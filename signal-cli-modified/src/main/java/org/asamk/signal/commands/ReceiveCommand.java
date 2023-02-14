@@ -33,10 +33,10 @@ public class ReceiveCommand implements ExtendedDbusCommand, LocalCommand {
                 .help("Output received messages in json format, one json object per line.")
                 .action(Arguments.storeTrue());
         subparser.addArgument("--coniks")
-                .help("Run the CONIKS check in the epoch")
+                .help("Register user with CONIKS")
                 .action(Arguments.storeTrue());
         subparser.addArgument("--tor")
-                .help("Verify contact keys anonymously")
+                .help("Unused")
                 .action(Arguments.storeTrue());
     }
 
@@ -93,12 +93,9 @@ public class ReceiveCommand implements ExtendedDbusCommand, LocalCommand {
 
     @Override
     public int handleCommand(final Namespace ns, final Manager m) {
-<<<<<<< HEAD
         if (ns.getBoolean("coniks"))
             RUN_CONIKS = true;
 
-=======
->>>>>>> b3f65eedcf23c0db7a59dc3dd974c75a5340ccaa
         if (!m.isRegistered()) {
             System.err.println("User is not registered.");
             return 1;

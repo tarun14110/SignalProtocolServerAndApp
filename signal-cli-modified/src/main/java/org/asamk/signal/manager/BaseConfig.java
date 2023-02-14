@@ -17,12 +17,22 @@ public class BaseConfig {
     final static int PREKEY_BATCH_SIZE = 100;
     final static int MAX_ATTACHMENT_SIZE = 150 * 1024 * 1024;
 
+    // Change this to the domain for your computer.
     private final static String URL = "https://signal.example.com:8082";
     private final static String CDN_URL = "https://cdn.signal.org";
     private final static TrustStore TRUST_STORE = new WhisperTrustStore();
 
+    //// These are configuration options for the attack detection
+    // Change this one if you are not running Signal CLI on the same machine as the server
     public final static String CONIKS_SERVER_URL = "127.0.0.1";
+
+    // Tor defaults to running up a SOCKS5 proxy on port 9050
+    // This should only need changing if tor is configured to do something else.
     public final static String TOR_SOCKS = "127.0.0.1:9050";
+
+    // The tor hostname for your server will need to go here.
+    // This will be located in <mitm-docker>/data/tor-hostname after running tor
+    //   in the container. It will be copied automatically by the tor-start.sh script.
     public final static String TOR_HOSTNAME = "exampleonionhostname.onion";
 
     final static SignalServiceConfiguration serviceConfiguration = new SignalServiceConfiguration(

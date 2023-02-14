@@ -20,8 +20,10 @@ public class VerifyCommand implements LocalCommand {
         subparser.addArgument("-p", "--pin")
                 .help("The registration lock PIN, that was set by the user (Optional)");
         subparser.addArgument("-c", "--coniks")
+                .help("Verify received STRs")
                 .action(Arguments.storeTrue());
         subparser.addArgument("-t", "--tor")
+                .help("Unused")
                 .action(Arguments.storeTrue());
     }
 

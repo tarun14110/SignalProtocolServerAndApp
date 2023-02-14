@@ -903,9 +903,9 @@ public class Manager implements Signal {
         // Core tor command format is `curl -x socks5h://<tor_socks> http://<tor_hostname>/<api_call>`
         // I use String.format to insert arguments into that.
         // It needs to be separated into arguments, so I use `split(" ")` to do that.
-        String[] commands =
-                String.format("curl -x socks5h://%s http://%s/v1/profile/anon/%s",
-                        BaseConfig.TOR_SOCKS, BaseConfig.TOR_HOSTNAME, uname).split(" ");
+        String command = String.format("curl -x socks5h://%s http://%s/v1/profile/anon/%s",
+                BaseConfig.TOR_SOCKS, BaseConfig.TOR_HOSTNAME, uname);
+        String[] commands = command.split(" ");
         String response = runCommandGetResult(commands);
         if (response == null)
             return TOR_LOCAL_ERROR;
